@@ -1,0 +1,21 @@
+---
+extends: existence
+message: "Consider removing '%s'"
+ignorecase: true
+level: warning
+tokens:
+  - appear to be
+  - arguably
+  - could
+  - should
+  - in general
+  - likely
+  - might
+  - more or less
+  - possibly
+  - presumably
+  - probably
+  - seem(s)?
+  - somewhat
+  - unlikely
+  - usually
