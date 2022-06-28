@@ -1,0 +1,7 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'
+ignorecase: false
+level: error
+swap:
+  (?:Man page|Man-page|man page|man-page|manpage): "man page"

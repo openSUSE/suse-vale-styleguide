@@ -1,0 +1,7 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'. Better to avoid altogether.
+ignorecase: true
+level: error
+swap:
+  (?:path-name|pathname): "path name"

@@ -1,0 +1,7 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s' if it's an application
+ignorecase: false
+level: error
+swap:
+  (?:KDUMP|kdump): "Kdump"
