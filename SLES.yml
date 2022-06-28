@@ -1,0 +1,7 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'.
+ignorecase: false
+level: error
+swap:
+  (?:SLE Server|SLE Enterprise Server|SLE Linux Server|Sles|sles): "SLES"
