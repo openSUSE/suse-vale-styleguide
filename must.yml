@@ -4,4 +4,4 @@ message: Consider using '%s' instead of '%s'
 ignorecase: true
 level: error
 swap:
-  (?:should|have to): "must"
+  (?:should|have to|need to): "must"
