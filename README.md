@@ -2,13 +2,46 @@
 
 A [Vale](https://vale.sh)-compatible style for technical writers documenting open-source software.
 
-## Dependencies
+# Installation on Linux
 
-- Vale
+The following installation procedure has been tested on Linux Mint and openSUSE.
 
-# Installation and usage
+1. Install Brew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+2. Install Vale: `brew install vale`
+3. Create a configuration file: `nano $HOME/.vale.ini`
+4. Add the following configuration:
 
-Clone the Git repository to the _StylesPath_ directory specified in the _.vale.ini_ configuration file.
+```yaml
+StylesPath = styles
+MinAlertLevel = suggestion
+[asciidoctor]
+experimental = YES
+[*.{md,txt,adoc}]
+BasedOnStyles = Technically
+```
+
+5. Save the changes.
+6. Create the _styles_ directory: `mkdir $HOME/styles`
+7. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/dmpop/technically.git`
+
+## Add XML support (openSUSE)
+
+1. Install the _docbook-xsl-stylesheets_ package.
+2. Open the _.vale.ini_ file for editing and update the existing configuration as follows:
+
+```yaml
+StylesPath = styles
+MinAlertLevel = suggestion
+[asciidoctor]
+experimental = YES
+[*.xml]
+Transform = /usr/share/xml/docbook/stylesheet/nwalsh5/html/docbook.xsl
+BasedOnStyles = Technically
+[*.{md,txt,adoc}]
+BasedOnStyles = Technically
+```
+
+3. Save the changes.
 
 ## Problems?
 

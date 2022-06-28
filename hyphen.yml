@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Use hyphen if it's adjective"
+message: "Use hyphen with adjectives"
 ignorecase: true
 level: warning
 token:
