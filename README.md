@@ -1,6 +1,6 @@
 # Technically style guide
 
-A [Vale](https://vale.sh)-compatible style for technical writers.
+A [Vale](https://vale.sh)-compatible style for technical writers documenting open-source software.
 
 ## Dependencies
 
