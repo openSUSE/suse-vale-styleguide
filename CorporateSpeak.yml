@@ -6,21 +6,16 @@ level: error
 tokens:
   - stakeholder
   - buy(?:in|-in)
-  - at the end of the day
+  - level up
   - back to the drawing board
   - hit the ground running
   - get the ball rolling
-  - low-hanging fruit
-  - thrown under the bus
   - think outside the box
   - let's touch base
   - get my manager's blessing
   - it's on my radar
   - ping me
   - i don't have the bandwidth
-  - no brainer
-  - par for the course
-  - bang for your buck
   - synerg(?:y|ies)
   - move the goal post
   - apples to apples
@@ -29,5 +24,4 @@ tokens:
   - all hands on deck
   - take this offline
   - drill-down
-  - elephant in the room
   - on my plate

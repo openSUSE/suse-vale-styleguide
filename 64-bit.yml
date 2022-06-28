@@ -1,0 +1,7 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'
+ignorecase: true
+level: error
+swap:
+  (?:64 Bit|64 bit|64-Bit|64Bit|64bit): "64-bit"

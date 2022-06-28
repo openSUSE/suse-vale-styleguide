@@ -1,0 +1,7 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'
+ignorecase: true
+level: error
+swap:
+  (?:add on|AddOn|addOn|addon): "add-on"
