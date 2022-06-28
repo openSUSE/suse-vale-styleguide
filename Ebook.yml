@@ -1,0 +1,7 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'
+ignorecase: true
+level: error
+swap:
+  (?:E-book|E-book|Ebook|eBook|electronic book|ebook): "e-book"

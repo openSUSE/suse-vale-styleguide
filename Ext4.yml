@@ -4,4 +4,4 @@ message: Use '%s' instead of '%s'
 ignorecase: false
 level: error
 swap:
-  (?:C.U.P.S.|Cups|cups): "CUPS"
+  (?:EXT4|EXT 4|Ext 4|Ext-4|ext 4|ext-4|ext4): "Ext4"

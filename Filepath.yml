@@ -1,7 +1,7 @@
 ---
 extends: substitution
 message: Use '%s' instead of '%s'
-ignorecase: false
+ignorecase: true
 level: error
 swap:
-  (?:C.U.P.S.|Cups|cups): "CUPS"
+  (?:file-path|filepath): "file path"
