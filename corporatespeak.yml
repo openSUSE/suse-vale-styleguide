@@ -7,15 +7,16 @@ tokens:
   - stakeholder
   - buy(?:in|-in)
   - level up
+  - momentum
+  - right to win
   - back to the drawing board
   - hit the ground running
   - get the ball rolling
   - think outside the box
-  - let's touch base
+  - touch base
   - get my manager's blessing
   - it's on my radar
-  - ping me
-  - i don't have the bandwidth
+  - don't have the bandwidth
   - synerg(?:y|ies)
   - move the goal post
   - apples to apples
@@ -24,4 +25,13 @@ tokens:
   - all hands on deck
   - take this offline
   - drill-down
-  - on my plate
+  - move the needle
+  - customer-centric
+  - customer obsession
+  - take-away
+  - leverage
+  - lever(?:s)
+  - strategic fit
+  - going forward
+  - operational excellence
+  - thought leader(?:s|ship)
