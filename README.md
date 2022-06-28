@@ -6,7 +6,6 @@ A [Vale](https://vale.sh)-compatible style for technical writers documenting ope
 
 - Vale
 
-
 # Installation and usage
 
 Clone the Git repository to the _StylesPath_ directory specified in the _.vale.ini_ configuration file.
@@ -17,7 +16,7 @@ Please report bugs and issues in the [Issues](https://github.com/dmpop/technical
 
 ## Contribute
 
-If you've found an error or you have a suggestion for improvement, open an issue in the [Issues](https://github.com/dmpop/technically/issues) section.
+If you've found an error, or you have a suggestion for improvement, open an issue in the [Issues](https://github.com/dmpop/technically/issues) section.
 
 To add a new feature or fix issues yourself, proceed as follows.
 
