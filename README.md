@@ -17,7 +17,7 @@ Please report bugs and issues in the [Issues](https://github.com/dmpop/technical
 
 ## Contribute
 
-If you have a suggestion for improvement, open an issue in the [Issues](https://github.com/dmpop/technically/issues) section.
+If you've found an error or you have a suggestion for improvement, open an issue in the [Issues](https://github.com/dmpop/technically/issues) section.
 
 To add a new feature or fix issues yourself, proceed as follows.
 
