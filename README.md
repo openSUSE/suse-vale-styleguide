@@ -6,9 +6,6 @@ A [Vale](https://vale.sh)-compatible style for technical writers documenting ope
 
 - Vale
 
-tool-bar
-
-
 # Installation and usage
 
 Clone the Git repository to the _StylesPath_ directory specified in the _.vale.ini_ configuration file.

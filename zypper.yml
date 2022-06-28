@@ -1,0 +1,7 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s' when referring to the tool.
+ignorecase: true
+level: error
+swap:
+  (?:zypper): "Zypper"
