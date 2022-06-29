@@ -1,4 +1,3 @@
----
 extends: existence
 ignorecase: true
 level: warning
