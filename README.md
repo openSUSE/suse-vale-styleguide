@@ -2,6 +2,16 @@
 
 A [Vale](https://vale.sh)-compatible style for technical writers documenting open-source software and for anyone writing about Open Source.
 
+## Checks
+
+The style guide performs the following checks:
+
+- common language usage errors
+- punctuation
+- terminology
+- corporate speak
+- inclusive language
+
 # Installation on Linux
 
 The following installation procedure has been tested on Linux Mint and openSUSE.
@@ -36,6 +46,25 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/nwalsh5/html/docbook.xsl
+BasedOnStyles = Technically
+[*.{md,txt,adoc}]
+BasedOnStyles = Technically
+```
+
+3. Save the changes.
+
+## Add XML support (Linux Mint)
+
+1. Install the _docbook5-xml_ and _docbook-xsl_ packages.
+2. Open the _.vale.ini_ file for editing and update the existing configuration as follows:
+
+```yaml
+StylesPath = styles
+MinAlertLevel = suggestion
+[asciidoctor]
+experimental = YES
+[*.xml]
+Transform = /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl
 BasedOnStyles = Technically
 [*.{md,txt,adoc}]
 BasedOnStyles = Technically
