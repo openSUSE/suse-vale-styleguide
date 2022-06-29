@@ -3,12 +3,15 @@ message: Consider using '%s' instead of '%s'
 ignorecase: false
 level: error
 swap:
+  Amd: AMD
   ARM64|ARMv8: AArch64
   add on|AddOn|addOn|addon: add-on
   x64|x86_64|x86-64|64-bit AMD/Intel|AMD/Intel64: AMD64/Intel 64
+  Bci: BCI
   btrfs|BTRFS: Btrfs
   Cups|cups: CUPS
-  Digikam|digikam: digiKam
+  Digikam|DigiKam|digikam|Digicam|digiCam|digicam: digiKam
+  Fpga: FPGA
   E-book|E-book|Ebook|eBook|electronic book|ebook: e-book
   E-mail|E-mail|Email|eMail|electronic mail|email: e-mail
   E-PUB|e-PUB|e-Pub|EPub|Epub|ePUB|ePub: EPUB
@@ -16,9 +19,11 @@ swap:
   EXT4|EXT 4|Ext 4|Ext-4|ext 4|ext-4|ext4: Ext4
   Gimp|gimp: GIMP
   Gnome|gnome: GNOME
+  Gpu: GPU
   Grub|grub: GRUB
+  GIT: Git
   IA-64|ia64|ipf|Itanium: IA64
-  z Systems, System z, zSeries, z System, zsystems, S390x: IBM Z
+  z Systems|System z|zSeries|z System|zsystems|S390x|s390x: IBM Z
   IPSEC|Ipsec: IPsec
   IP v4|IPV4|Ipv4: IPv4
   IP v6|IPV6|Ipv6: IPv6
@@ -28,6 +33,7 @@ swap:
   LiveCD|live-CD: live CD
   LiveDVD|live-DVD: Live DVD
   Linux mint: Linux Mint
+  MacOS|Mac OS|mac OS: macOS
   Man page|Man-page|man page|man-page|manpage: man page
   Open SUSE|Open-SUSE|open SUSE|open-SUSE: openSUSE
   Php: PHP
@@ -36,13 +42,17 @@ swap:
   PXE Boot: PXE boot
   RAM memory|Ram|ram: RAM
   Read-me|Readme|read-me|readme: README
+  Risc-V|Risc V|Risc v|risc-v|risc v|RISC V: RISC-V
   Rpm: RPM
+  SOC: SoC
   SAMBA|samba: Samba
   Scsi|scsi: SCSI
   SLE Enterprise|SLE Linux|Sle|sle: SLE
   SLE Server|SLE Enterprise Server|SLE Linux Server|Sles|sles: SLES
   SLES for SAP Applications|SLE for SAP: SLES for SAP
   SSH Shell|SSH shell|Ssh: SSH
+  Sql: SQL
+  SQlite|Sqlite: SQLite
   SuSE|SuSe|Suse: SUSE
   SUSE Server|SUSE Linux Enterprise server: SUSE Linux Enterprise Server
   SUSE Linux Enterprise for SAP|SUSE Linux Enterprise Server for SAP|SUSE Server for SAP: SUSE Linux Enterprise Server for SAP Applications
@@ -51,6 +61,7 @@ swap:
   TAR ball|tar ball|tar-ball|tarball: TAR archive
   Wi fi|Wi-fi|Wifi|WLAN|wlan: Wi-Fi
   32-bit AMD/Intel|i686|i386: x86
+  Url: URL
   XEN|xen: Xen
   X Window|X Windows|X window|X window system|X windows|XWS: X Window System
-  YAST, YAST2, Yast, YaST2, yast, yast2: YaST
+  YAST|YAST2|Yast|YaST2|yast|yast2: YaST
