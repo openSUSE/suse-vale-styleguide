@@ -9,6 +9,7 @@ The supplied rules perform the following checks:
 - common language usage errors
 - punctuation
 - editorializing
+- wordiness
 - terminology
 - corporate speak
 - inclusive language
@@ -17,7 +18,7 @@ The supplied rules perform the following checks:
 
 The following installation procedure has been tested on Linux Mint and openSUSE.
 
-1. Install Brew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+1. Install [Brew](https://brew.sh): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 2. Install Vale: `brew install vale`
 3. Create a configuration file: `nano $HOME/.vale.ini`
 4. Add the following configuration:
