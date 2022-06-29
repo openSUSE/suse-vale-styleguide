@@ -1,6 +1,6 @@
 # Technically style guide
 
-A [Vale](https://vale.sh)-compatible style for technical writers documenting open-source software.
+A [Vale](https://vale.sh)-compatible style for technical writers documenting open-source software and for anyone writing about Open Source.
 
 # Installation on Linux
 
@@ -26,7 +26,7 @@ BasedOnStyles = Technically
 
 ## Add XML support (openSUSE)
 
-1. Install the _docbook-xsl-stylesheets_ package.
+1. Install the _libxslt-tools_ and _docbook-xsl-stylesheets_ packages.
 2. Open the _.vale.ini_ file for editing and update the existing configuration as follows:
 
 ```yaml
