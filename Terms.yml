@@ -24,6 +24,7 @@ swap:
   (?:IP v4|IPV4|Ipv4): "IPv4"
   (?:IP v6|IPV6|Ipv6): "IPv6"
   (?:KDUMP|kdump): "Kdump"
+  k8s: Kubernetes
   (?:Kiwi|kiwi): "KIWI"
   (?:LiveCD|live-CD): "live CD"
   (?:LiveDVD|live-DVD): "Live DVD"

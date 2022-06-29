@@ -1,0 +1,44 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: false
+action:
+  name: replace
+swap:
+  '(?:API Console|dev|developer) key': API key
+  '(?:dev|developer|APIs) console': API console
+  '(?:file ?path|path ?name)': path
+  '(?:kill|terminate|abort)': stop|exit|cancel|end
+  '(?:OAuth ?2|Oauth)': OAuth 2.0
+  'un(?:check|select)': clear
+  above: preceding
+  account name: username
+  action bar: app bar
+  admin: administrator
+  API explorer: APIs Explorer
+  approx\.: approximately
+  authN: authentication
+  authZ: authorization
+  autoupdate: automatically update
+  CLI: command-line tool
+  content type: media type
+  data are: data is
+  firewalls: firewall rules
+  functionality: capability|feature
+  grayed-out: unavailable
+  HTTPs: HTTPS
+  in order to: to
+  ingest: import|loa
+  network IP address: internal IP address
+  pre-configured: preconfigured
+  re-configure: reconfigure
+  recreate: re-create
+  regex: regular expression
+  sign into: sign in to
+  sign-?on: single sign-on
+  static IP address: static external IP address
+  style sheet: stylesheet
+  synch: sync
+  tablename: table name
+  url:  URL
+  vs\.: versus

@@ -17,7 +17,6 @@ swap:
   code stream: "codestream"
   crashdump: "crash dump"
   (?:file-name|filename): "file name"
-  (?:file-path|filepath): "file path"
   (?:file-system|filesystem): "file system"
   (?:frame buffer|frame-buffer): "framebuffer"
   (?:hard-link|hardlink): "hard link"
