@@ -1,0 +1,12 @@
+extends: existence
+message: "Use an em dash ('—') instead of '–'."
+nonword: true
+level: error
+action:
+  name: edit
+  params:
+    - replace
+    - '-'
+    - '—'
+tokens:
+  - '–'

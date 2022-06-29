@@ -1,0 +1,7 @@
+extends: existence
+message: "'%s' should be in lowercase."
+nonword: true
+level: warning
+scope: sentence
+tokens:
+  - ':\s[A-Z]'
