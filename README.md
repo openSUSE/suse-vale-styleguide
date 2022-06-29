@@ -4,10 +4,11 @@ A [Vale](https://vale.sh)-compatible style for technical writers documenting ope
 
 ## Checks
 
-The style guide performs the following checks:
+The supplied rules perform the following checks:
 
 - common language usage errors
 - punctuation
+- editorializing
 - terminology
 - corporate speak
 - inclusive language
