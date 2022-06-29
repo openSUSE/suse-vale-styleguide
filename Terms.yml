@@ -4,51 +4,52 @@ message: Consider using '%s' instead of '%s'
 ignorecase: false
 level: error
 swap:
-  (?:ARM64|ARMv8): "AArch64"
-  (?:add on|AddOn|addOn|addon): "add-on"
-  (?:x64|x86_64|x86-64|64-bit AMD/Intel|AMD/Intel64): "AMD64/Intel 64"
-  (?:btrfs|BTRFS): "Btrfs"
-  (?:Cups|cups): "CUPS"
-  (?:Digikam|digikam): "digiKam"
-  (?:E-book|E-book|Ebook|eBook|electronic book|ebook): "e-book"
-  (?:E-mail|E-mail|Email|eMail|electronic mail|email): "e-mail"
-  (?:E-PUB|e-PUB|e-Pub|EPub|Epub|ePUB|ePub): "EPUB"
-  (?:EXT3|EXT 3|Ext 3|Ext-3|ext 3|ext-3|ext3): "Ext3"
-  (?:EXT4|EXT 4|Ext 4|Ext-4|ext 4|ext-4|ext4): "Ext4"
-  (?:Gimp|gimp): "GIMP"
-  (?:Gnome|gnome): "GNOME"
-  (?:Grub|grub): "GRUB"
-  (?:IA-64|ia64|ipf|Itanium): "IA64"
-  (?:z Systems, System z, zSeries, z System, zsystems, S390x): "IBM Z"
-  ?:IPSEC|Ipsec): "IPsec"
-  (?:IP v4|IPV4|Ipv4): "IPv4"
-  (?:IP v6|IPV6|Ipv6): "IPv6"
-  (?:KDUMP|kdump): "Kdump"
+  ARM64|ARMv8: AArch64
+  add on|AddOn|addOn|addon: add-on
+  x64|x86_64|x86-64|64-bit AMD/Intel|AMD/Intel64: AMD64/Intel 64
+  btrfs|BTRFS: Btrfs
+  Cups|cups: CUPS
+  Digikam|digikam: digiKam
+  E-book|E-book|Ebook|eBook|electronic book|ebook: e-book
+  E-mail|E-mail|Email|eMail|electronic mail|email: e-mail
+  E-PUB|e-PUB|e-Pub|EPub|Epub|ePUB|ePub: EPUB
+  EXT3|EXT 3|Ext 3|Ext-3|ext 3|ext-3|ext3: Ext3
+  EXT4|EXT 4|Ext 4|Ext-4|ext 4|ext-4|ext4: Ext4
+  Gimp|gimp: GIMP
+  Gnome|gnome: GNOME
+  Grub|grub: GRUB
+  IA-64|ia64|ipf|Itanium: IA64
+  z Systems, System z, zSeries, z System, zsystems, S390x: IBM Z
+  IPSEC|Ipsec: IPsec
+  IP v4|IPV4|Ipv4: IPv4
+  IP v6|IPV6|Ipv6: IPv6
+  KDUMP|kdump: Kdump
   k8s: Kubernetes
-  (?:Kiwi|kiwi): "KIWI"
-  (?:LiveCD|live-CD): "live CD"
-  (?:LiveDVD|live-DVD): "Live DVD"
+  Kiwi|kiwi: KIWI
+  LiveCD|live-CD: live CD
+  LiveDVD|live-DVD: Live DVD
   Linux mint: Linux Mint
-  (?:Open SUSE|Open-SUSE|open SUSE|open-SUSE): "openSUSE"
-  (?:POSTSCRIPT|Postscript|postscript): "PostScript"
-  (?:ppc64le|POWER8|Power): "POWER"
-  PXE Boot: "PXE boot"
-  (?:RAM memory|Ram|ram): "RAM"
-  Rpm: "RPM"
-  (?:SAMBA|samba): "Samba"
-  (?:Scsi|scsi): "SCSI"
-  (?:SLE Enterprise|SLE Linux|Sle|sle): "SLE"
-  (?:SLE Server|SLE Enterprise Server|SLE Linux Server|Sles|sles): "SLES"
-  (?:SLES for SAP Applications|SLE for SAP): "SLES for SAP"
-  (?:SSH Shell|SSH shell|Ssh): "SSH"
-  (?:SuSE|SuSe|Suse): "SUSE"
-  (?:SUSE Server|SUSE Linux Enterprise server): "SUSE Linux Enterprise Server"
-  (?:SUSE Linux Enterprise for SAP|SUSE Linux Enterprise Server for SAP|SUSE Server for SAP): "SUSE Linux Enterprise Server for SAP Applications"
-  (?:System D|Systemd|systemD|system d): "systemd"
-  (?:SysVinit|SysV init|system 5 init): "System V init"
-  (?:TAR ball|tar ball|tar-ball|tarball): "TAR archive"
-  (?:Wi fi|Wi-fi|Wifi|WLAN|wlan): "Wi-Fi"
-  (?:32-bit AMD/Intel|i686|i386): "x86"
-  (?:XEN|xen): "Xen"
-  (?:X Window|X Windows|X window|X window system|X windows|XWS): "X Window System"
-  (?:YAST, YAST2, Yast, YaST2, yast, yast2): "YaST"
+  Open SUSE|Open-SUSE|open SUSE|open-SUSE: openSUSE
+  Php: PHP
+  POSTSCRIPT|Postscript|postscript: PostScript
+  ppc64le|POWER8|Power: POWER
+  PXE Boot: PXE boot
+  RAM memory|Ram|ram: RAM
+  Rpm: RPM
+  SAMBA|samba: Samba
+  Scsi|scsi: SCSI
+  SLE Enterprise|SLE Linux|Sle|sle: SLE
+  SLE Server|SLE Enterprise Server|SLE Linux Server|Sles|sles: SLES
+  SLES for SAP Applications|SLE for SAP: SLES for SAP
+  SSH Shell|SSH shell|Ssh: SSH
+  SuSE|SuSe|Suse: SUSE
+  SUSE Server|SUSE Linux Enterprise server: SUSE Linux Enterprise Server
+  SUSE Linux Enterprise for SAP|SUSE Linux Enterprise Server for SAP|SUSE Server for SAP: SUSE Linux Enterprise Server for SAP Applications
+  System D|Systemd|systemD|system d: systemd
+  SysVinit|SysV init|system 5 init: System V init
+  TAR ball|tar ball|tar-ball|tarball: TAR archive
+  Wi fi|Wi-fi|Wifi|WLAN|wlan: Wi-Fi
+  32-bit AMD/Intel|i686|i386: x86
+  XEN|xen: Xen
+  X Window|X Windows|X window|X window system|X windows|XWS: X Window System
+  YAST, YAST2, Yast, YaST2, yast, yast2: YaST

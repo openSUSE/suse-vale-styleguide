@@ -12,15 +12,12 @@ swap:
   '(?:OAuth ?2|Oauth)': OAuth 2.0
   'un(?:check|select)': clear
   above: preceding
-  account name: username
-  action bar: app bar
   admin: administrator
   API explorer: APIs Explorer
   approx\.: approximately
   authN: authentication
   authZ: authorization
   autoupdate: automatically update
-  CLI: command-line tool
   content type: media type
   data are: data is
   firewalls: firewall rules
@@ -30,15 +27,19 @@ swap:
   in order to: to
   ingest: import|loa
   network IP address: internal IP address
+  (?:lower case|lower-case): lowercase
   pre-configured: preconfigured
   re-configure: reconfigure
   recreate: re-create
   regex: regular expression
   sign into: sign in to
   sign-?on: single sign-on
+  some: certain
   static IP address: static external IP address
   style sheet: stylesheet
+  (?:should|have to|need to): must
   synch: sync
   tablename: table name
+  (?:upper case|upper-case): uppercase
   url:  URL
   vs\.: versus

@@ -1,9 +1,0 @@
----
-extends: existence
-message: "Use hyphen with adjectives"
-ignorecase: true
-level: warning
-token:
-  - command line
-  - open source
-  - front end
