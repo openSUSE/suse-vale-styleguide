@@ -1,7 +1,0 @@
----
-extends: substitution
-message: Use '%s' instead of '%s'
-ignorecase: true
-level: error
-swap:
-  (?:E-mail|E-mail|Email|eMail|electronic mail|email): "e-mail"

@@ -1,7 +1,0 @@
----
-extends: substitution
-message: Use '%s' instead of '%s'
-ignorecase: false
-level: error
-swap:
-  (?:z Systems, System z, zSeries, z System, zsystems, S390x): "IBM Z"

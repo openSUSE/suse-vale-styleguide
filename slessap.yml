@@ -1,7 +1,0 @@
----
-extends: substitution
-message: Use '%s' instead of '%s'.
-ignorecase: false
-level: error
-swap:
-  (?:SLES for SAP Applications|SLE for SAP): "SLES for SAP"

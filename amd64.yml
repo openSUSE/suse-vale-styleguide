@@ -1,7 +1,0 @@
----
-extends: substitution
-message: Use '%s' instead of '%s'
-ignorecase: true
-level: error
-swap:
-  (?:x64|x86_64|x86-64|64-bit AMD/Intel|AMD/Intel64): "AMD64/Intel 64"

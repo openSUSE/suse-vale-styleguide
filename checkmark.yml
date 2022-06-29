@@ -1,7 +1,0 @@
----
-extends: substitution
-message: Use '%s' instead of '%s'
-ignorecase: true
-level: error
-swap:
-  (?:check|check-mark|checkmark|tick|tick mark): "check mark"

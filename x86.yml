@@ -1,7 +1,0 @@
----
-extends: substitution
-message: Use '%s' instead of '%s'.
-ignorecase: false
-level: error
-swap:
-  (?:32-bit AMD/Intel|i686|i386): "x86"

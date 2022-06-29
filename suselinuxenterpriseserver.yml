@@ -1,7 +1,0 @@
----
-extends: substitution
-message: Use '%s' instead of '%s'.
-ignorecase: false
-level: error
-swap:
-  (?:SUSE Server|SUSE Linux Enterprise server): "SUSE Linux Enterprise Server"

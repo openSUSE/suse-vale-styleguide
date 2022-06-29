@@ -1,6 +1,6 @@
 ---
 extends: substitution
-message: Use '%s' instead of '%s'.
+message: Use '%s' instead of '%s' when referring to the tool.
 ignorecase: false
 level: error
 swap:

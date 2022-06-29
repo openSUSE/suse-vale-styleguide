@@ -1,7 +1,0 @@
----
-extends: substitution
-message: Use '%s' instead of '%s'.
-ignorecase: false
-level: error
-swap:
-  (?:X Window|X Windows|X window|X window system|X windows|XWS): "X Window System"

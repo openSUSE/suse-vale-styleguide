@@ -1,7 +1,7 @@
 ---
 extends: substitution
 message: Use '%s' instead of '%s' when referring to the tool.
-ignorecase: true
+ignorecase: false
 level: error
 swap:
   (?:zypper): "Zypper"
