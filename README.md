@@ -74,6 +74,15 @@ BasedOnStyles = Technically
 
 3. Save the changes.
 
+## Add VS Code and VSCodium integration
+
+In VS Code, install the [Vale +VS Code extension](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
+In VSCodium, install [Vale +VS Code extension](https://open-vsx.org/extension/errata-ai/vale-server).
+
+[Source code](https://github.com/errata-ai/vale-vscode)
+
+In VS Code or VSCodium, choose **File > Preferences > Settings** and enable the **Vale > Core: Use CLI** option.
+
 ## Problems?
 
 Please report bugs and issues in the [Issues](https://github.com/dmpop/technically/issues) section.
