@@ -5,7 +5,7 @@ level: error
 swap:
   ChromeBook: Chromebook
   DELL: Dell
-  Gforce: GeForce
+  Geforce: GeForce
   Macbook: MacBook
   NVIDIA|nvidia: Nvidia
   Pci: PCI

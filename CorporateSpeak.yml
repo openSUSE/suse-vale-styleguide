@@ -4,8 +4,16 @@ ignorecase: true
 level: error
 tokens:
   - stakeholder
+  - ballpark
+  - table (?:this|it)
+  - parking lot (?:this|it)
+  - blue skz thinking
+  - north star
+  - unicorn
+  - digital transformation
   - buy(?:in|-in)
   - level up
+  - data-driven
   - momentum
   - right to win
   - back to the drawing board
