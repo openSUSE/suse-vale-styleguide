@@ -5,25 +5,21 @@ ignorecase: true
 action:
   name: replace
 swap:
-  are not: aren't
-  cannot: can't
-  could not: couldn't
-  did not: didn't
-  do not: don't
-  does not: doesn't
-  has not: hasn't
-  have not: haven't
-  how is: how's
-  is not: isn't
-  it is: it's
-  should not: shouldn't
-  that is: that's
-  they are: they're
-  was not: wasn't
-  we are: we're
-  we have: we've
-  were not: weren't
-  what is: what's
-  when is: when's
-  where is: where's
-  will not: won't
+  aren't: are not
+  can't: cannot
+  couldn't: could not
+  didn't: did not
+  don't: do not
+  doesn't: does not
+  hasn't: has not
+  haven't: have not
+  isn't: is not
+  it's: it is
+  shouldn't: should not
+  that's: that is
+  wasn't: was not
+  weren't: were not
+  what's: what is
+  when's: when is
+  where's: where is
+  won't: will not
