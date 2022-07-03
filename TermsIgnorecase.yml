@@ -5,49 +5,49 @@ level: error
 swap:
   32 Bit|32 bit|32-Bit|32Bit|32bit: 32-bit
   64 Bit|64 bit|64-Bit|64Bit|64bit: 64-bit
-  back end|backend: back-end
-  boot disc|boot-disk|bootdisk: boot disk
-  boot-loader|bootloader: boot loader
-  change log|change-log|ChangeLog: changelog
-  check-box|checkbox: check box
-  check list|check-list: checklist
-  check-mark|checkmark|tick|tick mark: check mark
-  chip set|chip-set: chipset
-  code stream: codestream
-  crashdump: crash dump
-  file-name|filename: file name
-  file-system|filesystem: file system
-  frame buffer|frame-buffer: framebuffer
-  hard-link|hardlink: hard link
-  kernel-space|kernelspace: kernel space
-  life cycle|life-cycle: lifecycle
-  loop back device|loop-back device: loopback device
+  back end(?:s)|backend(?:s): back-end
+  boot disc(?:s)|boot-disk(?:s)|bootdisk(?:s): boot disk
+  boot-loader(?:s)|bootloader(?:s): boot loader
+  change log(?:s)|change-log(?:s)|ChangeLog(?:s): changelog
+  check-box(?:s)|checkbox(?:s): check box
+  check list(?:s)|check-list(?:s): checklist
+  check-mark(?:s)|checkmark(?:s)|tick(?:s)|tick mark(?:s): check mark
+  chip set(?:s)|chip-set(?:s): chipset
+  code stream(?:s): codestream
+  crashdump(?:s): crash dump
+  file-name(?:s)|filename(?:s): file name
+  file-system(?:s)|filesystem(?:s): file system
+  frame buffer(?:s)|frame-buffer(?:s): framebuffer
+  hard-link(?:s)|hardlink(?:s): hard link(s)
+  kernel-space(?:s)|kernelspace(?:s): kernel space
+  life cycle(?:s)|life-cycle(?:s): lifecycle
+  loop back device(?:s)|loop-back device(?:s): loopback device
   meta data|meta-data|metadatas: metadata
-  mount-point|mountpoint: mount point
-  name-server|nameserver: name server
-  name space|name-space: namespace
-  patch-level, patchlevel: patch level
-  path-name|pathname: path name
-  pop up|popup: pop-up
-  printer queue|printing queue: print queue
-  printer spooler|printing spooler: print spooler
-  run level|run-level: runlevel
+  mount-point(?:s)|mountpoint(?:s): mount point
+  name-server(?:s)|nameserver(?:s): name server
+  name space(?:s)|name-space(?:s): namespace
+  patch-level(?:s)|patchlevel(?:s): patch level
+  path-name(?:s)|pathname(?:s): path name
+  pop up(?:s)|popup(?:s): pop-up
+  printer queue(?:s)|printing queue(?:s): print queue
+  printer spooler(?:s)|printing spooler(?:s): print spooler
+  run level(?:s)|run-level(?:s): runlevel
   run time|run-time: runtime
-  scroll-bar|scroll bar: scrollbar
+  scroll-bar(?:s)|scroll bar(?:s): scrollbar
   stand alone|standalone: stand-alone
-  solid state dics|solid-state disk drive|solid-state disk|solid state drive|solidstate drive: solid-state drive
-  status bar|status-bar: statusbar
-  sub directory|sub-directory: subdirectory
-  sub menu|sub-menu: submenu
-  sub system|sub-system: subsystem
-  symlink: symbolic link
-  task bar|task-bar: taskbar
-  time-stamp|timestamp: time stamp
-  title bar|title-bar: titlebar
-  tool bar|tool-bar: toolbar
-  tool chain|tool-chain: toolchain
-  tool tip|tool-tip: tooltip
-  use-case|usecase: use case
-  user-name|username: user name
+  solid state dics(?:s)|solid-state disk drive(?:s)|solid-state disk(?:s)|solid state drive(?:s)|solidstate drive(?:s): solid-state drive
+  status bar(?:s)|status-bar(?:s): statusbar
+  sub director(?:y|ies)|sub-director(?:|ies): subdirectory
+  sub menu(?:s)|sub-menu(?:s): submenu
+  sub system(?:s)|sub-system(?:s): subsystem
+  symlink(?:s): symbolic link
+  task bar(?:s)|task-bar(?:s): taskbar
+  time-stamp(?:s)|timestamp(?:s): time stamp
+  title bar(?:s)|title-bar(?:s): titlebar
+  tool bar(?:s)|tool-bar(?:s): toolbar
+  tool chain(?:s)|tool-chain(?:s): toolchain
+  tool tip(?:s)|tool-tip(?:s): tooltip
+  use-case(?:s)|usecase(?:s): use case
+  user-name(?:s)|username(?:s): user name
   
   

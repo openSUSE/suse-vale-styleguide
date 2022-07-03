@@ -5,21 +5,21 @@ level: error
 swap:
   Amd: AMD
   ARM64|ARMv8: AArch64
-  add on|AddOn|addOn|addon: add-on
+  add on(?:s)|AddOn(?:s)|addOn(?:s)|addon(?:s): add-on
   x64|x86_64|x86-64|64-bit AMD/Intel|AMD/Intel64: AMD64/Intel 64
   Bci: BCI
   btrfs|BTRFS: Btrfs
   Cups|cups: CUPS
   Digikam|DigiKam|digikam|Digicam|digiCam|digicam: digiKam
   Fpga: FPGA
-  E-book|E-book|Ebook|eBook|electronic book|ebook: e-book
-  E-mail|E-mail|Email|eMail|electronic mail|email: e-mail
+  E-book(?:s)|E-book(?:s)|Ebook(?:s)|eBook(?:s)|electronic book(?:s)|ebook(?:s): e-book
+  E-mail(?:s)|E-mail(?:s)|Email(?:s)|eMail(?:s)|electronic mail(?:s)|email(?:s): e-mail
   E-PUB|e-PUB|e-Pub|EPub|Epub|ePUB|ePub: EPUB
   EXT3|EXT 3|Ext 3|Ext-3|ext 3|ext-3|ext3: Ext3
   EXT4|EXT 4|Ext 4|Ext-4|ext 4|ext-4|ext4: Ext4
   Gimp|gimp: GIMP
   Gnome|gnome: GNOME
-  Gpu: GPU
+  Gpu(?:s): GPU
   Grub|grub: GRUB
   GIT: Git
   IA-64|ia64|ipf|Itanium: IA64
@@ -41,7 +41,7 @@ swap:
   ppc64le|POWER8|Power: POWER
   PXE Boot: PXE boot
   RAM memory|Ram|ram: RAM
-  Read-me|Readme|read-me|readme: README
+  Read-me(?:s)|Readme(?:s)|read-me(?:s)|readme(?:s): README
   Risc-V|Risc V|Risc v|risc-v|risc v|RISC V: RISC-V
   Rpm: RPM
   SOC: SoC
@@ -58,10 +58,10 @@ swap:
   SUSE Linux Enterprise for SAP|SUSE Linux Enterprise Server for SAP|SUSE Server for SAP: SUSE Linux Enterprise Server for SAP Applications
   System D|Systemd|systemD|system d: systemd
   SysVinit|SysV init|system 5 init: System V init
-  TAR ball|tar ball|tar-ball|tarball: TAR archive
+  TAR ball(?:s)|tar ball(?:s)|tar-ball(?:s)|tarball(?:s): TAR archive
   Wi fi|Wi-fi|Wifi|WLAN|wlan: Wi-Fi
   32-bit AMD/Intel|i686|i386: x86
-  Url: URL
+  Url(?:s): URL
   XEN|xen: Xen
   X Window|X Windows|X window|X window system|X windows|XWS: X Window System
   YAST|YAST2|Yast|YaST2|yast|yast2: YaST
