@@ -3,11 +3,12 @@ message: "'%s' is corporate speak."
 ignorecase: true
 level: error
 tokens:
+  - sunsetting
   - stakeholder
   - ballpark
   - table (?:this|it)
   - parking lot (?:this|it)
-  - blue skz thinking
+  - blue sky thinking
   - north star
   - unicorn
   - digital transformation
@@ -23,7 +24,7 @@ tokens:
   - touch base
   - get my manager's blessing
   - it's on my radar
-  - don't have the bandwidth
+  - have the bandwidth
   - synerg(?:y|ies)
   - move the goal post
   - apples to apples
