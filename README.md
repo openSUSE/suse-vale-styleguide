@@ -29,7 +29,7 @@ MinAlertLevel = suggestion
 [asciidoctor]
 experimental = YES
 [*.{md,txt,adoc}]
-BasedOnStyles = Technically
+BasedOnStyles = technically
 ```
 
 5. Save the changes.
@@ -48,9 +48,9 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/nwalsh5/html/docbook.xsl
-BasedOnStyles = Technically
+BasedOnStyles = technically
 [*.{md,txt,adoc}]
-BasedOnStyles = Technically
+BasedOnStyles = technically
 ```
 
 3. Save the changes.
@@ -67,9 +67,9 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl
-BasedOnStyles = Technically
+BasedOnStyles = technically
 [*.{md,txt,adoc}]
-BasedOnStyles = Technically
+BasedOnStyles = technically
 ```
 
 3. Save the changes.
