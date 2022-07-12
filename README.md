@@ -18,10 +18,39 @@ The supplied rules perform the following checks:
 
 The following installation procedure has been tested on Linux Mint and openSUSE.
 
-1. Install [Brew](https://brew.sh): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-2. Install Vale: `brew install vale`
-3. Create a configuration file: `nano $HOME/.vale.ini`
-4. Add the following configuration:
+1. Use one of the pre-created files at https://github.com/errata-ai/vale/tags
+- download it
+```shell
+wget https://github.com/errata-ai/vale/releases/download/v2.20.0/vale_2.20.0_Linux_64-bit.tar.gz``
+```
+
+- extract it
+```shell
+tar xvf vale_2.20.0_Linux_64-bit.tar.gz
+```
+- copy it to a place where it can be found and executed (e.g. /usr/local/bin)
+```shell
+sudo cp ./vale /usr/local/bin
+```
+
+**or**
+
+1. Build from source
+- Install [Brew](https://brew.sh):
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+- Install Vale
+```shell
+brew install vale
+```
+
+2. Create a configuration file in your home directory
+```shell
+nano $HOME/.vale.ini
+```
+3. Add the following configuration:
 
 ```yaml
 StylesPath = styles
