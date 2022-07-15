@@ -18,39 +18,46 @@ The supplied rules perform the following checks:
 
 The following installation procedure has been tested on Linux Mint and openSUSE.
 
-1. Use one of the pre-created files at https://github.com/errata-ai/vale/tags
-- download it
+## Option 1. Install precompiled binary
+
+1. Check the available tags at https://github.com/errata-ai/vale/tags
+2. Use wget to download the latest tag, for example:
+
 ```shell
-wget https://github.com/errata-ai/vale/releases/download/v2.20.0/vale_2.20.0_Linux_64-bit.tar.gz``
+wget https://github.com/errata-ai/vale/releases/download/v2.20.0/vale_2.20.0_Linux_64-bit.tar.gz
+```
+3. Extract the downloaded archive:
+
+```shell
+tar xvf vale_2.20.0_Linux_64-bit.tar.gz vale
+```
+3. Move the _vale_ binary to the _/usr/local/bin_ directory:
+```shell
+sudo mv ./vale /usr/local/bin
 ```
 
-- extract it
-```shell
-tar xvf vale_2.20.0_Linux_64-bit.tar.gz
-```
-- copy it to a place where it can be found and executed (e.g. /usr/local/bin)
-```shell
-sudo cp ./vale /usr/local/bin
-```
+Instead of _/usr/local/bin_, you can move the binary to any directory that is in `$PATH`.
 
-**or**
+## Option 2. Install via Brew
 
-1. Build from source
-- Install [Brew](https://brew.sh):
+1. Install [Brew](https://brew.sh):
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-- Install Vale
+2. Install Vale:
 ```shell
 brew install vale
 ```
 
-2. Create a configuration file in your home directory
+## Create configuration file
+
+Create a configuration file in your home directory:
+
 ```shell
 nano $HOME/.vale.ini
 ```
-3. Add the following configuration:
+Add the following configuration:
 
 ```yaml
 StylesPath = styles
@@ -61,9 +68,12 @@ experimental = YES
 BasedOnStyles = technically
 ```
 
-5. Save the changes.
-6. Create the _styles_ directory: `mkdir $HOME/styles`
-7. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/dmpop/technically.git`
+Save the changes.
+
+## Install Technically
+
+1. Create the _styles_ directory: `mkdir $HOME/styles`
+2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/dmpop/technically.git`
 
 ## Add XML support (openSUSE)
 
