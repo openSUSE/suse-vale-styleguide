@@ -50,7 +50,7 @@ Instead of _/usr/local/bin_, you can move the binary to any directory that is in
 brew install vale
 ```
 
-## Install Technically
+# Install Technically
 
 1. Create the _styles_ directory: `mkdir $HOME/styles`
 2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/dmpop/technically.git`
