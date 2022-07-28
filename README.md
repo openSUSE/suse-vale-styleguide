@@ -86,7 +86,7 @@ MinAlertLevel = suggestion
 [asciidoctor]
 experimental = YES
 [*.xml]
-Transform = /usr/share/xml/docbook/stylesheet/nwalsh5/html/docbook.xsl
+Transform = /usr/share/xml/docbook/stylesheet/suse2022-ns/xhtml/docbook.xsl
 BasedOnStyles = technically
 [*.{md,txt,adoc}]
 BasedOnStyles = technically
