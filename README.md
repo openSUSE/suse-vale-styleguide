@@ -31,7 +31,7 @@ wget https://github.com/errata-ai/vale/releases/download/v2.20.0/vale_2.20.0_Lin
 ```shell
 tar xvf vale_2.20.0_Linux_64-bit.tar.gz vale
 ```
-3. Move the _vale_ binary to the _/usr/local/bin_ directory:
+4. Move the _vale_ binary to the _/usr/local/bin_ directory:
 ```shell
 sudo mv ./vale /usr/local/bin
 ```
@@ -49,6 +49,11 @@ Instead of _/usr/local/bin_, you can move the binary to any directory that is in
 ```shell
 brew install vale
 ```
+
+## Install Technically
+
+1. Create the _styles_ directory: `mkdir $HOME/styles`
+2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/dmpop/technically.git`
 
 ## Create configuration file
 
@@ -69,11 +74,6 @@ BasedOnStyles = technically
 ```
 
 Save the changes.
-
-## Install Technically
-
-1. Create the _styles_ directory: `mkdir $HOME/styles`
-2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/dmpop/technically.git`
 
 ## Add XML support (openSUSE)
 
