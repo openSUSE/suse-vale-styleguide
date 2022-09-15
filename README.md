@@ -120,7 +120,11 @@ In VSCodium, install [Vale +VS Code extension](https://open-vsx.org/extension/er
 
 [Source code](https://github.com/errata-ai/vale-vscode)
 
-In VS Code or VSCodium, choose **File > Preferences > Settings** and enable the **Vale > Core: Use CLI** option.
+In VS Code or VSCodium, choose **File > Preferences > Settings** and specify the path to the Vale binary (for example, _/usr/local/bin/vale_) under **Vale > Vale CLI: Config**.
+
+## Updating Technically
+
+Switch to the _technically_ directory and run the `git pull` command.
 
 ## Problems?
 
