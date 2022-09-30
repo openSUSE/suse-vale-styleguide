@@ -120,7 +120,7 @@ In VSCodium, install [Vale +VS Code extension](https://open-vsx.org/extension/er
 
 [Source code](https://github.com/errata-ai/vale-vscode)
 
-In VS Code or VSCodium, choose **File > Preferences > Settings** and specify the path to the Vale binary (for example, _/usr/local/bin/vale_) under **Vale > Vale CLI: Config**.
+In VS Code or VSCodium, choose **File > Preferences > Settings** and specify the path to the Vale binary (for example, _/usr/local/bin/vale_) under **Vale > Vale CLI: Path**.
 
 ## Updating Technically
 
