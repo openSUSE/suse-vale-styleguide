@@ -21,7 +21,6 @@ swap:
   content type: media type
   data are: data is
   firewalls: firewall rules
-  functionality: capability|feature
   grayed-out: unavailable
   HTTPs: HTTPS
   in order to: to
@@ -37,7 +36,6 @@ swap:
   some: certain
   static IP address: static external IP address
   style sheet: stylesheet
-  (?:should|have to|need to): must
   synch: sync
   tablename: table name
   (?:upper case|upper-case): uppercase
