@@ -1,4 +1,4 @@
-# Technically style guide
+# Vale-based technical documentation style guide
 
 A [Vale](https://vale.sh)-compatible style for technical writers documenting open-source software and for anyone writing about Open Source.
 
@@ -50,10 +50,10 @@ Instead of _/usr/local/bin_, you can move the binary to any directory that is in
 brew install vale
 ```
 
-# Install Technically
+# Install the style guide
 
 1. Create the _styles_ directory: `mkdir $HOME/styles`
-2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/dmpop/technically.git`
+2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/openSUSE/suse-vale-styleguide.git`
 
 ## Create configuration file
 
@@ -70,7 +70,7 @@ MinAlertLevel = suggestion
 [asciidoctor]
 experimental = YES
 [*.{md,txt,adoc}]
-BasedOnStyles = technically
+BasedOnStyles = suse-vale-styleguide
 ```
 
 Save the changes.
@@ -87,9 +87,9 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/suse2022-ns/xhtml/docbook.xsl
-BasedOnStyles = technically
+BasedOnStyles = suse-vale-styleguide
 [*.{md,txt,adoc}]
-BasedOnStyles = technically
+BasedOnStyles = suse-vale-styleguide
 ```
 
 3. Save the changes.
@@ -106,9 +106,9 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl
-BasedOnStyles = technically
+BasedOnStyles = suse-vale-styleguide
 [*.{md,txt,adoc}]
-BasedOnStyles = technically
+BasedOnStyles = suse-vale-styleguide
 ```
 
 3. Save the changes.
@@ -122,17 +122,17 @@ In VSCodium, install [Vale +VS Code extension](https://open-vsx.org/extension/er
 
 In VS Code or VSCodium, choose **File > Preferences > Settings** and specify the path to the Vale binary (for example, _/usr/local/bin/vale_) under **Vale > Vale CLI: Path**.
 
-## Updating Technically
+## Updating the style guide
 
-Switch to the _technically_ directory and run the `git pull` command.
+Switch to the _suse-vale-styleguide_ directory and run the `git pull` command.
 
 ## Problems?
 
-Please report bugs and issues in the [Issues](https://github.com/dmpop/technically/issues) section.
+Please report bugs and issues in the [Issues](https://github.com/openSUSE/suse-vale-styleguide/issues) section.
 
 ## Contribute
 
-If you've found an error, or you have a suggestion for improvement, open an issue in the [Issues](https://github.com/dmpop/technically/issues) section.
+If you've found an error, or you have a suggestion for improvement, open an issue in the [Issues](https://github.com/openSUSE/suse-vale-styleguide/issues) section.
 
 To add a new feature or fix issues yourself, proceed as follows.
 
@@ -141,10 +141,6 @@ To add a new feature or fix issues yourself, proceed as follows.
 3. Add your new feature or fix bugs and run the `git commit -am 'Add a new feature'` command to commit changes.
 4. Push changes using the `git push origin new-feature` command.
 5. Submit a pull request.
-
-## Author
-
-Dmitri Popov [dmpop@linux.com](mailto:dmpop@linux.com)
 
 ## License
 
