@@ -1,0 +1,6 @@
+extends: existence
+message: "Simple series, consider removing the last comma in '%s'."
+scope: text
+level: warning
+raw:
+  - '((\w+,(\s|\n)+){2}(and|or))'
