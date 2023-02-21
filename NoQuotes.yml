@@ -1,7 +1,6 @@
 extends: existence
 message: "Consider replacing quotation marks with <quote/> in '%s'."
 scope: sentence
-nonword: true
 level: warning
 tokens:
   - '"[^"]+"'
