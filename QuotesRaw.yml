@@ -1,7 +1,6 @@
 extends: existence
 message: "Commas and periods go inside quotation marks."
-scope: sentence
-nonword: true
+scope: raw
 level: error
 tokens:
-  - '"[^"]+"[.,?]'
+  - '</quote>[.,?]'
