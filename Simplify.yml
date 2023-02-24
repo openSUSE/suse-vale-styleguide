@@ -1,7 +1,7 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
 level: warning
-ignorecase: false
+ignorecase: true
 action:
   name: replace
 swap:
@@ -15,7 +15,7 @@ swap:
   as to whether: whether
   at a slow rate: slowly
   at a quick rate: quickly
-  a number of: several
+  a number of: several, certain
   in accordance with: by, per, under
   do damage to: damage
   during the course of: during
