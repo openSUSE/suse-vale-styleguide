@@ -38,7 +38,7 @@ swap:
   Open SUSE|Open-SUSE|open SUSE|open-SUSE: openSUSE
   Php: PHP
   POSTSCRIPT|Postscript|postscript: PostScript
-  ppc64le|POWER8|Power: POWER
+  ppc64le|POWER8: POWER
   PXE Boot: PXE boot
   RAM memory|Ram|ram: RAM
   Read-me(?:s)|Readme(?:s)|read-me(?:s)|readme(?:s): README
