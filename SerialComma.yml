@@ -1,7 +1,6 @@
 extends: existence
 message: "Use the serial (Oxford) comma in '%s'."
-scope: sentence
 level: warning
 tokens:
   #- '(?:[^,]+,){1,}\s\w+\s(?:and|or)'
-  - \w+ \w+, (?:\w+ ){2,}(?:and|or) \w+
+  #- \w+ \w+, (?:\w+ ){2,}(?:and|or) \w+
