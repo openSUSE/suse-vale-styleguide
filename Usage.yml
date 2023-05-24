@@ -39,5 +39,5 @@ swap:
   synch: sync
   tablename: table name
   (?:upper case|upper-case): uppercase
-  url:  URL
+  (?:[^":])url: URL
   vs\.: versus
