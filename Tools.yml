@@ -4,4 +4,4 @@ ignorecase: false
 level: warning
 swap:
   YAST|YAST2|Yast|YaST2|yast|yast2: YaST
-  zypper: Zypper
+  (?:[^<command>])zypper: Zypper

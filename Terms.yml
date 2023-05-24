@@ -20,14 +20,14 @@ swap:
   Gimp|gimp: GIMP
   Gnome|gnome: GNOME
   Gpu(?:s): GPU
-  Grub|grub: GRUB
+  Grub|(?:[^<command>])grub: GRUB
   GIT: Git
   IA-64|ia64|ipf|Itanium: IA64
   z Systems|System z|zSeries|z System|zsystems|S390x|s390x: IBM Z
   IPSEC|Ipsec: IPsec
   IP v4|IPV4|Ipv4: IPv4
   IP v6|IPV6|Ipv6: IPv6
-  KDUMP|kdump: Kdump
+  KDUMP|(?:[^<command>])kdump: Kdump
   k8s: Kubernetes
   Kiwi|kiwi: KIWI
   LiveCD|live-CD: live CD
