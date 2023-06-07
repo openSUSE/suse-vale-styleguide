@@ -3,5 +3,5 @@ message: "Put a nonbreaking space between the number and the unit in '%s'."
 nonword: true
 level: error
 tokens:
-  - \d+(?:B|kB|MB|GB|TB)
-  - \d+(?:ns|ms|s|min|h|d)
+  - \d+(?:B|kB|MB|GB|TB|ns|ms|s|min|h|d)\s
+  - \d+ (?:B|kB|MB|GB|TB|ns|ms|s|min|h|d)\s

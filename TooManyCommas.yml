@@ -1,7 +1,0 @@
-extends: occurrence
-message: "More than 3 commas. Consider rewriting the sentence."
-level: warning
-scope: sentence
-ignorecase: false
-max: 3
-token: ','
