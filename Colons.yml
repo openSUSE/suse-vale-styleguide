@@ -3,4 +3,4 @@ message: "The first word after a colon should be in lowercase, unless the phrase
 nonword: true
 level: warning
 tokens:
-  - ': [A-Z]'
+  - ': [A-Z][a-z ]'
