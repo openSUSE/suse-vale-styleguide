@@ -3,6 +3,6 @@ message: "Delimit '%s' with comma(s)."
 level: error
 nonword: true
 tokens:
-  - '(?![^,] )(?:for example|in this case|that is|namely|for instance)(?=[^,])'
-  - '(?<=[^,] )(?:for example|in this case|that is|namely|for instance)(?=,)'
+  - '(?![^,] )(?:for example|in this case|that is|namely|for instance)(?=[^,|:])'
+  - '(?<=[^,] )(?:for example|in this case|that is|namely|for instance)(?=,|:)'
   - '(?:For example|In this case|That is|Namely|For instance)(?=[^,])'
