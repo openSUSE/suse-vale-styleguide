@@ -13,4 +13,4 @@ tokens:
   # match multiline, no comma + spaces + phrase + commo or colon
   - '[^,]\s+(?:for example|in this case|namely|for instance)(?=,|:)'
   # match multiline, capitalized at the beginning of sentences
-  - '(?m:For example|In this case|That is|Namely|For instance)(?=[^,])'
+  - '(?m:For example|In this case|That is|Namely|For instance)(?=[^,|:])'
