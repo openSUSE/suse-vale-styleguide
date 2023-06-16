@@ -86,6 +86,9 @@
       example, like this.
     </para>
     <para>
+      CORRECT This one is not nice but still correct. For example:
+    </para>
+    <para>
       WRONG Our neighbor for example, does not eat.
     </para>
     <para>
@@ -115,9 +118,8 @@
     <para>
       CORRECT Using a command-line, you can do wonders.
     </para>
-        <para>
+    <para>
       WRONG Using a command line, you can do wonders.
     </para>
-
   </section>
 </topic>
