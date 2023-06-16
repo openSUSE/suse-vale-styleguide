@@ -2,6 +2,8 @@ extends: substitution
 message: Consider using '%s' instead of '%s'
 ignorecase: false
 level: error
+action: 
+  name: replace
 swap:
   Amd: AMD
   ARM64|ARMv8: AArch64
@@ -9,6 +11,7 @@ swap:
   x64|x86_64|x86-64|64-bit AMD/Intel|AMD/Intel64: AMD64/Intel 64
   Bci: BCI
   btrfs|BTRFS: Btrfs
+  command line: command-line
   Cups|cups: CUPS
   Digikam|DigiKam|digikam|Digicam|digiCam|digicam: digiKam
   Fpga: FPGA

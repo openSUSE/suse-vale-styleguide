@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="urn:x-suse:xslt:profiling:docbook51-profile.xsl"
+ type="text/xml"
+ title="Profiling step"?>
+<!DOCTYPE article [
+  <!ENTITY joey "Joey">
+]>
+<topic xml:id="suse-vale-tests" xml:lang="en"
+ role="task"
+ xmlns="http://docbook.org/ns/docbook" version="5.1"
+ xmlns:its="http://www.w3.org/2005/11/its"
+ xmlns:xi="http://www.w3.org/2001/XInclude"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>SUSE Vale rules tests</title>
+  <section xml:id="skipped">
+    <title>Skipped markup</title>
+<screen>For example this error should be skipped!</screen>
+    <!-- For example this error should be skipped! -->
+    <remark>For example this error should be skipped!</remark>
+    <para>
+      <command>For example this error should be skipped!</command> and
+      <guimenu>For example this error should be skipped!</guimenu> <package>For
+      example this error may be skipped!</package> <envar>Usually is always
+      wrong</envar> <literal>let me for example drive</literal>
+    </para>
+  </section>
+  <section xml:id="simpleseriess">
+    <title>SimpleSeries.yml</title>
+    <para>
+      CORRECT Mary, Joe and &joey; went to school.
+    </para>
+    <para>
+      CORRECT The most beautiful day, deep dark night, and the shadow of you.
+    </para>
+    <para>
+      WRONG Mary, Joe, and &joey; went to school.
+    </para>
+  </section>
+  <section xml:id="usage">
+    <title>Usage.yml</title>
+    <para>
+      CORRECT Use a static IP address.
+    </para>
+  </section>
+  <section xml:id="colons">
+    <title>Colons.yml</title>
+    <para>
+      CORRECT <guimenu>Host Name</guimenu>: IP address or host name of the
+      server exporting the network file system.
+    </para>
+    <para>
+      WRONG <guimenu>Host Name</guimenu>: An IP address or host name of the
+      server exporting the network file system.
+    </para>
+    <para>
+      WRONG <guimenu>Host Name</guimenu>: A privileged address or host name of
+      the server exporting the network file system.
+    </para>
+  </section>
+  <section xml:id="surroundingcommas">
+    <title>SurroundingCommas</title>
+    <para>
+      CORRECT Our neighbor, for instance, does not eat.
+    </para>
+    <para>
+      CORRECT Our neighbor, for example, does not eat.
+    </para>
+    <para>
+      CORRECT In this case, our neighbor does not eat.
+    </para>
+    <para>
+      CORRECT Namely, our neighbor does not eat.
+    </para>
+    <para>
+      CORRECT Run your custom command, for example:
+    </para>
+    <para>
+      CORRECT This sentence is putting a phrase at the beginning of a new line,
+      for example, like this.
+    </para>
+    <para>
+      CORRECT A code that is being generated.
+    </para>
+    <para>
+      CORRECT Let us prolong this sentence so that the phrase is at the... For
+      example, like this.
+    </para>
+    <para>
+      WRONG Our neighbor for example, does not eat.
+    </para>
+    <para>
+      WRONG Our neighbor, for instance does not eat.
+    </para>
+    <para>
+      WRONG Our neighbor in this case does not eat.
+    </para>
+    <para>
+      WRONG Namely our neighbor does not eat.
+    </para>
+    <para>
+      WRONG Run your custom command for example:
+    </para>
+    <para>
+      WRONG For example run your custom command:
+    </para>
+  </section>
+  <section xml:id="hedging">
+    <title>Hedging</title>
+    <para>
+      CORRECT This might be a problem. You may click the button now.
+    </para>
+  </section>
+  <section xml:id="terms">
+    <title>Terms</title>
+    <para>
+      CORRECT Using a command-line, you can do wonders.
+    </para>
+        <para>
+      WRONG Using a command line, you can do wonders.
+    </para>
+
+  </section>
+</topic>
