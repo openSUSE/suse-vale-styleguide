@@ -3,14 +3,11 @@ message: "Delimit the phrase with comma(s)."
 level: error
 nonword: true
 tokens:
-  #- '(?![^,] )(?:for example|in this case|namely|for instance)(?=[^,|:])'
-  #- '(?<=[^,]\s+)(?:for example|in this case|namely|for instance)(?=,|:)'
-  #- '(?:For example|In this case|That is|Namely|For instance)(?=[^,])'
   # match multiline, no comma + spaces + phrase + no commo or colon
   - '(?m:(?![^,]\s+)(?:for example|in this case|namely|for instance)(?=[^,|:]))'
   # match multiline, comma + spaces + phrase + no commo or colon
   - '(?m:(?!,\s+)(?:for example|in this case|namely|for instance)(?=[^,|:]))'
   # match multiline, no comma + spaces + phrase + commo or colon
-  - '[^,]\s+(?:for example|in this case|namely|for instance)(?=,|:)'
+  - '(?m:\S[^,\s]\s+(?:for example|in this case|namely|for instance)(?=,|:))'
   # match multiline, capitalized at the beginning of sentences
   - '(?m:For example|In this case|That is|Namely|For instance)(?=[^,|:])'
