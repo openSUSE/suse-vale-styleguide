@@ -4,6 +4,7 @@
  title="Profiling step"?>
 <!DOCTYPE article [
   <!ENTITY joey "Joey">
+  <!ENTITY mdash "entity-value">
 ]>
 <topic xml:id="suse-vale-tests" xml:lang="en"
  role="task"
@@ -124,6 +125,15 @@
     </para>
     <para>
       WRONG Using a command line, you can do wonders.
+    </para>
+  </section>
+  <section xml:id="emdash">
+    <title>EmDash</title>
+    <para>
+      WRONG This dash &mdash; should be without spaces around.
+    </para>
+    <para>
+      CORRECT This dash&mdash;is correct.
     </para>
   </section>
 </topic>
