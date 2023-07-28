@@ -1,11 +1,8 @@
 extends: existence
-message: "Don't put a space before or after a dash."
+message: "Do not put a space before or after a dash."
+scope: raw
 nonword: true
 level: error
-action:
-  name: edit
-  params:
-    - remove
-    - ' '
 tokens:
-  - '\s[—–]\s'
+  - ' &mdash; '
+  - ' -- '
