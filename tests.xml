@@ -91,7 +91,15 @@
       example, like this.
     </para>
     <para>
+      CORRECT Do what you want like skiing and what you want like skiing what,
+      for example.
+    </para>
+    <para>
       CORRECT This one is not nice but still correct. For example:
+    </para>
+    <para>
+      CORRECT The next boot <literal>eht0</literal> is <literal>eth1</literal>,
+      for instance.
     </para>
     <para>
       WRONG Our neighbor for example, does not eat.
@@ -130,7 +138,7 @@
   <section xml:id="emdash">
     <title>EmDash</title>
     <para>
-      WRONG This dash &mdash; should be without spaces around.
+      WRONG This dash &mdash; should be without spaces -- around.
     </para>
     <para>
       CORRECT This dash&mdash;is correct.
