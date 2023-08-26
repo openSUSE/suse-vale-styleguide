@@ -129,10 +129,19 @@
   <section xml:id="terms">
     <title>Terms</title>
     <para>
-      CORRECT Using a command-line, you can do wonders.
+      WRONG Using a command-line, you can do wonders.
     </para>
     <para>
-      WRONG Using a command line, you can do wonders.
+      WRONG In a command-line: never use it like this.
+    </para>
+    <para>
+      CORRECT Look at command line: it is just awesome.
+    </para>
+    <para>
+      CORRECT Using a command line, you can do wonders.
+    </para>
+    <para>
+      WRONG E-books are fine for reading.
     </para>
   </section>
   <section xml:id="emdash">
