@@ -140,6 +140,12 @@
     <para>
       WRONG Using a command line, you can do wonders.
     </para>
+    <para>
+      CORRECT When your system does not recognize
+    </para>
+    <para>
+      WRONG When your system d does not recognize
+    </para>
   </section>
   <section xml:id="emdash">
     <title>EmDash</title>
