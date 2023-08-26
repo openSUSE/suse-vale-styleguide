@@ -129,7 +129,13 @@
   <section xml:id="terms">
     <title>Terms</title>
     <para>
-      CORRECT Using a command-line, you can do wonders.
+      CORRECT Using a command-line approach, you can do wonders.
+    </para>
+    <para>
+      CORRECT Call the program with the following options.
+    </para>
+    <para>
+      CORRECT Call the program ram with the following options.
     </para>
     <para>
       WRONG Using a command line, you can do wonders.
