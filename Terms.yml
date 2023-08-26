@@ -44,7 +44,7 @@ swap:
   POSTSCRIPT|Postscript|postscript: PostScript
   ppc64le|POWER8: POWER
   PXE Boot: PXE boot
-  RAM memory|Ram|ram: RAM
+  RAM memory|Ram|(?<=\s)ram: RAM
   Read-me(?:s)|Readme(?:s)|read-me(?:s)|readme(?:s): README
   Risc-V|Risc V|Risc v|risc-v|risc v|RISC V: RISC-V
   Rpm: RPM
