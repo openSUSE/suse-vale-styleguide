@@ -60,7 +60,7 @@ swap:
   SuSE|SuSe|Suse: SUSE
   SUSE Server|SUSE Linux Enterprise server: SUSE Linux Enterprise Server
   SUSE Linux Enterprise for SAP|SUSE Linux Enterprise Server for SAP|SUSE Server for SAP: SUSE Linux Enterprise Server for SAP Applications
-  System D|Systemd|systemD|system d: systemd
+  System D(?=\s)|Systemd|systemD|system d(?=\s): systemd
   SysVinit|SysV init|system 5 init: System V init
   TAR ball(?:s)|tar ball(?:s)|tar-ball(?:s)|tarball(?:s): TAR archive
   Wi fi|Wi-fi|Wifi|WLAN|wlan: Wi-Fi
