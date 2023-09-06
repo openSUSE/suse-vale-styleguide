@@ -24,7 +24,7 @@ swap:
   Gimp|gimp: GIMP
   Gnome|gnome: GNOME
   Gpu(?:s): GPU
-  Grub|(?:[^<command>])grub: GRUB
+  Grub|(?=[^<command>])grub(?=\s|,|;|:|-): GRUB
   GIT: Git
   IA-64|ia64|ipf|Itanium: IA64
   z Systems|System z|zSeries|z System|zsystems|S390x|s390x: IBM Z
