@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="urn:x-suse:xslt:profiling:docbook51-profile.xsl"
+ type="text/xml"
+ title="Profiling step"?>
+<topic xml:id="suse-vale-tests" xml:lang="en"
+ role="task"
+ xmlns="http://docbook.org/ns/docbook" version="5.1"
+ xmlns:its="http://www.w3.org/2005/11/its"
+ xmlns:xi="http://www.w3.org/2001/XInclude"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>SUSE Vale rules tests</title>
+  <section xml:id="terms">
+    <title>Terms</title>
+    <section>
+      <title>CORRECT</title>
+      <para>
+        <command>grub</command> is not a command.
+      </para>
+      <para>
+        Password is grub.give-me-it.
+      </para>
+      <para>
+        Usage of grub2-mkrescue.
+      </para>
+      <para>
+        Let us go for the GRUB_*_XEN_* option today.
+      </para>
+      <para>
+        There may be problems with the X Window System authenticating.
+      </para>
+      <para>
+        Using a command-line approach, you can do wonders.
+      </para>
+      <para>
+        Call the program with the following options.
+      </para>
+      <para>
+        When your system does not recognize
+      </para>
+    </section>
+    <section>
+      <title>WRONG</title>
+      <para>
+        Use grub instead of LILO.
+      </para>
+      <para>
+        Let us talk about XEN-the big hypervisor.
+      </para>
+      <para>
+        Stop using XEN hypervisor. xen, it is complicated.
+      </para>
+      <para>
+        Call the program ram with the following options.
+      </para>
+      <para>
+        Using a command-line, you can do wonders.
+      </para>
+      <para>
+        When your system d does not recognize
+      </para>
+    </section>
+  </section>
+</topic>

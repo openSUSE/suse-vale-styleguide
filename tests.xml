@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic [
+  <!ENTITY joey "entity-value">
+  <!ENTITY mdash "entity-value">
+]>
 <?xml-stylesheet href="urn:x-suse:xslt:profiling:docbook51-profile.xsl"
  type="text/xml"
  title="Profiling step"?>
-<!DOCTYPE article [
-  <!ENTITY joey "Joey">
-  <!ENTITY mdash "entity-value">
-]>
 <topic xml:id="suse-vale-tests" xml:lang="en"
  role="task"
  xmlns="http://docbook.org/ns/docbook" version="5.1"
@@ -126,27 +126,6 @@
       CORRECT This might be a problem. You may click the button now.
     </para>
   </section>
-  <section xml:id="terms">
-    <title>Terms</title>
-    <para>
-      CORRECT Using a command-line approach, you can do wonders.
-    </para>
-    <para>
-      CORRECT Call the program with the following options.
-    </para>
-    <para>
-      CORRECT Call the program ram with the following options.
-    </para>
-    <para>
-      WRONG Using a command line, you can do wonders.
-    </para>
-    <para>
-      CORRECT When your system does not recognize
-    </para>
-    <para>
-      WRONG When your system d does not recognize
-    </para>
-  </section>
   <section xml:id="emdash">
     <title>EmDash</title>
     <para>
@@ -155,5 +134,6 @@
     <para>
       CORRECT This dash&mdash;is correct.
     </para>
+    
   </section>
 </topic>
