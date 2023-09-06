@@ -66,6 +66,6 @@ swap:
   Wi fi|Wi-fi|Wifi|WLAN|wlan: Wi-Fi
   32-bit AMD/Intel|i686|i386: x86
   Url(?:s): URL
-  XEN|xen: Xen
+  (?:XEN|xen)(?=\s|,|;|:|-): Xen
   X (?:w|W)indow(?! System)|X (?:w|W)indows|XWS: X Window System
   File system Hierarchy Standard|Filesystem Hierarchy Standard|filesystem hierarchy standard|file system hierarchy standard: Filesystem Hierarchy Standard
