@@ -134,6 +134,11 @@
     <para>
       CORRECT This dash&mdash;is correct.
     </para>
-    
+    <para>
+      CORRECT <screen>xbjkg -- /bin/bash</screen>
+    </para>
+    <para>
+      CORRECT <command>xbjkg -- /bin/bash</command>
+    </para>
   </section>
 </topic>
