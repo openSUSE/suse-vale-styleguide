@@ -51,10 +51,10 @@ swap:
   SOC: SoC
   SAMBA|samba: Samba
   Scsi|scsi: SCSI
-  SLE Enterprise|SLE Linux|Sle|sle: SLE
-  SLE Server|SLE Enterprise Server|SLE Linux Server|Sles|sles: SLES
+  SLE Enterprise|SLE Linux|Sle|(?:\s)sle: SLE
+  SLE Server|SLE Enterprise Server|SLE Linux Server|Sles|(?:\s)sles: SLES
   SLES for SAP Applications|SLE for SAP: SLES for SAP
-  SSH Shell|SSH shell|Ssh: SSH
+  SSH Shell|SSH shell|(?:\s)Ssh: SSH
   Sql: SQL
   SQlite|Sqlite: SQLite
   SuSE|SuSe|Suse: SUSE

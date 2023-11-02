@@ -141,4 +141,13 @@
       CORRECT <command>xbjkg -- /bin/bash</command>
     </para>
   </section>
+  <section xml:id="terms">
+    <title>Terms</title>
+    <para>
+      CORRECT Classless interdomain routing.
+    </para>
+    <para>
+      WRONG Sle is a fine product.
+    </para>
+  </section>
 </topic>
