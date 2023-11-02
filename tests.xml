@@ -21,7 +21,7 @@
     <para>
       <command>For example this error should be skipped!</command> and
       <guimenu>For example this error should be skipped!</guimenu> <package>For
-      example this error may be skipped!</package> <envar>Usually is always
+      example this error may be skipped!</package> <envar>Naturally is always
       wrong</envar> <literal>let me for example drive</literal>
     </para>
   </section>
@@ -41,6 +41,9 @@
     <title>Usage.yml</title>
     <para>
       CORRECT Use a static IP address.
+    </para>
+    <para>
+      WRONG Systemwide access is terrible.
     </para>
   </section>
   <section xml:id="colons">
@@ -148,6 +151,15 @@
     </para>
     <para>
       WRONG Sle is a fine product.
+    </para>
+  </section>
+  <section xml:id="hedging">
+    <title>Hedging</title>
+    <para>
+      CORRECT Code is usually bloated.
+    </para>
+    <para>
+      WRONG grass is naturally green.
     </para>
   </section>
 </topic>

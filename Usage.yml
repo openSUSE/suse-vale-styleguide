@@ -1,7 +1,7 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
 level: warning
-ignorecase: false
+ignorecase: true
 action:
   name: replace
 swap:
@@ -36,6 +36,7 @@ swap:
   some: certain
   style sheet: stylesheet
   synch: sync
+  (?:systemwide|system wide): system-wide
   tablename: table name
   (?:upper case|upper-case): uppercase
   (?:[^":])url: URL
