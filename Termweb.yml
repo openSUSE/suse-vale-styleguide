@@ -1,0 +1,79 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  cold plug | cold-plug | coldadd | coldswap: coldplug
+  cold-plugging | cold plugging | coldswapping | coldadding: coldplugging
+  front end | frontend: front-end
+  back end | backend: back-end
+  hotswap | hotadd | hot-plug | hot plug: hotplug
+  hotswapping | hotadding | hot-plugging: hotplugging
+  pull-down menu | drop-down list box | drop-down menu | drop-down | dropdown: drop-down list
+  list field: list
+  C.U.P.S. | cups: CUPS
+  Common UNIX Printing System | common Unix printing system: Common Unix Printing System
+  baremetal | bare-metal: bare metal
+  white-space | white space: whitespace
+  unit file: unit
+  unit: unit file
+  crashdump: crash dump
+  multi-user | multi user: multiuser
+  solidstate drive | solid state drive | solid-state disk | solid-state disk drive | solid state disc: solid-state drive
+  System 500 | system d | systemD | Systemd | System D: systemd
+  Platform as a Service: Platform-as-a-Service
+  non-open source software: closed-source software
+  webui: Web UI
+  bootloader | boot-loader: boot loader
+  R.P.M.: RPM
+  virtualisation platform: virtualization platform
+  life-cycle | life cycle: lifecycle
+  name space | name-space: namespace
+  scsi | S.C.S.I.: SCSI
+  v12n: virtualization
+  fog computing: edge computing
+  back door: backdoor
+  Chroot-script: chroot script
+  carrier-grade: carrier grade
+  autologin | auto-login: auto login
+  hostname: host name
+  on premise | on-premise: on-premises
+  hotplug | hot-plug | hotadd: hotswap
+  hotadding | hotplugging | hot-plugging: hotswapping
+  abort: close|cancel|stop|end|force quit
+  black hat hacker: unethical hacker
+  black hat hacker: unethical attacker
+  white hat hacker: ethical hacker
+  blacklist: blocklist
+  blacklist: denylist
+  dummy value: sample value
+  dummy value: placeholder value
+  grandfathered: legacy status
+  man hours: engineer hours
+  man hours: management hours
+  master-slave | master/slave: parent/child
+  master-slave | master/slave: leader/follower
+  master-slave | master/slave: origin/clone
+  master-slave | master/slave: primary/secondary
+  master-slave | master/slave: leader/peer
+  master-slave | master/slave: parent/port
+  master-slave | master/slave: client/server
+  master branch: main branch
+  native: built-in
+  sanity check | sanity test: quick check
+  sanity check | sanity test: confidence check
+  sanity check | sanity test: coherence check
+  slaves: workers
+  webmaster: web product owner
+  whitebox: clear box
+  whitebox: open box
+  whitelist: safe list
+  whitelist: approved list
+  whitelist: allowlist
+  whitelist: ignorelist
+  supported on a best effort basis | best effort support | best-effort support: commercially reasonable support
+  Golden Master: Gold Master
+  drop: remove
+  activation key | activation code: registration code
