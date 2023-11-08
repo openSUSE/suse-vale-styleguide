@@ -1,0 +1,9 @@
+The `Termweb.yml` file includes suggestions from the TermWeb database. The terms
+need to be exportd first with thesaved `export-for-vale` export into a XML file,
+for example `xslt/tbx.xml`. Then convert that file into a Vale suggestion list:
+``` xsltproc -param write-internal "true()" -o xslt/tbx.txt
+xslt/termweb2text.xsl xslt/tbx.xml ``` The `xslt/tbx.txt` file contains the
+correct suggestion rules. Replace the ones in `Termweb.yml` with the content of
+`xslt/tbx.txt`, possubly sort ascending. The indentation matters!
+
+Have fun!
