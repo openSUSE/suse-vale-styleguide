@@ -208,6 +208,7 @@ Author:
                         <xsl:value-of select="$sep"/>
                     </xsl:if>
                 </xsl:for-each>
+                <xsl:text>&#10;</xsl:text>
            </xsl:when>
            <xsl:when test="count($acronyms)">
                 <xsl:variable name="others"
@@ -225,6 +226,7 @@ Author:
                         <xsl:value-of select="$sep"/>
                     </xsl:if>
                 </xsl:for-each>
+                <xsl:text>&#10;</xsl:text>
            </xsl:when>
            <xsl:when test="count(entry) = 1">
             <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/> with only one entry.</xsl:message>
@@ -241,7 +243,6 @@ Author:
            </xsl:otherwise>
         </xsl:choose>
 
-        <xsl:text>&#10;</xsl:text>
     </xsl:template>
 
 </xsl:stylesheet>
