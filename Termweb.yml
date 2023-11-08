@@ -5,75 +5,101 @@ ignorecase: true
 action:
   name: replace
 swap:
-  cold plug | cold-plug | coldadd | coldswap: coldplug
-  cold-plugging | cold plugging | coldswapping | coldadding: coldplugging
-  front end | frontend: front-end
-  back end | backend: back-end
-  hotswap | hotadd | hot-plug | hot plug: hotplug
-  hotswapping | hotadding | hot-plugging: hotplugging
-  pull-down menu | drop-down list box | drop-down menu | drop-down | dropdown: drop-down list
-  list field: list
-  C.U.P.S. | cups: CUPS
-  Common UNIX Printing System | common Unix printing system: Common Unix Printing System
-  baremetal | bare-metal: bare metal
-  white-space | white space: whitespace
+  abort: close|cancel|stop|end|force quit
+  activation key|activation code: registration code
+  ATIP: SUSE ATIP|SUSE Adaptive Telco Infrastructure Platform
+  autologin|auto-login: auto login
+  B.T.R.F.S.|Better FS: Btrfs
+  back door: trap door|backdoor|wormhole
+  back end|backend: back-end
+  baremetal|bare-metal: bare metal
+  black hat hacker: unethical hacker|unethical attacker
+  blacklist: blocklist|denylist
+  bootloader|boot-loader: boot loader
+  Bug Buddy: bug-buddy
+  carrier-grade: carrier class|carrier grade
+  cold plug|cold-plug|coldadd|coldswap: coldplug
+  cold-plugging|cold plugging|coldswapping|coldadding: coldplugging
+  Command Line Interface: CLI|command-line interface
+  Common UNIX Printing System|common Unix printing system|C.U.P.S.|cups: Common Unix Printing System|CUPS
+  config: configuration
+  crashdump: crash dump
+  D-Installer|DInstaller|Deinstaller: Agama
+  dialog: dialog box
+  drop: remove
+  dummy value: sample value|placeholder value
+  far-edge: Far edge
+  fog computing: edge computing
+  front end|frontend: front-end
+  geo-cluster|geocluster: geo cluster|geographic cluster|geographically dispersed cluster
+  Golden Master: Gold Master|GM
+  grandfathered: legacy status
+  Greybeard: 
+  hostname: host name
+  hotadding|hotplugging|hot-plugging: hotswapping
+  hotplug|hot-plug|hotadd: hotswap
+  hotswap|hotadd|hot-plug|hot plug: hotplug
+  hotswapping|hotadding|hot-plugging: hotplugging
+  Chroot-script: chroot script
+  initialization script|initscript|init-script: init script
+  K.D.E.|KDE Desktop Environment: KDE
+  life-cycle|life cycle: lifecycle
+  list field: list|list box
+  man hours: engineer hours|management hours
+  master branch: main branch
+  master-slave|master/slave: parent/child|leader/follower|origin/clone|primary/secondary|leader/peer|parent/port|client/server
+  MicroOS Server: MicroOS
+  multi-user|multi user: multiuser
+  name space|name-space: namespace
+  native: built-in
+  near-edge: Near edge
+  NFS file system|N.F.S.|Nfs: NFS|Network File System
+  NIS information service|N.I.S.|Nis: NIS|Network information system
+  non-open source software: closed-source software
+  on premise|on prem|on-prem|on-premise: on-premises
+  Platform as a Service: PaaS|Platform-as-a-Service
+  pull-down menu|drop-down list box|drop-down menu|drop-down|dropdown: drop-down list
+  Rpm|R.P.M.: Redhat Package Manager|RPM|RPM Package Manager
+  sanity check|sanity test: quick check|confidence check|coherence check
+  scsi|S.C.S.I.: SCSI|Small Computer System Interface
+  sd|SD|solidstate drive|solid state drive|solid-state disk|solid-state disk drive|solid state disc: solid-state drive|SSD
+  shell tool|command line tool: command-line tool|CLT
+  slaves: workers
+  SLE Desktop|SLE Entreprise Desktop|SLE Linux Desktop|Sled|sled|S.L.E.D.|SleD: SLED|SUSE Linux Enterprise Desktop
+  SLE Enterprise|SLE Linux|sle|Sle|S.L.E.: SUSE Linux Enterprise|SLE
+  SLE-HPC|SLE for HPC|SUSE Linux Enterprise Server for High-Performance Computing|SUSE Linux Enterprise Server for High Performance Computing: SUSE Linux Enterprise High Performance Computing|SLE HPC
+  SLE-LP: SUSE Linux Enterprise Live Patching|SLE LP
+  SLE-POS: SUSE Linux Enterprise Point of Service|SLE POS
+  SLE-RT: SUSE Linux Enterprise Real Time|SLE RT
+  SLE-VMDP: SUSE Linux Enterprise Virtual Machine Driver Pack
+  SLE-WE: SUSE Linux Enterprise Workstation Extension
+  SLES on IBM Z and LinuxONE|SLES-Z|SUSE Linux Enterprise Server on IBM Z and LinuxONE|SUSE Linux Enterprise Server for z Systems and LinuxONE: SUSE Linux Enterprise Server for IBM Z and LinuxONE|SLES for Z and LinuxONE
+  SLES-AMD/Intel: SLES on AMD/Intel|SUSE Linux Enterprise Server on AMD/Intel
+  SLES-ES: SUSE Linux Enterprise Server with Expanded Support|SUSE Linux Enterprise Server Subscription with Expanded Support
+  SLES-SAP|SLES4SAP: SUSE Linux Enterprise Server for SAP Applications|SLES for SAP Applications|SLES for SAP
+  SleS: SUSE Linux Enterprise Server|SLES
+  SSH Shell: Secure Shell Protocol|SSH
+  SUMA-Retail|SUSE Manager 4 Retail: SUMA for Retail|SUSE Manager for Retail|SUMA 4 Retail
+  supported on a best effort basis|best effort support|best-effort support: commercially reasonable support
+  SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
+  SUSE Linux Enterprise Server for Arm|SLES-Arm: SUSE Linux Enterprise Server on Arm|SLES on Arm
+  SUSE Linux Enterprise Server for High Availability Extension|SLE-HA|SUSE Linux Enterprise High Availability Extension: SLE HA|SUSE Linux Enterprise High Availability
+  SUSE Linux Enterprise Server for POWER|SLES-POWER: SLES on POWER|SUSE Linux Enterprise Server on POWER|SUSE Linux Enterprise Server on IBM POWER
+  SUSE Linux Enterprise Storage|SUSE Storage: SUSE Enterprise Storage|SES
+  SUSE Linux Manager: SUSE Manager|SUMA
+  SUSE partner portal: SUSE One partner portal
+  SUSE-CaaSP: SUSE CaaS Platform
+  SUSE-CAP: SUSE Cloud Application Platform
+  System 500|system d|systemD|Systemd|System D: systemd
+  tiny-edge: Tiny edge
+  Tw: openSUSE Tumbleweed
   unit file: unit
   unit: unit file
-  crashdump: crash dump
-  multi-user | multi user: multiuser
-  solidstate drive | solid state drive | solid-state disk | solid-state disk drive | solid state disc: solid-state drive
-  System 500 | system d | systemD | Systemd | System D: systemd
-  Platform as a Service: Platform-as-a-Service
-  non-open source software: closed-source software
-  webui: Web UI
-  bootloader | boot-loader: boot loader
-  R.P.M.: RPM
-  virtualisation platform: virtualization platform
-  life-cycle | life cycle: lifecycle
-  name space | name-space: namespace
-  scsi | S.C.S.I.: SCSI
   v12n: virtualization
-  fog computing: edge computing
-  back door: backdoor
-  Chroot-script: chroot script
-  carrier-grade: carrier grade
-  autologin | auto-login: auto login
-  hostname: host name
-  on premise | on-premise: on-premises
-  hotplug | hot-plug | hotadd: hotswap
-  hotadding | hotplugging | hot-plugging: hotswapping
-  abort: close|cancel|stop|end|force quit
-  black hat hacker: unethical hacker
-  black hat hacker: unethical attacker
-  white hat hacker: ethical hacker
-  blacklist: blocklist
-  blacklist: denylist
-  dummy value: sample value
-  dummy value: placeholder value
-  grandfathered: legacy status
-  man hours: engineer hours
-  man hours: management hours
-  master-slave | master/slave: parent/child
-  master-slave | master/slave: leader/follower
-  master-slave | master/slave: origin/clone
-  master-slave | master/slave: primary/secondary
-  master-slave | master/slave: leader/peer
-  master-slave | master/slave: parent/port
-  master-slave | master/slave: client/server
-  master branch: main branch
-  native: built-in
-  sanity check | sanity test: quick check
-  sanity check | sanity test: confidence check
-  sanity check | sanity test: coherence check
-  slaves: workers
+  virtualisation platform: virtualization platform
   webmaster: web product owner
-  whitebox: clear box
-  whitebox: open box
-  whitelist: safe list
-  whitelist: approved list
-  whitelist: allowlist
-  whitelist: ignorelist
-  supported on a best effort basis | best effort support | best-effort support: commercially reasonable support
-  Golden Master: Gold Master
-  drop: remove
-  activation key | activation code: registration code
+  webui: Web UI
+  white hat hacker: ethical hacker
+  white-space|white space: whitespace
+  whitebox: clear box|open box
+  whitelist: safe list|approved list|allowlist|ignorelist
