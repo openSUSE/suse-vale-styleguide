@@ -226,7 +226,18 @@ Author:
                     </xsl:if>
                 </xsl:for-each>
            </xsl:when>
+           <xsl:when test="count(entry) = 1">
+            <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/> with only one entry.</xsl:message>
+           </xsl:when>
+           <xsl:when test="count(entry[@type='acronym'] | entry[@type='fullForm' or @type='abbreviation']) = 2">
+             <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/> with noRecommends, but fullForm|abbreviation and acronym.</xsl:message>
+           </xsl:when>
+           <xsl:when test="count(entry[@type='fullForm' or @type='shortForm'][@status='preferred' or @status='admitted']) = 0">
+             <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/> with noRecommends, but only fullforms|shortforms.</xsl:message>
+           </xsl:when>
+
            <xsl:otherwise>
+              <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/>. </xsl:message>
            </xsl:otherwise>
         </xsl:choose>
 
