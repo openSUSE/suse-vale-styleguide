@@ -185,7 +185,6 @@ Author:
         <xsl:variable name="allentries" select="entry"/>
         <xsl:variable name="entries"
                       select="$allentries[count(. | $notrecommended) != count($notrecommended)]"/>
-        <xsl:variable name="acronyms" select="entry[@type='acronym']"/>
 
         <!-- <xsl:message>termentry
     allentries = <xsl:value-of select="count($allentries)"/>
@@ -210,34 +209,6 @@ Author:
                 </xsl:for-each>
                 <xsl:text>&#10;</xsl:text>
            </xsl:when>
-           <xsl:when test="count($acronyms)">
-                <xsl:variable name="others"
-                      select="$allentries[count(. | $acronyms) != count($acronyms)]"/>
-                <xsl:for-each select="$acronyms">
-                    <xsl:value-of select="."/>
-                    <xsl:if test="position() != last()">
-                        <xsl:value-of select="$sep"/>
-                    </xsl:if>
-                </xsl:for-each>
-                <xsl:value-of select="$sep2"/>
-                <xsl:for-each select="$others">
-                    <xsl:value-of select="."/>
-                    <xsl:if test="position() != last()">
-                        <xsl:value-of select="$sep"/>
-                    </xsl:if>
-                </xsl:for-each>
-                <xsl:text>&#10;</xsl:text>
-           </xsl:when>
-           <xsl:when test="count(entry) = 1">
-            <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/> with only one entry.</xsl:message>
-           </xsl:when>
-           <xsl:when test="count(entry[@type='acronym'] | entry[@type='fullForm' or @type='abbreviation']) = 2">
-             <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/> with noRecommends, but fullForm|abbreviation and acronym.</xsl:message>
-           </xsl:when>
-           <xsl:when test="count(entry[@type='fullForm' or @type='shortForm'][@status='preferred' or @status='admitted']) = 0">
-             <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/> with noRecommends, but only fullforms|shortforms.</xsl:message>
-           </xsl:when>
-
            <xsl:otherwise>
               <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/>. </xsl:message>
            </xsl:otherwise>
