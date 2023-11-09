@@ -7,11 +7,8 @@ action:
 swap:
   '(?:API Console|dev|developer) key': API key
   '(?:dev|developer|APIs) console': API console
-  '(?:file ?path|path ?name)': path
-  '(?:kill|terminate|abort)': stop|exit|cancel|end
   '(?:OAuth ?2|Oauth)': OAuth 2.0
   'un(?:check|select)': clear
-  admin: administrator
   API explorer: APIs Explorer
   approx\.: approximately
   appendices: appendixes
@@ -35,7 +32,6 @@ swap:
   sign-?on: single sign-on
   some: certain
   style sheet: stylesheet
-  synch: sync
   (?:systemwide|system wide): system-wide
   tablename: table name
   (?:upper case|upper-case): uppercase

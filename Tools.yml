@@ -3,5 +3,3 @@ message: Use '%s' instead of '%s' when referring to the tool.
 ignorecase: false
 level: warning
 swap:
-  YAST|YAST2|Yast|YaST2|yast|yast2: YaST
-  (?:[^<command>])zypper: Zypper
