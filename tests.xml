@@ -162,4 +162,13 @@
       WRONG grass is naturally green.
     </para>
   </section>
+  <section xml:id="termweb">
+    <title>TermWeb</title>
+    <para>
+      CORRECT That solves silver the problem.
+    </para>
+    <para>
+      WRONG 3 x S.L.E. and SleD and Sle and SLE Linux.
+    </para>
+  </section>
 </topic>
