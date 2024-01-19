@@ -5,14 +5,13 @@ ignorecase: true
 action:
   name: replace
 swap:
-  32-bit AMD/Intel: i586|i386|x86|IA-32
+  32-bit AMD/Intel: i586|i386|x86|IA-32|AMD64 / Intel 64
   abort|terminate|kill: close|cancel|stop|end|force quit|exit
   activation key|activation code: registration code
   addon|addOn|AddOn|add on: add-on|software add-on
   admin: administrator
   AMD/Intel64|64-bit AMD/Intel|x64: x86-64|AMD64/Intel 64|x86_64
-  ARM64: ARM|Advanced RISC Machine|aarch64|armv8|arm64
-  ATIP: SUSE ATIP|SUSE Adaptive Telco Infrastructure Platform
+  ARM|ARM64: Advanced RISC Machine|aarch64|armv8|arm64|Arm®
   autologin|auto-login: auto login
   B.T.R.F.S.|Better FS|BTRFS|btrfs: Btrfs
   back door: trap door|backdoor|wormhole
@@ -22,30 +21,24 @@ swap:
   blacklist: blocklist|denylist
   bootdisk|boot-disk|boot disc: boot disk
   bootloader|boot-loader: boot loader
-  Bug Buddy: bug-buddy
   carrier-grade: carrier class|carrier grade
   cold plug|cold-plug|coldadd|coldswap: coldplug
   cold-plugging|cold plugging|coldswapping|coldadding: coldplugging
-  Command Line Interface: CLI|command-line interface
   Common UNIX Printing System|common Unix printing system|C.U.P.S.|cups|Cups: Common Unix Printing System|CUPS
   config: configuration
   crashdump: crash dump
-  D-Installer|DInstaller|Deinstaller: Agama
   dialog: dialog box
   drop: remove
   dummy value: sample value|placeholder value
-  far-edge: Far edge
-  file system hierarchy standard|File system Hierarchy Standard: FHS|Filesystem Hierarchy Standard|filesystem hierarchy standard
   filename|file-name: file name
+  filesystem hierarchy standard|file system hierarchy standard|File system Hierarchy Standard: FHS|Filesystem Hierarchy Standard
   filesystem|file-system: file system
-  fog computing: edge computing
   frame-buffer|frame buffer: framebuffer
   front end|frontend: front-end
   geo-cluster|geocluster: geo cluster|geographic cluster|geographically dispersed cluster
   Golden Master: Gold Master|GM
   Gpu: GPU|graphics processing unit
   grandfathered: legacy status
-  Greybeard: 
   hardlink|hard-link: hard link
   hostname: host name
   hotadding|hotplugging|hot-plugging: hotswapping
@@ -58,72 +51,43 @@ swap:
   initialization script|initscript|init-script: init script
   IPV4|IPv4|IP v4: Internet protocol version four|IPv4
   Itanium|ipf: IA-64|Intel Itanium architecture|ia64
-  K.D.E.|KDE Desktop Environment: KDE
   KDUMP: Kdump
   kernelspace|kernel-space: kernel space
-  kiwi|Kiwi: KIWI
   life-cycle|life cycle: lifecycle
   list field: list|list box
   man hours: engineer hours|management hours
+  manual page: man page
   master branch: main branch
   master-slave|master/slave: parent/child|leader/follower|origin/clone|primary/secondary|leader/peer|parent/port|client/server
-  MicroOS Server: MicroOS
   mountpoint|mount-point: mount point
   multi-user|multi user: multiuser
   name space|name-space: namespace
   nameserver|name-server: name server
   native: built-in
-  near-edge: Near edge
   NFS file system|N.F.S.|Nfs: NFS|Network File System
   NIS information service|N.I.S.|Nis: NIS|Network information system
   non-open source software: closed-source software
   on premise|on prem|on-prem|on-premise: on-premises
-  open-SUSE|open SUSE|Open-SUSE|Open SUSE: openSUSE
   Platform as a Service: PaaS|Platform-as-a-Service
   POWER8: ppc64|IBM Power|ppc64le|POWER
+  Problem Temporary Fix: PTF|Program Temporary Fix
   pull-down menu|drop-down list box|drop-down menu|drop-down|dropdown: drop-down list
   PXE Boot: PXE boot|Preboot eXecution Environment
   RISC V|risc-v|Risc v|Risc V|Risc-V: riscv64|RISC-V
   Rpm|R.P.M.: Redhat Package Manager|RPM|RPM Package Manager
   run-level|run level: runlevel
-  run-time|run time: runtime
+  run-time: runtime|run time
   sanity check|sanity test: quick check|confidence check|coherence check
   scsi|S.C.S.I.|Scsi: SCSI|Small Computer System Interface
   sd|SD|solidstate drive|solid state drive|solid-state disk|solid-state disk drive|solid state disc: solid-state drive|SSD
-  shell tool|command line tool: command-line tool|CLT
   slaves: workers
-  SLE Desktop|SLE Entreprise Desktop|SLE Linux Desktop|Sled|sled|S.L.E.D.|SleD: SLED|SUSE Linux Enterprise Desktop
-  SLE Enterprise|SLE Linux|sle|Sle|S.L.E.: SUSE Linux Enterprise|SLE
-  SLE-HPC|SLE for HPC|SUSE Linux Enterprise Server for High-Performance Computing|SUSE Linux Enterprise Server for High Performance Computing: SUSE Linux Enterprise High Performance Computing|SLE HPC
-  SLE-LP: SUSE Linux Enterprise Live Patching|SLE LP
-  SLE-POS: SUSE Linux Enterprise Point of Service|SLE POS
-  SLE-RT: SUSE Linux Enterprise Real Time|SLE RT
-  SLE-VMDP: SUSE Linux Enterprise Virtual Machine Driver Pack
-  SLE-WE: SUSE Linux Enterprise Workstation Extension
-  SLES on IBM Z and LinuxONE|SLES-Z|SUSE Linux Enterprise Server on IBM Z and LinuxONE|SUSE Linux Enterprise Server for z Systems and LinuxONE: SUSE Linux Enterprise Server for IBM Z and LinuxONE|SLES for Z and LinuxONE
-  SLES-AMD/Intel: SLES on AMD/Intel|SUSE Linux Enterprise Server on AMD/Intel
-  SLES-ES: SUSE Linux Enterprise Server with Expanded Support|SUSE Linux Enterprise Server Subscription with Expanded Support
-  SLES-SAP|SLES4SAP: SUSE Linux Enterprise Server for SAP Applications|SLES for SAP Applications|SLES for SAP
-  SleS: SUSE Linux Enterprise Server|SLES
   SSH Shell|SSH shell: Secure Shell Protocol|SSH
-  SUMA-Retail|SUSE Manager 4 Retail: SUMA for Retail|SUSE Manager for Retail|SUMA 4 Retail
   supported on a best effort basis|best effort support|best-effort support: commercially reasonable support
-  SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
-  SUSE Linux Enterprise Server for Arm|SLES-Arm: SUSE Linux Enterprise Server on Arm|SLES on Arm
-  SUSE Linux Enterprise Server for High Availability Extension|SLE-HA|SUSE Linux Enterprise High Availability Extension: SLE HA|SUSE Linux Enterprise High Availability
-  SUSE Linux Enterprise Server for POWER|SLES-POWER: SLES on POWER|SUSE Linux Enterprise Server on POWER|SUSE Linux Enterprise Server on IBM POWER
-  SUSE Linux Enterprise Storage|SUSE Storage: SUSE Enterprise Storage|SES
-  SUSE Linux Manager: SUSE Manager|SUMA
-  SUSE partner portal: SUSE One partner portal
-  SUSE-CaaSP: SUSE CaaS Platform
-  SUSE-CAP: SUSE Cloud Application Platform
   symlink: soft link|symbolic link
   synch: synchronization|sync
   System 500|system d|systemD|Systemd|System D: systemd
   tar-ball|tarball|tar ball: .tar|TAR archive|Tarball
   task-bar|task bar: panel|bottom edge panel|bottom panel|desktop panel|taskbar
-  tiny-edge: Tiny edge
-  Tw: openSUSE Tumbleweed
   unit file: unit
   unit: unit file
   v12n: virtualization
@@ -134,7 +98,5 @@ swap:
   white-space|white space: whitespace
   whitebox: clear box|open box
   whitelist: safe list|approved list|allowlist|ignorelist
-  xen|XEN: Xen
   XWS: X Window System
-  yast2|yast|YaST2|Yast|YAST2|YAST: YaST|Yet another Setup Tool
   zSeries|z Systems: s390x|System z & LinuxONE|System z|IBM Z
