@@ -13,7 +13,7 @@ swap:
   AMD/Intel64|64-bit AMD/Intel|x64: x86-64|AMD64/Intel 64|x86_64
   ARM|ARM64: Advanced RISC Machine|aarch64|armv8|arm64|Arm®
   autologin|auto-login: auto login
-  B.T.R.F.S.|Better FS|BTRFS|btrfs: Btrfs
+  'B\.T\.R\.F\.S\.|Better FS|BTRFS|btrfs': Btrfs
   back door: trap door|backdoor|wormhole
   back end|backend: back-end
   baremetal|bare-metal: bare metal
@@ -24,7 +24,7 @@ swap:
   carrier-grade: carrier class|carrier grade
   cold plug|cold-plug|coldadd|coldswap: coldplug
   cold-plugging|cold plugging|coldswapping|coldadding: coldplugging
-  Common UNIX Printing System|common Unix printing system|C.U.P.S.|cups|Cups: Common Unix Printing System|CUPS
+  'Common UNIX Printing System|common Unix printing system|C\.U\.P\.S\.|cups|Cups': Common Unix Printing System|CUPS
   config: configuration
   crashdump: crash dump
   dialog: dialog box
