@@ -138,7 +138,7 @@
       CORRECT This dash&mdash;is correct.
     </para>
     <para>
-      CORRECT <screen>xbjkg -- /bin/bash</screen>
+      CORRECT xbjkg -- /bin/bash
     </para>
     <para>
       CORRECT <command>xbjkg -- /bin/bash</command>
@@ -148,9 +148,6 @@
     <title>Terms</title>
     <para>
       CORRECT Classless interdomain routing.
-    </para>
-    <para>
-      WRONG Sle is a fine product.
     </para>
   </section>
   <section xml:id="hedging">
@@ -168,7 +165,7 @@
       CORRECT That solves silver the problem.
     </para>
     <para>
-      WRONG 3 x S.L.E. and SleD and Sle and SLE Linux.
+      WRONG B.T.R.F.S. and BTRFS are not good C.U.P.S.
     </para>
   </section>
 </topic>
