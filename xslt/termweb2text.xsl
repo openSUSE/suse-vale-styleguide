@@ -201,11 +201,20 @@ Author:
                     </xsl:if>
                 </xsl:for-each>
                 <xsl:value-of select="$sep2"/>
-                <xsl:for-each select="$entries">
-                    <xsl:value-of select="."/>
-                    <xsl:if test="position() != last()">
-                        <xsl:value-of select="$sep"/>
-                    </xsl:if>
+                <xsl:for-each select="$entries[@status='preferred']">
+                  <xsl:value-of select="."/>
+                  <xsl:if test="position() != last()">
+                      <xsl:value-of select="$sep"/>
+                  </xsl:if>
+                </xsl:for-each>
+                <xsl:if test="$entries[@status='preferred']">
+                    <xsl:value-of select="$sep"/>
+                  </xsl:if>
+                <xsl:for-each select="$entries[@status='admitted']">
+                  <xsl:value-of select="."/>
+                  <xsl:if test="position() != last()">
+                    <xsl:value-of select="$sep"/>
+                  </xsl:if>
                 </xsl:for-each>
                 <xsl:text>&#10;</xsl:text>
            </xsl:when>
