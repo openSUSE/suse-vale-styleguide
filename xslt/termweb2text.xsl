@@ -137,21 +137,38 @@ Author:
 
   <!-- We "sort" any terms that are preferred over admitted (order) -->
   <xsl:template match="langSet" mode="copy">
-    <xsl:message>
+    <!--<xsl:message>
       Term: <xsl:value-of select="term"/>
       preferred: <xsl:value-of select="count(tig[termNote[@type='administrativeStatus'] = 'preferred'])"/>
       admitted: <xsl:value-of select="count(tig[termNote[@type='administrativeStatus'] = 'admitted'])"/>
-    </xsl:message>
+    </xsl:message>-->
+
     <xsl:apply-templates select="tig[termNote[@type='administrativeStatus'] = 'notRecommended']" mode="copy"/>
     <xsl:apply-templates select="tig[termNote[@type='administrativeStatus'] = 'preferred']" mode="copy"/>
     <xsl:apply-templates select="tig[termNote[@type='administrativeStatus'] = 'admitted']" mode="copy"/>
   </xsl:template>
 
    <xsl:template match="tig" mode="copy">
-      <entry id="{@id}" type="{termNote[@type='termType']}"
-             status="{termNote[@type='administrativeStatus']}">
-        <xsl:apply-templates select="term" mode="copy"/>
-      </entry>
+     <xsl:choose>
+       <xsl:when test="descrip[@type='valeRegex'] = 'dontshow'">
+         <xsl:if test="$skip-debug-msg">
+           <xsl:message>Skip <xsl:value-of select="@id"/>. </xsl:message>
+        </xsl:if>
+       </xsl:when>
+       <xsl:otherwise>
+        <entry id="{@id}" type="{termNote[@type='termType']}"
+          status="{termNote[@type='administrativeStatus']}">
+          <xsl:choose>
+            <xsl:when test="descrip[@type='valeRegex']">
+              <xsl:apply-templates select="descrip[@type='valeRegex']" mode="copy" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:apply-templates select="term" mode="copy" />
+            </xsl:otherwise>
+          </xsl:choose>
+        </entry>
+       </xsl:otherwise>
+     </xsl:choose>
    </xsl:template>
 
   <xsl:template match="tig/term" mode="copy">
@@ -203,11 +220,11 @@ Author:
         <xsl:variable name="entries"
                       select="$allentries[count(. | $notrecommended) != count($notrecommended)]"/>
 
-         <xsl:message>termentry
+         <!--<xsl:message>termentry
     allentries = <xsl:value-of select="count($allentries)"/>
     notrecommended = <xsl:value-of select="count($notrecommended)"/>
     entries = <xsl:value-of select="count($entries)"/>
-        </xsl:message> 
+        </xsl:message>-->
 
         <xsl:choose>
            <xsl:when test="count($notrecommended) >0">
