@@ -177,8 +177,19 @@
       WRONG To see a drop-down which disappears.
     </para>
     <para>
+      CORRECT systemd drop-ins are preferred.
+    </para>
+    <para>
       WRONG I told her to drop that.
     </para>
-
+    <para>
+      CORRECT This dialog box is closed.
+    </para>
+    <para>
+      WRONG This dialog is closed.
+    </para>
+    <para>
+      CORRECT Creating units or unit files is a bad habit.
+    </para>
   </section>
 </topic>
