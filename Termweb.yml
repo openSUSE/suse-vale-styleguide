@@ -5,51 +5,50 @@ ignorecase: true
 action:
   name: replace
 swap:
-  32-bit AMD/Intel: i586|i386|x86|IA-32|AMD64 / Intel 64
+  32-bit AMD/Intel: AMD64 / Intel 64|i586|i386|x86|IA-32
   abort|terminate|kill: close|cancel|stop|end|force quit|exit
   activation key|activation code: registration code
   addon|addOn|AddOn|add on: add-on|software add-on
   admin: administrator
   AMD/Intel64|64-bit AMD/Intel|x64: x86-64|AMD64/Intel 64|x86_64
-  ARM|ARM64: Advanced RISC Machine|aarch64|armv8|arm64|Arm®
+  ARM|ARM64: Arm®|Advanced RISC Machine|aarch64|armv8|arm64
   autologin|auto-login: auto login
-  'B\.T\.R\.F\.S\.|Better FS|BTRFS|btrfs': Btrfs
-  back door: trap door|backdoor|wormhole
+  B\.T\.R\.F\.S|Better FS|BTRFS|btrfs: Btrfs
+  back door: backdoor|trap door|wormhole
   back end|backend: back-end
   baremetal|bare-metal: bare metal
   black hat hacker: unethical hacker|unethical attacker
   blacklist: blocklist|denylist
   bootdisk|boot-disk|boot disc: boot disk
   bootloader|boot-loader: boot loader
-  carrier-grade: carrier class|carrier grade
+  Business-Critical Linux: BCL|Business Critical Linux
+  carrier-grade: carrier grade|carrier class
   cold plug|cold-plug|coldadd|coldswap: coldplug
   cold-plugging|cold plugging|coldswapping|coldadding: coldplugging
-  'Common UNIX Printing System|common Unix printing system|C\.U\.P\.S\.|cups|Cups': Common Unix Printing System|CUPS
+  Common UNIX Printing System|common Unix printing system|C\.U\.P\.S|cups|Cups: Common Unix Printing System|CUPS
   config: configuration
+  Containers-as-a-Service: Containers as a Service|CaaS
   crashdump: crash dump
   dialog: dialog box
-  drop: remove
+  drop(?!-down): remove
   dummy value: sample value|placeholder value
   filename|file-name: file name
   filesystem hierarchy standard|file system hierarchy standard|File system Hierarchy Standard: FHS|Filesystem Hierarchy Standard
   filesystem|file-system: file system
   frame-buffer|frame buffer: framebuffer
-  front end|frontend: front-end
-  geo-cluster|geocluster: geo cluster|geographic cluster|geographically dispersed cluster
-  Golden Master: Gold Master|GM
-  Gpu: GPU|graphics processing unit
+  front end|frontend: front->ng unit
   grandfathered: legacy status
   hardlink|hard-link: hard link
   hostname: host name
-  hotadding|hotplugging|hot-plugging: hotswapping
-  hotplug|hot-plug|hotadd: hotswap
-  hotswap|hotadd|hot-plug|hot plug: hotplug
-  hotswapping|hotadding|hot-plugging: hotplugging
+  hot-plug|hotadd: hotswap
+  hotadd|hot-plug|hot plug: hotplug
+  hotadding|hot-plugging: hotplugging
+  hotadding|hot-plugging: hotswapping
   ChangeLog|change-log|change log: changelog
   chip-set|chip set: chipset
   Chroot-script: chroot script
   initialization script|initscript|init-script: init script
-  IPV4|IPv4|IP v4: Internet protocol version four|IPv4
+  IPV4|IPv4|IP v4: IPv4|Internet protocol version four
   Itanium|ipf: IA-64|Intel Itanium architecture|ia64
   KDUMP: Kdump
   kernelspace|kernel-space: kernel space
@@ -71,7 +70,7 @@ swap:
   Platform as a Service: PaaS|Platform-as-a-Service
   POWER8: ppc64|IBM Power|ppc64le|POWER
   Problem Temporary Fix: PTF|Program Temporary Fix
-  pull-down menu|drop-down list box|drop-down menu|drop-down|dropdown: drop-down list
+  pull-down menu|drop-down list box|drop-down menu|drop-down(?! list| box)|dropdown: drop-down list
   PXE Boot: PXE boot|Preboot eXecution Environment
   RISC V|risc-v|Risc v|Risc V|Risc-V: riscv64|RISC-V
   Rpm|R.P.M.: Redhat Package Manager|RPM|RPM Package Manager
@@ -83,11 +82,11 @@ swap:
   slaves: workers
   SSH Shell|SSH shell: Secure Shell Protocol|SSH
   supported on a best effort basis|best effort support|best-effort support: commercially reasonable support
-  symlink: soft link|symbolic link
+  symlink: symbolic link|soft link
   synch: synchronization|sync
   System 500|system d|systemD|Systemd|System D: systemd
-  tar-ball|tarball|tar ball: .tar|TAR archive|Tarball
-  task-bar|task bar: panel|bottom edge panel|bottom panel|desktop panel|taskbar
+  tar-ball|tarball|tar ball: TAR archive|.tar|Tarball
+  task-bar|task bar: desktop panel|panel|bottom edge panel|bottom panel|taskbar
   unit file: unit
   unit: unit file
   v12n: virtualization
@@ -99,4 +98,4 @@ swap:
   whitebox: clear box|open box
   whitelist: safe list|approved list|allowlist|ignorelist
   XWS: X Window System
-  zSeries|z Systems: s390x|System z & LinuxONE|System z|IBM Z
+  zSeries|z Systems: IBM Z|s390x|System z & LinuxONE|System z
