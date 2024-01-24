@@ -106,6 +106,7 @@ Author:
   <xsl:param name="sep2" select="': '"/>
   <xsl:param name="write-internal" select="false()"/>
   <xsl:param name="filename">termweb-simplified.xml</xsl:param>
+  <xsl:param name="skip-debug-msg" select="false()"/>
 
 <!-- =====================
      Templates in "copy" mode: converts TermWeb format into a simplified format
@@ -120,23 +121,31 @@ Author:
        </xsl:copy>
     </xsl:template>
 
+  <xsl:template match="/" mode="copy">
+    <terms version="{martif/martifHeader[1]/fileDesc[1]/sourceDesc[1]/p[2]}">
+      <xsl:apply-templates mode="copy"/>
+    </terms>
+  </xsl:template>
+
    <xsl:template match="martifHeader" mode="copy"/>
-
-   <xsl:template match="martif|text|langSet|term" mode="copy">
-        <xsl:apply-templates mode="copy"/>
-   </xsl:template>
-
-   <xsl:template match="body" mode="copy">
-        <terms>
-            <xsl:apply-templates mode="copy"/>
-        </terms>
-   </xsl:template>
 
    <xsl:template match="termEntry" mode="copy">
       <termentry id="{@id}">
         <xsl:apply-templates mode="copy"/>
       </termentry>
    </xsl:template>
+
+  <!-- We "sort" any terms that are preferred over admitted (order) -->
+  <xsl:template match="langSet" mode="copy">
+    <xsl:message>
+      Term: <xsl:value-of select="term"/>
+      preferred: <xsl:value-of select="count(tig[termNote[@type='administrativeStatus'] = 'preferred'])"/>
+      admitted: <xsl:value-of select="count(tig[termNote[@type='administrativeStatus'] = 'admitted'])"/>
+    </xsl:message>
+    <xsl:apply-templates select="tig[termNote[@type='administrativeStatus'] = 'notRecommended']" mode="copy"/>
+    <xsl:apply-templates select="tig[termNote[@type='administrativeStatus'] = 'preferred']" mode="copy"/>
+    <xsl:apply-templates select="tig[termNote[@type='administrativeStatus'] = 'admitted']" mode="copy"/>
+  </xsl:template>
 
    <xsl:template match="tig" mode="copy">
       <entry id="{@id}" type="{termNote[@type='termType']}"
@@ -145,7 +154,15 @@ Author:
       </entry>
    </xsl:template>
 
-   <xsl:template name="write-internal-format">
+  <xsl:template match="tig/term" mode="copy">
+    <xsl:value-of select="normalize-space(.)"/>
+  </xsl:template>
+
+
+<!-- =====================
+     Write internal format if parameter $write-internal is true and $filename is set
+-->
+    <xsl:template name="write-internal-format">
         <xsl:param name="content"/>
         <xsl:if test="$write-internal and not(element-available('exsl:document'))">
             <xsl:message terminate="yes">
@@ -186,14 +203,24 @@ Author:
         <xsl:variable name="entries"
                       select="$allentries[count(. | $notrecommended) != count($notrecommended)]"/>
 
-        <!-- <xsl:message>termentry
+         <xsl:message>termentry
     allentries = <xsl:value-of select="count($allentries)"/>
     notrecommended = <xsl:value-of select="count($notrecommended)"/>
     entries = <xsl:value-of select="count($entries)"/>
-        </xsl:message> -->
+        </xsl:message> 
 
         <xsl:choose>
            <xsl:when test="count($notrecommended) >0">
+                <xsl:variable name="terms" select="$entries[@status='preferred'] | $entries[@status='admitted']"/>
+                <xsl:message>Found term <xsl:value-of select="concat('&quot;', $notrecommended[1], 
+                  '&quot;:')"/> <xsl:for-each select="$terms">
+                    <xsl:value-of select="." />
+                    <xsl:if test="position() != last()">
+                      <xsl:value-of select="$sep" />
+                    </xsl:if>
+                  </xsl:for-each>
+                </xsl:message>
+                <xsl:message></xsl:message>
                 <xsl:for-each select="$notrecommended">
                     <xsl:value-of select="."/>
                     <xsl:if test="position() != last()">
@@ -201,25 +228,19 @@ Author:
                     </xsl:if>
                 </xsl:for-each>
                 <xsl:value-of select="$sep2"/>
-                <xsl:for-each select="$entries[@status='preferred']">
-                  <xsl:value-of select="."/>
-                  <xsl:if test="position() != last()">
-                      <xsl:value-of select="$sep"/>
-                  </xsl:if>
-                </xsl:for-each>
-                <xsl:if test="$entries[@status='preferred']">
-                    <xsl:value-of select="$sep"/>
-                  </xsl:if>
-                <xsl:for-each select="$entries[@status='admitted']">
-                  <xsl:value-of select="."/>
-                  <xsl:if test="position() != last()">
-                    <xsl:value-of select="$sep"/>
-                  </xsl:if>
+                 <!-- ================= -->
+                <xsl:for-each select="$terms">
+                    <xsl:value-of select="." />
+                    <xsl:if test="position() != last()">
+                      <xsl:value-of select="$sep" />
+                    </xsl:if>
                 </xsl:for-each>
                 <xsl:text>&#10;</xsl:text>
            </xsl:when>
            <xsl:otherwise>
-              <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/>. </xsl:message>
+             <xsl:if test="$skip-debug-msg">
+               <xsl:message>Skip termentry/@id=<xsl:value-of select="@id"/>. </xsl:message>
+             </xsl:if>
            </xsl:otherwise>
         </xsl:choose>
 
