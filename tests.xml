@@ -191,5 +191,12 @@
     <para>
       CORRECT Creating units or unit files is a bad habit.
     </para>
+    <para>
+      WRONG Config files should be hidden.
+    </para>
+    <para>
+      CORRECT Configuration files are visible. Configuring Apache is a drag.
+      To configure myself, I needed to wake up.
+    </para>
   </section>
 </topic>
