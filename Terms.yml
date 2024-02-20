@@ -3,7 +3,7 @@ message: Consider using '%s' instead of '%s'
 ignorecase: false
 nonword: true
 level: error
-action: 
+action:
   name: replace
 swap:
   Amd: AMD
@@ -18,7 +18,6 @@ swap:
   EXT4|EXT 4|Ext 4|Ext-4|ext 4|ext-4|ext4: Ext4
   Gimp|gimp: GIMP
   Gnome|gnome: GNOME
-  Grub|(?=[^<command>])grub(?=\s|,|;|:|-): GRUB
   GIT: Git
   IPSEC|Ipsec: IPsec
   IP v6|IPV6|Ipv6: IPv6
