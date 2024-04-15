@@ -48,7 +48,7 @@ swap:
   cold-plugging|cold plugging|coldswapping|coldadding: coldplugging
   config(?!ure|uration|uring): configuration
   crashdump: crash dump
-  dialog(?! box): dialog box
+  dialog box: dialog
   drop(?!-down|-in): remove
   dummy value: sample value|placeholder value
   filename|file-name: file name
