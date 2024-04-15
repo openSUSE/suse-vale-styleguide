@@ -183,10 +183,10 @@
       WRONG I told her to drop that.
     </para>
     <para>
-      CORRECT This dialog box is closed.
+      WRONG This dialog box is closed.
     </para>
     <para>
-      WRONG This dialog is closed.
+      CORRECT This dialog is closed.
     </para>
     <para>
       CORRECT Creating units or unit files is a bad habit.
