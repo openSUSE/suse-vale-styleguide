@@ -14,6 +14,7 @@ swap:
   meta data|meta-data|metadatas: metadata
   patch-level(?:s)|patchlevel(?:s): patch level
   path-name(?:s)|pathname(?:s): path name
+  plugin(?:s)?: plug-in
   pop up(?:s)|popup(?:s): pop-up
   printer queue(?:s)|printing queue(?:s): print queue
   printer spooler(?:s)|printing spooler(?:s): print spooler
