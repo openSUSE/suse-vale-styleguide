@@ -16,7 +16,7 @@
   <section xml:id="skipped">
     <title>Skipped markup</title>
 <screen>For example this error should be skipped!</screen>
-    <!-- For example this error should be skipped! -->
+<!-- For example this error should be skipped! -->
     <remark>For example this error should be skipped!</remark>
     <para>
       <command>For example this error should be skipped!</command> and
@@ -105,6 +105,15 @@
       for instance.
     </para>
     <para>
+      CORRECT For example, this one.
+    </para>
+    <para>
+      CORRECT Container (<literal>web</literal> in this case).
+    </para>
+    <para>
+      CORRECT Container (<literal>web</literal> for example).
+    </para>
+    <para>
       WRONG Our neighbor for example, does not eat.
     </para>
     <para>
@@ -146,6 +155,12 @@
   </section>
   <section xml:id="terms">
     <title>Terms</title>
+    <para>
+      CORRECT Plug-ins are good.
+    </para>
+    <para>
+      WRONG Plugin is bad.
+    </para>
     <para>
       CORRECT Classless interdomain routing.
     </para>
@@ -195,8 +210,32 @@
       WRONG Config files should be hidden.
     </para>
     <para>
-      CORRECT Configuration files are visible. Configuring Apache is a drag.
-      To configure myself, I needed to wake up.
+      CORRECT Configuration files are visible. Configuring Apache is a drag. To
+      configure myself, I needed to wake up.
+    </para>
+    <para>
+      CORRECT Hotplug is a correct word. Hotplugged as well.
+    </para>
+    <para>
+      WRONG To hot plug a disk, just insert it.
+    </para>
+  </section>
+  <section xml:id="hardware">
+    <title>Hardware</title>
+    <para>
+      CORRECT NVIDIA is a gfx card.
+    </para>
+    <para>
+      WRONG Nvidia is a gfx card.
+    </para>
+  </section>
+  <section xml:id="link">
+    <title>Link</title>
+    <para>
+      CORRECT Here comes the rain again.
+    </para>
+    <para>
+      WRONG do not click <link xlink:href="http://example.org">here</link>.
     </para>
   </section>
 </topic>
