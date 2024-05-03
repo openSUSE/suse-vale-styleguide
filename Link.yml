@@ -4,4 +4,5 @@ ignorecase: true
 scope: raw
 level: error
 tokens:
-  - here
+  - (?<=<link[^>]*>)here(?=</link>)
+
