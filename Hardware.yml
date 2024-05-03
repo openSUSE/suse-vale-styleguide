@@ -7,7 +7,7 @@ swap:
   DELL: Dell
   Geforce: GeForce
   Macbook: MacBook
-  NVIDIA|nvidia: Nvidia
+  Nvidia|nvidia: NVIDIA
   Pci: PCI
   RasPi|Raspberry pi: Raspberry Pi
   Thinkpad: ThinkPad
