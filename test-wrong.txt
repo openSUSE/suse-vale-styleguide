@@ -1,10 +1,10 @@
 As far as this project is concerned.
 Unfortunately, this does not work.
-Mary, Joe, and &joey; went to school.
+Mary, Joe, and Joey went to school.
 Systemwide access is terrible.
 <guimenu>Host Name</guimenu>: An IP address or host name of the server exporting the network file system.
-<guimenu>Host Name</guimenu>: A privileged address or host name of the server exporting the network file system.
 Our neighbor for example, does not eat.
+Our neighbor for example does not eat.
 Our neighbor, for instance does not eat.
 Namely our neighbor does not eat.
 Run your custom command for example:
