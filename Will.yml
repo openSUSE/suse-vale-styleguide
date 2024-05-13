@@ -1,6 +1,6 @@
 extends: existence
-message: "Avoid using future tense"
+message: "Avoid using future tense where possible"
 ignorecase: true
-level: error
+level: warning
 tokens:
   - will

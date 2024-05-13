@@ -30,7 +30,7 @@ swap:
   POSTSCRIPT|Postscript|postscript: PostScript
   RAM memory|Ram|(?<=\s)ram: RAM
   Read-me(?:s)|Readme(?:s)|read-me(?:s)|readme(?:s): README
-  SOC: SoC
+  SOC(?!\w): SoC
   SAMBA|samba: Samba
   Sql: SQL
   SQlite|Sqlite: SQLite
