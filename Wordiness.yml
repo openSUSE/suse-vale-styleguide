@@ -4,8 +4,10 @@ ignorecase: true
 level: warning
 swap:
   (?:as of late|of late): lately
-  (?:have an effect on|have an impact on): affect, influence
-  a little bit: a bit (or a little)
+  (?:are)? indicative of: reveal, show, suggest
+  (?:the)? majority of: most
+  a little bit: a bit, a little
+  a majority of: most
   a number of: a few, several, certain
   add together: add
   adversely impact: damage, hinder, impede
@@ -14,7 +16,9 @@ swap:
   already existing: existing, current
   are representative of: represent
   as a means of: to
+  as far as .+ (?:am|are|is) concerned: regarding
   as long as: if
+  as of this writing: now, currently
   as of yet: yet, so far, to date
   as per: per
   as to whether: whether
@@ -22,9 +26,7 @@ swap:
   as yet: still, not yet
   at a quick rate: quickly
   at a slow rate: slowly
-  at the present time: currently, now
-  at the present time|as of this writing|at the time of publication|at the current time|at this point in time: now, currently
-  at this time: currently, now
+  (?:at the present time|as of this writing|at the time of publication|at the current time|at this point in time): now, currently
   be aware of the fact that: know, understand
   because of the fact that: as, because
   both of them: both
@@ -47,6 +49,7 @@ swap:
   for the purpose of: for, to
   give the opportunity to: let, allow
   good-quality: quality
+  have an (?:effect|impact) on: affect, influence
   help out: help
   check and see: check
   if and when: when, if
@@ -60,6 +63,7 @@ swap:
   in excess of: more than, over
   in light of the fact that: because, considering
   in many cases: often, usually
+  in order for: for
   in order to: to
   in regard to: about, regarding
   in some instances: sometimes
@@ -75,6 +79,7 @@ swap:
   indicative of: reveal, show, suggest
   is applicable to: applies to, affects
   is responsible for: handles, controls, causes, manages
+  it’s important to note that: notably
   majority of: most
   make a choice: choose, decide
   make an effort: try
