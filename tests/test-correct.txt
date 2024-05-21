@@ -29,3 +29,4 @@ Configuration files are visible. Configuring Apache is a drag. To configure myse
 Hotplug is a correct word. Hotplugged as well.
 NVIDIA is a gfx card.
 Here comes the rain again.
+20 GB is not fine.
