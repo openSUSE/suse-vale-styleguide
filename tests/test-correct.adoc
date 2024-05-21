@@ -1,0 +1,1 @@
+This 'quoted phrase' is correct in AsciiDoc.
