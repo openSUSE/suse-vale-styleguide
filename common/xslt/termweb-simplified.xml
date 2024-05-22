@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<terms version="Version 4.0.8-17">
+<terms version="Version 4.0.9-0">
   <martif type="TBX" xml:lang="en">
     <text>
       <body>
@@ -189,13 +189,11 @@
         </termentry>
         <termentry id="c349">
           <descrip type="subjectField" id="c349-d0-1">common IT</descrip>
-          <entry id="c349-2" type="shortForm" status="notRecommended">
-            <descrip id="c349-2-f8" type="valeRegex">dialog(?! box)</descrip>
-          </entry>
-          <entry id="c349-1" type="fullForm" status="preferred">dialog box</entry>
+          <entry id="c349-1" type="fullForm" status="notRecommended">dialog box</entry>
+          <entry id="c349-2" type="shortForm" status="preferred">dialog</entry>
         </termentry>
         <termentry id="c352">
-          <descrip type="subjectField" id="c352-d0-1">Legal</descrip>
+          <descrip type="subjectField" id="c352-d0-1">legal</descrip>
           <entry id="c352-1" type="acronym" status="preferred">PCI DSS</entry>
           <entry id="c352-2" type="fullForm" status="preferred">Payment Card Industry Data Security Standard</entry>
         </termentry>
@@ -502,12 +500,8 @@
         <termentry id="c731">
           <descrip type="subjectField" id="c731-d0-1">common IT</descrip>
           <entry id="c731-1" type="acronym" status="notRecommended">ARM</entry>
-          <entry id="c731-36" type="acronym" status="notRecommended">ARM64</entry>
           <entry id="c731-38" type="fullForm" status="preferred">Arm®</entry>
-          <entry id="c731-2" type="fullForm" status="admitted">Advanced RISC Machine</entry>
-          <entry id="c731-3" type="fullForm" status="admitted">aarch64</entry>
-          <entry id="c731-31" type="shortForm" status="admitted">armv8</entry>
-          <entry id="c731-33" type="shortForm" status="admitted">arm64</entry>
+          <entry id="c731-2" type="fullForm" status="admitted">Advanced RISC Machines</entry>
         </termentry>
         <termentry id="c734">
           <descrip type="subjectField" id="c734-d0-1">common IT</descrip>
@@ -913,8 +907,8 @@
           <entry id="c6484-2" type="fullForm" status="admitted">customized boot medium</entry>
         </termentry>
         <termentry id="c6498">
-          <descrip type="subjectField" id="c6498-d0-1">Marketing</descrip>
-          <descrip type="subjectField" id="c6498-d1-1">SUSE</descrip>
+          <descrip type="subjectField" id="c6498-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c6498-d1-1">marketing</descrip>
           <entry id="c6498-1" type="fullForm" status="preferred">SUSE Linux Enterprise maintenance model</entry>
           <entry id="c6498-2" type="fullForm" status="admitted">SLE maintenance model</entry>
         </termentry>
@@ -1063,8 +1057,8 @@
           <entry id="c7449-1" type="fullForm" status="preferred">virtual appliance</entry>
         </termentry>
         <termentry id="c7642">
-          <descrip type="subjectField" id="c7642-d0-1">Marketing</descrip>
-          <descrip type="subjectField" id="c7642-d1-1">common IT</descrip>
+          <descrip type="subjectField" id="c7642-d0-1">common IT</descrip>
+          <descrip type="subjectField" id="c7642-d1-1">marketing</descrip>
           <entry id="c7642-1" type="fullForm" status="preferred">subscription</entry>
         </termentry>
         <termentry id="c7705">
@@ -1305,10 +1299,8 @@
         </termentry>
         <termentry id="c10024">
           <descrip type="subjectField" id="c10024-d0-1">common IT</descrip>
-          <entry id="c10024-19" type="shortForm" status="notRecommended">Itanium</entry>
           <entry id="c10024-20" type="acronym" status="notRecommended">ipf</entry>
           <entry id="c10024-1" type="acronym" status="preferred">IA-64</entry>
-          <entry id="c10024-17" type="fullForm" status="admitted">Intel Itanium architecture</entry>
           <entry id="c10024-18" type="abbreviation" status="admitted">ia64</entry>
         </termentry>
         <termentry id="c10025">
@@ -1402,6 +1394,8 @@
         </termentry>
         <termentry id="c10045">
           <descrip type="subjectField" id="c10045-d0-1">common IT</descrip>
+          <entry id="c10045-3" type="fullForm" status="notRecommended">plug in</entry>
+          <entry id="c10045-26" type="fullForm" status="notRecommended">plugin</entry>
           <entry id="c10045-1" type="fullForm" status="preferred">plug-in</entry>
         </termentry>
         <termentry id="c10046">
@@ -1760,12 +1754,14 @@
           <entry id="c3660-1" type="fullForm" status="preferred">actionable data</entry>
         </termentry>
         <termentry id="c4056">
+          <descrip type="subjectField" id="c4056-d0-1">common business</descrip>
           <entry id="c4056-1" type="fullForm" status="preferred">practicum</entry>
         </termentry>
         <termentry id="c4100">
           <entry id="c4100-1" type="fullForm" status="preferred">application layer</entry>
         </termentry>
         <termentry id="c5616">
+          <descrip type="subjectField" id="c5616-d0-1">common business</descrip>
           <entry id="c5616-1" type="fullForm" status="admitted">teaming</entry>
         </termentry>
         <termentry id="c6020">
@@ -1779,6 +1775,7 @@
           <entry id="c6021-13" type="acronym" status="preferred">KDC</entry>
         </termentry>
         <termentry id="c6138">
+          <descrip type="subjectField" id="c6138-d0-1">common IT</descrip>
           <entry id="c6138-1" type="fullForm" status="preferred">Linux Integration Components</entry>
         </termentry>
         <termentry id="c6432">
@@ -1853,10 +1850,6 @@
           <descrip type="subjectField" id="c15-d0-1">common IT</descrip>
           <entry id="c15-1" type="fullForm" status="preferred">access mode</entry>
         </termentry>
-        <termentry id="c6096">
-          <entry id="c6096-1" type="fullForm" status="preferred">Fully Qualified Domain Name</entry>
-          <entry id="c6096-14" type="acronym" status="preferred">FQDN</entry>
-        </termentry>
         <termentry id="c24">
           <descrip type="subjectField" id="c24-d0-1">common IT</descrip>
           <entry id="c24-1" type="shortForm" status="preferred">ACL attribute</entry>
@@ -1873,9 +1866,6 @@
         </termentry>
         <termentry id="c1154">
           <entry id="c1154-1" type="fullForm" status="preferred">built-in analytics</entry>
-        </termentry>
-        <termentry id="c6777">
-          <entry id="c6777-1" type="fullForm" status="preferred">Linux Package Management</entry>
         </termentry>
         <termentry id="c6993">
           <entry id="c6993-1" type="fullForm" status="preferred">acknowledge</entry>
@@ -1928,9 +1918,6 @@
           <entry id="c1724-2" type="shortForm" status="admitted">QFE update</entry>
           <entry id="c1724-3" type="fullForm" status="admitted">quick-fix engineering update</entry>
         </termentry>
-        <termentry id="c1797">
-          <descrip type="subjectField" id="c1797-d0-1">common IT</descrip>
-        </termentry>
         <termentry id="c1816">
           <descrip type="subjectField" id="c1816-d0-1">common IT</descrip>
           <entry id="c1816-1" type="abbreviation" status="preferred">AMD-Vi</entry>
@@ -1981,7 +1968,6 @@
           <descrip type="subjectField" id="c3140-d0-1">common IT</descrip>
           <entry id="c3140-1" type="fullForm" status="preferred">supply chain</entry>
         </termentry>
-        <termentry id="c1881"/>
         <termentry id="c1886">
           <descrip type="subjectField" id="c1886-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c1886-d1-1">common IT</descrip>
@@ -2259,12 +2245,12 @@
           <entry id="c2140-2" type="acronym" status="preferred">GM</entry>
         </termentry>
         <termentry id="c2144">
-          <descrip type="subjectField" id="c2144-d0-1">Marketing</descrip>
+          <descrip type="subjectField" id="c2144-d0-1">marketing</descrip>
           <entry id="c2144-1" type="acronym" status="preferred">ABM</entry>
           <entry id="c2144-2" type="fullForm" status="preferred">account-based marketing</entry>
         </termentry>
         <termentry id="c2148">
-          <descrip type="subjectField" id="c2148-d0-1">Legal</descrip>
+          <descrip type="subjectField" id="c2148-d0-1">legal</descrip>
           <entry id="c2148-1" type="fullForm" status="preferred">Annual Contract Value</entry>
           <entry id="c2148-2" type="acronym" status="preferred">ACV</entry>
         </termentry>
@@ -2274,12 +2260,12 @@
           <entry id="c2160-2" type="acronym" status="preferred">AMS</entry>
         </termentry>
         <termentry id="c2164">
-          <descrip type="subjectField" id="c2164-d0-1">Marketing</descrip>
+          <descrip type="subjectField" id="c2164-d0-1">marketing</descrip>
           <entry id="c2164-1" type="fullForm" status="preferred">Asia/Pacific</entry>
           <entry id="c2164-2" type="acronym" status="preferred">APAC</entry>
         </termentry>
         <termentry id="c2168">
-          <descrip type="subjectField" id="c2168-d0-1">Marketing</descrip>
+          <descrip type="subjectField" id="c2168-d0-1">marketing</descrip>
           <entry id="c2168-1" type="fullForm" status="preferred">Asia/Pacific/Japan</entry>
           <entry id="c2168-2" type="acronym" status="preferred">APJ</entry>
         </termentry>
@@ -2303,8 +2289,8 @@
           <entry id="c2184-4" type="fullForm" status="admitted">uniform code base</entry>
         </termentry>
         <termentry id="c2188">
-          <descrip type="subjectField" id="c2188-d0-1">Legal</descrip>
-          <descrip type="subjectField" id="c2188-d1-1">common IT</descrip>
+          <descrip type="subjectField" id="c2188-d0-1">common IT</descrip>
+          <descrip type="subjectField" id="c2188-d1-1">legal</descrip>
           <entry id="c2188-1" type="acronym" status="preferred">CCC</entry>
           <entry id="c2188-2" type="fullForm" status="preferred">Common Criteria Certification</entry>
         </termentry>
@@ -2312,9 +2298,9 @@
           <descrip type="subjectField" id="c2192-d0-1">SUSE</descrip>
         </termentry>
         <termentry id="c2196">
-          <descrip type="subjectField" id="c2196-d0-1">Legal</descrip>
-          <descrip type="subjectField" id="c2196-d1-1">Marketing</descrip>
-          <descrip type="subjectField" id="c2196-d2-1">common IT</descrip>
+          <descrip type="subjectField" id="c2196-d0-1">common IT</descrip>
+          <descrip type="subjectField" id="c2196-d1-1">legal</descrip>
+          <descrip type="subjectField" id="c2196-d2-1">marketing</descrip>
           <descrip type="subjectField" id="c2196-d3-1">open source</descrip>
           <entry id="c2196-1" type="fullForm" status="preferred">Contributor License Agreement</entry>
           <entry id="c2196-2" type="acronym" status="preferred">CLA</entry>
@@ -2342,7 +2328,7 @@
           <entry id="c2215-3" type="fullForm" status="preferred">registration code</entry>
         </termentry>
         <termentry id="c2216">
-          <descrip type="subjectField" id="c2216-d0-1">Marketing</descrip>
+          <descrip type="subjectField" id="c2216-d0-1">marketing</descrip>
           <entry id="c2216-1" type="phrase" status="preferred">Europe, the Middle East and Africa</entry>
           <entry id="c2216-2" type="acronym" status="preferred">EMEA</entry>
         </termentry>
@@ -2369,8 +2355,8 @@
           <entry id="c2236-2" type="fullForm" status="preferred">collaboration request</entry>
         </termentry>
         <termentry id="c2240">
-          <descrip type="subjectField" id="c2240-d0-1">Legal</descrip>
-          <descrip type="subjectField" id="c2240-d1-1">common IT</descrip>
+          <descrip type="subjectField" id="c2240-d0-1">common IT</descrip>
+          <descrip type="subjectField" id="c2240-d1-1">legal</descrip>
           <entry id="c2240-2" type="acronym" status="preferred">CVE</entry>
           <entry id="c2240-1" type="fullForm" status="admitted">Common Vulnerabilities and Exposures</entry>
           <entry id="c2240-3" type="shortForm" status="admitted">security issue</entry>
@@ -2426,15 +2412,6 @@
           <descrip type="subjectField" id="c2291-d0-1">SUSE</descrip>
           <entry id="c2291-1" type="acronym" status="preferred">SUSECON</entry>
         </termentry>
-        <termentry id="c2295">
-          <descrip type="subjectField" id="c2295-d0-1">common IT</descrip>
-          <entry id="c2295-4" type="fullForm" status="notRecommended">AMD/Intel64</entry>
-          <entry id="c2295-5" type="fullForm" status="notRecommended">64-bit AMD/Intel</entry>
-          <entry id="c2295-6" type="shortForm" status="notRecommended">x64</entry>
-          <entry id="c2295-1" type="shortForm" status="preferred">x86-64</entry>
-          <entry id="c2295-2" type="fullForm" status="preferred">AMD64/Intel 64</entry>
-          <entry id="c2295-3" type="shortForm" status="admitted">x86_64</entry>
-        </termentry>
         <termentry id="c2303">
           <descrip type="subjectField" id="c2303-d0-1">common IT</descrip>
           <entry id="c2303-5" type="abbreviation" status="notRecommended">POWER8</entry>
@@ -2445,13 +2422,12 @@
         </termentry>
         <termentry id="c2307">
           <descrip type="subjectField" id="c2307-d0-1">common IT</descrip>
-          <entry id="c2307-1" type="fullForm" status="preferred">s390x</entry>
-          <entry id="c2307-2" type="fullForm" status="preferred">IMB Z and LinuxOne</entry>
+          <entry id="c2307-2" type="fullForm" status="preferred">IBM Z and LinuxOne</entry>
+          <entry id="c2307-1" type="fullForm" status="admitted">s390x</entry>
         </termentry>
         <termentry id="c2311">
           <descrip type="subjectField" id="c2311-d0-1">common IT</descrip>
           <entry id="c2311-1" type="fullForm" status="preferred">armv7</entry>
-          <entry id="c2311-2" type="fullForm" status="preferred">Arm32</entry>
           <entry id="c2311-4" type="shortForm" status="admitted">armv7l</entry>
         </termentry>
         <termentry id="c2315">
@@ -2518,51 +2494,6 @@
           <entry id="c2428-3" type="acronym" status="preferred">CLVM</entry>
           <entry id="c2428-1" type="fullForm" status="admitted">Cluster Logical Volume Manager</entry>
         </termentry>
-        <termentry id="c2685">
-          <entry id="c2685-1" type="fullForm" status="preferred">Agama</entry>
-        </termentry>
-        <termentry id="c2686">
-          <entry id="c2686-1" type="fullForm" status="preferred">Agama installer</entry>
-        </termentry>
-        <termentry id="c2687">
-          <entry id="c2687-1" type="fullForm" status="preferred">Cockpit</entry>
-        </termentry>
-        <termentry id="c2689">
-          <entry id="c2689-1" type="fullForm" status="preferred">FreeRADIUS</entry>
-        </termentry>
-        <termentry id="c2690">
-          <entry id="c2690-1" type="fullForm" status="preferred">GNU free documentation license</entry>
-        </termentry>
-        <termentry id="c2691">
-          <entry id="c2691-1" type="fullForm" status="preferred">Grafana</entry>
-        </termentry>
-        <termentry id="c2692">
-          <entry id="c2692-1" type="fullForm" status="preferred">Ignition</entry>
-        </termentry>
-        <termentry id="c2693">
-          <entry id="c2693-1" type="fullForm" status="preferred">KVM Server</entry>
-        </termentry>
-        <termentry id="c2694">
-          <entry id="c2694-1" type="fullForm" status="preferred">Keylime</entry>
-        </termentry>
-        <termentry id="c2695">
-          <entry id="c2695-1" type="acronym" status="preferred">NTP</entry>
-        </termentry>
-        <termentry id="c2697">
-          <entry id="c2697-1" type="fullForm" status="preferred">SSH key</entry>
-        </termentry>
-        <termentry id="c2698">
-          <entry id="c2698-1" type="acronym" status="preferred">VM</entry>
-        </termentry>
-        <termentry id="c2699">
-          <entry id="c2699-1" type="fullForm" status="preferred">YaST</entry>
-        </termentry>
-        <termentry id="c2700">
-          <entry id="c2700-1" type="fullForm" status="preferred">back-cover</entry>
-        </termentry>
-        <termentry id="c2701">
-          <entry id="c2701-1" type="fullForm" status="preferred">back-cover text</entry>
-        </termentry>
         <termentry id="c2703">
           <descrip type="subjectField" id="c2703-d0-1">common IT</descrip>
           <entry id="c2703-1" type="fullForm" status="preferred">bonded device</entry>
@@ -2571,83 +2502,17 @@
           <descrip type="subjectField" id="c2704-d0-1">common IT</descrip>
           <entry id="c2704-1" type="fullForm" status="preferred">bonding</entry>
         </termentry>
-        <termentry id="c2705">
-          <entry id="c2705-1" type="fullForm" status="preferred">command</entry>
-        </termentry>
-        <termentry id="c2706">
-          <entry id="c2706-1" type="fullForm" status="preferred">command line interface</entry>
-        </termentry>
-        <termentry id="c2707">
-          <entry id="c2707-1" type="fullForm" status="preferred">configuration</entry>
-        </termentry>
-        <termentry id="c2709">
-          <entry id="c2709-1" type="fullForm" status="preferred">container</entry>
-        </termentry>
-        <termentry id="c2710">
-          <entry id="c2710-1" type="fullForm" status="preferred">container management task</entry>
-        </termentry>
         <termentry id="c2711">
           <descrip type="subjectField" id="c2711-d0-1">common IT</descrip>
           <entry id="c2711-1" type="fullForm" status="preferred">containerized</entry>
-        </termentry>
-        <termentry id="c2712">
-          <entry id="c2712-1" type="fullForm" status="preferred">copyleft</entry>
-        </termentry>
-        <termentry id="c2713">
-          <entry id="c2713-1" type="fullForm" status="preferred">copyright notice</entry>
-        </termentry>
-        <termentry id="c2714">
-          <entry id="c2714-1" type="fullForm" status="preferred">deployment</entry>
-        </termentry>
-        <termentry id="c2715">
-          <entry id="c2715-1" type="fullForm" status="preferred">device</entry>
-        </termentry>
-        <termentry id="c2716">
-          <entry id="c2716-1" type="fullForm" status="preferred">endorsement</entry>
-        </termentry>
-        <termentry id="c2717">
-          <entry id="c2717-1" type="fullForm" status="preferred">environment</entry>
         </termentry>
         <termentry id="c2718">
           <descrip type="subjectField" id="c2718-d0-1">common IT</descrip>
           <entry id="c2718-1" type="fullForm" status="preferred">fault tolerance</entry>
         </termentry>
-        <termentry id="c2720">
-          <entry id="c2720-1" type="fullForm" status="preferred">format</entry>
-        </termentry>
-        <termentry id="c2721">
-          <entry id="c2721-1" type="fullForm" status="preferred">free documentation license</entry>
-        </termentry>
-        <termentry id="c2722">
-          <entry id="c2722-1" type="fullForm" status="preferred">front-cover</entry>
-        </termentry>
-        <termentry id="c2723">
-          <entry id="c2723-1" type="fullForm" status="preferred">front-cover text</entry>
-        </termentry>
-        <termentry id="c2724">
-          <entry id="c2724-1" type="fullForm" status="preferred">input</entry>
-        </termentry>
-        <termentry id="c2725">
-          <entry id="c2725-1" type="fullForm" status="preferred">install</entry>
-        </termentry>
-        <termentry id="c2726">
-          <entry id="c2726-1" type="fullForm" status="preferred">installation</entry>
-        </termentry>
-        <termentry id="c2727">
-          <entry id="c2727-1" type="fullForm" status="preferred">key</entry>
-        </termentry>
-        <termentry id="c2728">
-          <entry id="c2728-1" type="fullForm" status="preferred">license notice</entry>
-        </termentry>
         <termentry id="c2729">
           <descrip type="subjectField" id="c2729-d0-1">common IT</descrip>
           <entry id="c2729-1" type="fullForm" status="preferred">load balancing</entry>
-        </termentry>
-        <termentry id="c2730">
-          <entry id="c2730-1" type="fullForm" status="preferred">machine-readable copy</entry>
-        </termentry>
-        <termentry id="c2731">
-          <entry id="c2731-1" type="fullForm" status="preferred">network</entry>
         </termentry>
         <termentry id="c2732">
           <descrip type="subjectField" id="c2732-d0-1">common IT</descrip>
@@ -2661,18 +2526,6 @@
           <descrip type="subjectField" id="c2734-d0-1">common IT</descrip>
           <entry id="c2734-1" type="fullForm" status="preferred">network teaming</entry>
         </termentry>
-        <termentry id="c2735">
-          <entry id="c2735-1" type="fullForm" status="preferred">notice</entry>
-        </termentry>
-        <termentry id="c2736">
-          <entry id="c2736-1" type="fullForm" status="preferred">opaque</entry>
-        </termentry>
-        <termentry id="c2737">
-          <entry id="c2737-1" type="fullForm" status="preferred">opaque copy</entry>
-        </termentry>
-        <termentry id="c2738">
-          <entry id="c2738-1" type="fullForm" status="preferred">password</entry>
-        </termentry>
         <termentry id="c2739">
           <descrip type="subjectField" id="c2739-d0-1">common IT</descrip>
           <entry id="c2739-1" type="fullForm" status="preferred">peer review</entry>
@@ -2681,31 +2534,13 @@
           <descrip type="subjectField" id="c2740-d0-1">common IT</descrip>
           <entry id="c2740-1" type="fullForm" status="preferred">pod</entry>
         </termentry>
-        <termentry id="c2741">
-          <entry id="c2741-1" type="fullForm" status="preferred">privilege</entry>
-        </termentry>
         <termentry id="c2742">
           <descrip type="subjectField" id="c2742-d0-1">common IT</descrip>
           <entry id="c2742-1" type="fullForm" status="preferred">profile-based deployment</entry>
         </termentry>
-        <termentry id="c2743">
-          <entry id="c2743-1" type="fullForm" status="preferred">reboot</entry>
-        </termentry>
-        <termentry id="c2745">
-          <entry id="c2745-1" type="fullForm" status="preferred">scalability</entry>
-        </termentry>
         <termentry id="c2746">
           <descrip type="subjectField" id="c2746-d0-1">common IT</descrip>
           <entry id="c2746-1" type="fullForm" status="preferred">script-based deployment</entry>
-        </termentry>
-        <termentry id="c2747">
-          <entry id="c2747-1" type="fullForm" status="preferred">secondary section</entry>
-        </termentry>
-        <termentry id="c2748">
-          <entry id="c2748-1" type="fullForm" status="preferred">section</entry>
-        </termentry>
-        <termentry id="c2749">
-          <entry id="c2749-1" type="fullForm" status="preferred">service</entry>
         </termentry>
         <termentry id="c2750">
           <descrip type="subjectField" id="c2750-d0-1">common IT</descrip>
@@ -2718,21 +2553,6 @@
         <termentry id="c2752">
           <descrip type="subjectField" id="c2752-d0-1">common IT</descrip>
           <entry id="c2752-1" type="fullForm" status="preferred">timer file</entry>
-        </termentry>
-        <termentry id="c2753">
-          <entry id="c2753-1" type="fullForm" status="preferred">transparent copy</entry>
-        </termentry>
-        <termentry id="c2754">
-          <entry id="c2754-1" type="fullForm" status="preferred">unit file</entry>
-        </termentry>
-        <termentry id="c2755">
-          <entry id="c2755-1" type="fullForm" status="preferred">version</entry>
-        </termentry>
-        <termentry id="c2756">
-          <entry id="c2756-1" type="fullForm" status="preferred">virtual machine</entry>
-        </termentry>
-        <termentry id="c2757">
-          <entry id="c2757-1" type="fullForm" status="preferred">warranty disclaimer</entry>
         </termentry>
         <termentry id="c2769">
           <descrip type="subjectField" id="c2769-d0-1">common IT</descrip>
@@ -2807,34 +2627,16 @@
           <entry id="c2844-2" type="acronym" status="preferred">PAYG</entry>
         </termentry>
         <termentry id="c2848">
-          <descrip type="subjectField" id="c2848-d0-1">Legal</descrip>
-          <descrip type="subjectField" id="c2848-d1-1">common IT</descrip>
+          <descrip type="subjectField" id="c2848-d0-1">common IT</descrip>
+          <descrip type="subjectField" id="c2848-d1-1">legal</descrip>
           <entry id="c2848-1" type="fullForm" status="preferred">Security Functional Requirement</entry>
           <entry id="c2848-2" type="acronym" status="preferred">SFR</entry>
         </termentry>
         <termentry id="c2853">
-          <descrip type="subjectField" id="c2853-d0-1">Legal</descrip>
-          <descrip type="subjectField" id="c2853-d1-1">common IT</descrip>
+          <descrip type="subjectField" id="c2853-d0-1">common IT</descrip>
+          <descrip type="subjectField" id="c2853-d1-1">legal</descrip>
           <entry id="c2853-1" type="fullForm" status="preferred">Security Assurance Requirement</entry>
           <entry id="c2853-2" type="acronym" status="preferred">SAR</entry>
-        </termentry>
-        <termentry id="c2861">
-          <descrip type="subjectField" id="c2861-d0-1">common IT</descrip>
-          <entry id="c2861-5" type="fullForm" status="notRecommended">32-bit AMD/Intel</entry>
-          <entry id="c2861-6" type="fullForm" status="preferred">AMD64 / Intel 64</entry>
-          <entry id="c2861-1" type="acronym" status="admitted">i586</entry>
-          <entry id="c2861-2" type="acronym" status="admitted">i386</entry>
-          <entry id="c2861-3" type="acronym" status="admitted">x86</entry>
-          <entry id="c2861-4" type="acronym" status="admitted">IA-32</entry>
-        </termentry>
-        <termentry id="c2869">
-          <descrip type="subjectField" id="c2869-d0-1">common IT</descrip>
-          <entry id="c2869-5" type="abbreviation" status="notRecommended">zSeries</entry>
-          <entry id="c2869-6" type="abbreviation" status="notRecommended">z Systems</entry>
-          <entry id="c2869-4" type="acronym" status="preferred">IBM Z</entry>
-          <entry id="c2869-1" type="abbreviation" status="admitted">s390x</entry>
-          <entry id="c2869-2" type="fullForm" status="admitted">System z &amp; LinuxONE</entry>
-          <entry id="c2869-3" type="abbreviation" status="admitted">System z</entry>
         </termentry>
         <termentry id="c2875">
           <descrip type="subjectField" id="c2875-d0-1">SUSE</descrip>
@@ -3035,6 +2837,363 @@
         <termentry id="c3104">
           <descrip type="subjectField" id="c3104-d0-1">common IT</descrip>
           <entry id="c3104-1" type="abbreviation" status="preferred">XFS</entry>
+        </termentry>
+        <termentry id="c3115">
+          <descrip type="subjectField" id="c3115-d0-1">legal</descrip>
+          <entry id="c3115-1" type="acronym" status="preferred">EBITDA</entry>
+          <entry id="c3115-2" type="fullForm" status="preferred">Earnings Before Interest, Taxes, Depreciation, and Amortization</entry>
+        </termentry>
+        <termentry id="c3118">
+          <descrip type="subjectField" id="c3118-d0-1">legal</descrip>
+          <entry id="c3118-1" type="shortForm" status="preferred">EBITDA margin</entry>
+        </termentry>
+        <termentry id="c3123">
+          <descrip type="subjectField" id="c3123-d0-1">legal</descrip>
+          <entry id="c3123-1" type="fullForm" status="preferred">revenue</entry>
+        </termentry>
+        <termentry id="c3142">
+          <descrip type="subjectField" id="c3142-d0-1">common business</descrip>
+          <entry id="c3142-1" type="fullForm" status="preferred">Compound Annual Growth Rate</entry>
+          <entry id="c3142-2" type="abbreviation" status="preferred">CAGR</entry>
+        </termentry>
+        <termentry id="c3143">
+          <descrip type="subjectField" id="c3143-d0-1">marketing</descrip>
+          <entry id="c3143-1" type="fullForm" status="preferred">go-to-market</entry>
+          <entry id="c3143-2" type="abbreviation" status="preferred">GTM</entry>
+        </termentry>
+        <termentry id="c3145">
+          <descrip type="subjectField" id="c3145-d0-1">common business</descrip>
+          <entry id="c3145-1" type="abbreviation" status="preferred">GSI</entry>
+          <entry id="c3145-2" type="fullForm" status="preferred">Global System Integrator</entry>
+        </termentry>
+        <termentry id="c3146">
+          <descrip type="subjectField" id="c3146-d0-1">common IT</descrip>
+          <entry id="c3146-1" type="fullForm" status="preferred">hyperscaler</entry>
+        </termentry>
+        <termentry id="c3148">
+          <descrip type="subjectField" id="c3148-d0-1">common IT</descrip>
+          <entry id="c3148-1" type="fullForm" status="preferred">application modernization</entry>
+        </termentry>
+        <termentry id="c3150">
+          <descrip type="subjectField" id="c3150-d0-1">marketing</descrip>
+          <entry id="c3150-1" type="fullForm" status="preferred">route to market</entry>
+          <entry id="c3150-2" type="abbreviation" status="preferred">RTM</entry>
+        </termentry>
+        <termentry id="c3151">
+          <descrip type="subjectField" id="c3151-d0-1">common business</descrip>
+          <entry id="c3151-1" type="fullForm" status="preferred">line of business</entry>
+          <entry id="c3151-2" type="abbreviation" status="preferred">LOB</entry>
+        </termentry>
+        <termentry id="c3153">
+          <descrip type="subjectField" id="c3153-d0-1">common IT</descrip>
+          <entry id="c3153-1" type="fullForm" status="preferred">zero trust security</entry>
+        </termentry>
+        <termentry id="c3154">
+          <descrip type="subjectField" id="c3154-d0-1">common IT</descrip>
+          <entry id="c3154-1" type="fullForm" status="preferred">Function as a Service</entry>
+          <entry id="c3154-2" type="abbreviation" status="preferred">FaaS</entry>
+        </termentry>
+        <termentry id="c3155">
+          <descrip type="subjectField" id="c3155-d0-1">common IT</descrip>
+          <entry id="c3155-1" type="fullForm" status="preferred">independent hardware vendor</entry>
+          <entry id="c3155-2" type="abbreviation" status="preferred">IHV</entry>
+        </termentry>
+        <termentry id="c3156">
+          <descrip type="subjectField" id="c3156-d0-1">common IT</descrip>
+          <entry id="c3156-1" type="fullForm" status="preferred">application programming interface</entry>
+          <entry id="c3156-2" type="abbreviation" status="preferred">API</entry>
+        </termentry>
+        <termentry id="c3157">
+          <descrip type="subjectField" id="c3157-d0-1">common IT</descrip>
+          <descrip type="subjectField" id="c3157-d1-1">common business</descrip>
+          <entry id="c3157-1" type="fullForm" status="preferred">independent software vendor</entry>
+          <entry id="c3157-2" type="abbreviation" status="preferred">ISV</entry>
+        </termentry>
+        <termentry id="c3158">
+          <descrip type="subjectField" id="c3158-d0-1">common IT</descrip>
+          <entry id="c3158-1" type="fullForm" status="preferred">large language model</entry>
+          <entry id="c3158-2" type="abbreviation" status="preferred">LLM</entry>
+        </termentry>
+        <termentry id="c3159">
+          <descrip type="subjectField" id="c3159-d0-1">common IT</descrip>
+          <entry id="c3159-1" type="fullForm" status="preferred">intelligent automation</entry>
+        </termentry>
+        <termentry id="c3160">
+          <descrip type="subjectField" id="c3160-d0-1">common IT</descrip>
+          <entry id="c3160-1" type="fullForm" status="preferred">container image</entry>
+        </termentry>
+        <termentry id="c3161">
+          <descrip type="subjectField" id="c3161-d0-1">common IT</descrip>
+          <entry id="c3161-1" type="shortForm" status="preferred">DevSecOps</entry>
+        </termentry>
+        <termentry id="c3162">
+          <descrip type="subjectField" id="c3162-d0-1">common IT</descrip>
+          <entry id="c3162-1" type="fullForm" status="preferred">confidential computing</entry>
+        </termentry>
+        <termentry id="c3163">
+          <descrip type="subjectField" id="c3163-d0-1">common IT</descrip>
+          <entry id="c3163-1" type="fullForm" status="preferred">secure supply chain</entry>
+        </termentry>
+        <termentry id="c3164">
+          <descrip type="subjectField" id="c3164-d0-1">common IT</descrip>
+          <entry id="c3164-1" type="fullForm" status="preferred">cloud native</entry>
+        </termentry>
+        <termentry id="c3165">
+          <descrip type="subjectField" id="c3165-d0-1">common IT</descrip>
+          <entry id="c3165-1" type="fullForm" status="preferred">container orchestration</entry>
+        </termentry>
+        <termentry id="c3166">
+          <descrip type="subjectField" id="c3166-d0-1">common business</descrip>
+          <entry id="c3166-1" type="fullForm" status="preferred">original equipment manufacturer</entry>
+          <entry id="c3166-2" type="abbreviation" status="preferred">OEM</entry>
+        </termentry>
+        <termentry id="c3167">
+          <descrip type="subjectField" id="c3167-d0-1">common IT</descrip>
+          <entry id="c3167-1" type="fullForm" status="preferred">system integrator</entry>
+          <entry id="c3167-2" type="abbreviation" status="preferred">SI</entry>
+        </termentry>
+        <termentry id="c3168">
+          <descrip type="subjectField" id="c3168-d0-1">common IT</descrip>
+          <descrip type="subjectField" id="c3168-d1-1">common business</descrip>
+          <entry id="c3168-1" type="fullForm" status="preferred">Industry 4.0</entry>
+        </termentry>
+        <termentry id="c3169">
+          <descrip type="subjectField" id="c3169-d0-1">common IT</descrip>
+          <entry id="c3169-1" type="fullForm" status="preferred">managed service provider</entry>
+          <entry id="c3169-2" type="abbreviation" status="preferred">MSP</entry>
+        </termentry>
+        <termentry id="c3171">
+          <descrip type="subjectField" id="c3171-d0-1">common IT</descrip>
+          <entry id="c3171-1" type="fullForm" status="preferred">sovereign cloud</entry>
+        </termentry>
+        <termentry id="c3172">
+          <descrip type="subjectField" id="c3172-d0-1">common IT</descrip>
+          <entry id="c3172-1" type="fullForm" status="preferred">embedded software</entry>
+        </termentry>
+        <termentry id="c3173">
+          <descrip type="subjectField" id="c3173-d0-1">common IT</descrip>
+          <descrip type="subjectField" id="c3173-d1-1">marketing</descrip>
+          <entry id="c3173-1" type="fullForm" status="preferred">customer relationship management</entry>
+          <entry id="c3173-2" type="abbreviation" status="preferred">CRM</entry>
+        </termentry>
+        <termentry id="c3174">
+          <descrip type="subjectField" id="c3174-d0-1">marketing</descrip>
+          <entry id="c3174-1" type="fullForm" status="preferred">total addressable market</entry>
+          <entry id="c3174-2" type="abbreviation" status="preferred">TAM</entry>
+        </termentry>
+        <termentry id="c3175">
+          <descrip type="subjectField" id="c3175-d0-1">marketing</descrip>
+          <entry id="c3175-1" type="fullForm" status="preferred">serviceable addressable market</entry>
+          <entry id="c3175-2" type="abbreviation" status="preferred">SAM</entry>
+        </termentry>
+        <termentry id="c3176">
+          <descrip type="subjectField" id="c3176-d0-1">marketing</descrip>
+          <entry id="c3176-1" type="fullForm" status="preferred">serviceable obtainable market</entry>
+          <entry id="c3176-2" type="abbreviation" status="preferred">SOM</entry>
+        </termentry>
+        <termentry id="c3177">
+          <descrip type="subjectField" id="c3177-d0-1">marketing</descrip>
+          <entry id="c3177-1" type="fullForm" status="preferred">customer net promoter score</entry>
+          <entry id="c3177-2" type="abbreviation" status="preferred">cNPS</entry>
+        </termentry>
+        <termentry id="c3178">
+          <descrip type="subjectField" id="c3178-d0-1">marketing</descrip>
+          <entry id="c3178-1" type="fullForm" status="preferred">employee net promoter score</entry>
+          <entry id="c3178-2" type="abbreviation" status="preferred">eNPS</entry>
+        </termentry>
+        <termentry id="c3179">
+          <descrip type="subjectField" id="c3179-d0-1">marketing</descrip>
+          <entry id="c3179-1" type="fullForm" status="preferred">brand perceptions study</entry>
+        </termentry>
+        <termentry id="c3180">
+          <descrip type="subjectField" id="c3180-d0-1">marketing</descrip>
+          <entry id="c3180-1" type="fullForm" status="preferred">brand tracker</entry>
+        </termentry>
+        <termentry id="c3181">
+          <descrip type="subjectField" id="c3181-d0-1">marketing</descrip>
+          <entry id="c3181-1" type="fullForm" status="preferred">advertising value equivalency</entry>
+          <entry id="c3181-2" type="abbreviation" status="preferred">AVE</entry>
+        </termentry>
+        <termentry id="c3182">
+          <descrip type="subjectField" id="c3182-d0-1">marketing</descrip>
+          <entry id="c3182-1" type="fullForm" status="preferred">brand activation</entry>
+        </termentry>
+        <termentry id="c3183">
+          <descrip type="subjectField" id="c3183-d0-1">marketing</descrip>
+          <entry id="c3183-1" type="fullForm" status="preferred">brand equity</entry>
+        </termentry>
+        <termentry id="c3184">
+          <descrip type="subjectField" id="c3184-d0-1">marketing</descrip>
+          <entry id="c3184-1" type="fullForm" status="preferred">points of parity</entry>
+        </termentry>
+        <termentry id="c3185">
+          <descrip type="subjectField" id="c3185-d0-1">marketing</descrip>
+          <entry id="c3185-1" type="fullForm" status="preferred">points of difference</entry>
+        </termentry>
+        <termentry id="c3190">
+          <descrip type="subjectField" id="c3190-d0-1">common IT</descrip>
+          <entry id="c3190-1" type="fullForm" status="preferred">artificial general intelligence</entry>
+          <entry id="c3190-2" type="abbreviation" status="preferred">AGI</entry>
+        </termentry>
+        <termentry id="c3191">
+          <descrip type="subjectField" id="c3191-d0-1">common IT</descrip>
+          <entry id="c3191-1" type="fullForm" status="preferred">artificial narrow intelligence</entry>
+          <entry id="c3191-2" type="abbreviation" status="preferred">ANI</entry>
+        </termentry>
+        <termentry id="c3192">
+          <descrip type="subjectField" id="c3192-d0-1">common IT</descrip>
+          <entry id="c3192-1" type="fullForm" status="preferred">foundational model</entry>
+        </termentry>
+        <termentry id="c3193">
+          <descrip type="subjectField" id="c3193-d0-1">common IT</descrip>
+          <entry id="c3193-1" type="fullForm" status="preferred">edge model</entry>
+        </termentry>
+        <termentry id="c3194">
+          <descrip type="subjectField" id="c3194-d0-1">common IT</descrip>
+          <entry id="c3194-1" type="fullForm" status="preferred">pretrained model</entry>
+        </termentry>
+        <termentry id="c3196">
+          <descrip type="subjectField" id="c3196-d0-1">SUSE</descrip>
+          <entry id="c3196-1" type="acronym" status="preferred">SUSE FPP</entry>
+          <entry id="c3196-2" type="fullForm" status="admitted">SUSE Full Potential Plan</entry>
+        </termentry>
+        <termentry id="c3199">
+          <descrip type="subjectField" id="c3199-d0-1">SUSE</descrip>
+          <entry id="c3199-1" type="fullForm" status="preferred">Portfolio Solutions and Services</entry>
+          <entry id="c3199-2" type="acronym" status="preferred">PSS</entry>
+        </termentry>
+        <termentry id="c3200">
+          <descrip type="subjectField" id="c3200-d0-1">common IT</descrip>
+          <entry id="c3200-1" type="acronym" status="preferred">Arm64</entry>
+          <entry id="c3200-2" type="acronym" status="preferred">AArch64</entry>
+          <entry id="c3200-3" type="acronym" status="admitted">aarch64</entry>
+        </termentry>
+        <termentry id="c3201">
+          <descrip type="subjectField" id="c3201-d0-1">common IT</descrip>
+          <entry id="c3201-1" type="acronym" status="preferred">ISA</entry>
+          <entry id="c3201-2" type="fullForm" status="preferred">instruction set architecture</entry>
+        </termentry>
+        <termentry id="c3202">
+          <descrip type="subjectField" id="c3202-d0-1">common IT</descrip>
+          <entry id="c3202-2" type="acronym" status="preferred">RISC</entry>
+          <entry id="c3202-1" type="fullForm" status="admitted">reduced instruction set computer</entry>
+        </termentry>
+        <termentry id="c3204">
+          <descrip type="subjectField" id="c3204-d0-1">common IT</descrip>
+          <entry id="c3204-2" type="fullForm" status="notRecommended">hamburger menu</entry>
+          <entry id="c3204-1" type="fullForm" status="preferred">three-line menu</entry>
+        </termentry>
+        <termentry id="c3205">
+          <descrip type="subjectField" id="c3205-d0-1">common IT</descrip>
+          <entry id="c3205-1" type="fullForm" status="notRecommended">kebab menu</entry>
+          <entry id="c3205-2" type="fullForm" status="preferred">three-dot menu</entry>
+        </termentry>
+        <termentry id="c3206">
+          <descrip type="subjectField" id="c3206-d0-1">common IT</descrip>
+          <entry id="c3206-1" type="abbreviation" status="preferred">amd64</entry>
+          <entry id="c3206-3" type="acronym" status="preferred">x86_64</entry>
+        </termentry>
+        <termentry id="c3207">
+          <descrip type="subjectField" id="c3207-d0-1">common IT</descrip>
+          <entry id="c3207-1" type="acronym" status="preferred">IBM Z</entry>
+        </termentry>
+        <termentry id="c3208">
+          <descrip type="subjectField" id="c3208-d0-1">common IT</descrip>
+          <entry id="c3208-1" type="fullForm" status="preferred">immutable system</entry>
+        </termentry>
+        <termentry id="c3209">
+          <descrip type="subjectField" id="c3209-d0-1">common IT</descrip>
+          <entry id="c3209-1" type="fullForm" status="preferred">transactional system</entry>
+        </termentry>
+        <termentry id="c3210">
+          <descrip type="subjectField" id="c3210-d0-1">common IT</descrip>
+          <entry id="c3210-1" type="fullForm" status="preferred">declarative system</entry>
+        </termentry>
+        <termentry id="c3211">
+          <descrip type="subjectField" id="c3211-d0-1">common business</descrip>
+          <entry id="c3211-1" type="fullForm" status="preferred">original design manufacturing</entry>
+          <entry id="c3211-2" type="acronym" status="preferred">ODM</entry>
+        </termentry>
+        <termentry id="c3212">
+          <entry id="c3212-2" type="acronym" status="preferred">CFL</entry>
+          <entry id="c3212-3" type="fullForm" status="admitted">Customers for Life</entry>
+        </termentry>
+        <termentry id="c3213">
+          <descrip type="subjectField" id="c3213-d0-1">common business</descrip>
+          <entry id="c3213-1" type="acronym" status="preferred">BSA</entry>
+          <entry id="c3213-2" type="fullForm" status="preferred">Blanket Sales Agreement</entry>
+        </termentry>
+        <termentry id="c3214">
+          <descrip type="subjectField" id="c3214-d0-1">common business</descrip>
+          <entry id="c3214-1" type="acronym" status="preferred">CSM</entry>
+          <entry id="c3214-2" type="fullForm" status="preferred">Customer Success Manager</entry>
+        </termentry>
+        <termentry id="c3215">
+          <descrip type="subjectField" id="c3215-d0-1">common IT</descrip>
+          <entry id="c3215-1" type="acronym" status="preferred">ECS</entry>
+          <entry id="c3215-2" type="fullForm" status="preferred">Enterprise Container Solutions</entry>
+        </termentry>
+        <termentry id="c3216">
+          <descrip type="subjectField" id="c3216-d0-1">common IT</descrip>
+          <entry id="c3216-1" type="acronym" status="preferred">EIB</entry>
+          <entry id="c3216-2" type="fullForm" status="preferred">Enterprise Install Base</entry>
+        </termentry>
+        <termentry id="c3217">
+          <descrip type="subjectField" id="c3217-d0-1">common IT</descrip>
+          <entry id="c3217-1" type="acronym" status="preferred">ERP</entry>
+          <entry id="c3217-2" type="fullForm" status="preferred">Enterprise Resource Planning</entry>
+        </termentry>
+        <termentry id="c3218">
+          <descrip type="subjectField" id="c3218-d0-1">common IT</descrip>
+          <entry id="c3218-1" type="acronym" status="preferred">ISP</entry>
+          <entry id="c3218-2" type="fullForm" status="admitted">Internet Service Provider</entry>
+        </termentry>
+        <termentry id="c3219">
+          <descrip type="subjectField" id="c3219-d0-1">legal</descrip>
+          <entry id="c3219-1" type="acronym" status="preferred">MLA</entry>
+          <entry id="c3219-2" type="fullForm" status="admitted">Master License Agreement</entry>
+        </termentry>
+        <termentry id="c3220">
+          <descrip type="subjectField" id="c3220-d0-1">legal</descrip>
+          <entry id="c3220-1" type="acronym" status="preferred">MSA</entry>
+          <entry id="c3220-3" type="fullForm" status="preferred">Master Service Agreement</entry>
+          <entry id="c3220-2" type="fullForm" status="admitted">Framework Agreement</entry>
+        </termentry>
+        <termentry id="c3221">
+          <descrip type="subjectField" id="c3221-d0-1">common business</descrip>
+          <entry id="c3221-1" type="acronym" status="preferred">PLM</entry>
+          <entry id="c3221-2" type="fullForm" status="preferred">Product Lifecycle Management</entry>
+        </termentry>
+        <termentry id="c3222">
+          <descrip type="subjectField" id="c3222-d0-1">common business</descrip>
+          <entry id="c3222-1" type="acronym" status="preferred">PM</entry>
+          <entry id="c3222-2" type="fullForm" status="preferred">Product Manager</entry>
+        </termentry>
+        <termentry id="c3223">
+          <descrip type="subjectField" id="c3223-d0-1">common business</descrip>
+          <entry id="c3223-1" type="acronym" status="preferred">PO</entry>
+          <entry id="c3223-2" type="fullForm" status="preferred">Purchase Order</entry>
+        </termentry>
+        <termentry id="c3224">
+          <descrip type="subjectField" id="c3224-d0-1">common IT</descrip>
+          <entry id="c3224-1" type="acronym" status="preferred">SLEPOS</entry>
+        </termentry>
+        <termentry id="c3225">
+          <descrip type="subjectField" id="c3225-d0-1">common business</descrip>
+          <entry id="c3225-1" type="acronym" status="preferred">SRM</entry>
+          <entry id="c3225-2" type="fullForm" status="preferred">Service Request Management</entry>
+        </termentry>
+        <termentry id="c3226">
+          <descrip type="subjectField" id="c3226-d0-1">SUSE</descrip>
+        </termentry>
+        <termentry id="c3229">
+          <descrip type="subjectField" id="c3229-d0-1">common business</descrip>
+          <entry id="c3229-1" type="fullForm" status="preferred">revenue</entry>
+        </termentry>
+        <termentry id="c3230">
+          <descrip type="subjectField" id="c3230-d0-1">common business</descrip>
+          <entry id="c3230-1" type="fullForm" status="preferred">Year over Year</entry>
+          <entry id="c3230-2" type="acronym" status="preferred">YoY</entry>
         </termentry>
       </body>
     </text>

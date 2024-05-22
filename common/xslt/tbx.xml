@@ -8,7 +8,7 @@
       </titleStmt>
       <sourceDesc>
         <p>Exported from TermWeb</p>
-        <p>Version 4.0.8-17</p>
+        <p>Version 4.0.9-0</p>
         <p type="DCSName">SYSTEM "TBXDCSv05b.xml"</p>
       </sourceDesc>
     </fileDesc>
@@ -617,19 +617,18 @@
         <langSet xml:lang="en-us">
           <tig id="c349-1">
             <term>dialog box</term>
-            <termNote id="c349-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c349-1-f0" type="administrativeStatus">notRecommended</termNote>
             <termNote id="c349-1-f1" type="termType">fullForm</termNote>
           </tig>
           <tig id="c349-2">
             <term>dialog</term>
-            <termNote id="c349-2-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c349-2-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c349-2-f1" type="termType">shortForm</termNote>
-            <descrip id="c349-2-f8" type="valeRegex">dialog(?! box)</descrip>
           </tig>
         </langSet>
       </termEntry>
       <termEntry id="c352">
-        <descrip type="subjectField" id="c352-d0-1">Legal</descrip>
+        <descrip type="subjectField" id="c352-d0-1">legal</descrip>
         <langSet xml:lang="en-us">
           <tig id="c352-1">
             <term>PCI DSS</term>
@@ -1542,34 +1541,19 @@
             <termNote id="c731-1-f1" type="termType">acronym</termNote>
           </tig>
           <tig id="c731-2">
-            <term>Advanced RISC Machine</term>
+            <term>Advanced RISC Machines</term>
             <termNote id="c731-2-f0" type="administrativeStatus">admitted</termNote>
             <termNote id="c731-2-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c731-3">
-            <term>aarch64</term>
-            <termNote id="c731-3-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c731-3-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c731-31">
-            <term>armv8</term>
-            <termNote id="c731-31-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c731-31-f1" type="termType">shortForm</termNote>
-          </tig>
-          <tig id="c731-33">
-            <term>arm64</term>
-            <termNote id="c731-33-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c731-33-f1" type="termType">shortForm</termNote>
-          </tig>
-          <tig id="c731-36">
-            <term>ARM64</term>
-            <termNote id="c731-36-f0" type="administrativeStatus">notRecommended</termNote>
-            <termNote id="c731-36-f1" type="termType">acronym</termNote>
           </tig>
           <tig id="c731-38">
             <term>Arm®</term>
             <termNote id="c731-38-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c731-38-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c731-41">
+            <term>Acorn RISC Machine</term>
+            <termNote id="c731-41-f0" type="administrativeStatus">Obsolete</termNote>
+            <termNote id="c731-41-f1" type="termType">abbreviation</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -2709,8 +2693,8 @@
         </langSet>
       </termEntry>
       <termEntry id="c6498">
-        <descrip type="subjectField" id="c6498-d0-1">Marketing</descrip>
-        <descrip type="subjectField" id="c6498-d1-1">SUSE</descrip>
+        <descrip type="subjectField" id="c6498-d0-1">SUSE</descrip>
+        <descrip type="subjectField" id="c6498-d1-1">marketing</descrip>
         <langSet xml:lang="en-us">
           <tig id="c6498-2">
             <term>SLE maintenance model</term>
@@ -3115,8 +3099,8 @@
         </langSet>
       </termEntry>
       <termEntry id="c7642">
-        <descrip type="subjectField" id="c7642-d0-1">Marketing</descrip>
-        <descrip type="subjectField" id="c7642-d1-1">common IT</descrip>
+        <descrip type="subjectField" id="c7642-d0-1">common IT</descrip>
+        <descrip type="subjectField" id="c7642-d1-1">marketing</descrip>
         <langSet xml:lang="en-us">
           <tig id="c7642-1">
             <term>subscription</term>
@@ -3813,20 +3797,10 @@
             <termNote id="c10024-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c10024-1-f1" type="termType">acronym</termNote>
           </tig>
-          <tig id="c10024-17">
-            <term>Intel Itanium architecture</term>
-            <termNote id="c10024-17-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c10024-17-f1" type="termType">fullForm</termNote>
-          </tig>
           <tig id="c10024-18">
             <term>ia64</term>
             <termNote id="c10024-18-f0" type="administrativeStatus">admitted</termNote>
             <termNote id="c10024-18-f1" type="termType">abbreviation</termNote>
-          </tig>
-          <tig id="c10024-19">
-            <term>Itanium</term>
-            <termNote id="c10024-19-f0" type="administrativeStatus">notRecommended</termNote>
-            <termNote id="c10024-19-f1" type="termType">shortForm</termNote>
           </tig>
           <tig id="c10024-20">
             <term>ipf</term>
@@ -4107,6 +4081,16 @@
             <term>plug-in</term>
             <termNote id="c10045-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c10045-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c10045-3">
+            <term>plug in</term>
+            <termNote id="c10045-3-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c10045-3-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c10045-26">
+            <term>plugin</term>
+            <termNote id="c10045-26-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c10045-26-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -5140,6 +5124,7 @@
         </langSet>
       </termEntry>
       <termEntry id="c4056">
+        <descrip type="subjectField" id="c4056-d0-1">common business</descrip>
         <langSet xml:lang="en-us">
           <tig id="c4056-1">
             <term>practicum</term>
@@ -5158,6 +5143,7 @@
         </langSet>
       </termEntry>
       <termEntry id="c5616">
+        <descrip type="subjectField" id="c5616-d0-1">common business</descrip>
         <langSet xml:lang="en-us">
           <tig id="c5616-1">
             <term>teaming</term>
@@ -5197,6 +5183,7 @@
         </langSet>
       </termEntry>
       <termEntry id="c6138">
+        <descrip type="subjectField" id="c6138-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
           <tig id="c6138-1">
             <term>Linux Integration Components</term>
@@ -5407,20 +5394,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c6096">
-        <langSet xml:lang="en-us">
-          <tig id="c6096-1">
-            <term>Fully Qualified Domain Name</term>
-            <termNote id="c6096-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c6096-1-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c6096-14">
-            <term>FQDN</term>
-            <termNote id="c6096-14-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c6096-14-f1" type="termType">acronym</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c24">
         <descrip type="subjectField" id="c24-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
@@ -5467,15 +5440,6 @@
             <term>built-in analytics</term>
             <termNote id="c1154-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c1154-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c6777">
-        <langSet xml:lang="en-us">
-          <tig id="c6777-1">
-            <term>Linux Package Management</term>
-            <termNote id="c6777-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c6777-1-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -5619,15 +5583,6 @@
             <term>quick-fix engineering update</term>
             <termNote id="c1724-3-f0" type="administrativeStatus">admitted</termNote>
             <termNote id="c1724-3-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c1797">
-        <descrip type="subjectField" id="c1797-d0-1">common IT</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c1797-1">
-            <term>test QA workflow</term>
-            <termNote id="c1797-1-f0" type="administrativeStatus">Draft</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -5784,14 +5739,6 @@
             <term>supply chain</term>
             <termNote id="c3140-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c3140-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c1881">
-        <langSet xml:lang="en-us">
-          <tig id="c1881-1">
-            <term>test draft entry</term>
-            <termNote id="c1881-1-f0" type="administrativeStatus">Draft</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -6633,7 +6580,7 @@
         </langSet>
       </termEntry>
       <termEntry id="c2144">
-        <descrip type="subjectField" id="c2144-d0-1">Marketing</descrip>
+        <descrip type="subjectField" id="c2144-d0-1">marketing</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2144-1">
             <term>ABM</term>
@@ -6648,7 +6595,7 @@
         </langSet>
       </termEntry>
       <termEntry id="c2148">
-        <descrip type="subjectField" id="c2148-d0-1">Legal</descrip>
+        <descrip type="subjectField" id="c2148-d0-1">legal</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2148-1">
             <term>Annual Contract Value</term>
@@ -6678,7 +6625,7 @@
         </langSet>
       </termEntry>
       <termEntry id="c2164">
-        <descrip type="subjectField" id="c2164-d0-1">Marketing</descrip>
+        <descrip type="subjectField" id="c2164-d0-1">marketing</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2164-1">
             <term>Asia/Pacific</term>
@@ -6693,7 +6640,7 @@
         </langSet>
       </termEntry>
       <termEntry id="c2168">
-        <descrip type="subjectField" id="c2168-d0-1">Marketing</descrip>
+        <descrip type="subjectField" id="c2168-d0-1">marketing</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2168-1">
             <term>Asia/Pacific/Japan</term>
@@ -6769,8 +6716,8 @@
         </langSet>
       </termEntry>
       <termEntry id="c2188">
-        <descrip type="subjectField" id="c2188-d0-1">Legal</descrip>
-        <descrip type="subjectField" id="c2188-d1-1">common IT</descrip>
+        <descrip type="subjectField" id="c2188-d0-1">common IT</descrip>
+        <descrip type="subjectField" id="c2188-d1-1">legal</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2188-1">
             <term>CCC</term>
@@ -6800,9 +6747,9 @@
         </langSet>
       </termEntry>
       <termEntry id="c2196">
-        <descrip type="subjectField" id="c2196-d0-1">Legal</descrip>
-        <descrip type="subjectField" id="c2196-d1-1">Marketing</descrip>
-        <descrip type="subjectField" id="c2196-d2-1">common IT</descrip>
+        <descrip type="subjectField" id="c2196-d0-1">common IT</descrip>
+        <descrip type="subjectField" id="c2196-d1-1">legal</descrip>
+        <descrip type="subjectField" id="c2196-d2-1">marketing</descrip>
         <descrip type="subjectField" id="c2196-d3-1">open source</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2196-1">
@@ -6879,7 +6826,7 @@
         </langSet>
       </termEntry>
       <termEntry id="c2216">
-        <descrip type="subjectField" id="c2216-d0-1">Marketing</descrip>
+        <descrip type="subjectField" id="c2216-d0-1">marketing</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2216-1">
             <term>Europe, the Middle East and Africa</term>
@@ -6956,8 +6903,8 @@
         </langSet>
       </termEntry>
       <termEntry id="c2240">
-        <descrip type="subjectField" id="c2240-d0-1">Legal</descrip>
-        <descrip type="subjectField" id="c2240-d1-1">common IT</descrip>
+        <descrip type="subjectField" id="c2240-d0-1">common IT</descrip>
+        <descrip type="subjectField" id="c2240-d1-1">legal</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2240-1">
             <term>Common Vulnerabilities and Exposures</term>
@@ -7115,41 +7062,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c2295">
-        <descrip type="subjectField" id="c2295-d0-1">common IT</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c2295-1">
-            <term>x86-64</term>
-            <termNote id="c2295-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2295-1-f1" type="termType">shortForm</termNote>
-          </tig>
-          <tig id="c2295-2">
-            <term>AMD64/Intel 64</term>
-            <termNote id="c2295-2-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2295-2-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c2295-3">
-            <term>x86_64</term>
-            <termNote id="c2295-3-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c2295-3-f1" type="termType">shortForm</termNote>
-          </tig>
-          <tig id="c2295-4">
-            <term>AMD/Intel64</term>
-            <termNote id="c2295-4-f0" type="administrativeStatus">notRecommended</termNote>
-            <termNote id="c2295-4-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c2295-5">
-            <term>64-bit AMD/Intel</term>
-            <termNote id="c2295-5-f0" type="administrativeStatus">notRecommended</termNote>
-            <termNote id="c2295-5-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c2295-6">
-            <term>x64</term>
-            <termNote id="c2295-6-f0" type="administrativeStatus">notRecommended</termNote>
-            <termNote id="c2295-6-f1" type="termType">shortForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c2303">
         <descrip type="subjectField" id="c2303-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
@@ -7185,13 +7097,23 @@
         <langSet xml:lang="en-us">
           <tig id="c2307-1">
             <term>s390x</term>
-            <termNote id="c2307-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c2307-1-f0" type="administrativeStatus">admitted</termNote>
             <termNote id="c2307-1-f1" type="termType">fullForm</termNote>
           </tig>
           <tig id="c2307-2">
-            <term>IMB Z and LinuxOne</term>
+            <term>IBM Z and LinuxOne</term>
             <termNote id="c2307-2-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c2307-2-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c2307-3">
+            <term>z Systems</term>
+            <termNote id="c2307-3-f0" type="administrativeStatus">Obsolete</termNote>
+            <termNote id="c2307-3-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c2307-4">
+            <term>zSystems</term>
+            <termNote id="c2307-4-f0" type="administrativeStatus">Obsolete</termNote>
+            <termNote id="c2307-4-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -7202,11 +7124,6 @@
             <term>armv7</term>
             <termNote id="c2311-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c2311-1-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c2311-2">
-            <term>Arm32</term>
-            <termNote id="c2311-2-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2311-2-f1" type="termType">fullForm</termNote>
           </tig>
           <tig id="c2311-4">
             <term>armv7l</term>
@@ -7411,141 +7328,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c2685">
-        <langSet xml:lang="en-us">
-          <tig id="c2685-1">
-            <term>Agama</term>
-            <termNote id="c2685-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2685-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2686">
-        <langSet xml:lang="en-us">
-          <tig id="c2686-1">
-            <term>Agama installer</term>
-            <termNote id="c2686-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2686-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2687">
-        <langSet xml:lang="en-us">
-          <tig id="c2687-1">
-            <term>Cockpit</term>
-            <termNote id="c2687-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2687-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2689">
-        <langSet xml:lang="en-us">
-          <tig id="c2689-1">
-            <term>FreeRADIUS</term>
-            <termNote id="c2689-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2689-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2690">
-        <langSet xml:lang="en-us">
-          <tig id="c2690-1">
-            <term>GNU free documentation license</term>
-            <termNote id="c2690-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2690-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2691">
-        <langSet xml:lang="en-us">
-          <tig id="c2691-1">
-            <term>Grafana</term>
-            <termNote id="c2691-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2691-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2692">
-        <langSet xml:lang="en-us">
-          <tig id="c2692-1">
-            <term>Ignition</term>
-            <termNote id="c2692-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2692-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2693">
-        <langSet xml:lang="en-us">
-          <tig id="c2693-1">
-            <term>KVM Server</term>
-            <termNote id="c2693-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2693-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2694">
-        <langSet xml:lang="en-us">
-          <tig id="c2694-1">
-            <term>Keylime</term>
-            <termNote id="c2694-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2694-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2695">
-        <langSet xml:lang="en-us">
-          <tig id="c2695-1">
-            <term>NTP</term>
-            <termNote id="c2695-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2695-1-f1" type="termType">acronym</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2697">
-        <langSet xml:lang="en-us">
-          <tig id="c2697-1">
-            <term>SSH key</term>
-            <termNote id="c2697-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2697-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2698">
-        <langSet xml:lang="en-us">
-          <tig id="c2698-1">
-            <term>VM</term>
-            <termNote id="c2698-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2698-1-f1" type="termType">acronym</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2699">
-        <langSet xml:lang="en-us">
-          <tig id="c2699-1">
-            <term>YaST</term>
-            <termNote id="c2699-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2699-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2700">
-        <langSet xml:lang="en-us">
-          <tig id="c2700-1">
-            <term>back-cover</term>
-            <termNote id="c2700-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2700-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2701">
-        <langSet xml:lang="en-us">
-          <tig id="c2701-1">
-            <term>back-cover text</term>
-            <termNote id="c2701-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2701-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c2703">
         <descrip type="subjectField" id="c2703-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
@@ -7566,51 +7348,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c2705">
-        <langSet xml:lang="en-us">
-          <tig id="c2705-1">
-            <term>command</term>
-            <termNote id="c2705-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2705-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2706">
-        <langSet xml:lang="en-us">
-          <tig id="c2706-1">
-            <term>command line interface</term>
-            <termNote id="c2706-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2706-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2707">
-        <langSet xml:lang="en-us">
-          <tig id="c2707-1">
-            <term>configuration</term>
-            <termNote id="c2707-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2707-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2709">
-        <langSet xml:lang="en-us">
-          <tig id="c2709-1">
-            <term>container</term>
-            <termNote id="c2709-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2709-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2710">
-        <langSet xml:lang="en-us">
-          <tig id="c2710-1">
-            <term>container management task</term>
-            <termNote id="c2710-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2710-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c2711">
         <descrip type="subjectField" id="c2711-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
@@ -7618,60 +7355,6 @@
             <term>containerized</term>
             <termNote id="c2711-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c2711-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2712">
-        <langSet xml:lang="en-us">
-          <tig id="c2712-1">
-            <term>copyleft</term>
-            <termNote id="c2712-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2712-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2713">
-        <langSet xml:lang="en-us">
-          <tig id="c2713-1">
-            <term>copyright notice</term>
-            <termNote id="c2713-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2713-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2714">
-        <langSet xml:lang="en-us">
-          <tig id="c2714-1">
-            <term>deployment</term>
-            <termNote id="c2714-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2714-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2715">
-        <langSet xml:lang="en-us">
-          <tig id="c2715-1">
-            <term>device</term>
-            <termNote id="c2715-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2715-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2716">
-        <langSet xml:lang="en-us">
-          <tig id="c2716-1">
-            <term>endorsement</term>
-            <termNote id="c2716-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2716-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2717">
-        <langSet xml:lang="en-us">
-          <tig id="c2717-1">
-            <term>environment</term>
-            <termNote id="c2717-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2717-1-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -7685,87 +7368,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c2720">
-        <langSet xml:lang="en-us">
-          <tig id="c2720-1">
-            <term>format</term>
-            <termNote id="c2720-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2720-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2721">
-        <langSet xml:lang="en-us">
-          <tig id="c2721-1">
-            <term>free documentation license</term>
-            <termNote id="c2721-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2721-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2722">
-        <langSet xml:lang="en-us">
-          <tig id="c2722-1">
-            <term>front-cover</term>
-            <termNote id="c2722-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2722-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2723">
-        <langSet xml:lang="en-us">
-          <tig id="c2723-1">
-            <term>front-cover text</term>
-            <termNote id="c2723-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2723-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2724">
-        <langSet xml:lang="en-us">
-          <tig id="c2724-1">
-            <term>input</term>
-            <termNote id="c2724-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2724-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2725">
-        <langSet xml:lang="en-us">
-          <tig id="c2725-1">
-            <term>install</term>
-            <termNote id="c2725-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2725-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2726">
-        <langSet xml:lang="en-us">
-          <tig id="c2726-1">
-            <term>installation</term>
-            <termNote id="c2726-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2726-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2727">
-        <langSet xml:lang="en-us">
-          <tig id="c2727-1">
-            <term>key</term>
-            <termNote id="c2727-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2727-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2728">
-        <langSet xml:lang="en-us">
-          <tig id="c2728-1">
-            <term>license notice</term>
-            <termNote id="c2728-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2728-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c2729">
         <descrip type="subjectField" id="c2729-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
@@ -7773,24 +7375,6 @@
             <term>load balancing</term>
             <termNote id="c2729-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c2729-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2730">
-        <langSet xml:lang="en-us">
-          <tig id="c2730-1">
-            <term>machine-readable copy</term>
-            <termNote id="c2730-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2730-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2731">
-        <langSet xml:lang="en-us">
-          <tig id="c2731-1">
-            <term>network</term>
-            <termNote id="c2731-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2731-1-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -7824,42 +7408,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c2735">
-        <langSet xml:lang="en-us">
-          <tig id="c2735-1">
-            <term>notice</term>
-            <termNote id="c2735-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2735-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2736">
-        <langSet xml:lang="en-us">
-          <tig id="c2736-1">
-            <term>opaque</term>
-            <termNote id="c2736-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2736-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2737">
-        <langSet xml:lang="en-us">
-          <tig id="c2737-1">
-            <term>opaque copy</term>
-            <termNote id="c2737-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2737-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2738">
-        <langSet xml:lang="en-us">
-          <tig id="c2738-1">
-            <term>password</term>
-            <termNote id="c2738-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2738-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c2739">
         <descrip type="subjectField" id="c2739-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
@@ -7880,15 +7428,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c2741">
-        <langSet xml:lang="en-us">
-          <tig id="c2741-1">
-            <term>privilege</term>
-            <termNote id="c2741-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2741-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c2742">
         <descrip type="subjectField" id="c2742-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
@@ -7899,24 +7438,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c2743">
-        <langSet xml:lang="en-us">
-          <tig id="c2743-1">
-            <term>reboot</term>
-            <termNote id="c2743-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2743-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2745">
-        <langSet xml:lang="en-us">
-          <tig id="c2745-1">
-            <term>scalability</term>
-            <termNote id="c2745-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2745-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c2746">
         <descrip type="subjectField" id="c2746-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
@@ -7924,33 +7445,6 @@
             <term>script-based deployment</term>
             <termNote id="c2746-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c2746-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2747">
-        <langSet xml:lang="en-us">
-          <tig id="c2747-1">
-            <term>secondary section</term>
-            <termNote id="c2747-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2747-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2748">
-        <langSet xml:lang="en-us">
-          <tig id="c2748-1">
-            <term>section</term>
-            <termNote id="c2748-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2748-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2749">
-        <langSet xml:lang="en-us">
-          <tig id="c2749-1">
-            <term>service</term>
-            <termNote id="c2749-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2749-1-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -7981,51 +7475,6 @@
             <term>timer file</term>
             <termNote id="c2752-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c2752-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2753">
-        <langSet xml:lang="en-us">
-          <tig id="c2753-1">
-            <term>transparent copy</term>
-            <termNote id="c2753-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2753-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2754">
-        <langSet xml:lang="en-us">
-          <tig id="c2754-1">
-            <term>unit file</term>
-            <termNote id="c2754-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2754-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2755">
-        <langSet xml:lang="en-us">
-          <tig id="c2755-1">
-            <term>version</term>
-            <termNote id="c2755-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2755-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2756">
-        <langSet xml:lang="en-us">
-          <tig id="c2756-1">
-            <term>virtual machine</term>
-            <termNote id="c2756-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2756-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2757">
-        <langSet xml:lang="en-us">
-          <tig id="c2757-1">
-            <term>warranty disclaimer</term>
-            <termNote id="c2757-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2757-1-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -8236,8 +7685,8 @@
         </langSet>
       </termEntry>
       <termEntry id="c2848">
-        <descrip type="subjectField" id="c2848-d0-1">Legal</descrip>
-        <descrip type="subjectField" id="c2848-d1-1">common IT</descrip>
+        <descrip type="subjectField" id="c2848-d0-1">common IT</descrip>
+        <descrip type="subjectField" id="c2848-d1-1">legal</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2848-1">
             <term>Security Functional Requirement</term>
@@ -8252,8 +7701,8 @@
         </langSet>
       </termEntry>
       <termEntry id="c2853">
-        <descrip type="subjectField" id="c2853-d0-1">Legal</descrip>
-        <descrip type="subjectField" id="c2853-d1-1">common IT</descrip>
+        <descrip type="subjectField" id="c2853-d0-1">common IT</descrip>
+        <descrip type="subjectField" id="c2853-d1-1">legal</descrip>
         <langSet xml:lang="en-us">
           <tig id="c2853-1">
             <term>Security Assurance Requirement</term>
@@ -8264,76 +7713,6 @@
             <term>SAR</term>
             <termNote id="c2853-2-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c2853-2-f1" type="termType">acronym</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2861">
-        <descrip type="subjectField" id="c2861-d0-1">common IT</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c2861-1">
-            <term>i586</term>
-            <termNote id="c2861-1-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c2861-1-f1" type="termType">acronym</termNote>
-          </tig>
-          <tig id="c2861-2">
-            <term>i386</term>
-            <termNote id="c2861-2-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c2861-2-f1" type="termType">acronym</termNote>
-          </tig>
-          <tig id="c2861-3">
-            <term>x86</term>
-            <termNote id="c2861-3-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c2861-3-f1" type="termType">acronym</termNote>
-          </tig>
-          <tig id="c2861-4">
-            <term>IA-32</term>
-            <termNote id="c2861-4-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c2861-4-f1" type="termType">acronym</termNote>
-          </tig>
-          <tig id="c2861-5">
-            <term>32-bit AMD/Intel</term>
-            <termNote id="c2861-5-f0" type="administrativeStatus">notRecommended</termNote>
-            <termNote id="c2861-5-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c2861-6">
-            <term>AMD64 / Intel 64</term>
-            <termNote id="c2861-6-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2861-6-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2869">
-        <descrip type="subjectField" id="c2869-d0-1">common IT</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c2869-1">
-            <term>s390x</term>
-            <termNote id="c2869-1-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c2869-1-f1" type="termType">abbreviation</termNote>
-          </tig>
-          <tig id="c2869-2">
-            <term>System z &amp; LinuxONE</term>
-            <termNote id="c2869-2-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c2869-2-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c2869-3">
-            <term>System z</term>
-            <termNote id="c2869-3-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c2869-3-f1" type="termType">abbreviation</termNote>
-          </tig>
-          <tig id="c2869-4">
-            <term>IBM Z</term>
-            <termNote id="c2869-4-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2869-4-f1" type="termType">acronym</termNote>
-          </tig>
-          <tig id="c2869-5">
-            <term>zSeries</term>
-            <termNote id="c2869-5-f0" type="administrativeStatus">notRecommended</termNote>
-            <termNote id="c2869-5-f1" type="termType">abbreviation</termNote>
-          </tig>
-          <tig id="c2869-6">
-            <term>z Systems</term>
-            <termNote id="c2869-6-f0" type="administrativeStatus">notRecommended</termNote>
-            <termNote id="c2869-6-f1" type="termType">abbreviation</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -8884,6 +8263,1023 @@
             <term>XFS</term>
             <termNote id="c3104-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c3104-1-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3115">
+        <descrip type="subjectField" id="c3115-d0-1">legal</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3115-1">
+            <term>EBITDA</term>
+            <termNote id="c3115-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3115-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3115-2">
+            <term>Earnings Before Interest, Taxes, Depreciation, and Amortization</term>
+            <termNote id="c3115-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3115-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3118">
+        <descrip type="subjectField" id="c3118-d0-1">legal</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3118-1">
+            <term>EBITDA margin</term>
+            <termNote id="c3118-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3118-1-f1" type="termType">shortForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3123">
+        <descrip type="subjectField" id="c3123-d0-1">legal</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3123-1">
+            <term>revenue</term>
+            <termNote id="c3123-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3123-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3142">
+        <descrip type="subjectField" id="c3142-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3142-1">
+            <term>Compound Annual Growth Rate</term>
+            <termNote id="c3142-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3142-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3142-2">
+            <term>CAGR</term>
+            <termNote id="c3142-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3142-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3143">
+        <descrip type="subjectField" id="c3143-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3143-1">
+            <term>go-to-market</term>
+            <termNote id="c3143-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3143-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3143-2">
+            <term>GTM</term>
+            <termNote id="c3143-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3143-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3145">
+        <descrip type="subjectField" id="c3145-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3145-1">
+            <term>GSI</term>
+            <termNote id="c3145-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3145-1-f1" type="termType">abbreviation</termNote>
+          </tig>
+          <tig id="c3145-2">
+            <term>Global System Integrator</term>
+            <termNote id="c3145-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3145-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3146">
+        <descrip type="subjectField" id="c3146-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3146-1">
+            <term>hyperscaler</term>
+            <termNote id="c3146-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3146-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3148">
+        <descrip type="subjectField" id="c3148-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3148-1">
+            <term>application modernization</term>
+            <termNote id="c3148-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3148-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3150">
+        <descrip type="subjectField" id="c3150-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3150-1">
+            <term>route to market</term>
+            <termNote id="c3150-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3150-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3150-2">
+            <term>RTM</term>
+            <termNote id="c3150-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3150-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3151">
+        <descrip type="subjectField" id="c3151-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3151-1">
+            <term>line of business</term>
+            <termNote id="c3151-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3151-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3151-2">
+            <term>LOB</term>
+            <termNote id="c3151-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3151-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3153">
+        <descrip type="subjectField" id="c3153-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3153-1">
+            <term>zero trust security</term>
+            <termNote id="c3153-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3153-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3154">
+        <descrip type="subjectField" id="c3154-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3154-1">
+            <term>Function as a Service</term>
+            <termNote id="c3154-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3154-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3154-2">
+            <term>FaaS</term>
+            <termNote id="c3154-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3154-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3155">
+        <descrip type="subjectField" id="c3155-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3155-1">
+            <term>independent hardware vendor</term>
+            <termNote id="c3155-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3155-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3155-2">
+            <term>IHV</term>
+            <termNote id="c3155-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3155-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3156">
+        <descrip type="subjectField" id="c3156-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3156-1">
+            <term>application programming interface</term>
+            <termNote id="c3156-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3156-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3156-2">
+            <term>API</term>
+            <termNote id="c3156-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3156-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3157">
+        <descrip type="subjectField" id="c3157-d0-1">common IT</descrip>
+        <descrip type="subjectField" id="c3157-d1-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3157-1">
+            <term>independent software vendor</term>
+            <termNote id="c3157-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3157-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3157-2">
+            <term>ISV</term>
+            <termNote id="c3157-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3157-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3158">
+        <descrip type="subjectField" id="c3158-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3158-1">
+            <term>large language model</term>
+            <termNote id="c3158-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3158-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3158-2">
+            <term>LLM</term>
+            <termNote id="c3158-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3158-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3159">
+        <descrip type="subjectField" id="c3159-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3159-1">
+            <term>intelligent automation</term>
+            <termNote id="c3159-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3159-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3160">
+        <descrip type="subjectField" id="c3160-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3160-1">
+            <term>container image</term>
+            <termNote id="c3160-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3160-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3161">
+        <descrip type="subjectField" id="c3161-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3161-1">
+            <term>DevSecOps</term>
+            <termNote id="c3161-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3161-1-f1" type="termType">shortForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3162">
+        <descrip type="subjectField" id="c3162-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3162-1">
+            <term>confidential computing</term>
+            <termNote id="c3162-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3162-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3163">
+        <descrip type="subjectField" id="c3163-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3163-1">
+            <term>secure supply chain</term>
+            <termNote id="c3163-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3163-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3164">
+        <descrip type="subjectField" id="c3164-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3164-1">
+            <term>cloud native</term>
+            <termNote id="c3164-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3164-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3165">
+        <descrip type="subjectField" id="c3165-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3165-1">
+            <term>container orchestration</term>
+            <termNote id="c3165-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3165-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3166">
+        <descrip type="subjectField" id="c3166-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3166-1">
+            <term>original equipment manufacturer</term>
+            <termNote id="c3166-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3166-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3166-2">
+            <term>OEM</term>
+            <termNote id="c3166-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3166-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3167">
+        <descrip type="subjectField" id="c3167-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3167-1">
+            <term>system integrator</term>
+            <termNote id="c3167-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3167-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3167-2">
+            <term>SI</term>
+            <termNote id="c3167-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3167-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3168">
+        <descrip type="subjectField" id="c3168-d0-1">common IT</descrip>
+        <descrip type="subjectField" id="c3168-d1-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3168-1">
+            <term>Industry 4.0</term>
+            <termNote id="c3168-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3168-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3169">
+        <descrip type="subjectField" id="c3169-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3169-1">
+            <term>managed service provider</term>
+            <termNote id="c3169-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3169-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3169-2">
+            <term>MSP</term>
+            <termNote id="c3169-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3169-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3171">
+        <descrip type="subjectField" id="c3171-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3171-1">
+            <term>sovereign cloud</term>
+            <termNote id="c3171-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3171-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3172">
+        <descrip type="subjectField" id="c3172-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3172-1">
+            <term>embedded software</term>
+            <termNote id="c3172-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3172-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3173">
+        <descrip type="subjectField" id="c3173-d0-1">common IT</descrip>
+        <descrip type="subjectField" id="c3173-d1-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3173-1">
+            <term>customer relationship management</term>
+            <termNote id="c3173-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3173-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3173-2">
+            <term>CRM</term>
+            <termNote id="c3173-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3173-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3174">
+        <descrip type="subjectField" id="c3174-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3174-1">
+            <term>total addressable market</term>
+            <termNote id="c3174-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3174-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3174-2">
+            <term>TAM</term>
+            <termNote id="c3174-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3174-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3175">
+        <descrip type="subjectField" id="c3175-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3175-1">
+            <term>serviceable addressable market</term>
+            <termNote id="c3175-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3175-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3175-2">
+            <term>SAM</term>
+            <termNote id="c3175-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3175-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3176">
+        <descrip type="subjectField" id="c3176-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3176-1">
+            <term>serviceable obtainable market</term>
+            <termNote id="c3176-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3176-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3176-2">
+            <term>SOM</term>
+            <termNote id="c3176-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3176-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3177">
+        <descrip type="subjectField" id="c3177-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3177-1">
+            <term>customer net promoter score</term>
+            <termNote id="c3177-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3177-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3177-2">
+            <term>cNPS</term>
+            <termNote id="c3177-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3177-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3178">
+        <descrip type="subjectField" id="c3178-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3178-1">
+            <term>employee net promoter score</term>
+            <termNote id="c3178-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3178-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3178-2">
+            <term>eNPS</term>
+            <termNote id="c3178-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3178-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3179">
+        <descrip type="subjectField" id="c3179-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3179-1">
+            <term>brand perceptions study</term>
+            <termNote id="c3179-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3179-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3180">
+        <descrip type="subjectField" id="c3180-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3180-1">
+            <term>brand tracker</term>
+            <termNote id="c3180-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3180-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3181">
+        <descrip type="subjectField" id="c3181-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3181-1">
+            <term>advertising value equivalency</term>
+            <termNote id="c3181-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3181-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3181-2">
+            <term>AVE</term>
+            <termNote id="c3181-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3181-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3182">
+        <descrip type="subjectField" id="c3182-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3182-1">
+            <term>brand activation</term>
+            <termNote id="c3182-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3182-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3183">
+        <descrip type="subjectField" id="c3183-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3183-1">
+            <term>brand equity</term>
+            <termNote id="c3183-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3183-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3184">
+        <descrip type="subjectField" id="c3184-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3184-1">
+            <term>points of parity</term>
+            <termNote id="c3184-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3184-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3185">
+        <descrip type="subjectField" id="c3185-d0-1">marketing</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3185-1">
+            <term>points of difference</term>
+            <termNote id="c3185-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3185-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3190">
+        <descrip type="subjectField" id="c3190-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3190-1">
+            <term>artificial general intelligence</term>
+            <termNote id="c3190-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3190-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3190-2">
+            <term>AGI</term>
+            <termNote id="c3190-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3190-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3191">
+        <descrip type="subjectField" id="c3191-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3191-1">
+            <term>artificial narrow intelligence</term>
+            <termNote id="c3191-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3191-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3191-2">
+            <term>ANI</term>
+            <termNote id="c3191-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3191-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3192">
+        <descrip type="subjectField" id="c3192-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3192-1">
+            <term>foundational model</term>
+            <termNote id="c3192-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3192-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3193">
+        <descrip type="subjectField" id="c3193-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3193-1">
+            <term>edge model</term>
+            <termNote id="c3193-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3193-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3194">
+        <descrip type="subjectField" id="c3194-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3194-1">
+            <term>pretrained model</term>
+            <termNote id="c3194-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3194-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3196">
+        <descrip type="subjectField" id="c3196-d0-1">SUSE</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3196-1">
+            <term>SUSE FPP</term>
+            <termNote id="c3196-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3196-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3196-2">
+            <term>SUSE Full Potential Plan</term>
+            <termNote id="c3196-2-f0" type="administrativeStatus">admitted</termNote>
+            <termNote id="c3196-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3199">
+        <descrip type="subjectField" id="c3199-d0-1">SUSE</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3199-1">
+            <term>Portfolio Solutions and Services</term>
+            <termNote id="c3199-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3199-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3199-2">
+            <term>PSS</term>
+            <termNote id="c3199-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3199-2-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3200">
+        <descrip type="subjectField" id="c3200-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3200-1">
+            <term>Arm64</term>
+            <termNote id="c3200-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3200-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3200-2">
+            <term>AArch64</term>
+            <termNote id="c3200-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3200-2-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3200-3">
+            <term>aarch64</term>
+            <termNote id="c3200-3-f0" type="administrativeStatus">admitted</termNote>
+            <termNote id="c3200-3-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3201">
+        <descrip type="subjectField" id="c3201-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3201-1">
+            <term>ISA</term>
+            <termNote id="c3201-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3201-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3201-2">
+            <term>instruction set architecture</term>
+            <termNote id="c3201-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3201-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3202">
+        <descrip type="subjectField" id="c3202-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3202-1">
+            <term>reduced instruction set computer</term>
+            <termNote id="c3202-1-f0" type="administrativeStatus">admitted</termNote>
+            <termNote id="c3202-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3202-2">
+            <term>RISC</term>
+            <termNote id="c3202-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3202-2-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3204">
+        <descrip type="subjectField" id="c3204-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3204-1">
+            <term>three-line menu</term>
+            <termNote id="c3204-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3204-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3204-2">
+            <term>hamburger menu</term>
+            <termNote id="c3204-2-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c3204-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3205">
+        <descrip type="subjectField" id="c3205-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3205-1">
+            <term>kebab menu</term>
+            <termNote id="c3205-1-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c3205-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3205-2">
+            <term>three-dot menu</term>
+            <termNote id="c3205-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3205-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3206">
+        <descrip type="subjectField" id="c3206-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3206-1">
+            <term>amd64</term>
+            <termNote id="c3206-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3206-1-f1" type="termType">abbreviation</termNote>
+          </tig>
+          <tig id="c3206-3">
+            <term>x86_64</term>
+            <termNote id="c3206-3-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3206-3-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3207">
+        <descrip type="subjectField" id="c3207-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3207-1">
+            <term>IBM Z</term>
+            <termNote id="c3207-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3207-1-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3208">
+        <descrip type="subjectField" id="c3208-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3208-1">
+            <term>immutable system</term>
+            <termNote id="c3208-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3208-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3209">
+        <descrip type="subjectField" id="c3209-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3209-1">
+            <term>transactional system</term>
+            <termNote id="c3209-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3209-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3210">
+        <descrip type="subjectField" id="c3210-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3210-1">
+            <term>declarative system</term>
+            <termNote id="c3210-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3210-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3211">
+        <descrip type="subjectField" id="c3211-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3211-1">
+            <term>original design manufacturing</term>
+            <termNote id="c3211-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3211-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3211-2">
+            <term>ODM</term>
+            <termNote id="c3211-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3211-2-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3212">
+        <langSet xml:lang="en-us">
+          <tig id="c3212-2">
+            <term>CFL</term>
+            <termNote id="c3212-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3212-2-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3212-3">
+            <term>Customers for Life</term>
+            <termNote id="c3212-3-f0" type="administrativeStatus">admitted</termNote>
+            <termNote id="c3212-3-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3213">
+        <descrip type="subjectField" id="c3213-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3213-1">
+            <term>BSA</term>
+            <termNote id="c3213-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3213-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3213-2">
+            <term>Blanket Sales Agreement</term>
+            <termNote id="c3213-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3213-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3214">
+        <descrip type="subjectField" id="c3214-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3214-1">
+            <term>CSM</term>
+            <termNote id="c3214-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3214-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3214-2">
+            <term>Customer Success Manager</term>
+            <termNote id="c3214-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3214-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3215">
+        <descrip type="subjectField" id="c3215-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3215-1">
+            <term>ECS</term>
+            <termNote id="c3215-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3215-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3215-2">
+            <term>Enterprise Container Solutions</term>
+            <termNote id="c3215-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3215-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3216">
+        <descrip type="subjectField" id="c3216-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3216-1">
+            <term>EIB</term>
+            <termNote id="c3216-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3216-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3216-2">
+            <term>Enterprise Install Base</term>
+            <termNote id="c3216-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3216-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3217">
+        <descrip type="subjectField" id="c3217-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3217-1">
+            <term>ERP</term>
+            <termNote id="c3217-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3217-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3217-2">
+            <term>Enterprise Resource Planning</term>
+            <termNote id="c3217-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3217-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3218">
+        <descrip type="subjectField" id="c3218-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3218-1">
+            <term>ISP</term>
+            <termNote id="c3218-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3218-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3218-2">
+            <term>Internet Service Provider</term>
+            <termNote id="c3218-2-f0" type="administrativeStatus">admitted</termNote>
+            <termNote id="c3218-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3219">
+        <descrip type="subjectField" id="c3219-d0-1">legal</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3219-1">
+            <term>MLA</term>
+            <termNote id="c3219-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3219-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3219-2">
+            <term>Master License Agreement</term>
+            <termNote id="c3219-2-f0" type="administrativeStatus">admitted</termNote>
+            <termNote id="c3219-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3220">
+        <descrip type="subjectField" id="c3220-d0-1">legal</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3220-1">
+            <term>MSA</term>
+            <termNote id="c3220-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3220-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3220-2">
+            <term>Framework Agreement</term>
+            <termNote id="c3220-2-f0" type="administrativeStatus">admitted</termNote>
+            <termNote id="c3220-2-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3220-3">
+            <term>Master Service Agreement</term>
+            <termNote id="c3220-3-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3220-3-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3221">
+        <descrip type="subjectField" id="c3221-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3221-1">
+            <term>PLM</term>
+            <termNote id="c3221-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3221-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3221-2">
+            <term>Product Lifecycle Management</term>
+            <termNote id="c3221-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3221-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3222">
+        <descrip type="subjectField" id="c3222-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3222-1">
+            <term>PM</term>
+            <termNote id="c3222-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3222-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3222-2">
+            <term>Product Manager</term>
+            <termNote id="c3222-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3222-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3223">
+        <descrip type="subjectField" id="c3223-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3223-1">
+            <term>PO</term>
+            <termNote id="c3223-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3223-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3223-2">
+            <term>Purchase Order</term>
+            <termNote id="c3223-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3223-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3224">
+        <descrip type="subjectField" id="c3224-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3224-1">
+            <term>SLEPOS</term>
+            <termNote id="c3224-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3224-1-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3225">
+        <descrip type="subjectField" id="c3225-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3225-1">
+            <term>SRM</term>
+            <termNote id="c3225-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3225-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3225-2">
+            <term>Service Request Management</term>
+            <termNote id="c3225-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3225-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3226">
+        <descrip type="subjectField" id="c3226-d0-1">SUSE</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3226-2">
+            <term>RGS</term>
+            <termNote id="c3226-2-f0" type="administrativeStatus">Draft</termNote>
+            <termNote id="c3226-2-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c3226-3">
+            <term>Rancher Government Solutions</term>
+            <termNote id="c3226-3-f0" type="administrativeStatus">Draft</termNote>
+            <termNote id="c3226-3-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3229">
+        <descrip type="subjectField" id="c3229-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3229-1">
+            <term>revenue</term>
+            <termNote id="c3229-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3229-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3230">
+        <descrip type="subjectField" id="c3230-d0-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3230-1">
+            <term>Year over Year</term>
+            <termNote id="c3230-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3230-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3230-2">
+            <term>YoY</term>
+            <termNote id="c3230-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3230-2-f1" type="termType">acronym</termNote>
           </tig>
         </langSet>
       </termEntry>
