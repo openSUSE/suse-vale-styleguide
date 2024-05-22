@@ -1,9 +1,0 @@
-extends: spelling
-message: "'%s' is a typo!"
-dicpath: /home/toba/devel/suse-documentation-dicts/build
-append: true
-custom: true
-dictionaries:
-  - en_US-suse-doc
-action:
-  name: suggest
