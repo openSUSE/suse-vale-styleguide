@@ -18,6 +18,7 @@ The supplied rules perform the following checks:
 
 The following installation procedure has been tested on Linux Mint and openSUSE.
 
+
 ## Option 1. Install precompiled binary
 
 1. Check the available tags at https://github.com/errata-ai/vale/tags
@@ -38,7 +39,23 @@ sudo mv ./vale /usr/local/bin
 
 Instead of _/usr/local/bin_, you can move the binary to any directory that is in `$PATH`.
 
-## Option 2. Install via Brew
+
+## Option 2. Install distribution provided binary
+
+vale is widely packaged by the distribution providers, so install it for
+your distribution if provided in a recent enough version. Please check the packaging status:
+
+[![Packaging status](https://repology.org/badge/vertical-allrepos/vale.svg)](https://repology.org/project/vale/versions)
+
+
+For example in openSUSE Leap 15.5 or newer, `vale` can be installed by issuing:
+
+```shell
+zypper install vale
+```
+
+
+## Option 3. Install via Brew
 
 1. Install [Brew](https://brew.sh):
 ```shell
