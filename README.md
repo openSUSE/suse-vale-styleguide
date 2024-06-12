@@ -115,10 +115,10 @@ BasedOnStyles = suse-vale-styleguide
 
 ## Add VS Code and VSCodium integration
 
-In VS Code, install the [Vale +VS Code extension](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
-In VSCodium, install [Vale +VS Code extension](https://open-vsx.org/extension/errata-ai/vale-server).
+In VS Code, install the [Vale +VS Code extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode).
+In VSCodium, install [Vale +VS Code extension](https://open-vsx.org/extension/chrischinchilla/vale-vscode).
 
-[Source code](https://github.com/errata-ai/vale-vscode)
+[Source code](https://github.com/ChrisChinchilla/vale-vscode)
 
 In VS Code or VSCodium, choose **File > Preferences > Settings** and specify the path to the Vale binary (for example, _/usr/local/bin/vale_) under **Vale > Vale CLI: Path**.
 
