@@ -1,0 +1,8 @@
+# Source: https://documentation.suse.com/style/current/single-html/docu_styleguide/index.html#sec-structure-sentence
+
+extends: occurrence
+message: "Each sentence should be 20 words or fewer."
+level: suggestion
+scope: sentence
+max: 20
+token: \b(\w+)\b
