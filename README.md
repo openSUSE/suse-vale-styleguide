@@ -1,8 +1,8 @@
 # Vale-based technical documentation style guide
 
-A [Vale](https://vale.sh)-compatible style for technical writers documenting open-source software and for anyone writing about Open Source.
-The style closely follows [SUSE Documentation Style Guide][https://documentation.suse.com/style/current/html/docu_styleguide/index.html]
-an is developed by the SUSE Documentation Team.
+A [Vale](https://vale.sh)-compatible style for technical writers documenting open source software and for anyone writing about Open Source.
+The style guide closely follows the [SUSE Documentation Style Guide][https://documentation.suse.com/style/current/html/docu_styleguide/index.html]
+and is developed by the SUSE Documentation Team.
 
 ## Checks
 
@@ -92,7 +92,7 @@ experimental = YES
 BasedOnStyles = common
 ```
 
-Save the changes.
+3. Save the changes.
 
 ## Add XML and AsciiDoc support (openSUSE)
 
