@@ -1,6 +1,8 @@
 # Vale-based technical documentation style guide
 
-A [Vale](https://vale.sh)-compatible style for technical writers documenting open-source software and for anyone writing about Open Source.
+A [Vale](https://vale.sh)-compatible style for technical writers documenting open source software and for anyone writing about Open Source.
+The style guide closely follows the [SUSE Documentation Style Guide][https://documentation.suse.com/style/current/html/docu_styleguide/index.html]
+and is developed by the SUSE Documentation Team.
 
 ## Checks
 
@@ -67,7 +69,7 @@ zypper install vale
 brew install vale
 ```
 
-# Install the style guide
+# Install the style guide rules
 
 1. Create the _styles_ directory: `mkdir $HOME/styles`
 2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/openSUSE/suse-vale-styleguide.git`
@@ -86,13 +88,13 @@ StylesPath = styles
 MinAlertLevel = suggestion
 [asciidoctor]
 experimental = YES
-[*.{md,txt,adoc}]
-BasedOnStyles = suse-vale-styleguide
+[*]
+BasedOnStyles = common
 ```
 
-Save the changes.
+3. Save the changes.
 
-## Add XML support (openSUSE)
+## Add DocBook-XML and AsciiDoc support (openSUSE)
 
 1. Install the _libxslt-tools_ and _docbook-xsl-stylesheets_ packages.
 2. Open the _.vale.ini_ file for editing and update the existing configuration as follows:
@@ -104,9 +106,11 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/suse2022-ns/xhtml/docbook.xsl
-BasedOnStyles = suse-vale-styleguide
-[*.{md,txt,adoc}]
-BasedOnStyles = suse-vale-styleguide
+BasedOnStyles = comonm, docbook
+[*.adoc]
+BasedOnStyles = common, asciidoc
+[*]
+BasedOnStyles = common
 ```
 
 3. Save the changes.
@@ -123,9 +127,9 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl
-BasedOnStyles = suse-vale-styleguide
-[*.{md,txt,adoc}]
-BasedOnStyles = suse-vale-styleguide
+BasedOnStyles = common, docbook
+[*]
+BasedOnStyles = common
 ```
 
 3. Save the changes.
@@ -138,10 +142,6 @@ In VSCodium, install [Vale +VS Code extension](https://open-vsx.org/extension/ch
 [Source code](https://github.com/ChrisChinchilla/vale-vscode)
 
 In VS Code or VSCodium, choose **File > Preferences > Settings** and specify the path to the Vale binary (for example, _/usr/local/bin/vale_) under **Vale > Vale CLI: Path**.
-
-## Updating the style guide
-
-Switch to the _suse-vale-styleguide_ directory and run the `git pull` command.
 
 ## Problems?
 
