@@ -1,8 +1,14 @@
 extends: substitution
-message: "Use an entity for '%s' or a correct form: '%s'."
+message: "Use an entity or '%s' instead of '%s'."
 level: warning
 ignorecase: true
 action:
   name: replace
 swap:
-  
+  K.D.E.|KDE Desktop Environment: KDE
+  SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
+  xen|XEN: Xen
+  shell tool|command line tool: command-line tool|CLT
+  Command Line Interface: CLI|command-line interface
+  Bug Buddy: bug-buddy
+  Nvidia: NVIDIA

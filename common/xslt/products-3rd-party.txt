@@ -1,0 +1,7 @@
+K.D.E.|KDE Desktop Environment: KDE
+SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
+xen|XEN: Xen
+shell tool|command line tool: command-line tool|CLT
+Command Line Interface: CLI|command-line interface
+Bug Buddy: bug-buddy
+Nvidia: NVIDIA
