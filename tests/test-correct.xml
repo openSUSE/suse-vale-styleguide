@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter [
   <!ENTITY nbsp "entity-value">
+  <!ENTITY gnome "entity-value">
 ]>
 
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0">
   <title>test-correct.xml</title>
   <para>
     This <quote>quoted phrase</quote> is correct here.
-    20&nbsp;GB is not fine.
+    20&nbsp;GB is not fine. <filename>config-templates</filename> in &gnome;
   </para>
+  <remark>after btrfs quotas</remark>
+  <screen>yast dns-server nameserver add zone</screen>
+  <!-- for example this should not be checked -->
 </chapter>

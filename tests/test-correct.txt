@@ -29,3 +29,5 @@ Hotplug is a correct word. Hotplugged as well.
 NVIDIA is a gfx card.
 Here comes the rain again.
 20 GB is not fine.
+Drop-down list is fine with me.
+Or via Bonjour/DNS-SD.
