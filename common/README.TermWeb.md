@@ -1,16 +1,17 @@
 # Vale Termweb suggestions
 
 The `Termweb.yml` file includes suggestions from the TermWeb database. The terms
-need to be exportd first with thesaved `export-for-vale` export into a XML file,
-for example `xslt/tbx.xml`. Then convert that file into a Vale suggestion list:
+need to be exportd first with the saved `export-for-vale` export into a XML file.
+Then convert that file into a Vale suggestion list:
 ```
-xsltproc -param write-internal "true()" -o xslt/tbx.txt xslt/termweb2text.xsl xslt/tbx.xml
+xsltproc -param write-internal "true()" -o xslt/terms.txt xslt/termweb2text.xsl xslt/vale-export-terms.xml
+xsltproc -param write-internal "true()" -o xslt/products.txt xslt/termweb2text.xsl xslt/vale-export-products.xml
 ```
-The `xslt/tbx.txt` file contains the
-correct suggestion rules. Replace the ones in `Termweb.yml` with the content of
-`xslt/tbx.txt`, possubly sort ascending. The indentation matters!
+The exported TXT files contain the correct suggestion rules. Replace the ones
+in `Termweb.yml` and `TermwebProducts.yml` with the content of the TXT files,
+possibly sort ascending. The indentation matters!
 
-# SUSE documentation wordlist
+# SUSE documentation wordlist <- OBSOLETED, DONT USE
 
 The https://github.com/openSUSE/suse-documentation-dicts repo contains a list of
 allowed words for a spell checker - `suse_wordlist.txt`. It can be updated by
