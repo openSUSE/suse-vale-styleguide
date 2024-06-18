@@ -1,7 +1,7 @@
 # Vale-based technical documentation style guide
 
 A [Vale](https://vale.sh)-compatible style for technical writers documenting open source software and for anyone writing about Open Source.
-The style guide closely follows the [SUSE Documentation Style Guide][https://documentation.suse.com/style/current/html/docu_styleguide/index.html]
+The style guide closely follows the [SUSE Documentation Style Guide](https://documentation.suse.com/style/current/html/docu_styleguide/index.html)
 and is developed by the SUSE Documentation Team.
 
 ## Checks
