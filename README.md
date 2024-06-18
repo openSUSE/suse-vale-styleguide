@@ -94,7 +94,7 @@ BasedOnStyles = common
 
 3. Save the changes.
 
-## Add XML and AsciiDoc support (openSUSE)
+## Add DocBook-XML and AsciiDoc support (openSUSE)
 
 1. Install the _libxslt-tools_ and _docbook-xsl-stylesheets_ packages.
 2. Open the _.vale.ini_ file for editing and update the existing configuration as follows:
