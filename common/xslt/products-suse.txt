@@ -1,33 +1,34 @@
-ATIP: SUSE ATIP|SUSE Adaptive Telco Infrastructure Platform
-D-Installer|DInstaller|Deinstaller: Agama
-Language Stack SLE BCI|Language Stack BCI: Development Stack SLE BCI
-MicroOS Server: MicroOS
-SLE Desktop|SLE Entreprise Desktop|SLE Linux Desktop|Sled|sled|S\.L\.E\.D\.|SleD: SLED|SUSE Linux Enterprise Desktop
+
+SLES-SAP|SLES4SAP: SUSE Linux Enterprise Server for SAP Applications|SLES for SAP|SLES for SAP Applications
+SUSE Linux Enterprise Storage|SUSE Storage: SUSE Enterprise Storage|SES
 SLE Enterprise|SLE Linux|sle|Sle|S\.L\.E\.: SUSE Linux Enterprise|SLE
-SLE-HPC|SLE for HPC|SUSE Linux Enterprise Server for High-Performance Computing|SUSE Linux Enterprise Server for High Performance Computing: SUSE Linux Enterprise High Performance Computing|SLE HPC
+SUSE Linux Manager: SUSE Manager|SUMA
+yast2|yast|YaST2|Yast|YAST2|YAST: YaST|Yet another Setup Tool
+SUSE Linux Enterprise Server for High Availability Extension|SLE-HA|SUSE Linux Enterprise High Availability Extension: SLE HA|SUSE Linux Enterprise High Availability
 SLE-LP: SUSE Linux Enterprise Live Patching|SLE LP
-SLE-POS: SUSE Linux Enterprise Point of Service|SLE POS
-SLE-RT: SUSE Linux Enterprise Real Time|SLE RT
-SLE-VMDP: SUSE Linux Enterprise Virtual Machine Driver Pack
-SLE-WE: SUSE Linux Enterprise Workstation Extension
+SUSE Linux Enterprise Server for POWER|SLES-POWER: SLES on POWER|SUSE Linux Enterprise Server on POWER|SUSE Linux Enterprise Server on IBM POWER
 SLES on IBM Z and LinuxONE|SLES-Z|SUSE Linux Enterprise Server on IBM Z and LinuxONE|SUSE Linux Enterprise Server for z Systems and LinuxONE: SUSE Linux Enterprise Server for IBM Z and LinuxONE|SLES for Z and LinuxONE
 SLES-AMD/Intel: SLES on AMD/Intel|SUSE Linux Enterprise Server on AMD/Intel
-SLES-ES: SUSE Linux Enterprise Server Subscription with Expanded Support
-SLES-SAP|SLES4SAP: SUSE Linux Enterprise Server for SAP Applications|SLES for SAP|SLES for SAP Applications
 SUMA-Retail|SUMA 4 Retail|SUSE Manager 4 Retail: SUMA for Retail|SUSE Manager for Retail
 SUSE Linux Enterprise Server for Arm|SLES-Arm: SUSE Linux Enterprise Server on Arm|SLES on Arm
-SUSE Linux Enterprise Server for High Availability Extension|SLE-HA|SUSE Linux Enterprise High Availability Extension: SLE HA|SUSE Linux Enterprise High Availability
-SUSE Linux Enterprise Server for POWER|SLES-POWER: SLES on POWER|SUSE Linux Enterprise Server on POWER|SUSE Linux Enterprise Server on IBM POWER
-SUSE Linux Enterprise Storage|SUSE Storage: SUSE Enterprise Storage|SES
-SUSE Linux Manager: SUSE Manager|SUMA
-SUSE partner portal: SUSE One partner portal
-SUSE-CAP: SUSE Cloud Application Platform
+SLE-RT: SUSE Linux Enterprise Real Time|SLE RT
+SLES-ES: SUSE Linux Enterprise Server Subscription with Expanded Support
+SLE-POS: SUSE Linux Enterprise Point of Service|SLE POS
+SLE-WE: SUSE Linux Enterprise Workstation Extension
+SLE-VMDP: SUSE Linux Enterprise Virtual Machine Driver Pack
 SUSE-CaaSP: SUSE CaaS Platform
-SleS: SUSE Linux Enterprise Server|SLES
-Tw: openSUSE Tumbleweed
-far-edge: Far edge
-kiwi|Kiwi: KIWI
-near-edge: Near edge
+SUSE-CAP: SUSE Cloud Application Platform
 open-SUSE|open SUSE|Open-SUSE|Open SUSE: openSUSE
+Tw: openSUSE Tumbleweed
+D-Installer|DInstaller|Deinstaller: Agama
+ATIP: SUSE ATIP|SUSE Adaptive Telco Infrastructure Platform
+kiwi|Kiwi: KIWI
+SUSE partner portal: SUSE One partner portal
+MicroOS Server: MicroOS
+far-edge: Far edge
+near-edge: Near edge
 tiny-edge: Tiny edge
-yast2|yast|YaST2|Yast|YAST2|YAST: YaST|Yet another Setup Tool
+Language Stack SLE BCI|Language Stack BCI: Development Stack SLE BCI
+SleS: SUSE Linux Enterprise Server|SLES
+SLE Desktop|SLE Entreprise Desktop|SLE Linux Desktop|Sled|sled|S\.L\.E\.D\.|SleD: SLED|SUSE Linux Enterprise Desktop
+SLE-HPC|SLE for HPC|SUSE Linux Enterprise Server for High-Performance Computing|SUSE Linux Enterprise Server for High Performance Computing: SUSE Linux Enterprise High Performance Computing|SLE HPC

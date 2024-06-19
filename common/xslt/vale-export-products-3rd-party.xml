@@ -28,6 +28,7 @@
             <term>K.D.E.</term>
             <termNote id="c197-2-f0" type="administrativeStatus">notRecommended</termNote>
             <termNote id="c197-2-f1" type="termType">acronym</termNote>
+            <descrip id="c197-2-f8" type="valeRegex">K\.D\.E\.</descrip>
           </tig>
           <tig id="c197-3">
             <term>KDE Desktop Environment</term>
