@@ -31,3 +31,4 @@ Here comes the rain again.
 20 GB is not fine.
 Drop-down list is fine with me.
 Or via Bonjour/DNS-SD.
+KiDiE is a new acronym flow.
