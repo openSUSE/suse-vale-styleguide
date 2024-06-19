@@ -19,7 +19,7 @@ crashdump: crash dump
 multi-user|multi user: multiuser
 NFS file system|N.F.S.|Nfs: NFS|Network File System
 NIS information service|N.I.S.|Nis: NIS|Network information system
-sd|SD|solidstate drive|solid state drive|solid-state disk|solid-state disk drive|solid state disc: solid-state drive|SSD
+(?<!\S)sd|(?<!\S)SD|solidstate drive|solid state drive|solid-state disk|solid-state disk drive|solid state disc: solid-state drive|SSD
 System 500|system d|systemD|Systemd|System D: systemd
 Platform as a Service: PaaS|Platform-as-a-Service
 non-open source software: closed-source software
@@ -41,7 +41,7 @@ frame-buffer|frame buffer: framebuffer
 hardlink|hard-link: hard link
 ipf: IA-64|ia64
 initialization script|initscript|init-script: init script
-IPV4|IPv4|IP v4: IPv4|Internet protocol version four
+IPV4|IP v4: IPv4
 kernelspace|kernel-space: kernel space
 life-cycle|life cycle: lifecycle
 mountpoint|mount-point: mount point
@@ -54,6 +54,7 @@ scsi|S.C.S.I.|Scsi: SCSI|Small Computer System Interface
 SSH Shell|SSH shell: Secure Shell Protocol|SSH
 synch: synchronization|sync
 v12n: virtualization
+Virtualized Local Area Network: VLAN|Virtual Local Area Network
 back door: backdoor|trap door|wormhole
 Chroot-script: chroot script
 task-bar|task bar: desktop panel|panel|bottom edge panel|bottom panel|taskbar
@@ -93,3 +94,5 @@ POWER8: ppc64|IBM Power|ppc64le|POWER
 RISC V|risc-v|Risc v|Risc V|Risc-V: riscv64|RISC-V
 hamburger menu: three-line menu
 kebab menu: three-dot menu
+KABI: kABI|Kernel Application Binary Interface
+IPV6|IP v6: IPv6
