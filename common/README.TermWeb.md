@@ -5,7 +5,8 @@ need to be exportd first with the saved `export-for-vale` export into a XML file
 Then convert that file into a Vale suggestion list:
 ```
 xsltproc -param write-internal "true()" -o xslt/terms.txt xslt/termweb2text.xsl xslt/vale-export-terms.xml
-xsltproc -param write-internal "true()" -o xslt/products.txt xslt/termweb2text.xsl xslt/vale-export-products.xml
+xsltproc -param write-internal "true()" -o xslt/products-3rd-party.txt xslt/termweb2text.xsl xslt/vale-export-products-3rd-party.xml
+xsltproc -param write-internal "true()" -o xslt/products-suse.txt xslt/termweb2text.xsl xslt/vale-export-products-suse.xml
 ```
 The exported TXT files contain the correct suggestion rules. Replace the ones
 in `Termweb.yml` and `TermwebProducts.yml` with the content of the TXT files,
