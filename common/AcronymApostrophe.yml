@@ -1,0 +1,6 @@
+extends: existence
+message: "The acronym [%s] should not be in possesive form or used with an apostrophe in plural form."
+level: error
+ignorecase: false
+tokens:
+  - ^[A-Z]{2,}'(?:s|es|ies|)
