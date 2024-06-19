@@ -713,6 +713,26 @@
           </tig>
         </langSet>
       </termEntry>
+      <termEntry id="c3345">
+        <descrip type="subjectField" id="c3345-d0-1">product names</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3345-1">
+            <term>KANIDM</term>
+            <termNote id="c3345-1-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c3345-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3345-2">
+            <term>kanidm</term>
+            <termNote id="c3345-2-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c3345-2-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3345-3">
+            <term>Kanidm</term>
+            <termNote id="c3345-3-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3345-3-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
     </body>
   </text>
 </martif>
