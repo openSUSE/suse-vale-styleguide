@@ -34,12 +34,13 @@ wget https://github.com/errata-ai/vale/releases/download/v2.20.0/vale_2.20.0_Lin
 ```shell
 tar xvf vale_2.20.0_Linux_64-bit.tar.gz vale
 ```
-4. Move the _vale_ binary to the _/usr/local/bin_ directory:
+4. Add ``vale`` to `PATH` by adding the directory to .bashrc and reload it:
 ```shell
-sudo mv ./vale /usr/local/bin
+echo 'export PATH=./vale:"$PATH"' >> .bashrc
+source .bashrc
 ```
 
-Instead of _/usr/local/bin_, you can move the binary to any directory that is in `$PATH`.
+Instead of _/vale_, you can move the binary to any directory that is in `$PATH`.
 
 
 ## Option 2. Install distribution provided binary
