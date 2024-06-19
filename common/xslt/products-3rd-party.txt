@@ -1,5 +1,6 @@
 Bug Buddy: bug-buddy
 Command Line Interface: CLI|command-line interface
+KANIDM|kanidm: Kanidm
 K\.D\.E\.|KDE Desktop Environment: KDE
 Nvidia: NVIDIA
 SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
