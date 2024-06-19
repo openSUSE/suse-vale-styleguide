@@ -110,7 +110,7 @@
             <term>S.L.E.</term>
             <termNote id="c215-7-f0" type="administrativeStatus">notRecommended</termNote>
             <termNote id="c215-7-f1" type="termType">acronym</termNote>
-            <descrip id="c215-7-f8" type="valeRegex">dontshow</descrip>
+            <descrip id="c215-7-f8" type="valeRegex">S\.L\.E\.</descrip>
           </tig>
         </langSet>
       </termEntry>
@@ -227,27 +227,6 @@
             <term>trento</term>
             <termNote id="c507-2-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c507-2-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c542">
-        <descrip type="subjectField" id="c542-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c542-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c542-1">
-            <term>SLE Micro</term>
-            <termNote id="c542-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c542-1-f1" type="termType">abbreviation</termNote>
-          </tig>
-          <tig id="c542-2">
-            <term>SUSE Linux Enterprise Micro</term>
-            <termNote id="c542-2-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c542-2-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c542-3">
-            <term>SLE Marble</term>
-            <termNote id="c542-3-f0" type="administrativeStatus">Obsolete</termNote>
-            <termNote id="c542-3-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -394,71 +373,6 @@
             <term>SLE BCI</term>
             <termNote id="c567-2-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c567-2-f1" type="termType">abbreviation</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c570">
-        <descrip type="subjectField" id="c570-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c570-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c570-1">
-            <term>SUSE Rancher</term>
-            <termNote id="c570-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c570-1-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c570-2">
-            <term>Rancher by SUSE</term>
-            <termNote id="c570-2-f0" type="administrativeStatus">Draft</termNote>
-            <termNote id="c570-2-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c573">
-        <descrip type="subjectField" id="c573-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c573-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c573-1">
-            <term>SUSE Rancher Hosted</term>
-            <termNote id="c573-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c573-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c576">
-        <descrip type="subjectField" id="c576-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c576-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c576-1">
-            <term>NeuVector</term>
-            <termNote id="c576-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c576-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c579">
-        <descrip type="subjectField" id="c579-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c579-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c579-1">
-            <term>Rancher Desktop</term>
-            <termNote id="c579-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c579-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c583">
-        <descrip type="subjectField" id="c583-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c583-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c583-1">
-            <term>RKE</term>
-            <termNote id="c583-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c583-1-f1" type="termType">acronym</termNote>
-          </tig>
-          <tig id="c583-2">
-            <term>Rancher Kubernetes Engine</term>
-            <termNote id="c583-2-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c583-2-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -944,28 +858,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c1908">
-        <descrip type="subjectField" id="c1908-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c1908-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c1908-1">
-            <term>Rancher Node</term>
-            <termNote id="c1908-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c1908-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c1911">
-        <descrip type="subjectField" id="c1911-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c1911-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c1911-1">
-            <term>Rancher Prime Node</term>
-            <termNote id="c1911-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c1911-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c1915">
         <descrip type="subjectField" id="c1915-d0-1">SUSE</descrip>
         <descrip type="subjectField" id="c1915-d1-1">product names</descrip>
@@ -1140,23 +1032,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c2334">
-        <descrip type="subjectField" id="c2334-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c2334-d1-1">open source</descrip>
-        <descrip type="subjectField" id="c2334-d2-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c2334-1">
-            <term>openSUSE Linarite</term>
-            <termNote id="c2334-1-f0" type="administrativeStatus">Obsolete</termNote>
-            <termNote id="c2334-1-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c2334-2">
-            <term>Leap 16</term>
-            <termNote id="c2334-2-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2334-2-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c2337">
         <descrip type="subjectField" id="c2337-d0-1">SUSE</descrip>
         <descrip type="subjectField" id="c2337-d1-1">product names</descrip>
@@ -1288,22 +1163,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c2442">
-        <descrip type="subjectField" id="c2442-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c2442-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c2442-1">
-            <term>Enterprise Container Management</term>
-            <termNote id="c2442-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2442-1-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c2442-2">
-            <term>ECM</term>
-            <termNote id="c2442-2-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2442-2-f1" type="termType">acronym</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c2762">
         <descrip type="subjectField" id="c2762-d0-1">SUSE</descrip>
         <descrip type="subjectField" id="c2762-d1-1">common IT</descrip>
@@ -1355,17 +1214,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c3170">
-        <descrip type="subjectField" id="c3170-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c3170-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c3170-1">
-            <term>SUSE Harvester</term>
-            <termNote id="c3170-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c3170-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c3186">
         <descrip type="subjectField" id="c3186-d0-1">SUSE</descrip>
         <descrip type="subjectField" id="c3186-d1-1">product names</descrip>
@@ -1382,22 +1230,6 @@
           </tig>
         </langSet>
       </termEntry>
-      <termEntry id="c3187">
-        <descrip type="subjectField" id="c3187-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c3187-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c3187-1">
-            <term>SUSE Linux Container Solution</term>
-            <termNote id="c3187-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c3187-1-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c3187-2">
-            <term>SLCS</term>
-            <termNote id="c3187-2-f0" type="administrativeStatus">admitted</termNote>
-            <termNote id="c3187-2-f1" type="termType">acronym</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
       <termEntry id="c3188">
         <descrip type="subjectField" id="c3188-d0-1">SUSE</descrip>
         <descrip type="subjectField" id="c3188-d1-1">product names</descrip>
@@ -1411,17 +1243,6 @@
             <term>SLCC</term>
             <termNote id="c3188-2-f0" type="administrativeStatus">Draft</termNote>
             <termNote id="c3188-2-f1" type="termType">acronym</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c3189">
-        <descrip type="subjectField" id="c3189-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c3189-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c3189-1">
-            <term>SUSE Linux Micro</term>
-            <termNote id="c3189-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c3189-1-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -1443,41 +1264,6 @@
             <term>Language Stack BCI</term>
             <termNote id="c3197-3-f0" type="administrativeStatus">notRecommended</termNote>
             <termNote id="c3197-3-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c3292">
-        <descrip type="subjectField" id="c3292-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c3292-d1-1">open source</descrip>
-        <descrip type="subjectField" id="c3292-d2-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c3292-1">
-            <term>Fuel Ignition</term>
-            <termNote id="c3292-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c3292-1-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c3320">
-        <descrip type="subjectField" id="c3320-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c3320-d1-1">open source</descrip>
-        <descrip type="subjectField" id="c3320-d2-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c3320-1">
-            <term>SUSE prime</term>
-            <termNote id="c3320-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c3320-1-f1" type="termType">shortForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c3324">
-        <descrip type="subjectField" id="c3324-d0-1">SUSE</descrip>
-        <descrip type="subjectField" id="c3324-d1-1">product names</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c3324-1">
-            <term>SLES Minimal VM</term>
-            <termNote id="c3324-1-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c3324-1-f1" type="termType">shortForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -1535,7 +1321,7 @@
             <term>S.L.E.D.</term>
             <termNote id="c8-26-f0" type="administrativeStatus">notRecommended</termNote>
             <termNote id="c8-26-f1" type="termType">acronym</termNote>
-            <descrip id="c8-26-f8" type="valeRegex">dontshow</descrip>
+            <descrip id="c8-26-f8" type="valeRegex">S\.L\.E\.D\.</descrip>
           </tig>
           <tig id="c8-1">
             <term>SleD</term>
