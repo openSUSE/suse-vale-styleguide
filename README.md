@@ -32,11 +32,11 @@ wget https://github.com/errata-ai/vale/releases/download/v2.20.0/vale_2.20.0_Lin
 3. Extract the downloaded archive:
 
 ```shell
-tar xvf vale_2.20.0_Linux_64-bit.tar.gz vale
+tar xvf vale_2.20.0_Linux_64-bit.tar.gz $HOME/vale
 ```
 4. Add ``vale`` to `PATH` by adding the directory to .bashrc and reload it:
 ```shell
-echo 'export PATH=./vale:"$PATH"' >> .bashrc
+echo 'export PATH=~/vale:"$PATH"' >> .bashrc
 source .bashrc
 ```
 
