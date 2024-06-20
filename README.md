@@ -89,7 +89,7 @@ StylesPath = styles
 MinAlertLevel = suggestion
 [asciidoctor]
 experimental = YES
-[*]
+[*{xml,adoc,md}]
 BasedOnStyles = common
 ```
 
@@ -110,7 +110,7 @@ Transform = /usr/share/xml/docbook/stylesheet/suse2022-ns/xhtml/docbook.xsl
 BasedOnStyles = comonm, docbook
 [*.adoc]
 BasedOnStyles = common, asciidoc
-[*]
+[*.{xml,adoc,md}]
 BasedOnStyles = common
 ```
 
@@ -129,7 +129,7 @@ experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl
 BasedOnStyles = common, docbook
-[*]
+[*{xml,adoc,md}]
 BasedOnStyles = common
 ```
 
