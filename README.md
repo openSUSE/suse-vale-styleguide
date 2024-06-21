@@ -38,7 +38,7 @@ tar xvf vale*.tar.gz -C $HOME/vale
 4. Add ``vale`` to `PATH` by adding the directory to .bashrc and reload it:
 ```shell
 echo 'export PATH=~/vale:"$PATH"' >> .bashrc
-source .bashrc
+source ~/.bashrc
 ```
 
 Instead of _/vale_, you can move the binary to any directory that is in `$PATH`.
