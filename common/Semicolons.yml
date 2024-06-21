@@ -1,5 +1,5 @@
 extends: existence
-message: "Use semicolons judiciously."
+message: "Use semicolons prudently."
 nonword: true
 scope: sentence
 level: suggestion
