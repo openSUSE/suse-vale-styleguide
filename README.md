@@ -29,7 +29,7 @@ The following installation procedure has been tested on Linux Mint and openSUSE.
 ```shell
 wget https://github.com/errata-ai/vale/releases/download/v2.20.0/vale_2.20.0_Linux_64-bit.tar.gz
 ```
-3. Create a vale directory and extract the downloaded archive there:
+3. Create a _vale_ subdirectory in your home directory and extract the downloaded archive there:
 
 ```shell
 test -d $HOME/vale || mkdir $HOME/vale
