@@ -41,7 +41,7 @@ echo 'export PATH=~/vale:"$PATH"' >> .bashrc
 source ~/.bashrc
 ```
 
-Instead of _/vale_, you can move the binary to any directory that is in `$PATH`.
+Instead of _~/vale_, you can move the binary to any directory that is in `$PATH`.
 
 
 ## Option 2. Install distribution provided binary
