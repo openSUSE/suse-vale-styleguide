@@ -6,7 +6,7 @@ nonword: true
 action:
   name: replace
 swap:
-  '\b(?:eg|e\.g\.)[\s]': 'for example '
-  '\b(?:eg|e\.g\.)[,]': 'for example'
-  '\b(?:ie|i\.e\.)[\s]': 'that is '
-  '\b(?:ie|i\.e\.)[,]': 'that is'
+  '\b(?:eg|e\.\s?g\.)\s+': 'for example '
+  '\b(?:eg|e\.\s?g\.)\s*[,\.;]': 'for example'
+  '\b(?:ie|i\.\s?e\.)\s+': 'that is '
+  '\b(?:ie|i\.\s?e\.)\s*[,\.;]': 'that is' 
