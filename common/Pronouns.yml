@@ -4,6 +4,6 @@ level: warning
 message: "Consider using a gender-neutral term instead of '%s'"
 tokens:
   - his
-  - her(?:s)
+  - her(?:s|)
   - he
   - she
