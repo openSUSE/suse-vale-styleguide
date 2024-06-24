@@ -29,17 +29,19 @@ The following installation procedure has been tested on Linux Mint and openSUSE.
 ```shell
 wget https://github.com/errata-ai/vale/releases/download/v2.20.0/vale_2.20.0_Linux_64-bit.tar.gz
 ```
-3. Extract the downloaded archive:
+3. Create a _vale_ subdirectory in your home directory and extract the downloaded archive there:
 
 ```shell
-tar xvf vale_2.20.0_Linux_64-bit.tar.gz vale
+test -d ~/vale || mkdir ~/vale
+tar xvf vale*.tar.gz -C ~/vale
 ```
-4. Move the _vale_ binary to the _/usr/local/bin_ directory:
+4. Add ``vale`` to `PATH` by adding the directory to .bashrc and reload it:
 ```shell
-sudo mv ./vale /usr/local/bin
+echo 'export PATH=~/vale:"$PATH"' >> .bashrc
+source ~/.bashrc
 ```
 
-Instead of _/usr/local/bin_, you can move the binary to any directory that is in `$PATH`.
+Instead of _~/vale_, you can move the binary to any directory that is in `$PATH`.
 
 
 ## Option 2. Install distribution provided binary
@@ -71,15 +73,15 @@ brew install vale
 
 # Install the style guide rules
 
-1. Create the _styles_ directory: `mkdir $HOME/styles`
-2. Clone the Git repository: `cd $HOME/styles && git clone  https://github.com/openSUSE/suse-vale-styleguide.git`
+1. Create the _styles_ directory: `mkdir ~/styles`
+2. Clone the Git repository: `cd ~/styles && git clone  https://github.com/openSUSE/suse-vale-styleguide.git`
 
 ## Create configuration file
 
 Create a configuration file in your home directory:
 
 ```shell
-nano $HOME/.vale.ini
+nano ~/.vale.ini
 ```
 Add the following configuration:
 
