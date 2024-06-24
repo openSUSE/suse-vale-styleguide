@@ -6,7 +6,7 @@ action:
   name: replace
 swap:
   aren't: are not
-  can't: cannot
+  can't|can not: cannot
   couldn't: could not
   didn't: did not
   don't: do not
@@ -23,3 +23,12 @@ swap:
   when's: when is
   where's: where is
   won't: will not
+  they'll: they will
+  they're: they are
+  they've: they have
+  we'll: we will
+  we're: we are
+  we've: we have
+  you'll: you will
+  you're: you are
+  you've: you have
