@@ -8,7 +8,6 @@ Whatever, i. e. , foo
 Whatever, i. e. ; foo
 Whatever, i. e. foo
 Whatever, i. e.    foo
-
 Whatever, ie., foo
 Whatever, ie.; foo
 Whatever, ie. foo
