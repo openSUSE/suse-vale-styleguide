@@ -12,7 +12,6 @@ Whatever, ie., foo
 Whatever, ie.; foo
 Whatever, ie. foo
 Whatever, ie.    foo
-
 Whatever, ie, foo
 Whatever, ie; foo
 Whatever, ie foo
