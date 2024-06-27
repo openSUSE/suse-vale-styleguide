@@ -8,7 +8,6 @@ action:
 swap:
   '\b(?:eg|e\.\s?g\.)\s+(?![,\.;])': 'for example '
   '\b(?:eg|e\.\s?g\.)\s*[,\.;]': 'for example'
-  '\b(?:ie|i\.\s?e\.)\s+(?![,\.;])': 'that is '
   '\b(?:(?<!\.)eg|e\.\s?g\.)\s+(?![,\.;])': 'for example '
   '\b(?:(?<!\.)eg|e\.\s?g\.)\s*[,\.;]': 'for example'
   '\b(?:(?<!\.)ie|i\.\s?e\.)\s+(?![,\.;])': 'that is '
