@@ -6,14 +6,13 @@ nonword: true
 action:
   name: replace
 swap:
-  '\b(?:eg|e\.\s?g\.)\s+(?![,\.;])': 'for example '
-  '\b(?:eg|e\.\s?g\.)\s*[,\.;]': 'for example'
-  '\b(?:(?<!\.)eg|e\.\s?g\.)\s+(?![,\.;])': 'for example '
-  '\b(?:(?<!\.)eg|e\.\s?g\.)\s*[,\.;]': 'for example'
   '\b(?:i\.\s?e\.)': 'that is' # i.e. with possible whitespaces inbetween
-  '\b(?:ie\.[\t\f\r ]+)': 'that is' # ie. followed by whitespaces but a newline
+  '\b(?:ie\.\s+)': 'that is ' # ie. followed by whitespaces
   '\b(?:ie\.(?=[;,]))': 'that is' # ie. followed by ; or ,
-  '\b(?:ie[\t\f\r ])': 'that is' # ie followed by whitespaces but a newline
+  '\b(?:ie[\t\f\r ])': 'that is' # ie followed by whitespaces but not newline
   '\b(?:ie(?=[;,]))': 'that is' # ie followed by ; or ,
-
-
+  '\b(?:e\.\s?g\.)': 'for example' # e.g. with possible whitespaces inbetween
+  '\b(?:eg\.\s+)': 'for example ' # eg. followed by whitespaces
+  '\b(?:eg\.(?=[;,]))': 'for example' # eg. followed by ; or ,
+  '\b(?:eg[\t\f\r ])': 'for example' # eg followed by whitespaces but not newline
+  '\b(?:eg(?=[;,]))': 'for example' # eg followed by ; or ,
