@@ -10,4 +10,10 @@ swap:
   '\b(?:eg|e\.\s?g\.)\s*[,\.;]': 'for example'
   '\b(?:(?<!\.)eg|e\.\s?g\.)\s+(?![,\.;])': 'for example '
   '\b(?:(?<!\.)eg|e\.\s?g\.)\s*[,\.;]': 'for example'
-  '\b(?:(?<!\.)ie|i\.\s?e\.)\s*[,\.;]': 'that is' 
+  '\b(?:i\.\s?e\.)': 'that is' # i.e. with possible whitespaces inbetween
+  '\b(?:ie\.[\t\f\r ]+)': 'that is' # ie. followed by whitespaces but a newline
+  '\b(?:ie\.(?=[;,]))': 'that is' # ie. followed by ; or ,
+  '\b(?:ie[\t\f\r ])': 'that is' # ie followed by whitespaces but a newline
+  '\b(?:ie(?=[;,]))': 'that is' # ie followed by ; or ,
+
+
