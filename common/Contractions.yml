@@ -14,7 +14,7 @@ swap:
   hasn['` ]?t: has not
   haven['` ]?t: have not
   isn['` ]?t: is not
-  it['` ]?s: it is
+  it['` ]s: it is # its would be false negative
   shouldn['` ]?t: should not
   wouldn['` ]?t: would not
   that['` ]?s: that is
