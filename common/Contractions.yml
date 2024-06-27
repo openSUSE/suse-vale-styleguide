@@ -1,6 +1,6 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
-level: suggestion
+level: error
 ignorecase: true
 action:
   name: replace
@@ -26,8 +26,8 @@ swap:
   they['` ]?ll: they will
   they['` ]?re: they are
   they['` ]?ve: they have
-  we['`]ll: we will
-  we['` ]?re: we are
+  we['`]ll: we will # Different to avoid matching "well"
+  we['`]re: we are # Different to avoid matching "were"
   we['` ]?ve: we have
   you['` ]?ll: you will
   you['` ]?re: you are
