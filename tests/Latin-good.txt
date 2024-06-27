@@ -2,4 +2,3 @@ Whatever, ie.z foo
 Ireland TLD is .ie
 Whatever, ie
 Internet Explorer's nickname was IE.
-IE was Internet explorer name
