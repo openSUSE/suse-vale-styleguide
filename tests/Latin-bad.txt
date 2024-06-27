@@ -16,3 +16,5 @@ Whatever, ie, foo
 Whatever, ie; foo
 Whatever, ie foo
 Whatever, ie     foo
+Unaffected places (e.g., most of South Asia and Africa).
+A more sustainable urban form e.g., compact city, walkable city.
