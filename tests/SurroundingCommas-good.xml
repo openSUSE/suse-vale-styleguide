@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+  <!ENTITY mdash "-">
+]>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0">
+  <title>SurroundingCommas-good.xml</title>
+  <para>
+    Many functions&mdash;for example, getting details about a guest file.
+  </para>
+</chapter>

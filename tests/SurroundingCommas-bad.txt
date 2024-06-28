@@ -1,0 +1,6 @@
+Our neighbor for example, does not eat.
+Our neighbor for example does not eat.
+Our neighbor, for instance does not eat.
+Namely our neighbor does not eat.
+Run your custom command for example:
+For example run your custom command: custom-cmd.sh
