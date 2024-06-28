@@ -11,3 +11,4 @@ Do what you want like skiing and what you want like skiing what, for example.
 This one is not nice but still correct. For example:
 For example, this one.
 Container (web, in this case).
+Many cases (for example, none) end fast.

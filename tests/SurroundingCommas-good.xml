@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE chapter [
-  <!ENTITY mdash "-">
+  <!ENTITY mdash "—">
+  <!ENTITY dash "‐">
 ]>
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0">
   <title>SurroundingCommas-good.xml</title>
