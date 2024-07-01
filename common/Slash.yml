@@ -11,6 +11,8 @@ exceptions:
   - 'client/server'
   - 'input/output'
   - 'I/O'
+  - '[kKmMgGtT][bB]/s'
+  - 'N/A'
   - 'read/write'
   - 'SSL/TLS'
   - 'sync/import'
