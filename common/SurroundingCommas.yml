@@ -4,7 +4,9 @@ level: error
 nonword: true
 tokens:
   # Our neighbor for example, does not eat.
-  - (?m)(?<!,\s+)(?:for example|in this case|namely|for instance)(?=[,:\.\)])
+  # Our neighbor&mdash;for example, does not eat.
+  # Our neighbor (for example, none) does not eat.
+  - (?m)(?<!,\s+|—|‐|\()(?:for example|in this case|namely|for instance)(?=[,:\.\)])
   # Our neighbor, for instance does not eat.
   - (?m)(?<=,\s+)(?:for example|namely|for instance)(?![,:\.\)])
   # Our neighbor for example does not eat.
