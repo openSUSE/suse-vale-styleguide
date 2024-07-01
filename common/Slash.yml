@@ -1,0 +1,22 @@
+extends: existence
+message: 'Only use slashes with filenames, links and terms such as TCP/IP in "%s"'
+ignorecase: true
+level: suggestion
+tokens:
+  - '(?<!/)\w+\s?\/\s?\w+'
+exceptions:
+  - '\d{2,4}\/\d{2,4}' # To avoid matching dates
+  - 'allow/deny'
+  - 'AMD64/Intel' # To avoid matching "AMD64/Intel 64"
+  - 'client/server'
+  - 'input/output'
+  - 'I/O'
+  - '[kKmMgGtT][bB]/s'
+  - 'N/A'
+  - 'read/write'
+  - 'R/W'
+  - 'SSL/TLS'
+  - 'sync/import'
+  - 'read/write'
+  - 'TCP/IP'
+  - 'Fi/Bluetooth' # To avoid matching "Wi-Fi/Bluetooth card"
