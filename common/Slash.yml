@@ -1,5 +1,5 @@
 extends: existence
-message: "%s: Only use slashes with filenames, links and terms such as TCP/IP."
+message: 'Only use slashes with filenames, links and terms such as TCP/IP in "%s"'
 ignorecase: true
 level: suggestion
 tokens:
