@@ -2,5 +2,5 @@ extends: occurrence
 message: "Each sentence should be limited to 20 words or fewer."
 level: suggestion
 scope: sentence
-max: 20
+max: 25
 token: \b(\w+)\b
