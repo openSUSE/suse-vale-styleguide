@@ -1,5 +1,5 @@
 extends: occurrence
-message: "Each sentence should be limited to 20 words or fewer."
+message: "Each sentence should be limited to 25 words or fewer."
 level: suggestion
 scope: sentence
 max: 25
