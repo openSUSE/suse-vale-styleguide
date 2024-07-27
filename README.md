@@ -108,7 +108,7 @@ MinAlertLevel = suggestion
 experimental = YES
 [*.xml]
 Transform = /usr/share/xml/docbook/stylesheet/suse2022-ns/xhtml/docbook.xsl
-BasedOnStyles = comonm, docbook
+BasedOnStyles = common, docbook
 [*.adoc]
 BasedOnStyles = common, asciidoc
 [*.{xml,adoc,md}]
