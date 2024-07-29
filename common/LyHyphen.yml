@@ -1,6 +1,6 @@
 extends: existence
 message: "'%s' doesn't need a hyphen."
-link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-hyphens
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-hyphens
 level: error
 ignorecase: false
 nonword: true
