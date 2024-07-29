@@ -1,5 +1,6 @@
 extends: existence
 message: "Commas and periods go inside quotation marks."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-quotation
 scope: raw
 level: error
 tokens:
