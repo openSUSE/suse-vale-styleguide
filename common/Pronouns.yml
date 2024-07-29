@@ -1,4 +1,5 @@
 extends: existence
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-bias
 ignorecase: true
 level: warning
 message: "Consider using a gender-neutral term instead of '%s'"
