@@ -1,6 +1,6 @@
 extends: existence
 message: "Avoid using future tense where possible"
-link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-tense
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-tense
 ignorecase: true
 level: warning
 tokens:
