@@ -1,5 +1,6 @@
 extends: existence
 message: "In general, use American spelling instead of '%s'."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html
 ignorecase: true
 level: warning
 tokens:
