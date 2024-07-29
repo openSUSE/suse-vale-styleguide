@@ -1,5 +1,6 @@
 extends: existence
 message: "Avoid using exclamation points in text."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-end-sentence
 nonword: true
 level: error
 tokens:
