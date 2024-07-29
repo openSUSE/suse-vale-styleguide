@@ -1,5 +1,6 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-latin
 ignorecase: true
 level: error
 nonword: true
