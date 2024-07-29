@@ -1,5 +1,6 @@
 extends: existence
 message: "Delimit the phrase with comma(s)."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-comma
 level: error
 nonword: true
 tokens:
