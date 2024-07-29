@@ -1,5 +1,6 @@
 extends: occurrence
 message: "Each sentence should be limited to 25 words or fewer."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-structure-sentence
 level: suggestion
 scope: sentence
 max: 25
