@@ -1,5 +1,6 @@
 extends: substitution
 message: "Consider using '%s' instead of '%s'."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-terminology
 level: warning
 ignorecase: false
 action:
