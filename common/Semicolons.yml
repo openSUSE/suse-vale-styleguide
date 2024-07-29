@@ -1,5 +1,6 @@
 extends: existence
 message: "Only use semicolons in complicated lists with punctuation."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-semicolon
 nonword: true
 scope: sentence
 level: suggestion
