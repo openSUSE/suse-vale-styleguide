@@ -1,5 +1,6 @@
 extends: existence
 message: "Consider replacing quotation marks with <quote/> in '%s'."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-quotation
 nonword: true
 level: warning
 tokens:
