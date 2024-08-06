@@ -1,4 +1,5 @@
 extends: existence
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-bias
 ignorecase: true
 level: warning
 message: "Consider using an inclusive term instead of '%s'"

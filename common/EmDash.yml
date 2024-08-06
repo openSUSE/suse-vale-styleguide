@@ -1,5 +1,6 @@
 extends: existence
 message: "Do not put a space before or after a dash."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-dash
 scope: raw
 nonword: true
 level: error
