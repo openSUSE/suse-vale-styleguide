@@ -1,5 +1,6 @@
 10/1990
 01/01/1991
+10.0.1.0/24
 allow/deny
 AMD64/Intel
 client/server
