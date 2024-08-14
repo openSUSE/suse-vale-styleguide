@@ -1,8 +1,7 @@
 extends: existence
 message: 'Only use slashes with filenames, links and terms such as TCP/IP in "%s"'
-link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-slash
-ignorecase: true
 level: suggestion
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-slash
 tokens:
   - '(?<!/)\w+\s?\/\s?\w+'
 exceptions:
