@@ -2,6 +2,7 @@ extends: existence
 message: 'Only use slashes with filenames, links and terms such as TCP/IP in "%s"'
 level: suggestion
 link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-slash
+# Case insensitivity was added with "(?i)" because "ignorecase:true" does not apply to exceptions
 tokens:
   - '(?<!/)\w+\s?\/\s?\w+'
 exceptions:
