@@ -1,4 +1,3 @@
-
 SLES-SAP|SLES4SAP: SUSE Linux Enterprise Server for SAP Applications|SLES for SAP|SLES for SAP Applications
 SUSE Linux Enterprise Storage|SUSE Storage: SUSE Enterprise Storage|SES
 SLE Enterprise|SLE Linux|sle|Sle|S\.L\.E\.: SUSE Linux Enterprise|SLE
