@@ -12,7 +12,6 @@ swap:
   addon|addOn|AddOn|add on: add-on|software add-on
   admin: administrator
   ARM: Arm®|Advanced RISC Machines
-  ATIP: SUSE ATIP|SUSE Adaptive Telco Infrastructure Platform
   autologin|auto-login: auto login
   B\.T\.R\.F\.S|Better FS|BTRFS|btrfs: Btrfs
   back door: backdoor|trap door|wormhole
@@ -22,7 +21,6 @@ swap:
   blacklist: blocklist|denylist
   bootdisk|boot-disk|boot disc: boot disk
   bootloader|boot-loader: boot loader
-  Bug Buddy: bug-buddy
   Business-Critical Linux: BCL|Business Critical Linux
   carrier-grade: carrier grade|carrier class
   ChangeLog|change-log|change log: changelog
@@ -30,16 +28,13 @@ swap:
   Chroot-script: chroot script
   cold plug|cold-plug|coldadd|coldswap: coldplug
   cold-plugging|cold plugging|coldswapping|coldadding: coldplugging
-  Command Line Interface: CLI|command-line interface
   Common UNIX Printing System|common Unix printing system|C\.U\.P\.S|cups|Cups: Common Unix Printing System|CUPS
   config(?!ure|uration|uring): configuration
   Containers-as-a-Service: Containers as a Service|CaaS
   crashdump: crash dump
-  D-Installer|DInstaller|Deinstaller: Agama
   dialog box: dialog
   drop(?!-down|-in): remove
   dummy value: sample value|placeholder value
-  far-edge: Far edge
   filename|file-name: file name
   filesystem hierarchy standard|file system hierarchy standard|File system Hierarchy Standard: FHS|Filesystem Hierarchy Standard
   filesystem|file-system: file system
@@ -60,33 +55,25 @@ swap:
   ipf: IA-64|ia64
   IPV4|IP v4: IPv4
   IPV6|IP v6: IPv6
-  K\.D\.E\.|KDE Desktop Environment: KDE
   KABI: kABI|Kernel Application Binary Interface
-  KANIDM|kanidm: Kanidm
   KDUMP: Kdump
   kebab menu: three-dot menu
   kernelspace|kernel-space: kernel space
-  kiwi|Kiwi: KIWI
-  Language Stack SLE BCI|Language Stack BCI: Development Stack SLE BCI
   life-cycle|life cycle: lifecycle
   list field: list|list box
   man hours: engineer hours|management hours
   manual page: man page
   master branch: main branch
   master-slave|master/slave: parent/child|leader/follower|origin/clone|primary/secondary|leader/peer|parent/port|client/server
-  MicroOS Server: MicroOS
   mountpoint|mount-point: mount point
   multi-user|multi user: multiuser
   name space|name-space: namespace
   nameserver|name-server: name server
   native: built-in
-  near-edge: Near edge
   NFS file system|N.F.S.|Nfs: NFS|Network File System
   NIS information service|N.I.S.|Nis: NIS|Network information system
   non-open source software: closed-source software
-  Nvidia: NVIDIA
   on premise|on prem|on-prem|on-premise: on-premises
-  open-SUSE|open SUSE|Open-SUSE|Open SUSE: openSUSE
   Platform as a Service: PaaS|Platform-as-a-Service
   plug in|plugin: plug-in
   POWER8: ppc64|IBM Power|ppc64le|POWER
@@ -99,40 +86,14 @@ swap:
   run-time: runtime|run time
   sanity check|sanity test: quick check|confidence check|coherence check
   scsi|S.C.S.I.|Scsi: SCSI|Small Computer System Interface
-  shell tool|command line tool: command-line tool|CLT
   slaves: workers
-  SLE Desktop|SLE Entreprise Desktop|SLE Linux Desktop|Sled|sled|S\.L\.E\.D\.|SleD: SLED|SUSE Linux Enterprise Desktop
-  SLE Enterprise|SLE Linux|sle|Sle|S\.L\.E\.: SUSE Linux Enterprise|SLE
-  SLE-HPC|SLE for HPC|SUSE Linux Enterprise Server for High-Performance Computing|SUSE Linux Enterprise Server for High Performance Computing: SUSE Linux Enterprise High Performance Computing|SLE HPC
-  SLE-LP: SUSE Linux Enterprise Live Patching|SLE LP
-  SLE-POS: SUSE Linux Enterprise Point of Service|SLE POS
-  SLE-RT: SUSE Linux Enterprise Real Time|SLE RT
-  SLE-VMDP: SUSE Linux Enterprise Virtual Machine Driver Pack
-  SLE-WE: SUSE Linux Enterprise Workstation Extension
-  SLES on IBM Z and LinuxONE|SLES-Z|SUSE Linux Enterprise Server on IBM Z and LinuxONE|SUSE Linux Enterprise Server for z Systems and LinuxONE: SUSE Linux Enterprise Server for IBM Z and LinuxONE|SLES for Z and LinuxONE
-  SLES-AMD/Intel: SLES on AMD/Intel|SUSE Linux Enterprise Server on AMD/Intel
-  SLES-ES: SUSE Linux Enterprise Server Subscription with Expanded Support
-  SLES-SAP|SLES4SAP: SUSE Linux Enterprise Server for SAP Applications|SLES for SAP|SLES for SAP Applications
-  SleS: SUSE Linux Enterprise Server|SLES
   SSH Shell|SSH shell: Secure Shell Protocol|SSH
-  SUMA-Retail|SUMA 4 Retail|SUSE Manager 4 Retail: SUMA for Retail|SUSE Manager for Retail
   supported on a best effort basis|best effort support|best-effort support: commercially reasonable support
-  SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
-  SUSE Linux Enterprise Server for Arm|SLES-Arm: SUSE Linux Enterprise Server on Arm|SLES on Arm
-  SUSE Linux Enterprise Server for High Availability Extension|SLE-HA|SUSE Linux Enterprise High Availability Extension: SLE HA|SUSE Linux Enterprise High Availability
-  SUSE Linux Enterprise Server for POWER|SLES-POWER: SLES on POWER|SUSE Linux Enterprise Server on POWER|SUSE Linux Enterprise Server on IBM POWER
-  SUSE Linux Enterprise Storage|SUSE Storage: SUSE Enterprise Storage|SES
-  SUSE Linux Manager: SUSE Manager|SUMA
-  SUSE partner portal: SUSE One partner portal
-  SUSE-CaaSP: SUSE CaaS Platform
-  SUSE-CAP: SUSE Cloud Application Platform
   symlink: symbolic link|soft link
   synch: synchronization|sync
   System 500|system d|systemD|Systemd|System D: systemd
   tar-ball|tarball|tar ball: TAR archive|.tar|Tarball
   task-bar|task bar: desktop panel|panel|bottom edge panel|bottom panel|taskbar
-  tiny-edge: Tiny edge
-  Tw: openSUSE Tumbleweed
   v12n: virtualization
   virtualisation platform: virtualization platform
   Virtualized Local Area Network: VLAN|Virtual Local Area Network
@@ -142,7 +103,5 @@ swap:
   white-space|white space: whitespace
   whitebox: clear box|open box
   whitelist: safe list|approved list|allowlist|ignorelist
-  xen|XEN: Xen
   XWS: X Window System
-  yast2|yast|YaST2|Yast|YAST2|YAST: YaST|Yet another Setup Tool
 
