@@ -13,4 +13,7 @@ This dialog box is closed.
 Config files should be hidden.
 To hot plug a disk, just insert it.
 Nvidia is a gfx card.
+It is easy to white list devices.
 SD drives are fast.
+It is easy to whitelist devices.
+
