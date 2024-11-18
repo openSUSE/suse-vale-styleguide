@@ -16,4 +16,5 @@ Nvidia is a gfx card.
 It is easy to black list devices.
 SD drives are fast.
 It is easy to whitelist devices.
+If no model is selected, select one from the drop-down.
 

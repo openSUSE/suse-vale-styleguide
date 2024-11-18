@@ -2,6 +2,7 @@
 <!DOCTYPE chapter [
   <!ENTITY nbsp "entity-value">
   <!ENTITY gnome "entity-value">
+  <!ENTITY vmm "Virtual Machine Manager">
 ]>
 
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0">
@@ -12,5 +13,8 @@
   </para>
   <remark>after btrfs quotas</remark>
   <screen>yast dns-server nameserver add zone</screen>
+  <para>
+    Let us try &vmm;.
+  </para>
   <!-- for example this should not be checked -->
 </chapter>
