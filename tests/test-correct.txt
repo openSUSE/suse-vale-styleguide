@@ -21,5 +21,4 @@ Or via Bonjour/DNS-SD.
 KiDiE is a new acronym flow.
 If no model is selected, select one from the drop-down
 list.
-If no model is selected, select one from the drop-down
-box.
+Use single sign-on authentication manager.
