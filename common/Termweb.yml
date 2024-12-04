@@ -78,7 +78,7 @@ swap:
   plug in|plugin: plug-in
   POWER8: ppc64|IBM Power|ppc64le|POWER
   Problem Temporary Fix: PTF|Program Temporary Fix
-  pull-down menu|drop-down list box|drop-down menu|drop-down(?! list|box)|dropdown: drop-down list
+  pull-down\s+menu|drop-down\s+list\s+box|drop-down\s+menu|drop-down(?!\s+list)|dropdown: drop-down list
   PXE Boot: PXE boot|Preboot eXecution Environment
   RISC V|risc-v|Risc v|Risc V|Risc-V: riscv64|RISC-V
   Rpm|R.P.M.: Redhat Package Manager|RPM|RPM Package Manager

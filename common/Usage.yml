@@ -8,7 +8,7 @@ action:
 swap:
   '(?:API Console|dev|developer) key': API key
   '(?:dev|developer|APIs) console': API console
-  '(?:OAuth ?2|Oauth)': OAuth 2.0
+  #'(?:OAuth ?2|Oauth)': OAuth 2.0
   'un(?:check|select)': clear
   API explorer: APIs Explorer
   approx\.: approximately
