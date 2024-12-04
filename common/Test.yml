@@ -6,4 +6,4 @@ action:
   name: replace
 swap:
   #drop-down(?!\s+list): drop-down list
-  '(?:OAuth\s+2(?!.0)|Oauth\s+(?!\s?2.0))': OAuth 2.0
+  #'(?:OAuth\s+2(?!.0)|Oauth\s+(?!\s?2.0))': OAuth 2.0
