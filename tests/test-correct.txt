@@ -26,3 +26,4 @@ sign-on authentication manager.
 Log in with OAuth 2.0.
 Log in with OAuth
 2.0.
+For examples of deployments.

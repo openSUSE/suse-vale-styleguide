@@ -7,10 +7,10 @@ tokens:
   # Our neighbor for example, does not eat.
   # Our neighbor&mdash;for example, does not eat.
   # Our neighbor (for example, none) does not eat.
-  - (?m)(?<!,\s+|—|‐|\()(?:for example|namely|for instance)(?=[,:\.\)])
+  - (?m)(?<!,\s+|—|‐|\()(?:for example(?!s)|namely|for instance)(?=[,:\.\)])
   # Our neighbor, for instance does not eat.
-  - (?m)(?<=,\s+)(?:for example|namely|for instance)(?![,:\.\)])
+  - (?m)(?<=,\s+)(?:for example(?!s)|namely|for instance)(?![,:\.\)])
   # Our neighbor for example does not eat.
-  - (?m)(?<!,\s+)(?:for example|namely|for instance)(?![,:\.\)])
+  - (?m)(?<!,\s+)(?:for example(?!s)|namely|for instance)(?![,:\.\)])
   # Namely our neighbor does not eat
-  - (?m)(?:For example|In this case|That is|Namely|For instance)(?![,:])
+  - (?m)(?:For example(?!s)|In this case|That is|Namely|For instance)(?![,:])
