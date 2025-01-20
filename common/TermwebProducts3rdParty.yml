@@ -6,9 +6,9 @@ ignorecase: false
 action:
   name: replace
 swap:
+    K\.D\.E\.|KDE Desktop Environment: KDE
   Bug Buddy: bug-buddy
   Command Line Interface: CLI|command-line interface
-  K\.D\.E\.|KDE Desktop Environment: KDE
   KANIDM|kanidm: Kanidm
   Nvidia: NVIDIA
   shell tool|command line tool: command-line tool|CLT
