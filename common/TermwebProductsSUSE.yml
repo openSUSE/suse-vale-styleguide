@@ -6,7 +6,6 @@ ignorecase: false
 action:
   name: replace
 swap:
-  SLES-SAP|SLES4SAP: SUSE Linux Enterprise Server for SAP Applications|SLES for SAP|SLES for SAP Applications
   ATIP: SUSE ATIP|SUSE Adaptive Telco Infrastructure Platform
   D-Installer|DInstaller|Deinstaller: Agama
   far-edge: Far edge
@@ -26,6 +25,7 @@ swap:
   SLES on IBM Z and LinuxONE|SLES-Z|SUSE Linux Enterprise Server on IBM Z and LinuxONE|SUSE Linux Enterprise Server for z Systems and LinuxONE: SUSE Linux Enterprise Server for IBM Z and LinuxONE|SLES for Z and LinuxONE
   SLES-AMD/Intel: SLES on AMD/Intel|SUSE Linux Enterprise Server on AMD/Intel
   SLES-ES: SUSE Linux Enterprise Server Subscription with Expanded Support
+  SLES-SAP|SLES4SAP: SUSE Linux Enterprise Server for SAP Applications|SLES for SAP|SLES for SAP Applications
   SleS: SUSE Linux Enterprise Server|SLES
   SUMA-Retail|SUMA 4 Retail|SUSE Manager 4 Retail: SUMA for Retail|SUSE Manager for Retail
   SUSE Linux Enterprise Server for Arm|SLES-Arm: SUSE Linux Enterprise Server on Arm|SLES on Arm
