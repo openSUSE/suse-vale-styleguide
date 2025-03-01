@@ -6,6 +6,8 @@ nonword: true
 level: warning
 scope: raw
 tokens:
-  - (?:<screen>[^\n]{81,}</screen>)
-  - (?:<screen>[^\n]{81,}\n)
-  - (?:[^\n]{81,}</screen>)
+  - (?<=<screen>)(?:[^\n]{81,})(?!</screen>)
+  - (?<!<screen>)(?:[^\n]{81,})(?=</screen>)
+  - (?<=<screen>)(?:[^\n]{81,})(?=</screen>)
+  - (?s)(?<=<screen>.*?\n)(?:[^\n]{81,}\n.*?)(?=</screen>)
+#  - (?s)(?<=<screen>.*?\n)(?=.*?[^\n]{81,}\n)(?:.*?\n)*?(?=</screen>)
