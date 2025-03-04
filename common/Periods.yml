@@ -1,5 +1,6 @@
 extends: existence
 message: "Don't use periods with acronyms or initialisms such as '%s'."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-acronym
 level: error
 nonword: true
 tokens:

@@ -1,5 +1,6 @@
 extends: existence
 message: "'%s' is corporate speak."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-webwriting.html#sec-writing-global
 ignorecase: true
 level: error
 tokens:

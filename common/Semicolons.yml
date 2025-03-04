@@ -1,7 +1,8 @@
 extends: existence
-message: "Use semicolons judiciously."
+message: "Only use semicolons in complicated lists with punctuation."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-semicolon
 nonword: true
 scope: sentence
 level: suggestion
 tokens:
-  - ';\S'
+  - ';\s'

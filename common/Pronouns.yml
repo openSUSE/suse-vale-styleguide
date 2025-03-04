@@ -1,9 +1,10 @@
 extends: existence
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-bias
 ignorecase: true
 level: warning
 message: "Consider using a gender-neutral term instead of '%s'"
 tokens:
   - his
-  - her(?:s)
+  - her(?:s|)
   - he
   - she

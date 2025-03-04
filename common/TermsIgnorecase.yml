@@ -1,5 +1,6 @@
 extends: substitution
 message: Use '%s' instead of '%s'
+link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
 ignorecase: true
 level: error
 swap:

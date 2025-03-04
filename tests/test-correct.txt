@@ -1,24 +1,10 @@
 Regarding this project.
-Mary, Joe and &joey; went to school.
+Mary, Joe and Joey went to school.
 The most beautiful day, deep dark night, and the shadow of you.
 Use a static IP address.
-Our neighbor, for instance, does not eat.
-Our neighbor, for example, does not eat.
-In this case, our neighbor does not eat.
-Namely, our neighbor does not eat.
-This sentence is putting a phrase at the beginning, for example,
-Run your custom command, for example:
-This sentence is putting a phrase at the beginning of a new line, for example, like this.
-A code that is being generated.
-Let us prolong this sentence so that the phrase is at the... For example, like this.
-Do what you want like skiing and what you want like skiing what, for example.
-This one is not nice but still correct. For example:
-For example, this one.
-Container (<literal>web</literal> in this case).
-Container (<literal>web</literal> for example).
 This might be a problem. You may click the button now.
 Plug-ins are good.
-Classless interdomain routing.
+Classless inter-domain routing.
 Code is usually bloated.
 That solves silver the problem.
 To enter drop-down list, do nothing.
@@ -30,3 +16,14 @@ Hotplug is a correct word. Hotplugged as well.
 NVIDIA is a gfx card.
 Here comes the rain again.
 20 GB is not fine.
+Drop-down list is fine with me.
+Or via Bonjour/DNS-SD.
+KiDiE is a new acronym flow.
+If no model is selected, select one from the drop-down list.
+Use single sign-on authentication manager.
+Use single
+sign-on authentication manager.
+Log in with OAuth 2.0.
+Log in with OAuth
+2.0.
+For examples of deployments.

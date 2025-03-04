@@ -1,10 +1,19 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-latin
 ignorecase: true
 level: error
 nonword: true
 action:
   name: replace
 swap:
-  '\b(?:eg|e\.g\.)[\s,]': for example
-  '\b(?:ie|i\.e\.)[\s,]': that is
+  '\b(?:i\.\s?e\.)': 'that is' # i.e. with possible whitespaces inbetween
+  '\b(?:ie\.\s+)': 'that is ' # ie. followed by whitespaces
+  '\b(?:ie\.(?=[;,]))': 'that is' # ie. followed by ; or ,
+  '\b(?:ie[\t\f\r ])': 'that is' # ie followed by whitespaces but not newline
+  '\b(?:ie(?=[;,]))': 'that is' # ie followed by ; or ,
+  '\b(?:e\.\s?g\.)': 'for example' # e.g. with possible whitespaces inbetween
+  '\b(?:eg\.\s+)': 'for example ' # eg. followed by whitespaces
+  '\b(?:eg\.(?=[;,]))': 'for example' # eg. followed by ; or ,
+  '\b(?:eg[\t\f\r ])': 'for example' # eg followed by whitespaces but not newline
+  '\b(?:eg(?=[;,]))': 'for example' # eg followed by ; or ,

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+  <!ENTITY mdash "&#x02014;">
+  <!ENTITY dash "&#x02010;">
+  <!ENTITY nbsp "&#x000A0;">
+]>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0">
+  <title>SurroundingCommas-good.xml</title>
+  <para>
+    Size of the image, 8 GB in this case.
+  </para>
+</chapter>

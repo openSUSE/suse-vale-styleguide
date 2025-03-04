@@ -2,21 +2,27 @@ As far as this project is concerned.
 Unfortunately, this does not work.
 Mary, Joe, and Joey went to school.
 Systemwide access is terrible.
-<guimenu>Host Name</guimenu>: An IP address or host name of the server exporting the network file system.
-Our neighbor for example, does not eat.
-Our neighbor for example does not eat.
-Our neighbor, for instance does not eat.
-Namely our neighbor does not eat.
-Run your custom command for example:
-For example run your custom command:
+Host Name: An IP address or host name of the server exporting the network file system.
 This dash &mdash; should be without spaces -- around.
 Plugin is bad.
 grass is naturally green.
-3 x B.T.R.F.S. and BTRFS are not good C.U.P.S.
+3 x B.T.R.F.S. and BTRFS are not good in S.L.E. for C.U.P.S.
 To see a drop-down which disappears.
 I told her to drop that.
 This dialog box is closed.
 Config files should be hidden.
 To hot plug a disk, just insert it.
 Nvidia is a gfx card.
-Do not click <link>here</link>.
+It is easy to black list devices.
+SD drives are fast.
+It is easy to whitelist devices.
+If no model is selected, select one from the drop-down.
+If no model is selected, select one from the drop-down
+list or from the drop-down
+box.
+If no model is selected, select one from the drop-down box or the pull-down
+menu.
+Authenticate with sign-on manager.
+Log in with OAuth 2.
+Log in with OAuth
+2.

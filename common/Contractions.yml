@@ -1,25 +1,36 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
-level: suggestion
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-contraction
+level: error
 ignorecase: true
 action:
   name: replace
 swap:
-  aren't: are not
-  can't: cannot
-  couldn't: could not
-  didn't: did not
-  don't: do not
-  doesn't: does not
-  hasn't: has not
-  haven't: have not
-  isn't: is not
-  it's: it is
-  shouldn't: should not
-  that's: that is
-  wasn't: was not
-  weren't: were not
-  what's: what is
-  when's: when is
-  where's: where is
-  won't: will not
+  aren['` ]?t: are not
+  can['` ]?t|can not: cannot
+  couldn['` ]?t: could not
+  didn['` ]?t: did not
+  don['` ]?t: do not
+  doesn['` ]?t: does not
+  hasn['` ]?t: has not
+  haven['` ]?t: have not
+  isn['` ]?t: is not
+  it['` ]s: it is # its would be false negative
+  shouldn['` ]?t: should not
+  wouldn['` ]?t: would not
+  that['` ]?s: that is
+  wasn['` ]?t: was not
+  weren['` ]?t: were not
+  what['` ]?s: what is
+  when['` ]?s: when is
+  where['` ]?s: where is
+  won['` ]?t: will not
+  they['` ]?ll: they will
+  they['` ]?re: they are
+  they['` ]?ve: they have
+  we['`]ll: we will # Different to avoid matching "well"
+  we['`]re: we are # Different to avoid matching "were"
+  we['` ]?ve: we have
+  you['` ]?ll: you will
+  you['` ]?re: you are
+  you['` ]?ve: you have

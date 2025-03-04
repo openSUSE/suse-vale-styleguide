@@ -1,5 +1,6 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
 level: warning
 ignorecase: true
 action:
@@ -7,7 +8,7 @@ action:
 swap:
   '(?:API Console|dev|developer) key': API key
   '(?:dev|developer|APIs) console': API console
-  '(?:OAuth ?2|Oauth)': OAuth 2.0
+  '(?:OAuth\s+2(?!.0)|Oauth\s+(?!\s?2.0))': OAuth 2.0
   'un(?:check|select)': clear
   API explorer: APIs Explorer
   approx\.: approximately
@@ -29,7 +30,7 @@ swap:
   recreate: re-create
   regex: regular expression
   sign into: sign in to
-  sign-?on: single sign-on
+  (?<! single\s+)sign-?on: single sign-on
   some: certain
   style sheet: stylesheet
   (?:systemwide|system wide): system-wide

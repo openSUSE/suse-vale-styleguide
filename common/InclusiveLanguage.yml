@@ -1,4 +1,5 @@
 extends: existence
+link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-bias
 ignorecase: true
 level: warning
 message: "Consider using an inclusive term instead of '%s'"
@@ -6,7 +7,7 @@ tokens:
   - master(?:s)
   - slave(?:s)
   - black hat(?:s)
-  - blacklist(?:s)
+  - black\s?list(?:s)
   - dummy
   - man hour(?:s)
   - manmade
@@ -14,4 +15,4 @@ tokens:
   - middleman
   - native
   - sanity
-  - whitelist
+  - white\s?list(?:s)

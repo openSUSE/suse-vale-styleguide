@@ -1,0 +1,16 @@
+extends: substitution
+message: "Use an entity or '%s' instead of '%s'."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
+level: warning
+ignorecase: false
+action:
+  name: replace
+swap:
+  K\.D\.E\.|KDE Desktop Environment: KDE
+  Bug Buddy: bug-buddy
+  Command Line Interface: CLI|command-line interface
+  KANIDM|kanidm: Kanidm
+  Nvidia: NVIDIA
+  shell tool|command line tool: command-line tool|CLT
+  SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
+  xen|XEN: Xen
