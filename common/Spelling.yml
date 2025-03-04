@@ -1,7 +1,9 @@
 extends: spelling
-message: "'%s' may be a typo."
-dicpath: /usr/share/hunspell
+level: warning
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-language
+message: "Check the word '%s'. It may be a typo."
+dicpath: common/dictionaries
 append: true
-custom: false
+custom: true
 dictionaries:
   - en_US-suse-doc
