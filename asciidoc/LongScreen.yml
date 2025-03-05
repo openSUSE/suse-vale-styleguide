@@ -3,4 +3,42 @@ message: Break lines longer than 80 characters
 link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-screen
 level: suggestion
 scope: raw
-script: LongScreenADOC.tengo
+script: |
+  text := import("text")
+
+  matches := []
+  //pattern := `(?s)(\[(?:source\s*,[^\]]+|,\s*[^\]]+|[^\s,]+,[^\]]+)\]\n----)(.*?)\n----`
+  pattern := `(?s)(\[(?:(?:source)?\s*,[^\]]*)\]\n----)(.*?)\n----`
+
+  // Find all code blocks and their positions
+  code_blocks := text.re_find(pattern, scope, -1)
+
+  for block in code_blocks {
+      if len(block) < 1 {
+          continue
+      }
+
+      content := block[0]["text"]  // Extract the content inside the code block
+      block_start := block[0]["begin"]  // Start position of the code block
+
+      // Split content into lines
+      lines := text.re_split("\n", content, -1)
+      offset := block_start
+
+      for line in lines {
+          // Find the exact position of the line in the original scope
+          line_matches := text.re_find(line, scope, -1)
+          if len(line_matches) == 0 {
+              continue  // Skip if the line is not found
+          }
+
+          line_start := line_matches[0][0]["begin"]  // Get the start index of the line
+          line_end := line_start + len(line)  // Calculate the end index
+
+          if len(line) > 80 {  // Check if the line length is greater than 80
+              matches = append(matches, { "begin": line_start, "end": line_end })
+          }
+
+          offset = line_end  // Move offset forward
+      }
+  }
