@@ -1,2 +1,2 @@
 text := import("text")
-suggestions := "first"
+suggestions := ["first","second"]
