@@ -5,7 +5,7 @@ level: suggestion
 scope: raw
 script: |
   text := import("text")
-
+  scope = text.re_replace("<!--.*?-->", scope, "") //remove XML comments
   matches := []
   pattern := `(?s)<screen.*?>(.*?)</screen>`
 
