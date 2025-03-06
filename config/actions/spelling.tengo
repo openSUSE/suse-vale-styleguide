@@ -1,0 +1,2 @@
+text := import("text")
+suggestions := "first"

@@ -10,4 +10,5 @@ dictionaries:
 action:
   name: suggest
   params:
-   - spellings
+   #- spellings
+   - spelling.tengo
