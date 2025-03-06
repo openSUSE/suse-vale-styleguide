@@ -9,3 +9,5 @@ dictionaries:
   - en_US-suse-doc
 action:
   name: suggest
+  params:
+   - spellings
