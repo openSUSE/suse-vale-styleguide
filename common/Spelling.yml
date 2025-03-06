@@ -3,8 +3,9 @@ level: warning
 link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-language
 message: "Check the word '%s' for typos."
 dicpath: common/dictionaries
-append: false
-custom: true
+append: true
 dictionaries:
   - en_US
   - en_US-suse-doc
+action:
+  name: suggest
