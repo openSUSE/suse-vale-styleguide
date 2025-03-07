@@ -1,0 +1,46 @@
+text := import("text")
+fmt := import("fmt")
+
+dbg := false
+/// Initialize the matches array
+matches := []
+
+// Modify regex to match across multiple lines using `(?s)`
+screen_matches := text.re_find("(?s)<screen>(.*?)</screen>", scope, -1)
+if dbg { fmt.println("screen_matches: " + screen_matches) }
+
+for screen_group in screen_matches {
+    if len(screen_group) > 0 {
+        screen_text := screen_group[0]["text"]  // Extract matched text
+        //screen_text = text.re_replace("<[^>]+>", screen_text, "")
+        if dbg { fmt.println("screen_text: " + screen_text) }
+        screen_begin := screen_group[0]["begin"]
+        if dbg { fmt.println("screen_begin: " + screen_begin) }
+        screen_end := screen_group[0]["end"]
+        if dbg { fmt.println("screen_end: " + screen_end) }
+
+        
+        if dbg { fmt.println("clean_text " + screen_text) }
+
+        // Split text into lines and check length
+        lines := text.split(screen_text, "\n")
+        current_pos := screen_begin // Track position in original text
+
+        for line in lines {
+            trimmed := text.trim_space(text.re_replace("<[^>]+>", line, "")) 
+            line_length := len(trimmed)
+
+            if line_length > 80 {
+                line_end := current_pos + line_length
+
+                // Append match to matches array
+                matches = append(matches, {
+                    "begin": current_pos,
+                    "end": line_end
+                })
+            }
+            current_pos += len(line) + 1 // Account for newline character
+        }
+    }
+    if dbg { fmt.println("matched: " + matches) }
+}
