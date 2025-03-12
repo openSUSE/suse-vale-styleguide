@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter>
+<chapter version="5.0" xml:id="cha-adm-support"
+  xmlns="http://docbook.org/ns/docbook"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Gathering system information for support</title>
+  <info>
+    <abstract>
+      <para>
+        Funny break, one is enough.
+      </para>
+    </abstract>
+  </info>
+  <!-- table with no <thead> -->
+  <table>
+    <title>insert title</title>
+    <tgroup cols="2">
+      <tbody>
+        <row>
+          <entry>
+            <para>
+              insert content
+            </para>
+          </entry>
+          <entry>
+            <para>
+              insert content
+            </para>
+          </entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </table>
+<!-- table with empty <entry> -->
+  <table>
+    <title>insert title</title>
+    <tgroup cols="2">
+      <thead>
+        <row>
+          <entry>
+            <para>
+              insert row
+            </para>
+          </entry>
+          <entry>
+          </entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>
+            <para>
+              insert text
+            </para>
+          </entry>
+          <entry>
+            <para>
+              insert content
+            </para>
+          </entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </table>
+<!-- table with empty <para> in <row>-->
+  <table>
+    <title>insert title</title>
+    <tgroup cols="2">
+      <thead>
+        <row>
+          <entry>
+            <para>
+              insert row
+            </para>
+          </entry>
+          <entry>
+            <para>
+              
+            </para>
+          </entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>
+            <para>
+              insert text
+            </para>
+          </entry>
+          <entry>
+            <para>
+              insert content
+            </para>
+          </entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </table>
+</chapter>

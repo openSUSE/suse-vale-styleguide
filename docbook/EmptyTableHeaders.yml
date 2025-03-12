@@ -1,0 +1,11 @@
+# /home/tbazant/devel/vscode-extensions/vscode-suse-vale-styleguide/styles/docbook/EmptyTableHeaders.yml
+extends: existence
+message: "Table header contains empty entries or is missing entirely. Consider providing descriptive header text for accessibility and clarity."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-table
+nonword: true
+level: warning
+scope: raw
+tokens:
+  - '(?s)<tgroup(?:[^>]*?)>\s*?<tbody>' # tables without a <thead>
+  - '(?s)<thead(?:[^>]*?)>\s*?<row(?:[^>]*?)>(?:(?!</row>).)*?<entry(?:[^>]*?)>\s*?</entry>' # tables with empty <entry>
+  - '(?s)<thead(?:[^>]*?)>\s*?<row(?:[^>]*?)>(?:(?!</row>).)*?<entry(?:[^>]*?)>\s*?<para(?:[^>]*?)>\s*?</para>' # tables with empty <para> in <entry>
