@@ -1,0 +1,10 @@
+# /home/tbazant/devel/vscode-extensions/vscode-suse-vale-styleguide/styles/docbook/EmptyTableHeaders.yml
+extends: existence
+message: AsciiDoc table header starts with a lowercase letter. Consider using uppercase for better readability.
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-table
+nonword: true
+level: suggestion
+scope: raw
+tokens:
+  - '(?s)<thead(?:[^>]*?)>\s*?<row(?:[^>]*?)>(?:(?!</row>).)*?<entry(?:[^>]*?)>\s*?[a-z]'
+  - '(?s)<thead(?:[^>]*?)>\s*?<row(?:[^>]*?)>(?:(?!</row>).)*?<entry(?:[^>]*?)>\s*?<para(?:[^>]*?)>\s*?[a-z]'
