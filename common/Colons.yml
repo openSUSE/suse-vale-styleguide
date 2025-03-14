@@ -1,6 +1,6 @@
 extends: existence
-message: "The first word after a colon should be in lowercase, unless the phrase after the colon is a complete sentence."
+message: "Capitalize the first word after a colon only if it is a proper noun or the start of a complete sentence."
 nonword: true
 level: warning
 tokens:
-  - ': [A-Z][a-z ]'
+  - '(?<=:\s+?)[A-Z]'
