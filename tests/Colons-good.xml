@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter>
+<chapter version="5.0" xml:id="cha-adm-support"
+  xmlns="http://docbook.org/ns/docbook"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Gathering system information for support</title>
+  <info>
+    <abstract>
+      <para>
+        Funny break, one is enough.
+      </para>
+    </abstract>
+  </info>
+  <para>
+    Here comes the token: Not now.
+  </para>
+<screen><command>kubectl create secret docker-registry application-collection \
+    --docker-server=dp.apps.rancher.io \
+    --docker-username=<replaceable>APPCO_USERNAME</replaceable> \
+    --docker-password=<replaceable>APPCO_USER_TOKEN</replaceable> \
+    -n <replaceable>CERT_MANAGER_NAMESPACE</replaceable></command></screen>
+  <para>
+    Here comes the token: Not now.
+  </para>
+</chapter>
