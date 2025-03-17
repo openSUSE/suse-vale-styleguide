@@ -1,0 +1,11 @@
+extends: existence
+message: The media object has none or empty description.
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-figure
+nonword: true
+level: warning
+scope: raw
+tokens:
+  # <textobject/> with empty <phrase/>
+  - '(?s)(?<=<mediaobject(?:[^>]*?)>(?:(?!</mediaobject>).)*?<textobject(?:[^>]*?)>\s*?)<phrase(?:[^>]*?)>\s*?</phrase>'
+  # <mediaobject/> with no <textobject/>
+  - '(?s)<mediaobject(?:[^>]*?)>(?:(?!<textobject).)*?</mediaobject>'
