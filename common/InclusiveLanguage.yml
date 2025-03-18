@@ -13,6 +13,6 @@ tokens:
   - manmade
   - manpower
   - middleman
-  - native
+  - (?<!cloud\s+?)native
   - sanity
   - white\s?list(?:s)
