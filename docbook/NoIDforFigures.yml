@@ -1,0 +1,9 @@
+extends: existence
+message: "The image has no xml:id attribute defined."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-figure
+scope: raw
+nonword: true
+level: suggestion
+tokens:
+  - <figure\s*?>
+  - <figure\b(?![^>]*\bxml:id="[^"]*")[^>]*?>

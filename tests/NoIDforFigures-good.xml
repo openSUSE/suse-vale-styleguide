@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter>
+<chapter version="5.0" xml:id="cha-adm-support"
+  xmlns="http://docbook.org/ns/docbook"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Gathering system information for support</title>
+  <info>
+    <abstract>
+      <para>
+        Funny break, one is enough.
+      </para>
+    </abstract>
+  </info>
+  <figure xml:id="some-weird-id">
+    <title>insert title</title>
+    <mediaobject>
+      <imageobject role="fo">
+        <imagedata fileref="filename.png" width="50%"/>
+      </imageobject>
+      <textobject role="description"><phrase>a phrase</phrase>
+      </textobject>
+    </mediaobject>
+  </figure>
+
+  <figure arch="x86" xml:id="some-weird-id">
+    <title>insert title</title>
+    <mediaobject>
+      <imageobject role="fo">
+        <imagedata fileref="filename.png" width="50%"/>
+      </imageobject>
+      <textobject role="description"><phrase>a phrase</phrase>
+      </textobject>
+    </mediaobject>
+  </figure>
+</chapter>
