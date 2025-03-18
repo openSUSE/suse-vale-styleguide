@@ -1,0 +1,2 @@
+image::file_name.png[Description of a fly,640,20]
+image:file_name.png[Description of a fly]

@@ -1,0 +1,4 @@
+image::file_name.png[]
+image::file_name.png[,width=640]
+image:file_name.png[,640,height=480]
+image:file_name.png[]

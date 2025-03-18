@@ -1,0 +1,8 @@
+extends: existence
+message: The image has no alternative description.
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-figure
+nonword: true
+level: warning
+scope: raw
+tokens:
+  - 'image:{1,2}\S+?\[[,|\]]'
