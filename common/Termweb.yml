@@ -71,7 +71,7 @@ swap:
   multi-user|multi user: multiuser
   name space|name-space: namespace
   nameserver|name-server: name server
-  native: built-in
+  (?<!cloud\s+?)native: built-in
   NFS file system|N\.F\.S\.|Nfs: NFS|Network File System
   NIS information service|N\.I\.S\.|Nis: NIS|Network information system
   non-open source software: closed-source software
