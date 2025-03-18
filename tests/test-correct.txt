@@ -20,9 +20,6 @@ Drop-down list is fine with me.
 Or via Bonjour/DNS-SD.
 KiDiE is a new acronym flow.
 If no model is selected, select one from the drop-down list.
-Use single sign-on authentication manager.
-Use single
-sign-on authentication manager.
 Log in with OAuth 2.0.
 Log in with OAuth
 2.0.

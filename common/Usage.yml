@@ -30,7 +30,7 @@ swap:
   recreate: re-create
   regex: regular expression
   sign into: sign in to
-  (?<! single\s+)sign-?on: single sign-on
+  (?<!\bsingle\s+)sign-?on: single sign-on
   some: certain
   style sheet: stylesheet
   (?:systemwide|system wide): system-wide
