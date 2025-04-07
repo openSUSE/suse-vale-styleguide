@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<terms version="Version 4.0.9-0">
+<terms version="Version 4.0.9-3">
   <martif type="TBX" xml:lang="en">
     <text>
       <body>
         <termentry id="c206">
           <descrip type="subjectField" id="c206-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c206-d1-1">product names</descrip>
+          <entry id="c206-1" type="fullForm" status="notRecommended">SUSE Linux Enterprise Server for SAP Applications</entry>
+          <entry id="c206-2" type="abbreviation" status="notRecommended">SLES for SAP Applications</entry>
           <entry id="c206-3" type="acronym" status="notRecommended">SLES-SAP</entry>
           <entry id="c206-5" type="abbreviation" status="notRecommended">SLES4SAP</entry>
-          <entry id="c206-1" type="fullForm" status="preferred">SUSE Linux Enterprise Server for SAP Applications</entry>
           <entry id="c206-4" type="abbreviation" status="preferred">SLES for SAP</entry>
-          <entry id="c206-2" type="abbreviation" status="admitted">SLES for SAP Applications</entry>
+          <entry id="c206-7" type="fullForm" status="preferred">SUSE® Linux Enterprise Server for SAP® applications</entry>
+          <entry id="c206-8" type="abbreviation" status="preferred">SLES for SAP applications</entry>
+          <entry id="c206-9" type="fullForm" status="preferred">SUSE Linux Enterprise Server for SAP applications</entry>
         </termentry>
         <termentry id="c209">
           <descrip type="subjectField" id="c209-d0-1">SUSE</descrip>
@@ -36,9 +39,11 @@
         <termentry id="c218">
           <descrip type="subjectField" id="c218-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c218-d1-1">product names</descrip>
-          <entry id="c218-2" type="fullForm" status="notRecommended">SUSE Linux Manager</entry>
           <entry id="c218-1" type="fullForm" status="preferred">SUSE Manager</entry>
-          <entry id="c218-3" type="acronym" status="admitted">SUMA</entry>
+          <entry id="c218-2" type="fullForm" status="preferred">SUSE Linux Manager</entry>
+          <entry id="c218-3" type="acronym" status="preferred">SUMA</entry>
+          <entry id="c218-4" type="fullForm" status="preferred">SUSE Multi-Linux Manager</entry>
+          <entry id="c218-5" type="fullForm" status="preferred">SUSE® Multi-Linux Manager</entry>
         </termentry>
         <termentry id="c224">
           <descrip type="subjectField" id="c224-d0-1">SUSE</descrip>
@@ -71,19 +76,27 @@
           <entry id="c507-1" type="fullForm" status="preferred">Trento</entry>
           <entry id="c507-2" type="fullForm" status="preferred">trento</entry>
         </termentry>
+        <termentry id="c542">
+          <descrip type="subjectField" id="c542-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c542-d1-1">product names</descrip>
+          <entry id="c542-4" type="fullForm" status="preferred">SUSE Linux Micro</entry>
+          <entry id="c542-7" type="fullForm" status="preferred">SUSE® Linux Micro</entry>
+          <entry id="c542-5" type="abbreviation" status="admitted">SL Micro</entry>
+        </termentry>
         <termentry id="c548">
           <descrip type="subjectField" id="c548-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c548-d1-1">product names</descrip>
-          <entry id="c548-1" type="fullForm" status="preferred">SUSE Liberty Linux</entry>
+          <entry id="c548-2" type="fullForm" status="preferred">SUSE Multi-Linux Support</entry>
+          <entry id="c548-3" type="fullForm" status="preferred">SUSE® Multi-Linux Support</entry>
         </termentry>
         <termentry id="c551">
           <descrip type="subjectField" id="c551-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c551-d1-1">product names</descrip>
           <entry id="c551-1" type="fullForm" status="notRecommended">SUSE Linux Enterprise Server for High Availability Extension</entry>
           <entry id="c551-2" type="acronym" status="notRecommended">SLE-HA</entry>
-          <entry id="c551-3" type="fullForm" status="notRecommended">SUSE Linux Enterprise High Availability Extension</entry>
+          <entry id="c551-5" type="fullForm" status="notRecommended">SUSE Linux Enterprise High Availability</entry>
+          <entry id="c551-3" type="fullForm" status="preferred">SUSE Linux Enterprise High Availability Extension</entry>
           <entry id="c551-4" type="acronym" status="preferred">SLE HA</entry>
-          <entry id="c551-5" type="fullForm" status="preferred">SUSE Linux Enterprise High Availability</entry>
         </termentry>
         <termentry id="c555">
           <descrip type="subjectField" id="c555-d0-1">SUSE</descrip>
@@ -116,6 +129,23 @@
           <descrip type="subjectField" id="c567-d1-1">product names</descrip>
           <entry id="c567-1" type="fullForm" status="preferred">SUSE Linux Enterprise Base Container Images</entry>
           <entry id="c567-2" type="abbreviation" status="preferred">SLE BCI</entry>
+        </termentry>
+        <termentry id="c573">
+          <descrip type="subjectField" id="c573-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c573-d1-1">product names</descrip>
+          <entry id="c573-1" type="fullForm" status="preferred">Rancher Prime Hosted</entry>
+        </termentry>
+        <termentry id="c576">
+          <descrip type="subjectField" id="c576-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c576-d1-1">product names</descrip>
+          <entry id="c576-2" type="fullForm" status="preferred">SUSE Security</entry>
+          <entry id="c576-3" type="fullForm" status="preferred">SUSE® Security</entry>
+        </termentry>
+        <termentry id="c583">
+          <descrip type="subjectField" id="c583-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c583-d1-1">product names</descrip>
+          <entry id="c583-1" type="acronym" status="preferred">RKE</entry>
+          <entry id="c583-2" type="fullForm" status="preferred">Rancher Kubernetes Engine</entry>
         </termentry>
         <termentry id="c586">
           <descrip type="subjectField" id="c586-d0-1">SUSE</descrip>
@@ -165,6 +195,7 @@
           <descrip type="subjectField" id="c824-d1-1">product names</descrip>
           <entry id="c824-2" type="acronym" status="notRecommended">SLE-POS</entry>
           <entry id="c824-1" type="fullForm" status="preferred">SUSE Linux Enterprise Point of Service</entry>
+          <entry id="c824-4" type="acronym" status="preferred">SLEPOS</entry>
           <entry id="c824-3" type="acronym" status="admitted">SLE POS</entry>
         </termentry>
         <termentry id="c828">
@@ -228,12 +259,6 @@
           <descrip type="subjectField" id="c864-d1-1">product names</descrip>
           <entry id="c864-1" type="fullForm" status="preferred">openSUSE Factory</entry>
         </termentry>
-        <termentry id="c867">
-          <descrip type="subjectField" id="c867-d0-1">SUSE</descrip>
-          <descrip type="subjectField" id="c867-d1-1">product names</descrip>
-          <entry id="c867-2" type="acronym" status="notRecommended">Tw</entry>
-          <entry id="c867-1" type="fullForm" status="preferred">openSUSE Tumbleweed</entry>
-        </termentry>
         <termentry id="c1560">
           <descrip type="subjectField" id="c1560-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c1560-d1-1">product names</descrip>
@@ -291,13 +316,19 @@
         <termentry id="c1942">
           <descrip type="subjectField" id="c1942-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c1942-d1-1">product names</descrip>
-          <entry id="c1942-1" type="abbreviation" status="notRecommended">ATIP</entry>
-          <entry id="c1942-2" type="acronym" status="preferred">SUSE ATIP</entry>
-          <entry id="c1942-3" type="fullForm" status="preferred">SUSE Adaptive Telco Infrastructure Platform</entry>
+          <entry id="c1942-4" type="fullForm" status="preferred">SUSE Edge for Telco</entry>
+          <entry id="c1942-5" type="fullForm" status="preferred">SUSE® Edge for Telco</entry>
         </termentry>
         <termentry id="c2065">
           <descrip type="subjectField" id="c2065-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c2065-d1-1">product names</descrip>
+        </termentry>
+        <termentry id="c2074">
+          <descrip type="subjectField" id="c2074-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c2074-d1-1">product names</descrip>
+          <entry id="c2074-1" type="fullForm" status="notRecommended">Business-Critical Linux</entry>
+          <entry id="c2074-2" type="acronym" status="preferred">BCL</entry>
+          <entry id="c2074-3" type="fullForm" status="preferred">Business Critical Linux</entry>
         </termentry>
         <termentry id="c2118">
           <descrip type="subjectField" id="c2118-d0-1">SUSE</descrip>
@@ -401,6 +432,13 @@
           <descrip type="subjectField" id="c2438-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c2438-d1-1">product names</descrip>
         </termentry>
+        <termentry id="c2442">
+          <descrip type="subjectField" id="c2442-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c2442-d1-1">product names</descrip>
+          <entry id="c2442-1" type="fullForm" status="preferred">Enterprise Container Management</entry>
+          <entry id="c2442-2" type="acronym" status="preferred">ECM</entry>
+          <entry id="c2442-3" type="fullForm" status="preferred">enterprise container management</entry>
+        </termentry>
         <termentry id="c2762">
           <descrip type="subjectField" id="c2762-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c2762-d1-1">common IT</descrip>
@@ -422,16 +460,17 @@
           <entry id="c2827-2" type="fullForm" status="notRecommended">tiny-edge</entry>
           <entry id="c2827-1" type="fullForm" status="preferred">Tiny edge</entry>
         </termentry>
+        <termentry id="c3170">
+          <descrip type="subjectField" id="c3170-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3170-d1-1">product names</descrip>
+          <entry id="c3170-2" type="fullForm" status="preferred">SUSE Virtualization</entry>
+          <entry id="c3170-3" type="fullForm" status="preferred">SUSE® Virtualization</entry>
+        </termentry>
         <termentry id="c3186">
           <descrip type="subjectField" id="c3186-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c3186-d1-1">product names</descrip>
           <entry id="c3186-1" type="fullForm" status="preferred">SUSE Linux Framework One</entry>
           <entry id="c3186-2" type="acronym" status="admitted">SLFO</entry>
-        </termentry>
-        <termentry id="c3188">
-          <descrip type="subjectField" id="c3188-d0-1">SUSE</descrip>
-          <descrip type="subjectField" id="c3188-d1-1">product names</descrip>
-          <entry id="c3188-1" type="fullForm" status="preferred">SUSE Linux Container Collection</entry>
         </termentry>
         <termentry id="c3197">
           <descrip type="subjectField" id="c3197-d0-1">SUSE</descrip>
@@ -440,11 +479,115 @@
           <entry id="c3197-3" type="fullForm" status="notRecommended">Language Stack BCI</entry>
           <entry id="c3197-2" type="fullForm" status="preferred">Development Stack SLE BCI</entry>
         </termentry>
+        <termentry id="c3292">
+          <descrip type="subjectField" id="c3292-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3292-d1-1">open source</descrip>
+          <descrip type="subjectField" id="c3292-d2-1">product names</descrip>
+          <entry id="c3292-1" type="fullForm" status="preferred">Fuel Ignition</entry>
+        </termentry>
+        <termentry id="c3320">
+          <descrip type="subjectField" id="c3320-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3320-d1-1">open source</descrip>
+          <descrip type="subjectField" id="c3320-d2-1">product names</descrip>
+          <entry id="c3320-1" type="shortForm" status="preferred">SUSE prime</entry>
+        </termentry>
+        <termentry id="c3324">
+          <descrip type="subjectField" id="c3324-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3324-d1-1">product names</descrip>
+          <entry id="c3324-1" type="shortForm" status="preferred">SLES Minimal VM</entry>
+        </termentry>
+        <termentry id="c3382">
+          <descrip type="subjectField" id="c3382-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3382-d1-1">product names</descrip>
+          <entry id="c3382-1" type="fullForm" status="preferred">Elemental</entry>
+        </termentry>
+        <termentry id="c3397">
+          <descrip type="subjectField" id="c3397-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3397-d1-1">product names</descrip>
+          <entry id="c3397-1" type="fullForm" status="preferred">SUSE AI Suite</entry>
+          <entry id="c3397-2" type="fullForm" status="preferred">SUSE® AI Suite</entry>
+        </termentry>
+        <termentry id="c3399">
+          <descrip type="subjectField" id="c3399-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3399-d1-1">product names</descrip>
+          <entry id="c3399-1" type="fullForm" status="preferred">SUSE AI</entry>
+          <entry id="c3399-2" type="fullForm" status="preferred">SUSE® AI</entry>
+        </termentry>
+        <termentry id="c3401">
+          <descrip type="subjectField" id="c3401-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3401-d1-1">product names</descrip>
+          <entry id="c3401-1" type="fullForm" status="preferred">SUSE Edge Suite</entry>
+          <entry id="c3401-2" type="fullForm" status="preferred">SUSE® Edge Suite</entry>
+        </termentry>
+        <termentry id="c3406">
+          <descrip type="subjectField" id="c3406-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3406-d1-1">product names</descrip>
+          <entry id="c3406-1" type="fullForm" status="preferred">SUSE Rancher Prime</entry>
+          <entry id="c3406-4" type="fullForm" status="preferred">SUSE® Rancher Prime</entry>
+        </termentry>
+        <termentry id="c3408">
+          <descrip type="subjectField" id="c3408-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3408-d1-1">product names</descrip>
+          <entry id="c3408-1" type="fullForm" status="preferred">SUSE Storage</entry>
+        </termentry>
+        <termentry id="c3411">
+          <descrip type="subjectField" id="c3411-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3411-d1-1">product names</descrip>
+          <entry id="c3411-1" type="fullForm" status="preferred">SUSE Linux Suite</entry>
+          <entry id="c3411-2" type="fullForm" status="preferred">SUSE® Linux Suite</entry>
+        </termentry>
+        <termentry id="c3436">
+          <descrip type="subjectField" id="c3436-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3436-d1-1">open source</descrip>
+          <descrip type="subjectField" id="c3436-d2-1">product names</descrip>
+          <entry id="c3436-1" type="fullForm" status="preferred">Portus</entry>
+        </termentry>
+        <termentry id="c3457">
+          <descrip type="subjectField" id="c3457-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3457-d1-1">common IT</descrip>
+          <descrip type="subjectField" id="c3457-d2-1">product names</descrip>
+          <entry id="c3457-1" type="fullForm" status="preferred">AutoYaST</entry>
+        </termentry>
+        <termentry id="c3459">
+          <descrip type="subjectField" id="c3459-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3459-d1-1">open source</descrip>
+          <descrip type="subjectField" id="c3459-d2-1">product names</descrip>
+          <entry id="c3459-1" type="fullForm" status="preferred">linuxrc</entry>
+        </termentry>
+        <termentry id="c3462">
+          <descrip type="subjectField" id="c3462-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3462-d1-1">product names</descrip>
+          <entry id="c3462-1" type="fullForm" status="preferred">SUSE Cloud Observability</entry>
+          <entry id="c3462-2" type="fullForm" status="preferred">SUSE® Cloud Observability</entry>
+        </termentry>
+        <termentry id="c3472">
+          <descrip type="subjectField" id="c3472-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3472-d1-1">product names</descrip>
+          <entry id="c3472-1" type="fullForm" status="preferred">openSUSE Tumbleweed</entry>
+        </termentry>
+        <termentry id="c3473">
+          <descrip type="subjectField" id="c3473-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3473-d1-1">product names</descrip>
+          <entry id="c3473-1" type="fullForm" status="preferred">SUSE Observability</entry>
+          <entry id="c3473-2" type="fullForm" status="preferred">SUSE® Observability</entry>
+        </termentry>
+        <termentry id="c3474">
+          <descrip type="subjectField" id="c3474-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3474-d1-1">product names</descrip>
+          <entry id="c3474-1" type="fullForm" status="preferred">SUSE Rancher Suite</entry>
+          <entry id="c3474-2" type="fullForm" status="preferred">SUSE® Rancher Suite</entry>
+        </termentry>
+        <termentry id="c3590">
+          <descrip type="subjectField" id="c3590-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c3590-d1-1">product names</descrip>
+          <entry id="c3590-1" type="fullForm" status="preferred">SUSE AI Library</entry>
+        </termentry>
         <termentry id="c3">
           <descrip type="subjectField" id="c3-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c3-d1-1">product names</descrip>
           <entry id="c3-2" type="acronym" status="notRecommended">SleS</entry>
-          <entry id="c3-1" type="fullForm" status="preferred">SUSE Linux Enterprise Server</entry>
+          <entry id="c3-15" type="fullForm" status="preferred">SUSE Linux Enterprise Server</entry>
+          <entry id="c3-1" type="fullForm" status="preferred">SUSE® Linux Enterprise Server</entry>
           <entry id="c3-3" type="acronym" status="preferred">SLES</entry>
         </termentry>
         <termentry id="c8">

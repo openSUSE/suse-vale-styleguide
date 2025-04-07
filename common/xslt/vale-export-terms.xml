@@ -8,7 +8,7 @@
       </titleStmt>
       <sourceDesc>
         <p>Exported from TermWeb</p>
-        <p>Version 4.0.9-2</p>
+        <p>Version 4.0.9-3</p>
         <p type="DCSName">SYSTEM "TBXDCSv05b.xml"</p>
       </sourceDesc>
     </fileDesc>
@@ -2740,7 +2740,7 @@
         <descrip type="subjectField" id="c6500-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
           <tig id="c6500-1">
-            <term>Pre-Script</term>
+            <term>pre-script</term>
             <termNote id="c6500-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c6500-1-f1" type="termType">fullForm</termNote>
           </tig>
@@ -3404,6 +3404,11 @@
             <term>geographically dispersed cluster</term>
             <termNote id="c7822-21-f0" type="administrativeStatus">admitted</termNote>
             <termNote id="c7822-21-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c7822-5">
+            <term>multi-site cluster</term>
+            <termNote id="c7822-5-f0" type="administrativeStatus">admitted</termNote>
+            <termNote id="c7822-5-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -4945,6 +4950,11 @@
             <termNote id="c9249-24-f0" type="administrativeStatus">admitted</termNote>
             <termNote id="c9249-24-f1" type="termType">fullForm</termNote>
           </tig>
+          <tig id="c9249-3">
+            <term>coredump</term>
+            <termNote id="c9249-3-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c9249-3-f1" type="termType">fullForm</termNote>
+          </tig>
         </langSet>
       </termEntry>
       <termEntry id="c10013">
@@ -5158,7 +5168,7 @@
         <langSet xml:lang="en-us">
           <tig id="c3576-1">
             <term>anchor</term>
-            <termNote id="c3576-1-f0" type="administrativeStatus">admitted</termNote>
+            <termNote id="c3576-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c3576-1-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
@@ -5691,11 +5701,17 @@
         </langSet>
       </termEntry>
       <termEntry id="c1843">
+        <descrip type="subjectField" id="c1843-d0-1">open source</descrip>
         <langSet xml:lang="en-us">
           <tig id="c1843-2">
+            <term>SELinux</term>
+            <termNote id="c1843-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c1843-2-f1" type="termType">shortForm</termNote>
+          </tig>
+          <tig id="c1843-3">
             <term>Security-Enhanced Linux</term>
-            <termNote id="c1843-2-f0" type="administrativeStatus">Draft</termNote>
-            <termNote id="c1843-2-f1" type="termType">fullForm</termNote>
+            <termNote id="c1843-3-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c1843-3-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -6104,6 +6120,7 @@
             <term>native</term>
             <termNote id="c1992-2-f0" type="administrativeStatus">notRecommended</termNote>
             <termNote id="c1992-2-f1" type="termType">fullForm</termNote>
+            <descrip id="c1992-2-f8" type="valeRegex">(?&lt;!cloud\s+?)native</descrip>
           </tig>
         </langSet>
       </termEntry>
@@ -6355,26 +6372,6 @@
             <term>best-effort support</term>
             <termNote id="c2062-4-f0" type="administrativeStatus">notRecommended</termNote>
             <termNote id="c2062-4-f1" type="termType">fullForm</termNote>
-          </tig>
-        </langSet>
-      </termEntry>
-      <termEntry id="c2074">
-        <descrip type="subjectField" id="c2074-d0-1">SUSE</descrip>
-        <langSet xml:lang="en-us">
-          <tig id="c2074-1">
-            <term>Business-Critical Linux</term>
-            <termNote id="c2074-1-f0" type="administrativeStatus">notRecommended</termNote>
-            <termNote id="c2074-1-f1" type="termType">fullForm</termNote>
-          </tig>
-          <tig id="c2074-2">
-            <term>BCL</term>
-            <termNote id="c2074-2-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2074-2-f1" type="termType">acronym</termNote>
-          </tig>
-          <tig id="c2074-3">
-            <term>Business Critical Linux</term>
-            <termNote id="c2074-3-f0" type="administrativeStatus">preferred</termNote>
-            <termNote id="c2074-3-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -8574,6 +8571,11 @@
             <termNote id="c3164-1-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c3164-1-f1" type="termType">fullForm</termNote>
           </tig>
+          <tig id="c3164-2">
+            <term>cloud-native</term>
+            <termNote id="c3164-2-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c3164-2-f1" type="termType">fullForm</termNote>
+          </tig>
         </langSet>
       </termEntry>
       <termEntry id="c3165">
@@ -9289,12 +9291,12 @@
         <langSet xml:lang="en-us">
           <tig id="c3226-2">
             <term>RGS</term>
-            <termNote id="c3226-2-f0" type="administrativeStatus">Draft</termNote>
+            <termNote id="c3226-2-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c3226-2-f1" type="termType">acronym</termNote>
           </tig>
           <tig id="c3226-3">
             <term>Rancher Government Solutions</term>
-            <termNote id="c3226-3-f0" type="administrativeStatus">Draft</termNote>
+            <termNote id="c3226-3-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c3226-3-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
@@ -9613,6 +9615,11 @@
             <termNote id="c3251-2-f0" type="administrativeStatus">notRecommended</termNote>
             <termNote id="c3251-2-f1" type="termType">fullForm</termNote>
           </tig>
+          <tig id="c3251-3">
+            <term>tech preview</term>
+            <termNote id="c3251-3-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c3251-3-f1" type="termType">shortForm</termNote>
+          </tig>
         </langSet>
       </termEntry>
       <termEntry id="c3252">
@@ -9722,6 +9729,11 @@
             <term>Apps &amp; Marketplace</term>
             <termNote id="c3260-1-f0" type="administrativeStatus">admitted</termNote>
             <termNote id="c3260-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3260-2">
+            <term>Catalogs</term>
+            <termNote id="c3260-2-f0" type="administrativeStatus">Obsolete</termNote>
+            <termNote id="c3260-2-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>
@@ -11226,6 +11238,7 @@
         </langSet>
       </termEntry>
       <termEntry id="c3456">
+        <descrip type="subjectField" id="c3456-d0-1">common IT</descrip>
         <langSet xml:lang="en-us">
           <tig id="c3456-1">
             <term>firewall</term>
@@ -11386,6 +11399,3347 @@
             <term>sidebar</term>
             <termNote id="c3470-2-f0" type="administrativeStatus">preferred</termNote>
             <termNote id="c3470-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3471">
+        <descrip type="subjectField" id="c3471-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3471-1">
+            <term>writebehind</term>
+            <termNote id="c3471-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3471-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3475">
+        <descrip type="subjectField" id="c3475-d0-1">SUSE</descrip>
+        <descrip type="subjectField" id="c3475-d1-1">common IT</descrip>
+        <descrip type="subjectField" id="c3475-d2-1">common business</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c3475-1">
+            <term>business-critical Linux</term>
+            <termNote id="c3475-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c3475-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3475-3">
+            <term>Business Critical Linux</term>
+            <termNote id="c3475-3-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c3475-3-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c3475-4">
+            <term>business critical Linux</term>
+            <termNote id="c3475-4-f0" type="administrativeStatus">notRecommended</termNote>
+            <termNote id="c3475-4-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9147">
+        <descrip type="subjectField" id="c9147-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9147-1">
+            <term>% Attainment</term>
+            <termNote id="c9147-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9147-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9148">
+        <descrip type="subjectField" id="c9148-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9148-1">
+            <term>Pipeline Coverage</term>
+            <termNote id="c9148-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9148-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9149">
+        <descrip type="subjectField" id="c9149-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9149-1">
+            <term>3 Following Quarter Pipeline</term>
+            <termNote id="c9149-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9149-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9149-2">
+            <term>3FQP</term>
+            <termNote id="c9149-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9149-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9150">
+        <descrip type="subjectField" id="c9150-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9150-1">
+            <term>4 Quarters Rolling Pipeline Coverage</term>
+            <termNote id="c9150-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9150-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9150-2">
+            <term>4QRP Coverage</term>
+            <termNote id="c9150-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9150-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9151">
+        <descrip type="subjectField" id="c9151-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9151-1">
+            <term>4 Quarters Rolling Pipeline</term>
+            <termNote id="c9151-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9151-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9151-2">
+            <term>4QRP</term>
+            <termNote id="c9151-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9151-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9152">
+        <descrip type="subjectField" id="c9152-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9152-1">
+            <term>Average Annualized Contract Value</term>
+            <termNote id="c9152-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9152-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9152-2">
+            <term>aACV</term>
+            <termNote id="c9152-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9152-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9153">
+        <descrip type="subjectField" id="c9153-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9153-1">
+            <term>Annualized Contract Value</term>
+            <termNote id="c9153-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9153-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9153-2">
+            <term>ACV</term>
+            <termNote id="c9153-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9153-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9154">
+        <descrip type="subjectField" id="c9154-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9154-1">
+            <term>Adjusted Quantity</term>
+            <termNote id="c9154-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9154-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9155">
+        <descrip type="subjectField" id="c9155-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9155-1">
+            <term>Automated Qualified Leads</term>
+            <termNote id="c9155-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9155-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9155-2">
+            <term>AQL</term>
+            <termNote id="c9155-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9155-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9156">
+        <descrip type="subjectField" id="c9156-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9156-1">
+            <term>AQL CR%</term>
+            <termNote id="c9156-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9156-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9157">
+        <descrip type="subjectField" id="c9157-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9157-1">
+            <term>CSM Renewal Rate Influence</term>
+            <termNote id="c9157-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9157-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9158">
+        <descrip type="subjectField" id="c9158-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9158-1">
+            <term>Annual Recurring Revenue</term>
+            <termNote id="c9158-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9158-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9158-2">
+            <term>ARR</term>
+            <termNote id="c9158-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9158-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9159">
+        <descrip type="subjectField" id="c9159-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9159-1">
+            <term>ARR Accrual</term>
+            <termNote id="c9159-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9159-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9160">
+        <descrip type="subjectField" id="c9160-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9160-1">
+            <term>ARR Compliance Accrual</term>
+            <termNote id="c9160-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9160-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9161">
+        <descrip type="subjectField" id="c9161-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9161-1">
+            <term>Average Deal Size</term>
+            <termNote id="c9161-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9161-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9162">
+        <descrip type="subjectField" id="c9162-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9162-1">
+            <term>Average Selling Price</term>
+            <termNote id="c9162-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9162-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9163">
+        <descrip type="subjectField" id="c9163-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9163-1">
+            <term>Support Engineer CSAT</term>
+            <termNote id="c9163-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9163-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9164">
+        <descrip type="subjectField" id="c9164-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9164-1">
+            <term>Churn</term>
+            <termNote id="c9164-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9164-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9165">
+        <descrip type="subjectField" id="c9165-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9165-1">
+            <term>Compliance</term>
+            <termNote id="c9165-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9165-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9167">
+        <descrip type="subjectField" id="c9167-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9167-1">
+            <term>Conditional Program Discount</term>
+            <termNote id="c9167-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9167-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9169">
+        <descrip type="subjectField" id="c9169-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9169-1">
+            <term>Cross sell - Other  Business</term>
+            <termNote id="c9169-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9169-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9170">
+        <descrip type="subjectField" id="c9170-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9170-1">
+            <term>Cross sell - Same  Business</term>
+            <termNote id="c9170-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9170-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9171">
+        <descrip type="subjectField" id="c9171-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9171-1">
+            <term>Customer Count (Active)</term>
+            <termNote id="c9171-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9171-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9172">
+        <descrip type="subjectField" id="c9172-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9172-1">
+            <term>Customer Count (Booked)</term>
+            <termNote id="c9172-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9172-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9173">
+        <descrip type="subjectField" id="c9173-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9173-1">
+            <term>Deal Discount</term>
+            <termNote id="c9173-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9173-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9174">
+        <descrip type="subjectField" id="c9174-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9174-1">
+            <term>Deal Registration Discount</term>
+            <termNote id="c9174-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9174-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9175">
+        <descrip type="subjectField" id="c9175-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9175-1">
+            <term>Deal Size (ACV List Total)</term>
+            <termNote id="c9175-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9175-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9176">
+        <descrip type="subjectField" id="c9176-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9176-1">
+            <term>Discount Modifier</term>
+            <termNote id="c9176-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9176-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9177">
+        <descrip type="subjectField" id="c9177-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9177-1">
+            <term>Downsell</term>
+            <termNote id="c9177-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9177-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9178">
+        <descrip type="subjectField" id="c9178-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9178-1">
+            <term>Support Case Backlog</term>
+            <termNote id="c9178-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9178-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9179">
+        <descrip type="subjectField" id="c9179-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9179-1">
+            <term>Fiscal year ACV forecast vs target</term>
+            <termNote id="c9179-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9179-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9180">
+        <descrip type="subjectField" id="c9180-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9180-1">
+            <term>Fixed Program Discount</term>
+            <termNote id="c9180-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9180-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9181">
+        <descrip type="subjectField" id="c9181-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9181-1">
+            <term>Forecast Accuracy</term>
+            <termNote id="c9181-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9181-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9183">
+        <descrip type="subjectField" id="c9183-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9183-1">
+            <term>FP&amp;A Revenue</term>
+            <termNote id="c9183-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9183-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9184">
+        <descrip type="subjectField" id="c9184-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9184-1">
+            <term>Fulfillment Agent Discount</term>
+            <termNote id="c9184-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9184-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9185">
+        <descrip type="subjectField" id="c9185-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9185-1">
+            <term>Support Case First Response SLA Attainment</term>
+            <termNote id="c9185-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9185-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9187">
+        <descrip type="subjectField" id="c9187-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9187-1">
+            <term>Inquiries</term>
+            <termNote id="c9187-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9187-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9188">
+        <descrip type="subjectField" id="c9188-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9188-1">
+            <term>Lost</term>
+            <termNote id="c9188-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9188-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9189">
+        <descrip type="subjectField" id="c9189-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9189-1">
+            <term>Low spend</term>
+            <termNote id="c9189-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9189-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9190">
+        <descrip type="subjectField" id="c9190-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9190-1">
+            <term>MEDDPICC</term>
+            <termNote id="c9190-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9190-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9191">
+        <descrip type="subjectField" id="c9191-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9191-1">
+            <term>Marketing Qualified Leads</term>
+            <termNote id="c9191-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9191-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9191-2">
+            <term>MQL</term>
+            <termNote id="c9191-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9191-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9192">
+        <descrip type="subjectField" id="c9192-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9192-1">
+            <term>MQL CR%</term>
+            <termNote id="c9192-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9192-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9193">
+        <descrip type="subjectField" id="c9193-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9193-1">
+            <term>MRR</term>
+            <termNote id="c9193-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9193-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9194">
+        <descrip type="subjectField" id="c9194-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9194-1">
+            <term>Net New Names</term>
+            <termNote id="c9194-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9194-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9195">
+        <descrip type="subjectField" id="c9195-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9195-1">
+            <term>Opportunity Age</term>
+            <termNote id="c9195-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9195-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9196">
+        <descrip type="subjectField" id="c9196-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9196-1">
+            <term>Pipeline creation (E-u) New products only</term>
+            <termNote id="c9196-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9196-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9197">
+        <descrip type="subjectField" id="c9197-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9197-1">
+            <term>Pipeline Health</term>
+            <termNote id="c9197-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9197-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9198">
+        <descrip type="subjectField" id="c9198-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9198-1">
+            <term>Portfolio Density</term>
+            <termNote id="c9198-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9198-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9199">
+        <descrip type="subjectField" id="c9199-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9199-1">
+            <term>Incoming Support Case Volume</term>
+            <termNote id="c9199-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9199-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9200">
+        <descrip type="subjectField" id="c9200-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9200-1">
+            <term>Price Realization</term>
+            <termNote id="c9200-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9200-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9201">
+        <descrip type="subjectField" id="c9201-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9201-1">
+            <term>Product Quality CSAT</term>
+            <termNote id="c9201-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9201-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9202">
+        <descrip type="subjectField" id="c9202-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9202-1">
+            <term>Program Discount</term>
+            <termNote id="c9202-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9202-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9203">
+        <descrip type="subjectField" id="c9203-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9203-1">
+            <term>Renewal</term>
+            <termNote id="c9203-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9203-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9204">
+        <descrip type="subjectField" id="c9204-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9204-1">
+            <term>Renewal pool</term>
+            <termNote id="c9204-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9204-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9205">
+        <descrip type="subjectField" id="c9205-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9205-1">
+            <term>Renewal rate</term>
+            <termNote id="c9205-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9205-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9206">
+        <descrip type="subjectField" id="c9206-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9206-1">
+            <term>Sev1/Critical Support Cases</term>
+            <termNote id="c9206-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9206-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9207">
+        <descrip type="subjectField" id="c9207-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9207-1">
+            <term>Sales ACV</term>
+            <termNote id="c9207-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9207-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9208">
+        <descrip type="subjectField" id="c9208-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9208-1">
+            <term>Sales Revenue</term>
+            <termNote id="c9208-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9208-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9209">
+        <descrip type="subjectField" id="c9209-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9209-1">
+            <term>Sales Velocity</term>
+            <termNote id="c9209-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9209-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9210">
+        <descrip type="subjectField" id="c9210-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9210-1">
+            <term>Support Experience CSAT</term>
+            <termNote id="c9210-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9210-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9211">
+        <descrip type="subjectField" id="c9211-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9211-1">
+            <term>Support Case Time to Close</term>
+            <termNote id="c9211-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9211-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9211-2">
+            <term>TTC</term>
+            <termNote id="c9211-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9211-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9212">
+        <descrip type="subjectField" id="c9212-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9212-1">
+            <term>Premium Renewal Rate</term>
+            <termNote id="c9212-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9212-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9213">
+        <descrip type="subjectField" id="c9213-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9213-1">
+            <term>Services Attach by Segment/Initiative​</term>
+            <termNote id="c9213-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9213-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9214">
+        <descrip type="subjectField" id="c9214-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9214-1">
+            <term>Sales Qualified Opportunity</term>
+            <termNote id="c9214-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9214-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9214-2">
+            <term>SQO</term>
+            <termNote id="c9214-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9214-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9215">
+        <descrip type="subjectField" id="c9215-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9215-1">
+            <term>SQO CR%</term>
+            <termNote id="c9215-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9215-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9216">
+        <descrip type="subjectField" id="c9216-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9216-1">
+            <term>Statutory Revenue</term>
+            <termNote id="c9216-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9216-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9217">
+        <descrip type="subjectField" id="c9217-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9217-1">
+            <term>Premium Support CSAT</term>
+            <termNote id="c9217-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9217-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9218">
+        <descrip type="subjectField" id="c9218-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9218-1">
+            <term>Total Contract Value</term>
+            <termNote id="c9218-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9218-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9218-2">
+            <term>TCV</term>
+            <termNote id="c9218-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9218-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9219">
+        <descrip type="subjectField" id="c9219-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9219-1">
+            <term>Services Profitability</term>
+            <termNote id="c9219-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9219-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9220">
+        <descrip type="subjectField" id="c9220-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9220-1">
+            <term>Total Invoice Value</term>
+            <termNote id="c9220-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9220-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9220-2">
+            <term>TIV</term>
+            <termNote id="c9220-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9220-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9221">
+        <descrip type="subjectField" id="c9221-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9221-1">
+            <term>Total Discount</term>
+            <termNote id="c9221-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9221-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9222">
+        <descrip type="subjectField" id="c9222-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9222-1">
+            <term>Up Sell</term>
+            <termNote id="c9222-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9222-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9223">
+        <descrip type="subjectField" id="c9223-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9223-1">
+            <term>Uplift</term>
+            <termNote id="c9223-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9223-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9224">
+        <descrip type="subjectField" id="c9224-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9224-1">
+            <term>Consultant Utilization</term>
+            <termNote id="c9224-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9224-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9225">
+        <descrip type="subjectField" id="c9225-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9225-1">
+            <term>Changes in ACV by Volume-Price-Mix</term>
+            <termNote id="c9225-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9225-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9226">
+        <descrip type="subjectField" id="c9226-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9226-1">
+            <term>Weekly ACV Forecast call</term>
+            <termNote id="c9226-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9226-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9227">
+        <descrip type="subjectField" id="c9227-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9227-1">
+            <term>Weekly TCV Forecast call</term>
+            <termNote id="c9227-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9227-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9228">
+        <descrip type="subjectField" id="c9228-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9228-1">
+            <term>Weighted average ACV forecast</term>
+            <termNote id="c9228-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9228-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9229">
+        <descrip type="subjectField" id="c9229-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9229-1">
+            <term>Expiring ACV</term>
+            <termNote id="c9229-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9229-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9230">
+        <descrip type="subjectField" id="c9230-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9230-1">
+            <term>Headcount</term>
+            <termNote id="c9230-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9230-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9231">
+        <descrip type="subjectField" id="c9231-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9231-1">
+            <term>Hires</term>
+            <termNote id="c9231-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9231-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9232">
+        <descrip type="subjectField" id="c9232-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9232-1">
+            <term>Leavers</term>
+            <termNote id="c9232-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9232-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9233">
+        <descrip type="subjectField" id="c9233-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9233-1">
+            <term>Attrition</term>
+            <termNote id="c9233-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9233-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9234">
+        <descrip type="subjectField" id="c9234-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9234-1">
+            <term>Promotions</term>
+            <termNote id="c9234-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9234-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9235">
+        <descrip type="subjectField" id="c9235-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9235-1">
+            <term>Internal Moves</term>
+            <termNote id="c9235-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9235-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9236">
+        <descrip type="subjectField" id="c9236-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9236-1">
+            <term>Candidate Hire</term>
+            <termNote id="c9236-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9236-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9237">
+        <descrip type="subjectField" id="c9237-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9237-1">
+            <term>Gender diversity</term>
+            <termNote id="c9237-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9237-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9238">
+        <descrip type="subjectField" id="c9238-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9238-1">
+            <term>Time to hire</term>
+            <termNote id="c9238-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9238-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9239">
+        <descrip type="subjectField" id="c9239-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9239-1">
+            <term>Average Time to fill</term>
+            <termNote id="c9239-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9239-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9241">
+        <descrip type="subjectField" id="c9241-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9241-1">
+            <term>Count of Active Subscriptions</term>
+            <termNote id="c9241-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9241-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9242">
+        <descrip type="subjectField" id="c9242-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9242-1">
+            <term>Count of Active Systems</term>
+            <termNote id="c9242-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9242-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9243">
+        <descrip type="subjectField" id="c9243-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9243-1">
+            <term>Avg Sockets per System</term>
+            <termNote id="c9243-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9243-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9244">
+        <descrip type="subjectField" id="c9244-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9244-1">
+            <term>Avg vCPUs per System</term>
+            <termNote id="c9244-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9244-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9245">
+        <descrip type="subjectField" id="c9245-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9245-1">
+            <term>Avg Memory per System</term>
+            <termNote id="c9245-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9245-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9246">
+        <descrip type="subjectField" id="c9246-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9246-1">
+            <term>Avg Memory per VM</term>
+            <termNote id="c9246-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9246-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9247">
+        <descrip type="subjectField" id="c9247-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9247-1">
+            <term>Avg Memory per Socket</term>
+            <termNote id="c9247-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9247-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9248">
+        <descrip type="subjectField" id="c9248-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9248-1">
+            <term>Avg Memory per vCPU</term>
+            <termNote id="c9248-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9248-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9250">
+        <descrip type="subjectField" id="c9250-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9250-1">
+            <term>Weighted Sentiment Score</term>
+            <termNote id="c9250-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9250-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9251">
+        <descrip type="subjectField" id="c9251-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9251-1">
+            <term>Instance</term>
+            <termNote id="c9251-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9251-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9252">
+        <descrip type="subjectField" id="c9252-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9252-1">
+            <term>Rancher Renewal ACV Uplift</term>
+            <termNote id="c9252-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9252-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9253">
+        <descrip type="subjectField" id="c9253-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9253-1">
+            <term>Observability Attach Rate</term>
+            <termNote id="c9253-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9253-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9254">
+        <descrip type="subjectField" id="c9254-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9254-1">
+            <term>Rancher ACV Net New</term>
+            <termNote id="c9254-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9254-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9255">
+        <descrip type="subjectField" id="c9255-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9255-1">
+            <term>Rancher Free to paid users</term>
+            <termNote id="c9255-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9255-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9256">
+        <descrip type="subjectField" id="c9256-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9256-1">
+            <term># SaaS community</term>
+            <termNote id="c9256-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9256-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9257">
+        <descrip type="subjectField" id="c9257-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9257-1">
+            <term>Account Executive</term>
+            <termNote id="c9257-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9257-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9257-2">
+            <term>Sales Rep,AE, Opportunity Owner</term>
+            <termNote id="c9257-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9257-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9258">
+        <descrip type="subjectField" id="c9258-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9258-1">
+            <term>Active Subscription</term>
+            <termNote id="c9258-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9258-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9258-2">
+            <term>Current Entitlement</term>
+            <termNote id="c9258-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9258-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9259">
+        <descrip type="subjectField" id="c9259-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9259-1">
+            <term>AQL (Automated Qualified Lead)</term>
+            <termNote id="c9259-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9259-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9260">
+        <descrip type="subjectField" id="c9260-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9260-1">
+            <term>ARR Accrual</term>
+            <termNote id="c9260-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9260-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9261">
+        <descrip type="subjectField" id="c9261-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9261-1">
+            <term>Attainment</term>
+            <termNote id="c9261-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9261-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9261-2">
+            <term>Achievement</term>
+            <termNote id="c9261-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9261-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9262">
+        <descrip type="subjectField" id="c9262-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9262-1">
+            <term>Billable Hours</term>
+            <termNote id="c9262-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9262-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9262-2">
+            <term>Recognized hours, Posted hours, Hours Applied</term>
+            <termNote id="c9262-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9262-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9263">
+        <descrip type="subjectField" id="c9263-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9263-1">
+            <term>Billed</term>
+            <termNote id="c9263-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9263-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9263-2">
+            <term>Closed Won</term>
+            <termNote id="c9263-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9263-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9264">
+        <descrip type="subjectField" id="c9264-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9264-1">
+            <term>Booking</term>
+            <termNote id="c9264-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9264-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9265">
+        <descrip type="subjectField" id="c9265-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9265-1">
+            <term>Booking</term>
+            <termNote id="c9265-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9265-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9266">
+        <descrip type="subjectField" id="c9266-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9266-1">
+            <term>Business</term>
+            <termNote id="c9266-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9266-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9267">
+        <descrip type="subjectField" id="c9267-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9267-1">
+            <term>Business Critical Linux</term>
+            <termNote id="c9267-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9267-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9267-2">
+            <term>BCL</term>
+            <termNote id="c9267-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9267-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9268">
+        <descrip type="subjectField" id="c9268-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9268-1">
+            <term>Business lead</term>
+            <termNote id="c9268-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9268-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9269">
+        <descrip type="subjectField" id="c9269-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9269-1">
+            <term>Busloader</term>
+            <termNote id="c9269-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9269-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9270">
+        <descrip type="subjectField" id="c9270-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9270-1">
+            <term>BYOS (Bring Your Own Subscription)</term>
+            <termNote id="c9270-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9270-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9271">
+        <descrip type="subjectField" id="c9271-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9271-1">
+            <term>Campaign</term>
+            <termNote id="c9271-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9271-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9272">
+        <descrip type="subjectField" id="c9272-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9272-1">
+            <term>Case</term>
+            <termNote id="c9272-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9272-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9273">
+        <descrip type="subjectField" id="c9273-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9273-1">
+            <term>CFL</term>
+            <termNote id="c9273-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9273-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9274">
+        <descrip type="subjectField" id="c9274-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9274-1">
+            <term>Closed Deal</term>
+            <termNote id="c9274-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9274-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9274-2">
+            <term>Closed Won</term>
+            <termNote id="c9274-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9274-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9275">
+        <descrip type="subjectField" id="c9275-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9275-1">
+            <term>Cloud Service Provider (CSP)</term>
+            <termNote id="c9275-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9275-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9276">
+        <descrip type="subjectField" id="c9276-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9276-1">
+            <term>Committed Spend</term>
+            <termNote id="c9276-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9276-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9277">
+        <descrip type="subjectField" id="c9277-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9277-1">
+            <term>Compliance Deals</term>
+            <termNote id="c9277-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9277-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9278">
+        <descrip type="subjectField" id="c9278-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9278-1">
+            <term>Compliance Flag</term>
+            <termNote id="c9278-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9278-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9278-2">
+            <term>LV Flag</term>
+            <termNote id="c9278-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9278-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9279">
+        <descrip type="subjectField" id="c9279-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9279-1">
+            <term>Compliance Revenue</term>
+            <termNote id="c9279-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9279-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9279-2">
+            <term>Compliance</term>
+            <termNote id="c9279-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9279-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9280">
+        <descrip type="subjectField" id="c9280-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9280-1">
+            <term>Consultant</term>
+            <termNote id="c9280-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9280-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9280-2">
+            <term>Professional Services</term>
+            <termNote id="c9280-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9280-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9281">
+        <descrip type="subjectField" id="c9281-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9281-1">
+            <term>Contact</term>
+            <termNote id="c9281-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9281-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9282">
+        <descrip type="subjectField" id="c9282-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9282-1">
+            <term>Contact lead</term>
+            <termNote id="c9282-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9282-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9283">
+        <descrip type="subjectField" id="c9283-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9283-1">
+            <term>Contract</term>
+            <termNote id="c9283-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9283-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9284">
+        <descrip type="subjectField" id="c9284-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9284-1">
+            <term>Contract Action</term>
+            <termNote id="c9284-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9284-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9285">
+        <descrip type="subjectField" id="c9285-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9285-1">
+            <term>Contract Duration</term>
+            <termNote id="c9285-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9285-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9285-2">
+            <term>Settlement Duration</term>
+            <termNote id="c9285-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9285-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9286">
+        <descrip type="subjectField" id="c9286-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9286-1">
+            <term>Total Contract Value</term>
+            <termNote id="c9286-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9286-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9286-2">
+            <term>TCV</term>
+            <termNote id="c9286-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9286-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9287">
+        <descrip type="subjectField" id="c9287-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9287-1">
+            <term>Conversion Rate</term>
+            <termNote id="c9287-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9287-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9287-2">
+            <term>CR</term>
+            <termNote id="c9287-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9287-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9288">
+        <descrip type="subjectField" id="c9288-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9288-1">
+            <term>Services Cost</term>
+            <termNote id="c9288-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9288-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9289">
+        <descrip type="subjectField" id="c9289-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9289-1">
+            <term>CRB</term>
+            <termNote id="c9289-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9289-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9289-2">
+            <term>Commission Review Board</term>
+            <termNote id="c9289-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9289-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9290">
+        <descrip type="subjectField" id="c9290-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9290-1">
+            <term>CRO</term>
+            <termNote id="c9290-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9290-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9290-2">
+            <term>Chief Revenue Officer</term>
+            <termNote id="c9290-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9290-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9291">
+        <descrip type="subjectField" id="c9291-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9291-1">
+            <term>Cross Sell</term>
+            <termNote id="c9291-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9291-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9292">
+        <descrip type="subjectField" id="c9292-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9292-1">
+            <term>CSP</term>
+            <termNote id="c9292-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9292-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9292-2">
+            <term>Cloud Service Provider, also referred to as Hyperscalers.</term>
+            <termNote id="c9292-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9292-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9293">
+        <descrip type="subjectField" id="c9293-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9293-1">
+            <term>Customer</term>
+            <termNote id="c9293-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9293-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9294">
+        <descrip type="subjectField" id="c9294-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9294-1">
+            <term>Customer type</term>
+            <termNote id="c9294-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9294-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9295">
+        <descrip type="subjectField" id="c9295-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9295-1">
+            <term>Deal</term>
+            <termNote id="c9295-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9295-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9296">
+        <descrip type="subjectField" id="c9296-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9296-1">
+            <term>Deal size</term>
+            <termNote id="c9296-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9296-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9297">
+        <descrip type="subjectField" id="c9297-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9297-1">
+            <term>RFE</term>
+            <termNote id="c9297-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9297-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9298">
+        <descrip type="subjectField" id="c9298-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9298-1">
+            <term>Defect</term>
+            <termNote id="c9298-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9298-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9298-2">
+            <term>Bugs</term>
+            <termNote id="c9298-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9298-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9299">
+        <descrip type="subjectField" id="c9299-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9299-1">
+            <term>Deferred Revenue</term>
+            <termNote id="c9299-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9299-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9300">
+        <descrip type="subjectField" id="c9300-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9300-1">
+            <term>Discount</term>
+            <termNote id="c9300-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9300-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9301">
+        <descrip type="subjectField" id="c9301-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9301-1">
+            <term>Discount (approved)</term>
+            <termNote id="c9301-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9301-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9302">
+        <descrip type="subjectField" id="c9302-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9302-1">
+            <term>Discount Value</term>
+            <termNote id="c9302-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9302-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9303">
+        <descrip type="subjectField" id="c9303-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9303-1">
+            <term>Discount Volume</term>
+            <termNote id="c9303-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9303-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9304">
+        <descrip type="subjectField" id="c9304-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9304-1">
+            <term>Distributor</term>
+            <termNote id="c9304-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9304-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9305">
+        <descrip type="subjectField" id="c9305-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9305-1">
+            <term>End-user Customer</term>
+            <termNote id="c9305-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9305-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9306">
+        <descrip type="subjectField" id="c9306-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9306-1">
+            <term>Enterprise Container Management</term>
+            <termNote id="c9306-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9306-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9306-2">
+            <term>ECM</term>
+            <termNote id="c9306-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9306-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9307">
+        <descrip type="subjectField" id="c9307-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9307-1">
+            <term>Enterprise segment</term>
+            <termNote id="c9307-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9307-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9308">
+        <descrip type="subjectField" id="c9308-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9308-1">
+            <term>First Response Time SLA</term>
+            <termNote id="c9308-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9308-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9308-2">
+            <term>FRT SLA</term>
+            <termNote id="c9308-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9308-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9309">
+        <descrip type="subjectField" id="c9309-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9309-1">
+            <term>Forbes 2000</term>
+            <termNote id="c9309-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9309-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9310">
+        <descrip type="subjectField" id="c9310-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9310-1">
+            <term>Forecast</term>
+            <termNote id="c9310-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9310-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9311">
+        <descrip type="subjectField" id="c9311-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9311-1">
+            <term>General Manager</term>
+            <termNote id="c9311-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9311-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9311-2">
+            <term>GM</term>
+            <termNote id="c9311-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9311-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9312">
+        <descrip type="subjectField" id="c9312-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9312-1">
+            <term>Geo</term>
+            <termNote id="c9312-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9312-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9313">
+        <descrip type="subjectField" id="c9313-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9313-1">
+            <term>Global System Integrators (GSI)</term>
+            <termNote id="c9313-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9313-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9313-2">
+            <term>GSI</term>
+            <termNote id="c9313-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9313-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9314">
+        <descrip type="subjectField" id="c9314-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9314-1">
+            <term>Global Services Provider (GSP)</term>
+            <termNote id="c9314-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9314-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9314-2">
+            <term>GSP</term>
+            <termNote id="c9314-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9314-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9315">
+        <descrip type="subjectField" id="c9315-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9315-1">
+            <term>Hidden Listing</term>
+            <termNote id="c9315-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9315-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9316">
+        <descrip type="subjectField" id="c9316-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9316-1">
+            <term>Hours Worked</term>
+            <termNote id="c9316-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9316-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9317">
+        <descrip type="subjectField" id="c9317-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9317-1">
+            <term>ICM</term>
+            <termNote id="c9317-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9317-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9318">
+        <descrip type="subjectField" id="c9318-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9318-1">
+            <term>IHV</term>
+            <termNote id="c9318-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9318-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9318-2">
+            <term>Independent Hardware Vendor</term>
+            <termNote id="c9318-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9318-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9319">
+        <descrip type="subjectField" id="c9319-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9319-1">
+            <term>Incremental TCV</term>
+            <termNote id="c9319-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9319-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9320">
+        <descrip type="subjectField" id="c9320-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9320-1">
+            <term>Individual Quota Carriers</term>
+            <termNote id="c9320-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9320-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9321">
+        <descrip type="subjectField" id="c9321-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9321-1">
+            <term>Inquiry (INQ)</term>
+            <termNote id="c9321-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9321-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9321-2">
+            <term>INQ</term>
+            <termNote id="c9321-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9321-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9322">
+        <descrip type="subjectField" id="c9322-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9322-1">
+            <term>Invoice amount</term>
+            <termNote id="c9322-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9322-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9323">
+        <descrip type="subjectField" id="c9323-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9323-1">
+            <term>ISR</term>
+            <termNote id="c9323-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9323-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9324">
+        <descrip type="subjectField" id="c9324-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9324-1">
+            <term>Internal Sales Representative</term>
+            <termNote id="c9324-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9324-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9324-2">
+            <term>ISR</term>
+            <termNote id="c9324-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9324-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9325">
+        <descrip type="subjectField" id="c9325-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9325-1">
+            <term>Last touch campaign</term>
+            <termNote id="c9325-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9325-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9326">
+        <descrip type="subjectField" id="c9326-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9326-1">
+            <term>Lead</term>
+            <termNote id="c9326-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9326-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9327">
+        <descrip type="subjectField" id="c9327-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9327-1">
+            <term>Lead priority</term>
+            <termNote id="c9327-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9327-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9328">
+        <descrip type="subjectField" id="c9328-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9328-1">
+            <term>List Price</term>
+            <termNote id="c9328-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9328-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9329">
+        <descrip type="subjectField" id="c9329-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9329-1">
+            <term>Management Rollup</term>
+            <termNote id="c9329-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9329-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9330">
+        <descrip type="subjectField" id="c9330-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9330-1">
+            <term>Manager</term>
+            <termNote id="c9330-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9330-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9331">
+        <descrip type="subjectField" id="c9331-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9331-1">
+            <term>Marketing focus accounts</term>
+            <termNote id="c9331-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9331-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9332">
+        <descrip type="subjectField" id="c9332-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9332-1">
+            <term>Marketplace</term>
+            <termNote id="c9332-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9332-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9333">
+        <descrip type="subjectField" id="c9333-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9333-1">
+            <term>Master License Agreement</term>
+            <termNote id="c9333-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9333-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9333-2">
+            <term>MLA</term>
+            <termNote id="c9333-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9333-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9334">
+        <descrip type="subjectField" id="c9334-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9334-1">
+            <term>MBO</term>
+            <termNote id="c9334-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9334-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9335">
+        <descrip type="subjectField" id="c9335-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9335-1">
+            <term>MDR</term>
+            <termNote id="c9335-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9335-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9336">
+        <descrip type="subjectField" id="c9336-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9336-1">
+            <term>MQL (Marketing Qualified Lead)</term>
+            <termNote id="c9336-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9336-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9337">
+        <descrip type="subjectField" id="c9337-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9337-1">
+            <term>MQL Qualification</term>
+            <termNote id="c9337-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9337-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9338">
+        <descrip type="subjectField" id="c9338-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9338-1">
+            <term>MQL-converted</term>
+            <termNote id="c9338-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9338-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9339">
+        <descrip type="subjectField" id="c9339-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9339-1">
+            <term>MRR</term>
+            <termNote id="c9339-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9339-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9340">
+        <descrip type="subjectField" id="c9340-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9340-1">
+            <term>Managed Service Provider (MSP)</term>
+            <termNote id="c9340-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9340-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9340-2">
+            <term>MSP</term>
+            <termNote id="c9340-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9340-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9341">
+        <descrip type="subjectField" id="c9341-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9341-1">
+            <term>MSRF</term>
+            <termNote id="c9341-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9341-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9342">
+        <descrip type="subjectField" id="c9342-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9342-1">
+            <term>Net Amount</term>
+            <termNote id="c9342-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9342-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9343">
+        <descrip type="subjectField" id="c9343-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9343-1">
+            <term>Net New Name</term>
+            <termNote id="c9343-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9343-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9343-2">
+            <term>NNN</term>
+            <termNote id="c9343-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9343-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9344">
+        <descrip type="subjectField" id="c9344-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9344-1">
+            <term>New Business</term>
+            <termNote id="c9344-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9344-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9345">
+        <descrip type="subjectField" id="c9345-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9345-1">
+            <term>New vs. Renewal</term>
+            <termNote id="c9345-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9345-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9346">
+        <descrip type="subjectField" id="c9346-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9346-1">
+            <term>Non standard Program Discount</term>
+            <termNote id="c9346-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9346-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9347">
+        <descrip type="subjectField" id="c9347-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9347-1">
+            <term>Opportunity</term>
+            <termNote id="c9347-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9347-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9348">
+        <descrip type="subjectField" id="c9348-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9348-1">
+            <term>Opportunity Closing</term>
+            <termNote id="c9348-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9348-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9349">
+        <descrip type="subjectField" id="c9349-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9349-1">
+            <term>Opt-in</term>
+            <termNote id="c9349-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9349-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9350">
+        <descrip type="subjectField" id="c9350-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9350-1">
+            <term>Opt-out</term>
+            <termNote id="c9350-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9350-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9351">
+        <descrip type="subjectField" id="c9351-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9351-1">
+            <term>Order Line Item</term>
+            <termNote id="c9351-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9351-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9351-2">
+            <term>Orderitem</term>
+            <termNote id="c9351-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9351-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9352">
+        <descrip type="subjectField" id="c9352-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9352-1">
+            <term>Order Value</term>
+            <termNote id="c9352-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9352-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9353">
+        <descrip type="subjectField" id="c9353-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9353-1">
+            <term>Overlay Quota Carriers</term>
+            <termNote id="c9353-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9353-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9354">
+        <descrip type="subjectField" id="c9354-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9354-1">
+            <term>PANT</term>
+            <termNote id="c9354-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9354-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9355">
+        <descrip type="subjectField" id="c9355-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9355-1">
+            <term>Partner</term>
+            <termNote id="c9355-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9355-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9356">
+        <descrip type="subjectField" id="c9356-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9356-1">
+            <term>PAYG (Pay-As-You-Go)</term>
+            <termNote id="c9356-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9356-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9357">
+        <descrip type="subjectField" id="c9357-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9357-1">
+            <term>Persona</term>
+            <termNote id="c9357-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9357-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9358">
+        <descrip type="subjectField" id="c9358-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9358-1">
+            <term>Pipeline</term>
+            <termNote id="c9358-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9358-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9359">
+        <descrip type="subjectField" id="c9359-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9359-1">
+            <term>Pipeline Contribution</term>
+            <termNote id="c9359-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9359-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9360">
+        <descrip type="subjectField" id="c9360-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9360-1">
+            <term>PO (Purchase Order)</term>
+            <termNote id="c9360-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9360-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9361">
+        <descrip type="subjectField" id="c9361-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9361-1">
+            <term>Price</term>
+            <termNote id="c9361-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9361-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9362">
+        <descrip type="subjectField" id="c9362-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9362-1">
+            <term>Private Offer</term>
+            <termNote id="c9362-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9362-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9363">
+        <descrip type="subjectField" id="c9363-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9363-1">
+            <term>Product</term>
+            <termNote id="c9363-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9363-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9364">
+        <descrip type="subjectField" id="c9364-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9364-1">
+            <term>Product Family</term>
+            <termNote id="c9364-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9364-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9365">
+        <descrip type="subjectField" id="c9365-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9365-1">
+            <term>Product portfolio</term>
+            <termNote id="c9365-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9365-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9366">
+        <descrip type="subjectField" id="c9366-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9366-1">
+            <term>Profitability</term>
+            <termNote id="c9366-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9366-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9367">
+        <descrip type="subjectField" id="c9367-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9367-1">
+            <term>Program</term>
+            <termNote id="c9367-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9367-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9367-2">
+            <term>Sales Program</term>
+            <termNote id="c9367-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9367-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9368">
+        <descrip type="subjectField" id="c9368-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9368-1">
+            <term>Proration</term>
+            <termNote id="c9368-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9368-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9369">
+        <descrip type="subjectField" id="c9369-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9369-1">
+            <term>Prospect</term>
+            <termNote id="c9369-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9369-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9370">
+        <descrip type="subjectField" id="c9370-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9370-1">
+            <term>Quota</term>
+            <termNote id="c9370-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9370-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9370-2">
+            <term>Sales</term>
+            <termNote id="c9370-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9370-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9371">
+        <descrip type="subjectField" id="c9371-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9371-1">
+            <term>Recognised Revenue</term>
+            <termNote id="c9371-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9371-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9372">
+        <descrip type="subjectField" id="c9372-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9372-1">
+            <term>Record</term>
+            <termNote id="c9372-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9372-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9373">
+        <descrip type="subjectField" id="c9373-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9373-1">
+            <term>Regional Manager</term>
+            <termNote id="c9373-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9373-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9374">
+        <descrip type="subjectField" id="c9374-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9374-1">
+            <term>Renewal rate</term>
+            <termNote id="c9374-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9374-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9375">
+        <descrip type="subjectField" id="c9375-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9375-1">
+            <term>Reporting Matched Account</term>
+            <termNote id="c9375-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9375-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9376">
+        <descrip type="subjectField" id="c9376-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9376-1">
+            <term>Reseller</term>
+            <termNote id="c9376-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9376-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9377">
+        <descrip type="subjectField" id="c9377-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9377-1">
+            <term>Reserved Instances (RIs)</term>
+            <termNote id="c9377-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9377-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9378">
+        <descrip type="subjectField" id="c9378-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9378-1">
+            <term>Revenue</term>
+            <termNote id="c9378-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9378-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9379">
+        <descrip type="subjectField" id="c9379-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9379-1">
+            <term>RGS</term>
+            <termNote id="c9379-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9379-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9379-2">
+            <term>Rancher Government Solution</term>
+            <termNote id="c9379-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9379-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9380">
+        <descrip type="subjectField" id="c9380-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9380-1">
+            <term>Royalties</term>
+            <termNote id="c9380-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9380-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9381">
+        <descrip type="subjectField" id="c9381-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9381-1">
+            <term>Royalty</term>
+            <termNote id="c9381-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9381-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9382">
+        <descrip type="subjectField" id="c9382-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9382-1">
+            <term>RPO</term>
+            <termNote id="c9382-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9382-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9383">
+        <descrip type="subjectField" id="c9383-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9383-1">
+            <term>RTM</term>
+            <termNote id="c9383-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9383-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9383-2">
+            <term>Route to Market</term>
+            <termNote id="c9383-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9383-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9384">
+        <descrip type="subjectField" id="c9384-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9384-1">
+            <term>Sales Roles</term>
+            <termNote id="c9384-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9384-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9385">
+        <descrip type="subjectField" id="c9385-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9385-1">
+            <term>Sap Royalty Deductions</term>
+            <termNote id="c9385-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9385-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9386">
+        <descrip type="subjectField" id="c9386-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9386-1">
+            <term>Segment</term>
+            <termNote id="c9386-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9386-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9387">
+        <descrip type="subjectField" id="c9387-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9387-1">
+            <term>Settlement Duration</term>
+            <termNote id="c9387-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9387-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9387-2">
+            <term>Contract Duration</term>
+            <termNote id="c9387-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9387-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9388">
+        <descrip type="subjectField" id="c9388-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9388-1">
+            <term>SKU</term>
+            <termNote id="c9388-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9388-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9388-2">
+            <term>Product Code, Product Number</term>
+            <termNote id="c9388-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9388-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9389">
+        <descrip type="subjectField" id="c9389-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9389-1">
+            <term>SLA</term>
+            <termNote id="c9389-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9389-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9389-2">
+            <term>Service Level Agreement</term>
+            <termNote id="c9389-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9389-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9390">
+        <descrip type="subjectField" id="c9390-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9390-1">
+            <term>Special Price Request</term>
+            <termNote id="c9390-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9390-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9390-2">
+            <term>SPR</term>
+            <termNote id="c9390-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9390-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9391">
+        <descrip type="subjectField" id="c9391-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9391-1">
+            <term>SQO (Sales Qualified Opportunity)</term>
+            <termNote id="c9391-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9391-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9392">
+        <descrip type="subjectField" id="c9392-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9392-1">
+            <term>Statutory Revenue</term>
+            <termNote id="c9392-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9392-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9393">
+        <descrip type="subjectField" id="c9393-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9393-1">
+            <term>Subscriptions</term>
+            <termNote id="c9393-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9393-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9394">
+        <descrip type="subjectField" id="c9394-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9394-1">
+            <term>Total Business</term>
+            <termNote id="c9394-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9394-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9395">
+        <descrip type="subjectField" id="c9395-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9395-1">
+            <term>Total Contracted Value</term>
+            <termNote id="c9395-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9395-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9395-2">
+            <term>Total Contract Amount</term>
+            <termNote id="c9395-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9395-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9396">
+        <descrip type="subjectField" id="c9396-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9396-1">
+            <term>Touchpoint</term>
+            <termNote id="c9396-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9396-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9397">
+        <descrip type="subjectField" id="c9397-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9397-1">
+            <term>UTM</term>
+            <termNote id="c9397-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9397-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9398">
+        <descrip type="subjectField" id="c9398-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9398-1">
+            <term>Vertical</term>
+            <termNote id="c9398-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9398-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9399">
+        <descrip type="subjectField" id="c9399-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9399-1">
+            <term>Volume License Agreement</term>
+            <termNote id="c9399-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9399-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9399-2">
+            <term>VLA</term>
+            <termNote id="c9399-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9399-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9400">
+        <descrip type="subjectField" id="c9400-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9400-1">
+            <term>CSAT</term>
+            <termNote id="c9400-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9400-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9400-2">
+            <term>Customer Satisfaction Score</term>
+            <termNote id="c9400-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9400-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9401">
+        <descrip type="subjectField" id="c9401-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9401-1">
+            <term>Time to Close</term>
+            <termNote id="c9401-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9401-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9401-2">
+            <term>TTC</term>
+            <termNote id="c9401-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9401-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9402">
+        <descrip type="subjectField" id="c9402-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9402-1">
+            <term>MEDDPICC</term>
+            <termNote id="c9402-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9402-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9402-2">
+            <term>Sales Qualification Framework</term>
+            <termNote id="c9402-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9402-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9403">
+        <descrip type="subjectField" id="c9403-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9403-1">
+            <term>Subscription</term>
+            <termNote id="c9403-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9403-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9404">
+        <descrip type="subjectField" id="c9404-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9404-1">
+            <term>System</term>
+            <termNote id="c9404-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9404-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9404-2">
+            <term>Instance</term>
+            <termNote id="c9404-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9404-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9405">
+        <descrip type="subjectField" id="c9405-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9405-1">
+            <term>Memory</term>
+            <termNote id="c9405-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9405-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9406">
+        <descrip type="subjectField" id="c9406-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9406-1">
+            <term>Socket</term>
+            <termNote id="c9406-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9406-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9407">
+        <descrip type="subjectField" id="c9407-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9407-1">
+            <term>vCPU</term>
+            <termNote id="c9407-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9407-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9408">
+        <descrip type="subjectField" id="c9408-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9408-1">
+            <term>Customer Feedback Responses</term>
+            <termNote id="c9408-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9408-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9409">
+        <descrip type="subjectField" id="c9409-d0-1">KPI</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9409-1">
+            <term>Customer Sentiment</term>
+            <termNote id="c9409-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9409-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9411">
+        <descrip type="subjectField" id="c9411-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9411-1">
+            <term>auto-installation</term>
+            <termNote id="c9411-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9411-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9412">
+        <descrip type="subjectField" id="c9412-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9412-1">
+            <term>resource element</term>
+            <termNote id="c9412-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9412-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9413">
+        <descrip type="subjectField" id="c9413-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9413-1">
+            <term>property element</term>
+            <termNote id="c9413-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9413-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9414">
+        <descrip type="subjectField" id="c9414-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9414-1">
+            <term>nested resource element</term>
+            <termNote id="c9414-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9414-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9415">
+        <descrip type="subjectField" id="c9415-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9415-1">
+            <term>Embedded Ruby template</term>
+            <termNote id="c9415-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9415-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9415-2">
+            <term>ERB template</term>
+            <termNote id="c9415-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9415-2-f1" type="termType">shortForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9416">
+        <descrip type="subjectField" id="c9416-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9416-1">
+            <term>multipath support</term>
+            <termNote id="c9416-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9416-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9417">
+        <langSet xml:lang="en-us">
+          <tig id="c9417-1">
+            <term>bcache</term>
+            <termNote id="c9417-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9417-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9418">
+        <descrip type="subjectField" id="c9418-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9418-1">
+            <term>OpenSCAP</term>
+            <termNote id="c9418-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9418-1-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9419">
+        <descrip type="subjectField" id="c9419-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9419-1">
+            <term>LAF</term>
+            <termNote id="c9419-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9419-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c9419-2">
+            <term>Linux audit framework</term>
+            <termNote id="c9419-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9419-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9420">
+        <descrip type="subjectField" id="c9420-d0-1">SUSE</descrip>
+        <descrip type="subjectField" id="c9420-d1-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9420-1">
+            <term>SUSE Manager Salt formula</term>
+            <termNote id="c9420-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9420-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9421">
+        <descrip type="subjectField" id="c9421-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9421-1">
+            <term>Non-Volatile Random Access Memory</term>
+            <termNote id="c9421-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9421-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9421-2">
+            <term>NVRAM</term>
+            <termNote id="c9421-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9421-2-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9422">
+        <descrip type="subjectField" id="c9422-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9422-1">
+            <term>GPT</term>
+            <termNote id="c9422-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9422-1-f1" type="termType">acronym</termNote>
+          </tig>
+          <tig id="c9422-2">
+            <term>GUID Partition Table</term>
+            <termNote id="c9422-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9422-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9423">
+        <descrip type="subjectField" id="c9423-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9423-1">
+            <term>writeback</term>
+            <termNote id="c9423-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9423-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9706">
+        <descrip type="subjectField" id="c9706-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9706-1">
+            <term>artificial intelligence</term>
+            <termNote id="c9706-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9706-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9706-2">
+            <term>AI</term>
+            <termNote id="c9706-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9706-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9707">
+        <descrip type="subjectField" id="c9707-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9707-1">
+            <term>air gap</term>
+            <termNote id="c9707-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9707-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9708">
+        <descrip type="subjectField" id="c9708-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9708-1">
+            <term>air-gapped</term>
+            <termNote id="c9708-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9708-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9709">
+        <descrip type="subjectField" id="c9709-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9709-1">
+            <term>Bring Your Own Certificate</term>
+            <termNote id="c9709-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9709-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9709-2">
+            <term>BYOC</term>
+            <termNote id="c9709-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9709-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9710">
+        <descrip type="subjectField" id="c9710-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9710-1">
+            <term>certification authority</term>
+            <termNote id="c9710-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9710-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9710-2">
+            <term>CA</term>
+            <termNote id="c9710-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9710-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9711">
+        <descrip type="subjectField" id="c9711-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9711-1">
+            <term>CoT prompting</term>
+            <termNote id="c9711-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9711-1-f1" type="termType">abbreviation</termNote>
+          </tig>
+          <tig id="c9711-2">
+            <term>chain-of-thought prompting</term>
+            <termNote id="c9711-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9711-2-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9712">
+        <descrip type="subjectField" id="c9712-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9712-1">
+            <term>context window</term>
+            <termNote id="c9712-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9712-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9713">
+        <descrip type="subjectField" id="c9713-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9713-1">
+            <term>custom resource definitions</term>
+            <termNote id="c9713-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9713-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9713-2">
+            <term>CRDs</term>
+            <termNote id="c9713-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9713-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9714">
+        <descrip type="subjectField" id="c9714-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9714-1">
+            <term>Compute Unified Device Architecture</term>
+            <termNote id="c9714-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9714-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9714-2">
+            <term>CUDA</term>
+            <termNote id="c9714-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9714-2-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9715">
+        <descrip type="subjectField" id="c9715-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9715-1">
+            <term>embedding</term>
+            <termNote id="c9715-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9715-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9716">
+        <descrip type="subjectField" id="c9716-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9716-1">
+            <term>infrastructure as code</term>
+            <termNote id="c9716-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9716-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9716-2">
+            <term>IaC</term>
+            <termNote id="c9716-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9716-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9717">
+        <descrip type="subjectField" id="c9717-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9717-1">
+            <term>inference</term>
+            <termNote id="c9717-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9717-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9718">
+        <langSet xml:lang="en-us">
+          <tig id="c9718-1">
+            <term>model weights</term>
+            <termNote id="c9718-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9718-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9719">
+        <descrip type="subjectField" id="c9719-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9719-1">
+            <term>natural language generation</term>
+            <termNote id="c9719-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9719-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9719-2">
+            <term>NLG</term>
+            <termNote id="c9719-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9719-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9720">
+        <descrip type="subjectField" id="c9720-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9720-1">
+            <term>natural language understanding</term>
+            <termNote id="c9720-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9720-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9720-2">
+            <term>NLU</term>
+            <termNote id="c9720-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9720-2-f1" type="termType">abbreviation</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9723">
+        <descrip type="subjectField" id="c9723-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9723-1">
+            <term>prompt injection</term>
+            <termNote id="c9723-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9723-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9724">
+        <descrip type="subjectField" id="c9724-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9724-1">
+            <term>quantization</term>
+            <termNote id="c9724-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9724-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9725">
+        <descrip type="subjectField" id="c9725-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9725-1">
+            <term>retrieval-augmented generation</term>
+            <termNote id="c9725-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9725-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9725-2">
+            <term>RAG</term>
+            <termNote id="c9725-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9725-2-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9726">
+        <descrip type="subjectField" id="c9726-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9726-1">
+            <term>role-based access control</term>
+            <termNote id="c9726-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9726-1-f1" type="termType">fullForm</termNote>
+          </tig>
+          <tig id="c9726-2">
+            <term>RBAC</term>
+            <termNote id="c9726-2-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9726-2-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9727">
+        <descrip type="subjectField" id="c9727-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9727-1">
+            <term>top-k</term>
+            <termNote id="c9727-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9727-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9728">
+        <descrip type="subjectField" id="c9728-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9728-1">
+            <term>top-p</term>
+            <termNote id="c9728-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9728-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9729">
+        <descrip type="subjectField" id="c9729-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9729-1">
+            <term>token</term>
+            <termNote id="c9729-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9729-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9730">
+        <descrip type="subjectField" id="c9730-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9730-1">
+            <term>fencing</term>
+            <termNote id="c9730-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9730-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9732">
+        <descrip type="subjectField" id="c9732-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9732-1">
+            <term>STONITH</term>
+            <termNote id="c9732-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9732-1-f1" type="termType">acronym</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9733">
+        <descrip type="subjectField" id="c9733-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9733-1">
+            <term>accordion</term>
+            <termNote id="c9733-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9733-1-f1" type="termType">fullForm</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9734">
+        <descrip type="subjectField" id="c9734-d0-1">common IT</descrip>
+        <langSet xml:lang="en-us">
+          <tig id="c9734-1">
+            <term>kubelet</term>
+            <termNote id="c9734-1-f0" type="administrativeStatus">preferred</termNote>
+            <termNote id="c9734-1-f1" type="termType">fullForm</termNote>
           </tig>
         </langSet>
       </termEntry>

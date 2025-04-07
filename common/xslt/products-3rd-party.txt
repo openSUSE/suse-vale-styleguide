@@ -1,8 +1,7 @@
-K\.D\.E\.|KDE Desktop Environment: KDE
+Bug Buddy: bug-buddy
+K\.?D\.?E\.?(?:\sDesktop\sEnvironment)?: KDE
+KANIDM|kanidm: Kanidm
+Nvidia: NVIDIA
+shell tool|command line tool: command-line tool|CLT
 SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
 xen|XEN: Xen
-shell tool|command line tool: command-line tool|CLT
-Command Line Interface: CLI|command-line interface
-Bug Buddy: bug-buddy
-Nvidia: NVIDIA
-KANIDM|kanidm: Kanidm

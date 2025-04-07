@@ -7,9 +7,8 @@ action:
   name: replace
 swap:
   Bug Buddy: bug-buddy
-  Command Line Interface: CLI|command-line interface
-  K\.D\.E\.|KDE Desktop Environment: KDE
-  KANIDM|kanidm: Kanidm 
+  K\.?D\.?E\.?(?:\sDesktop\sEnvironment)?: KDE
+  KANIDM|kanidm: Kanidm
   Nvidia: NVIDIA
   shell tool|command line tool: command-line tool|CLT
   SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
