@@ -1,7 +1,7 @@
 # Vale Termweb suggestions
 
 The `Termweb.yml` file includes suggestions from the TermWeb database. The terms
-need to be exportd first with the saved `export-for-vale` export into a XML file.
+need to be exported first with the saved `export-for-vale` export into an XML file.
 Then convert that file into a Vale suggestion list:
 ```
 xsltproc -param write-internal "true()" -o xslt/terms.txt xslt/termweb2text.xsl xslt/vale-export-terms.xml
