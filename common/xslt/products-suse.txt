@@ -1,31 +1,31 @@
 Business-Critical Linux: BCL|Business Critical Linux
 D-Installer|DInstaller|Deinstaller: Agama
+far-edge: Far edge
+kiwi|Kiwi: KIWI
 Language Stack SLE BCI|Language Stack BCI: Development Stack SLE BCI
 MicroOS Server: MicroOS
+near-edge: Near edge
+open-SUSE|open SUSE|Open-SUSE|Open SUSE: openSUSE
 SLE Desktop|SLE Entreprise Desktop|SLE Linux Desktop|Sled|sled|S\.L\.E\.D\.|SleD: SLED|SUSE Linux Enterprise Desktop
 SLE Enterprise|SLE Linux|sle|Sle|S\.L\.E\.: SUSE Linux Enterprise|SLE
 SLE-HPC|SLE for HPC|SUSE Linux Enterprise Server for High-Performance Computing|SUSE Linux Enterprise Server for High Performance Computing: SUSE Linux Enterprise High Performance Computing|SLE HPC
 SLE-LP: SUSE Linux Enterprise Live Patching|SLE LP
 SLE-POS: SUSE Linux Enterprise Point of Service|SLEPOS|SLE POS
 SLE-RT: SUSE Linux Enterprise Real Time|SLE RT
-SLE-VMDP: SUSE Linux Enterprise Virtual Machine Driver Pack
-SLE-WE: SUSE Linux Enterprise Workstation Extension
-SLES on IBM Z and LinuxONE|SLES-Z|SUSE Linux Enterprise Server on IBM Z and LinuxONE|SUSE Linux Enterprise Server for z Systems and LinuxONE: SUSE Linux Enterprise Server for IBM Z and LinuxONE|SLES for Z and LinuxONE
 SLES-AMD/Intel: SLES on AMD/Intel|SUSE Linux Enterprise Server on AMD/Intel
 SLES-ES: SUSE Linux Enterprise Server Subscription with Expanded Support
+SLES on IBM Z and LinuxONE|SLES-Z|SUSE Linux Enterprise Server on IBM Z and LinuxONE|SUSE Linux Enterprise Server for z Systems and LinuxONE: SUSE Linux Enterprise Server for IBM Z and LinuxONE|SLES for Z and LinuxONE
+SleS: SUSE Linux Enterprise Server|SUSE® Linux Enterprise Server|SLES
+SLE-VMDP: SUSE Linux Enterprise Virtual Machine Driver Pack
+SLE-WE: SUSE Linux Enterprise Workstation Extension
 SUMA-Retail|SUMA 4 Retail|SUSE Manager 4 Retail: SUMA for Retail|SUSE Manager for Retail
+SUSE-CaaSP: SUSE CaaS Platform
+SUSE-CAP: SUSE Cloud Application Platform
 SUSE Linux Enterprise Server for Arm|SLES-Arm: SUSE Linux Enterprise Server on Arm|SLES on Arm
 SUSE Linux Enterprise Server for High Availability Extension|SLE-HA|SUSE Linux Enterprise High Availability: SUSE Linux Enterprise High Availability Extension|SLE HA
 SUSE Linux Enterprise Server for POWER|SLES-POWER: SLES on POWER|SUSE Linux Enterprise Server on POWER|SUSE Linux Enterprise Server on IBM POWER
 SUSE Linux Enterprise Server for SAP Applications|SLES for SAP Applications|SLES-SAP|SLES4SAP: SLES for SAP|SUSE® Linux Enterprise Server for SAP® applications|SLES for SAP applications|SUSE Linux Enterprise Server for SAP applications
 SUSE Linux Enterprise Storage|SUSE Storage: SUSE Enterprise Storage|SES
 SUSE partner portal: SUSE One partner portal
-SUSE-CAP: SUSE Cloud Application Platform
-SUSE-CaaSP: SUSE CaaS Platform
-SleS: SUSE Linux Enterprise Server|SUSE® Linux Enterprise Server|SLES
-far-edge: Far edge
-kiwi|Kiwi: KIWI
-near-edge: Near edge
-open-SUSE|open SUSE|Open-SUSE|Open SUSE: openSUSE
 tiny-edge: Tiny edge
 yast2|yast|YaST2|Yast|YAST2|YAST: YaST|Yet another Setup Tool
