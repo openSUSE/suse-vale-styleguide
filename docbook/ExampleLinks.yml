@@ -1,0 +1,16 @@
+extends: existence
+message: Check that the referenced URL is valid and not an example.
+nonword: true
+level: warning
+scope: raw
+tokens:
+  # URLs with < or >
+  - '(?s)(?<=xlink:href=")(?:[^"]*?&lt;[^"]*?)(?=")'
+  - '(?s)(?<=xlink:href=")(?:[^"]*?&gt;[^"]*?)(?=")'
+  - '(?s)(?<=xlink:href=")(?:[^"]*?[<|>][^"]*?)(?=")'
+  # URLs with $ or { or }
+  - '(?s)(?<=xlink:href=")(?:[^"]*?[\$|\{|\}][^"]*?)(?=")'
+  # URLs with 'example'
+  - '(?s)(?<=xlink:href=")(?:[^"]*?example[^"]*?)(?=")'
+  # URLs with 'example'
+  - '(?s)(?<=xlink:href=")(?:[^"]*?local[^"]*?)(?=")'

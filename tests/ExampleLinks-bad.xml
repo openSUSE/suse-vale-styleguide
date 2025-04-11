@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter>
+<chapter version="5.0" xml:id="cha-adm-support"
+  xmlns="http://docbook.org/ns/docbook"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Gathering system information for support</title>
+  <para>
+    This following links are just examples:
+  </para>
+  <itemizedlist>
+    <listitem>
+      <para>
+        <link xlink:href="http://&lt;server-url>/pub/"/>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <link xlink:href="http://server-url&gt;/pub/"/>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <link xlink:href="http://&lt;server-url&gt;/pub/"/>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <link xlink:href="https://${vip_address}/"/>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <link xlink:href="https://{vip/dns-name%7D/v1/"/>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <link xlink:href="https://any.example.com/v1/"/>
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        <link xlink:href="https://localhost:321/"/>
+      </para>
+    </listitem>
+  </itemizedlist>
+</chapter>
