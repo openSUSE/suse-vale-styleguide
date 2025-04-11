@@ -36,5 +36,5 @@ swap:
   (?:systemwide|system wide): system-wide
   tablename: table name
   (?:upper case|upper-case): uppercase
-  (?:[^":])url: URL
+  \surl: URL
   vs\.: versus

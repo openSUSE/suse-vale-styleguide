@@ -1,0 +1,7 @@
+The following links are not just examples:
+
+* http://server-url/pub
+* \http://<server-url>/pub[link title]
+* https://any.unknown.com/v1/
+* \http://www.example.com
+* \http://www.localhost.com[link title]

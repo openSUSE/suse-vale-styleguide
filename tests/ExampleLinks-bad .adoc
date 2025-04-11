@@ -1,0 +1,9 @@
+The following links are just examples:
+
+* http://<server-url/pub[Link title]
+* http://server-url>/pub
+* http://<server-url>/pub/
+* https://${vip_address}/
+* https://{vip/dns-name%7D/v1/
+* https://any.example.com/v1/
+* https://localhost:321/[]

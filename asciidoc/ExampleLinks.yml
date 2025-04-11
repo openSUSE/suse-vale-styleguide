@@ -1,0 +1,9 @@
+extends: existence
+message: Check that the referenced URL is valid and not an example.
+nonword: true
+level: warning
+scope: raw
+tokens:
+  - '(?<=\s)https?://(?:.*?[<|>|\{|\}|\$].*?)(?=[\s|$|\[])'
+  - '(?<=\s)https?://(?:.*?example.*?)(?=[\s|$|\[])'
+  - '(?<=\s)https?://(?:.*?local.*?)(?=[\s|$|\[])'
