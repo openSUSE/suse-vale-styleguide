@@ -1,0 +1,16 @@
+other text
+
+[source, console]
+----
+openssl req -nodes -batch -newkey rsa:2048 -xxxxkeyout client.key -out client.csr \
+    -addext "subjectAltName = DNS:$FQDN
+openssl req -nodes -batch -newkey rsa:2048 -xxxxxxxxxxxxkeyout client.key -out client.csr \
+    -addext "subjectAltName = DNS:$FQDN
+openssl req -nodes -batch -newkey rsa:2048 -xxkeyout client.key -out client.csr
+openssl req -nodes -batch -newkey rsa:2048 -xxxkeyout client.key -out client.csr \
+    -addext "subjectAltName = DNS:$FQDN
+openssl req -nodes -batch -newkey rsa:2048 -xxxxkeyout client.key -out client.csr
+----
+
+openssl req -nodes -batch -newkey rsa:2048 -xxxxkeyout xxxxxxxxxxxxxxxxxx client.key -out client.csr
+other text

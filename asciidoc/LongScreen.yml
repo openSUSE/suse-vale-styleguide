@@ -25,15 +25,16 @@ script: |
       offset := block_start
 
       for line in lines {
+          line_length := len(line)
           // Remove trailing backslash if present
           if text.re_match(`\\$`, line) {
               line = line[0:len(line)-1]
           }
-          
-          line_start := offset
-          line_end := offset + len(line)
 
-          if len(line) > 80 {  // Check if the line length is greater than 80
+          line_start := offset
+          line_end := offset + line_length
+
+          if line_length > 80 {  // Check if the line length is greater than 80
               matches = append(matches, { "begin": line_start, "end": line_end })
           }
 
