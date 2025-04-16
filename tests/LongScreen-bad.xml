@@ -28,5 +28,8 @@ hfghgfhfg This sentence is priobably a little bit longer than eighty gfgfdg
 This sentence is priobably a little bit longer than eighty gfgfdg gfdgdf fds fsd fdsfsd 
 </screen>
 
-<screen>not be.ghfdhfg hgfh hgf hggfhgfh hfghgf hgfh hgfhgfh hgfhgfhfg hfghghfg hgfhgfh fdsfdsfdsf</screen>
+<screen>not be.ghfdhfg hgfh hgf hggfhgfh hfghgf hgfh hgfhgfh hgfhgfhfg hfghghfg
+hgfhgfh fdsfdsfdsf</screen>
+<screen>openssl req -nodes -batch -newkey rsa:2048 -keyout client.key -out client.csr -whatever \
+  -addext "subjectAltName = DNS:$FQDN"</screen>
 </chapter>

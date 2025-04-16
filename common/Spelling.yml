@@ -10,3 +10,5 @@ action:
   name: suggest
   params:
    - spellings
+ignore:
+  - /home/tbazant/SUSE-adWords-dict.dic

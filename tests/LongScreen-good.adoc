@@ -15,3 +15,9 @@ This sentence is not probably again looooooooooonger than it should be according
 This sentence is most probably good length
 This sentence is not probably again looooooooooonger than it should be according
 ----
+
+[source]
+----
+openssl req -nodes -batch -newkey rsa:2048 -keyout client.key -out client.csr \
+  -addext "subjectAltName = DNS:$FQDN"
+----
