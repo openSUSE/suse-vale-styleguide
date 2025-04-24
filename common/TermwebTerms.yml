@@ -12,6 +12,9 @@ swap:
   activation key|activation code: registration code
   addon|addOn|AddOn|add on: add-on|software add-on
   admin: administrator
+  air-{0,1}gap: air gap
+  air\s{0,1}gapped: air-gapped
+  air\s{0,1}gapping: air-gapping
   ARM: Arm®|Advanced RISC Machines
   autologin|auto-login: auto login
   B\.T\.R\.F\.S|Better FS|BTRFS|btrfs: Btrfs
