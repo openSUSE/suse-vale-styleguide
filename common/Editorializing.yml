@@ -5,8 +5,10 @@ ignorecase: true
 level: warning
 tokens:
   - actually
+  - appear to be
   - aptly
   - are a number
+  - arguably
   - as necessary
   - basically
   - clearly
@@ -18,28 +20,37 @@ tokens:
   - fairly
   - fortunately
   - huge
-  - interestingly
   - in fact
+  - in general
+  - interestingly
   - is a number
   - it is important to realize
   - it should be noted that
   - largely
+  - likely
+  - more or less
   - mostly
+  - naturally
   - notably
   - note that
   - obviously
   - of course
+  - possibly
+  - presumably
+  - probably
   - quite
   - relatively
   - remarkably
+  - seem(s)?
   - significantly
   - some of the
+  - somewhat
   - substantially
   - surprisingly
   - totally
   - unfortunately
+  - unlikely
   - various
   - vast
   - very
   - without a doubt
-  
