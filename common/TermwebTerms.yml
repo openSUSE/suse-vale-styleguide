@@ -1,20 +1,17 @@
-extends: substitution
-message: "Consider using '%s' instead of '%s'."
-link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
-level: warning
-ignorecase: false
-action:
-  name: replace
-swap:
+  extends: substitution
+  message: "Consider using '%s' instead of '%s'."
+  link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
+  level: warning
+  ignorecase: false
+  action:
+    name: replace
+  swap:
   (?<!\S)sd|(?<!\S)SD|solidstate drive|solid state drive|solid-state disk|solid-state disk drive|solid state disc: solid-state drive|SSD
   (?<!cloud\s+?)native: built-in
   abort|terminate|kill: close|cancel|stop|end|force quit|exit
   activation key|activation code: registration code
   addon|addOn|AddOn|add on: add-on|software add-on
   admin: administrator
-  air-{0,1}gap: air gap
-  air\s{0,1}gapped: air-gapped
-  air\s{0,1}gapping: air-gapping
   ARM: Arm®|Advanced RISC Machines
   autologin|auto-login: auto login
   B\.T\.R\.F\.S|Better FS|BTRFS|btrfs: Btrfs
@@ -111,4 +108,3 @@ swap:
   whitebox: clear box|open box
   whitelist: safe list|approved list|allowlist
   XWS: X Window System
-
