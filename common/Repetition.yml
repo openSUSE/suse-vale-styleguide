@@ -2,5 +2,6 @@ extends: repetition
 message: "'%s' is repeated."
 level: error
 alpha: true
+ignorecase: true
 tokens:
   - '[^\s]+'
