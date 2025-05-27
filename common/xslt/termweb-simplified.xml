@@ -20,8 +20,6 @@
           <descrip type="subjectField" id="c209-d1-1">product names</descrip>
           <entry id="c209-2" type="fullForm" status="notRecommended">SUSE Linux Enterprise Storage</entry>
           <entry id="c209-3" type="fullForm" status="notRecommended">SUSE Storage</entry>
-          <entry id="c209-1" type="fullForm" status="preferred">SUSE Enterprise Storage</entry>
-          <entry id="c209-4" type="acronym" status="preferred">SES</entry>
         </termentry>
         <termentry id="c215">
           <descrip type="subjectField" id="c215-d0-1">SUSE</descrip>
@@ -529,6 +527,7 @@
           <descrip type="subjectField" id="c3408-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c3408-d1-1">product names</descrip>
           <entry id="c3408-1" type="fullForm" status="preferred">SUSE Storage</entry>
+          <entry id="c3408-3" type="fullForm" status="preferred">SUSE® Storage</entry>
         </termentry>
         <termentry id="c3411">
           <descrip type="subjectField" id="c3411-d0-1">SUSE</descrip>
@@ -581,6 +580,29 @@
           <descrip type="subjectField" id="c3590-d0-1">SUSE</descrip>
           <descrip type="subjectField" id="c3590-d1-1">product names</descrip>
           <entry id="c3590-1" type="fullForm" status="preferred">SUSE AI Library</entry>
+        </termentry>
+        <termentry id="c9761">
+          <descrip type="subjectField" id="c9761-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c9761-d1-1">product names</descrip>
+          <entry id="c9761-1" type="fullForm" status="preferred">Rancher Turtles</entry>
+        </termentry>
+        <termentry id="c9765">
+          <descrip type="subjectField" id="c9765-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c9765-d1-1">common IT</descrip>
+          <descrip type="subjectField" id="c9765-d2-1">product names</descrip>
+          <entry id="c9765-1" type="fullForm" status="preferred">Endpoint Copier Operator</entry>
+        </termentry>
+        <termentry id="c9770">
+          <descrip type="subjectField" id="c9770-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c9770-d1-1">common IT</descrip>
+          <descrip type="subjectField" id="c9770-d2-1">product names</descrip>
+          <entry id="c9770-1" type="fullForm" status="preferred">Content Lifecycle Management</entry>
+        </termentry>
+        <termentry id="c9771">
+          <descrip type="subjectField" id="c9771-d0-1">SUSE</descrip>
+          <descrip type="subjectField" id="c9771-d1-1">common IT</descrip>
+          <descrip type="subjectField" id="c9771-d2-1">product names</descrip>
+          <entry id="c9771-1" type="fullForm" status="preferred">Image Store</entry>
         </termentry>
         <termentry id="c3">
           <descrip type="subjectField" id="c3-d0-1">SUSE</descrip>
