@@ -1,11 +1,11 @@
-extends: substitution
-message: "Use an entity or '%s' instead of '%s'."
-link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
-level: warning
-ignorecase: false
-action:
-  name: replace
-swap:
+  extends: substitution
+  message: "Use an entity or '%s' instead of '%s'."
+  link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
+  level: warning
+  ignorecase: false
+  action:
+    name: replace
+  swap:
   Bug Buddy: bug-buddy
   K\.?D\.?E\.?(?:\sDesktop\sEnvironment)?: KDE
   KANIDM|kanidm: Kanidm
@@ -13,3 +13,4 @@ swap:
   shell tool|command line tool: command-line tool|CLT
   SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
   xen|XEN: Xen
+
