@@ -6,108 +6,108 @@ ignorecase: false
 action:
   name: replace
 swap:
+  (?<!\S)sd|(?<!\S)SD|solidstate drive|solid state drive|solid-state disk|solid-state disk drive|solid state disc: solid-state drive|SSD
+  (?<!cloud\s+?)native: built-in
+  abort|terminate|kill: close|cancel|stop|end|force quit|exit
+  activation key|activation code: registration code
+  addon|addOn|AddOn|add on: add-on|software add-on
+  admin: administrator
+  ARM: Arm®|Advanced RISC Machines
+  autologin|auto-login: auto login
+  B\.T\.R\.F\.S|Better FS|BTRFS|btrfs: Btrfs
+  back door: backdoor|trap door|wormhole
+  back end|backend: back-end
+  baremetal|bare-metal: bare metal
+  black hat hacker: unethical hacker|unethical attacker
+  blacklist: blocklist|denylist|ignorelist
+  bootdisk|boot-disk|boot disc: boot disk
+  bootloader|boot-loader: boot loader
+  Business Critical Linux|business critical Linux: business-critical Linux
+  carrier-grade: carrier grade|carrier class
+  ChangeLog|change-log|change log: changelog
+  chip-set|chip set: chipset
+  Chroot-script: chroot script
+  cloud-native: cloud native
   cold plug|cold-plug|coldadd|coldswap: coldplug
   cold-plugging|cold plugging|coldswapping|coldadding: coldplugging
+  Command Line Interface: CLI|command-line interface
+  Common UNIX Printing System|common Unix printing system|C\.U\.P\.S|cups|Cups: Common Unix Printing System|CUPS
+  config(?!ure|uration|uring): configuration
+  Containers-as-a-Service: Containers as a Service|CaaS
+  coredump: core dump|memory dump|system dump
+  crashdump: crash dump
+  dialog box: dialog
+  drop(?!-down|-in): remove
+  dummy value: sample value|placeholder value
+  filename|file-name: file name
+  filesystem hierarchy standard|file system hierarchy standard|File system Hierarchy Standard: FHS|Filesystem Hierarchy Standard
+  filesystem|file-system: file system
+  frame-buffer|frame buffer: framebuffer
   front end|frontend: front-end
-  back end|backend: back-end
+  Gen-ai|gen-ai|Gen-AI|gen-AI|genAI: GenAI|generative artificial intelligence|generative AI
+  geo-cluster|geocluster: geo cluster|geographic cluster|geographically dispersed cluster|multi-site cluster
+  Golden Master: Gold Master|GM
+  Gpu: GPU|graphics processing unit
+  grandfathered: legacy status
+  hamburger menu: three-line menu
+  hardlink|hard-link: hard link
+  hostname: host name
+  hot-plug|hotadd: hotswap
   hotadd|hot-plug|hot plug: hotplug
   hotadding|hot-plugging: hotplugging
-  pull-down\s+menu|drop-down\s+list\s+box|drop-down\s+menu|drop-down(?!\s+list)|dropdown: drop-down list
-  list field: list|list box
-  PXE Boot|pixie boot: PXE|Preboot eXecution Environment|PXE boot
-  Common UNIX Printing System|common Unix printing system|C\.U\.P\.S|cups|Cups: Common Unix Printing System|CUPS
-  B\.T\.R\.F\.S|Better FS|BTRFS|btrfs: Btrfs
-  baremetal|bare-metal: bare metal
-  white-space|white space: whitespace
-  ChangeLog|change-log|change log: changelog
-  dialog box: dialog
-  Gpu: GPU|graphics processing unit
-  KDUMP: Kdump
-  crashdump: crash dump
-  multi-user|multi user: multiuser
-  NFS file system|N\.F\.S\.|Nfs: NFS|Network File System
-  NIS information service|N\.I\.S\.|Nis: NIS|Network information system
-  (?<!\S)sd|(?<!\S)SD|solidstate drive|solid state drive|solid-state disk|solid-state disk drive|solid state disc: solid-state drive|SSD
-  System 500|system d|systemD|Systemd|System D: systemd
-  Platform as a Service: PaaS|Platform-as-a-Service
-  non-open source software: closed-source software
-  ARM: Arm®|Advanced RISC Machines
-  bootloader|boot-loader: boot loader
-  manual page: man page
-  tar-ball|tarball|tar ball: TAR archive|.tar|Tarball
-  Rpm|R\.P\.M\.: Redhat Package Manager|RPM|RPM Package Manager
-  filesystem hierarchy standard|file system hierarchy standard|File system Hierarchy Standard: FHS|Filesystem Hierarchy Standard
-  XWS: X Window System
-  symlink: symbolic link|soft link
-  virtualisation platform: virtualization platform
-  geo-cluster|geocluster: geo cluster|geographic cluster|geographically dispersed cluster|multi-site cluster
-  addon|addOn|AddOn|add on: add-on|software add-on
-  bootdisk|boot-disk|boot disc: boot disk
-  chip-set|chip set: chipset
-  frame-buffer|frame buffer: framebuffer
-  hardlink|hard-link: hard link
-  ipf: IA-64|ia64
+  hotadding|hot-plugging: hotswapping
+  howto: how-to
   initialization script|initscript|init-script: init script
+  ipf: IA-64|ia64
   IPV4|IP v4: IPv4
+  IPV6|IP v6: IPv6
+  KABI: kABI|Kernel Application Binary Interface
+  KDUMP: Kdump
+  kebab menu: three-dot menu
   kernelspace|kernel-space: kernel space
   life-cycle|life cycle: lifecycle
+  list field: list|list box
+  man hours: engineer hours|management hours
+  manual page: man page
+  master branch: main branch
+  master-slave|master/slave: parent/child|leader/follower|origin/clone|primary/secondary|leader/peer|parent/port|client/server
   mountpoint|mount-point: mount point
-  nameserver|name-server: name server
+  multi-user|multi user: multiuser
   name space|name-space: namespace
+  nameserver|name-server: name server
+  NFS file system|N\.F\.S\.|Nfs: NFS|Network File System
+  NIS information service|N\.I\.S\.|Nis: NIS|Network information system
+  non-open source software: closed-source software
+  on premise|on prem|on-prem|on-premise: on-premises
+  Platform as a Service: PaaS|Platform-as-a-Service
   plug in|plugin: plug-in
+  POWER8: ppc64|IBM Power|ppc64le|POWER
+  Problem Temporary Fix: PTF|Program Temporary Fix
+  pull-down\s+menu|drop-down\s+list\s+box|drop-down\s+menu|drop-down(?!\s+list)|dropdown: drop-down list
+  PXE Boot|pixie boot: PXE|Preboot eXecution Environment|PXE boot
+  quickstart: quick start
+  RAM memory|R.A.M.: random access memory|RAM
+  RISC V|risc-v|Risc v|Risc V|Risc-V: riscv64|RISC-V
+  Rpm|R\.P\.M\.: Redhat Package Manager|RPM|RPM Package Manager
   run-level|run level: runlevel
   run-time: runtime|run time
-  scsi|S\.C\.S\.I\.|Scsi: SCSI|Small Computer System Interface
-  SSH Shell|SSH shell: Secure Shell Protocol|SSH
-  synch: synchronization|sync
-  v12n: virtualization
-  Virtualized Local Area Network: VLAN|Virtual Local Area Network
-  back door: backdoor|trap door|wormhole
-  Chroot-script: chroot script
-  task-bar|task bar: desktop panel|panel|bottom edge panel|bottom panel|taskbar
-  carrier-grade: carrier grade|carrier class
-  Command Line Interface: CLI|command-line interface
-  autologin|auto-login: auto login
-  coredump: core dump|memory dump|system dump
-  filename|file-name: file name
-  filesystem|file-system: file system
-  hostname: host name
-  config(?!ure|uration|uring): configuration
-  on premise|on prem|on-prem|on-premise: on-premises
-  admin: administrator
-  hot-plug|hotadd: hotswap
-  hotadding|hot-plugging: hotswapping
-  Problem Temporary Fix: PTF|Program Temporary Fix
-  abort|terminate|kill: close|cancel|stop|end|force quit|exit
-  black hat hacker: unethical hacker|unethical attacker
-  white hat hacker: ethical hacker
-  blacklist: blocklist|denylist|ignorelist
-  dummy value: sample value|placeholder value
-  grandfathered: legacy status
-  man hours: engineer hours|management hours
-  master-slave|master/slave: parent/child|leader/follower|origin/clone|primary/secondary|leader/peer|parent/port|client/server
-  master branch: main branch
-  (?<!cloud\s+?)native: built-in
   sanity check|sanity test: quick check|confidence check|coherence check
+  scsi|S\.C\.S\.I\.|Scsi: SCSI|Small Computer System Interface
   slaves: workers
+  SSH Shell|SSH shell: Secure Shell Protocol|SSH
+  supported on a best effort basis|best effort support|best-effort support: commercially reasonable support
+  symlink: symbolic link|soft link
+  synch: synchronization|sync
+  System 500|system d|systemD|Systemd|System D: systemd
+  tar-ball|tarball|tar ball: TAR archive|.tar|Tarball
+  task-bar|task bar: desktop panel|panel|bottom edge panel|bottom panel|taskbar
+  technical preview|tech preview: technology preview
+  v12n: virtualization
+  virtualisation platform: virtualization platform
+  Virtualized Local Area Network: VLAN|Virtual Local Area Network
   webmaster: web product owner
+  white hat hacker: ethical hacker
+  white-space|white space: whitespace
   whitebox: clear box|open box
   whitelist: safe list|approved list|allowlist
-  supported on a best effort basis|best effort support|best-effort support: commercially reasonable support
-  Golden Master: Gold Master|GM
-  Containers-as-a-Service: Containers as a Service|CaaS
-  drop(?!-down|-in): remove
-  activation key|activation code: registration code
-  POWER8: ppc64|IBM Power|ppc64le|POWER
-  RISC V|risc-v|Risc v|Risc V|Risc-V: riscv64|RISC-V
-  cloud-native: cloud native
-  hamburger menu: three-line menu
-  kebab menu: three-dot menu
-  KABI: kABI|Kernel Application Binary Interface
-  technical preview|tech preview: technology preview
-  IPV6|IP v6: IPv6
-  RAM memory|R.A.M.: random access memory|RAM
-  Gen-ai|gen-ai|Gen-AI|gen-AI|genAI: GenAI|generative artificial intelligence|generative AI
-  Business Critical Linux|business critical Linux: business-critical Linux
-  quickstart: quick start
-  howto: how-to
+  XWS: X Window System
