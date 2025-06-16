@@ -56,6 +56,7 @@
   hotadd|hot-plug|hot plug: hotplug
   hotadding|hot-plugging: hotplugging
   hotadding|hot-plugging: hotswapping
+  howto: how-to
   initialization script|initscript|init-script: init script
   ipf: IA-64|ia64
   IPV4|IP v4: IPv4
@@ -84,6 +85,7 @@
   Problem Temporary Fix: PTF|Program Temporary Fix
   pull-down\s+menu|drop-down\s+list\s+box|drop-down\s+menu|drop-down(?!\s+list)|dropdown: drop-down list
   PXE Boot|pixie boot: PXE|Preboot eXecution Environment|PXE boot
+  quickstart: quick start
   RAM memory|R.A.M.: random access memory|RAM
   RISC V|risc-v|Risc v|Risc V|Risc-V: riscv64|RISC-V
   Rpm|R\.P\.M\.: Redhat Package Manager|RPM|RPM Package Manager
@@ -99,6 +101,7 @@
   System 500|system d|systemD|Systemd|System D: systemd
   tar-ball|tarball|tar ball: TAR archive|.tar|Tarball
   task-bar|task bar: desktop panel|panel|bottom edge panel|bottom panel|taskbar
+  technical preview|tech preview: technology preview
   v12n: virtualization
   virtualisation platform: virtualization platform
   Virtualized Local Area Network: VLAN|Virtual Local Area Network
