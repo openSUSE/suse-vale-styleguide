@@ -11,4 +11,3 @@ action:
   params:
    - spellings
 ignore:
-  - /home/tbazant/SUSE-adWords-dict.dic
