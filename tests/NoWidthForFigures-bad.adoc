@@ -1,0 +1,4 @@
+image::file_name.png[Hello]
+image::file_name.png[Hello,height=640]
+image::file_name.png[Hello,,height=640]
+image:file_name.png[Hello,,480]

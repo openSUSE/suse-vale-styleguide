@@ -1,0 +1,3 @@
+image::file_name.png[Description of a fly,640,20]
+image:file_name.png[What?,width=480]
+image:file_name.png[What?,width=480,height=320]

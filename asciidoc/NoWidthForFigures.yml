@@ -1,0 +1,13 @@
+extends: existence
+message: "The image has no width attribute defined."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-figure
+nonword: true
+level: warning
+scope: raw
+tokens:
+  # match images with alt text only
+  - 'image:{1,2}\S+?\[[^,=,\]]+\]'
+  # match images with alt text and a named height attribute, but no width (e.g., image::file.png[alt,height=640])
+  - 'image:{1,2}\S+?\[(?!.*?(?:\bwidth=[^,\]]+|^[^,\]]*?,[^,=,\]]+))[^,\]]+,\s*\bheight=[^,\]]+[^\]]*?\]'
+  # match images with alt text, empty width, and positional height (e.g., image::file.png[alt,,480])
+  - 'image:{1,2}\S+?\[[^,\]]+,\s*,\s*[^,\]]+\]'
