@@ -1,0 +1,8 @@
+extends: existence
+message: "All referenced image files must have a lowercase alphanumeric file name."
+link: https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-figure
+nonword: true
+level: suggestion
+scope: raw
+tokens:
+  - '(?<=<imagedata\b[^>]*?\bfileref=")[^"]*[A-Z][^"]*(?="[^>]*>)'
