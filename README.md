@@ -86,7 +86,7 @@ nano ~/.vale.ini
 Add the following configuration:
 
 ```yaml
-StylesPath = styles
+StylesPath = styles/suse-vale-styleguide
 MinAlertLevel = suggestion
 [asciidoctor]
 experimental = YES
@@ -102,7 +102,7 @@ BasedOnStyles = common
 2. Open the _.vale.ini_ file for editing and update the existing configuration as follows:
 
 ```yaml
-StylesPath = styles
+StylesPath = styles/suse-vale-styleguide
 MinAlertLevel = suggestion
 [asciidoctor]
 experimental = YES
@@ -123,7 +123,7 @@ BasedOnStyles = common
 2. Open the _.vale.ini_ file for editing and update the existing configuration as follows:
 
 ```yaml
-StylesPath = styles
+StylesPath = styles/suse-vale-styleguide
 MinAlertLevel = suggestion
 [asciidoctor]
 experimental = YES
