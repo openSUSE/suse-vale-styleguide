@@ -6,9 +6,10 @@ ignorecase: false
 action:
   name: replace
 swap:
-  Bug Buddy: bug-buddy
   K\.?D\.?E\.?(?:\sDesktop\sEnvironment)?: KDE
-  KANIDM|kanidm: Kanidm
-  Nvidia: NVIDIA
-  shell tool|command line tool: command-line tool|CLT
   xen|XEN: Xen
+  shell tool|command line tool: command-line tool|CLT
+  Bug Buddy: bug-buddy
+  Nvidia: NVIDIA
+  KANIDM|kanidm: Kanidm
+
