@@ -3,4 +3,4 @@ message: "Capitalize the first word after a colon only if it is a proper noun or
 nonword: true
 level: warning
 tokens:
-  - ': *?[A-Z]'
+  - ':\s+[A-Z][a-z]+'

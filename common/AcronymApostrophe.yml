@@ -4,4 +4,4 @@ link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-lang
 level: error
 ignorecase: false
 tokens:
-  - ^[A-Z]{2,}'(?:s|es|ies|)
+  - \b[A-Z]{2,}'(?:s|es|ies|)\b

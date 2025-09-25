@@ -7,7 +7,7 @@ action:
   name: replace
 swap:
   aren['` ]?t: are not
-  can['` ]?t|can not: cannot
+  can['` ]?t: cannot
   couldn['` ]?t: could not
   didn['` ]?t: did not
   don['` ]?t: do not
