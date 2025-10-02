@@ -1,0 +1,2 @@
+Action URL to the router service.
+curl connects via network.
