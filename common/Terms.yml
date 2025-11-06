@@ -38,4 +38,4 @@ swap:
   SuSE|SuSe|Suse: SUSE
   SysVinit|SysV init|system 5 init: System V init
   Wi fi|Wi-fi|Wifi|WLAN|wlan: Wi-Fi
-  \b[Uu]rl\b: URL
+  (?<!dm:)\b[Uu]rl\b: URL

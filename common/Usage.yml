@@ -20,7 +20,7 @@ swap:
   data are: data is
   firewalls: firewall rules
   grayed-out: unavailable
-  HTTPs: HTTPS
+  HTTPs(?>!://): HTTPS
   in order to: to
   ingest: import|loa
   network IP address: internal IP address
