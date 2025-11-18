@@ -11,7 +11,8 @@ exceptions:
   # dates and numbers
   - '\d{2,4}/\d{2,4}'
   - '\d{1,3}/\d{1,3}'
-  # common technical terms
+  # common and technical terms
+  - '(?i)and/or'
   - '(?i)allow/deny'
   - '(?i)AMD64/Intel'
   - '(?i)client/server'
