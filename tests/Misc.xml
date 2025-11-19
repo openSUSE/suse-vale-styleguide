@@ -5,10 +5,12 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Gathering system information for support</title>
-  <para>
-    Here comes the token: Not now.
-  </para>
-  <para>
-    <emphasis>Dependencies:</emphasis> None
-  </para>
+  <info>
+    <abstract>
+      <para>
+        To pull images from repository, change value in
+        <filename>/etc/rancher/rke2/config.yaml</filename>:
+      </para>
+    </abstract>
+  </info>
 </chapter>
