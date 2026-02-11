@@ -7,8 +7,12 @@ action:
   name: replace
 swap:
   Bug Buddy: bug-buddy
+  far-edge: Far edge
   K\.?D\.?E\.?(?:\sDesktop\sEnvironment)?: KDE
   KANIDM|kanidm: Kanidm
+  near-edge: Near edge
   Nvidia: NVIDIA
   shell tool|command line tool: command-line tool|CLT
+  tiny-edge: Tiny edge
   xen|XEN: Xen
+

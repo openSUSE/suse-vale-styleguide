@@ -6,16 +6,13 @@ ignorecase: false
 action:
   name: replace
 swap:
-  Business-Critical Linux: BCL|Business Critical Linux
   D-Installer|DInstaller|Deinstaller: Agama
-  far-edge: Far edge
   kiwi|Kiwi: KIWI
   Language Stack SLE BCI|Language Stack BCI: Development Stack SLE BCI
   MicroOS Server: MicroOS
-  near-edge: Near edge
   open-SUSE|open SUSE|Open-SUSE|Open SUSE: openSUSE
   SLE Desktop|SLE Entreprise Desktop|SLE Linux Desktop|Sled|sled|S\.L\.E\.D\.|SleD: SLED|SUSE Linux Enterprise Desktop
-  SLE Enterprise|SLE Linux|sle|Sle|S\.L\.E\.: SUSE Linux Enterprise|SLE
+  SLE Enterprise|SLE Linux|sle|Sle|S\.L\.E\.: SUSE Linux
   SLE-HPC|SLE for HPC|SUSE Linux Enterprise Server for High-Performance Computing|SUSE Linux Enterprise Server for High Performance Computing: SUSE Linux Enterprise High Performance Computing|SLE HPC
   SLE-LP: SUSE Linux Enterprise Live Patching|SLE LP
   SLE-POS: SUSE Linux Enterprise Point of Service|SLEPOS|SLE POS
@@ -35,5 +32,4 @@ swap:
   SUSE partner portal: SUSE One partner portal
   SUSE-CaaSP: SUSE CaaS Platform
   SUSE-CAP: SUSE Cloud Application Platform
-  tiny-edge: Tiny edge
   yast2|yast|YaST2|Yast|YAST2|YAST: YaST|Yet another Setup Tool
