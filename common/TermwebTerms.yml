@@ -11,7 +11,7 @@ swap:
   abort|terminate|kill: close|cancel|stop|end|force quit|exit
   activation key|activation code: registration code
   addon|addOn|AddOn|add on: add-on|software add-on
-  admin: administrator
+  admin(?!\S): administrator
   ARM: Arm®|Advanced RISC Machines
   autologin|auto-login: auto login
   B\.T\.R\.F\.S|Better FS|BTRFS|btrfs: Btrfs
@@ -96,7 +96,7 @@ swap:
   pull-down\s+menu|drop-down\s+list\s+box|drop-down\s+menu|drop-down(?!\s+list)|dropdown: drop-down list
   PXE Boot|pixie boot: PXE|Preboot eXecution Environment|PXE boot
   quickstart: quick start
-  RAM memory|R.A.M.: random access memory|RAM
+  RAM memory|R\.A\.M\.: random access memory|RAM
   RISC V|risc-v|Risc v|Risc V|Risc-V: riscv64|RISC-V
   Rpm|R\.P\.M\.: Redhat Package Manager|RPM|RPM Package Manager
   run-level|run level: runlevel

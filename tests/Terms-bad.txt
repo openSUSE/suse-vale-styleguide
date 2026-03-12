@@ -1,2 +1,4 @@
 The url should be uppercase.
 The Url should be uppercase.
+admin should be expanded.
+R.A.M. is wrong
