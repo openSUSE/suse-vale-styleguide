@@ -4,4 +4,4 @@ nonword: true
 level: warning
 tokens:
   #- ':\s*(?:<[^>]+>)?\s*[A-Z][a-z]+'
-  - '(?<=:\s*)[A-Z](?=[a-z])'
+  - '(?<=:\s*)[A-Z](?=[a-z]+[^.]*$)'
