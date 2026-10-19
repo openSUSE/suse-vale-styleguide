@@ -16,7 +16,7 @@ The supplied rules perform the following checks:
 - corporate speak
 - inclusive language
 
-# Installation on Linux
+# Install Vale on Linux
 
 The following installation procedure has been tested on Linux Mint and openSUSE.
 
@@ -71,7 +71,38 @@ zypper install vale
 brew install vale
 ```
 
-# Install the style guide rules
+# Install the style guide rules using a Git submodule
+
+To integrate SUSE style guide Vale rules into your documentation repository, add this repository as a Git submodule and run the installation script.
+
+## 1. Add Submodule
+
+In the root directory of your documentation repository, add this repository as a submodule in `submodules/suse-vale-styleguide`:
+
+```bash
+git submodule add https://github.com/openSUSE/suse-vale-styleguide.git submodules/suse-vale-styleguide
+```
+
+> **Tip:** To prevent Git from reporting changes within the submodule in your documentation repository status, run:
+> ```bash
+> git config submodule.submodules/suse-vale-styleguide.ignore all
+> ```
+
+## 2. (Optional) Point your VS Code to .vale.ini from the submodule
+
+Edit your VS Code user preferences (**Ctrl+Shift+P** and run **Preferences: Open User Settings (JSON)**) and add the following line:
+
+```text
+"vale.valeCLI.config": "${workspaceFolder}/submodules/suse-vale-styleguide/.vale.ini",
+```
+
+> **Tip:** To prevent VS Code from running Vale on repositories with no vale submodule,
+> create a new profile `Documentation` and activate it for workspaces/repositories
+> with documentation-related content where the `suse-vale-styleguide` submodule was added.
+> Use **File** > ** Preferences** > **Profile** to manage profiles.
+
+
+# Install the style guide rules in a custom directory
 
 1. Create the _styles_ directory: `mkdir ~/styles`
 2. Clone the Git repository: `cd ~/styles && git clone  https://github.com/openSUSE/suse-vale-styleguide.git`
@@ -136,20 +167,12 @@ BasedOnStyles = common
 
 3. Save the changes.
 
-## Add VS Code and VSCodium integration
 
-In VS Code, install the [Vale +VS Code extension](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode).
-In VSCodium, install [Vale +VS Code extension](https://open-vsx.org/extension/chrischinchilla/vale-vscode).
-
-[Source code](https://github.com/ChrisChinchilla/vale-vscode)
-
-In VS Code or VSCodium, choose **File > Preferences > Settings** and specify the path to the Vale binary (for example, _/usr/local/bin/vale_) under **Vale > Vale CLI: Path**.
-
-## Problems?
+# Problems?
 
 Please report bugs and issues in the [Issues](https://github.com/openSUSE/suse-vale-styleguide/issues) section.
 
-## Contribute
+# Contribute
 
 If you've found an error, or you have a suggestion for improvement, open an issue in the [Issues](https://github.com/openSUSE/suse-vale-styleguide/issues) section.
 
